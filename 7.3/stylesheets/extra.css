@@ -1,0 +1,16 @@
+:root {
+  --md-primary-fg-color:        #083C5D;
+  --md-primary-fg-color--light: #21506d;
+  --md-primary-fg-color--dark:  #073552;
+}
+
+img[src*='#left'] {
+  float: left;
+}
+img[src*='#right'] {
+  float: right;
+}
+img[src*='#center'] {
+  display: block;
+  margin: auto;
+}
