@@ -14,7 +14,7 @@
         <link rel="prev" href="../measure/">
       
       
-        <link rel="next" href="../export/">
+        <link rel="next" href="../export/map/">
       
       
       <link rel="icon" href="../../assets/favicon.png">
@@ -39,8 +39,8 @@
       
         
         
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        
+        <link rel="stylesheet" href="../../assets/external/fonts.googleapis.com/css.49ea35f2.css">
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
@@ -92,7 +92,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#hoe-vraag-je-de-metadata-van-een-kaartlaag-op" class="md-skip">
+        <a href="#metadata" class="md-skip">
           Ga naar inhoud
         </a>
       
@@ -256,6 +256,24 @@
           
   
   Beheerder
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../changelog/v7/" class="md-tabs__link">
+          
+  
+  Changelog
 
         </a>
       </li>
@@ -621,7 +639,7 @@
         
   
   <span class="md-ellipsis">
-    Kaartlagen
+    Kaartlagen & Legenda
   </span>
   
 
@@ -706,6 +724,8 @@
                 
   
   
+    
+  
   
   
     
@@ -720,11 +740,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" checked>
         
           
           <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="">
@@ -738,7 +758,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_6">
             <span class="md-nav__icon md-icon"></span>
             Geavanceerd
@@ -773,106 +793,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../analyse/" class="md-nav__link">
+      <a href="../selection/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Ruimtelijke Analyse
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    
-    
-    
-      
-      
-        
-          
-          
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_7" checked>
-        
-          
-          <label class="md-nav__link" for="__nav_2_7" id="__nav_2_7_label" tabindex="">
-            
-  
-  <span class="md-ellipsis">
-    Oud
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_7_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_2_7">
-            <span class="md-nav__icon md-icon"></span>
-            Oud
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../analyse/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Ruimtelijke Analyse
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../mapselection/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Selecteren op de kaart
+    Selecteren
   </span>
   
 
@@ -893,7 +818,7 @@
         
   
   <span class="md-ellipsis">
-    Metingen op de kaart
+    Meten & Annoteren
   </span>
   
 
@@ -916,8 +841,17 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Metadata
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -929,6 +863,146 @@
 
       </a>
       
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhoudsopgave">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhoudsopgave
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metadata
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_7" id="__nav_2_7_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Exporteer
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_7">
+            <span class="md-nav__icon md-icon"></span>
+            Exporteer
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../export/map/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kaartbeeld
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../export/layer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kaartlaag
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../export/selection/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Selectie
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -971,7 +1045,7 @@
             
   
   <span class="md-ellipsis">
-    Export
+    Troubleshooting
   </span>
   
 
@@ -980,78 +1054,6 @@
         
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_8_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_8">
-            <span class="md-nav__icon md-icon"></span>
-            Export
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../export/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Kaart exporteren
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
-      
-      
-        
-          
-          
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_9" >
-        
-          
-          <label class="md-nav__link" for="__nav_2_9" id="__nav_2_9_label" tabindex="">
-            
-  
-  <span class="md-ellipsis">
-    Troubleshooting
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_9_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_9">
             <span class="md-nav__icon md-icon"></span>
             Troubleshooting
           </label>
@@ -1446,6 +1448,74 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Changelog
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Changelog
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/v7/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Changelog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -1463,8 +1533,23 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhoudsopgave
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metadata
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1495,17 +1580,17 @@
   
 
 
-<h1 id="hoe-vraag-je-de-metadata-van-een-kaartlaag-op">Hoe vraag je de metadata van een kaartlaag op?</h1>
-<p>De metadata beschrijven de kenmerken van de beschikbare kaartlaag, onder andere de identificatie, de inhoudelijke beschrijving, de geografische begrenzing, de distributiegegevens en de eigenaar.</p>
-<ol>
-<li>Zorg dat je een <strong>kaartlaag</strong> open hebt staan. Zie: <a href="/manual/search">Uitgebreid zoeken naar een kaartlaag</a></li>
-</ol>
-<p><em>of</em></p>
-<p><a href="/manual/collection">Hoe open je een bestaande collectie?</a></p>
-<ol>
-<li>Klik rechtsboven achter de betreffende <strong>kaartlaag.</strong></li>
-</ol>
-<p>Klik op <img alt="" src="arrow.svg" />  om de data in de <strong>kaartlaag</strong> uit te klappen.</p>
+  <h1>Metadata</h1>
+
+<p>Het <a href="../map/#c-kaartlagen">Kaartlagen (C)</a> paneel geeft een overzicht van de actieve kaartlagen die worden
+weergegeven op de kaart. Via dit paneel kan van Metadata worden opgevraagd.</p>
+<p>Overzicht van het Kaartlagen-paneel</p>
+<p>menu-legend.png
+<img alt="" src="menu-legend.png" /></p>
+<p>Elke actieve kaartlaag wordt weergegeven in dit paneel. Een kaartlaag kan worden in- en uitgeklapt via de <strong>collapse</strong>
+knop en worden gesloten door op de <strong>sluiten</strong> knop (<img alt="" src="../../assets/svg/close.svg" />) te klikken. Door te <strong>slepen</strong> kan de volgorde van de
+kaartlagen worden aangepast. Elke laag heeft specifieke opties voor weergave en interactie.</p>
+<h3 id="metadata">Metadata</h3>
 <p><img alt="" src="zorgcon.png" /></p>
 <ol>
 <li>Klik op <img alt="" src="informatie.svg" /> linksboven in de uitgeklapte <strong>kaartlaag.</strong> Er verschijnt een pop-upscherm met informatie over de kaartlaag.</li>
@@ -1555,7 +1640,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../measure/" class="md-footer__link md-footer__link--prev" aria-label="Vorige: Metingen op de kaart">
+          <a href="../measure/" class="md-footer__link md-footer__link--prev" aria-label="Vorige: Meten &amp; Annoteren">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1565,20 +1650,20 @@
                 Vorige
               </span>
               <div class="md-ellipsis">
-                Metingen op de kaart
+                Meten & Annoteren
               </div>
             </div>
           </a>
         
         
           
-          <a href="../export/" class="md-footer__link md-footer__link--next" aria-label="Volgende: Kaart exporteren">
+          <a href="../export/map/" class="md-footer__link md-footer__link--next" aria-label="Volgende: Kaartbeeld">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Volgende
               </span>
               <div class="md-ellipsis">
-                Kaart exporteren
+                Kaartbeeld
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -1650,7 +1735,7 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["content.action.edit", "content.action.view", "navigation.path", "navigation.footer", "navigation.sections", "navigation.tabs", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Gekopieerd naar klembord", "clipboard.copy": "Kopi\u00ebren naar klembord", "search.result.more.one": "1 extra overeenkomst op deze pagina", "search.result.more.other": "# extra overeenkomsten op deze pagina", "search.result.none": "Geen overeenkomende documenten", "search.result.one": "1 overeenkomende document", "search.result.other": "# overeenkomende documenten", "search.result.placeholder": "Typ om te beginnen met zoeken", "search.result.term.missing": "Ontbreekt", "select.version": "Selecteer versie"}, "version": {"provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.action.edit", "content.action.view", "navigation.path", "navigation.footer", "navigation.sections", "navigation.tabs", "navigation.tracking", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Gekopieerd naar klembord", "clipboard.copy": "Kopi\u00ebren naar klembord", "search.result.more.one": "1 extra overeenkomst op deze pagina", "search.result.more.other": "# extra overeenkomsten op deze pagina", "search.result.none": "Geen overeenkomende documenten", "search.result.one": "1 overeenkomende document", "search.result.other": "# overeenkomende documenten", "search.result.placeholder": "Typ om te beginnen met zoeken", "search.result.term.missing": "Ontbreekt", "select.version": "Selecteer versie"}, "version": {"provider": "mike"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.525ec568.min.js"></script>

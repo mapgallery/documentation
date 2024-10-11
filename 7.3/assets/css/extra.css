@@ -11,9 +11,11 @@ p > a {
 
 img[src*='#left'] {
   float: left;
+  padding: 10px;
 }
 img[src*='#right'] {
   float: right;
+  padding: 10px;
 }
 img[src*='#center'] {
   display: block;
