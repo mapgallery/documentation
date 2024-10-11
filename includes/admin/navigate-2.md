@@ -1,0 +1,2 @@
+3. Je bent dan op de [**Lijstweergave**](#lijstweergave).
+4. Voor het [**Bewerkingsscherm**](#bewerkingsscherm), klik dan op een {{ page.meta.vars.singular }} uit de lijst, waarvan je de instellingen wilt wijzigen.

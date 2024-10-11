@@ -1,0 +1,23 @@
+:root {
+  --md-primary-fg-color:        #083C5D;
+  --md-primary-fg-color--light: #21506d;
+  --md-primary-fg-color--dark:  #073552;
+}
+
+p > a {
+  font-weight: bolder !important;
+  text-decoration: underline !important ;
+}
+
+img[src*='#left'] {
+  float: left;
+  padding: 10px;
+}
+img[src*='#right'] {
+  float: right;
+  padding: 10px;
+}
+img[src*='#center'] {
+  display: block;
+  margin: auto;
+}

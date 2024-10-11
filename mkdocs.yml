@@ -1,0 +1,102 @@
+copyright: Copyright &copy; 2016 - 2024 MapGallery B.V.
+site_name: MapGallery documentatie
+site_url: https://docs.mapgallery.eu/
+repo_url: https://github.com/mapgallery/documentation
+edit_uri: edit/main/docs/
+extra:
+  homepage: https://mapgallery.eu
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<info@mapgallery.eu>
+    - icon: fontawesome/brands/github
+      link: https://github.com/mapgallery
+    - icon: fontawesome/brands/linkedin
+      link: https://github.com/mapgallery
+  version:
+    provider: mike
+extra_css:
+  - assets/css/extra.css
+markdown_extensions:
+  - abbr
+  - admonition
+  - meta
+  - pymdownx.keys
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - tables
+  - toc
+nav:
+  - Introductie:
+      - index.md
+      - questions.md
+      - application.md
+  - Gebruiker:
+      - manual/index.md
+      - manual/collections.md
+      - manual/search.md
+      - manual/map.md
+      - Kaartviewer:
+            - manual/operation/index.md
+            - manual/layers/index.md
+            - manual/mapinfo/index.md
+            - manual/quick_search/index.md
+            - manual/background/index.md
+      - Geavanceerd:
+          - manual/filter/index.md
+          - manual/selection/index.md
+          - manual/measure/index.md
+          - manual/metadata/index.md
+      - Exporteer:
+          - manual/export/map.md
+          - manual/export/layer.md
+          - manual/export/selection.md
+      - Troubleshooting:
+          - manual/cache/index.md
+  - Beheerder:
+      - admin/index.md
+      - admin/dashboard.md
+      - Toegang:
+          - admin/access/users.md
+          - admin/access/groups.md
+      - Opties:
+          - admin/options/mapinfo.md
+          - admin/options/views.md
+          - admin/options/searches.md
+      - admin/collections.md
+      - admin/layers.md
+      - admin/services.md
+  - Changelog:
+      - changelog/v7.md
+plugins:
+  - macros:
+      include_dir: includes
+  - privacy
+  - search
+  - social
+  - tags
+theme:
+  name: material
+  favicon: assets/favicon.png
+  features:
+    - content.action.edit
+    - content.action.view
+#    - navigation.expand
+    - navigation.path
+    - navigation.footer
+#    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+#    - navigation.tabs.sticky
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+#    - toc.follow
+#    - toc.integrate
+  language: nl
+  logo: assets/logo.png
+validation:
+  links:
+    absolute_links: relative_to_docs
+watch:
+  - includes
