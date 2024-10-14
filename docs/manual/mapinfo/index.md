@@ -1,8 +1,11 @@
 ---
-title: "Locatie informatie"
+title: "B. Kaart"
 ---
 
-Wanneer je op een locatie in de [Kaart (B)](../map/#b-kaart) klikt, verschijnt het Locatie informatie-paneel links. Hier krijg je
+Het centrale gedeelte van de interface is de [Kaart (B)](../map/#kaartviewer). Hier kun je inzoomen, uitzoomen en de kaart verplaatsen om
+verschillende geografische gebieden te verkennen.
+
+Wanneer je op een locatie in de kaart klikt, verschijnt het Locatie informatie-paneel links. Hier krijg je
 gedetailleerde informatie over de geselecteerde locatie. Elk paneel is inklapbaar. De volgende elementen zijn zichtbaar
 in dit paneel.
 
@@ -29,7 +32,7 @@ te openen in een nieuw venster.
 Dit geeft specifieke attribuut informatie over de locatie van de kaartlaag.
 
 !!! note
-    Een marker geeft de geselecteerde locatie op de kaart weer en in het zoekveld verschijnt alle relevante informatie van
-    de geselecteerde locatie. Klik op een andere locatie op de kaart of versleep de marker naar een nieuwe locatie voor
-    andere informatie.
+Een marker geeft de geselecteerde locatie op de kaart weer en in het zoekveld verschijnt alle relevante informatie van
+de geselecteerde locatie. Klik op een andere locatie op de kaart of versleep de marker naar een nieuwe locatie voor
+andere informatie.
 

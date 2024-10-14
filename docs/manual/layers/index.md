@@ -1,8 +1,8 @@
 ---
-title: "Kaartlagen & Legenda"
+title: "C. Kaartlagen"
 ---
 
-Het [Kaartlagen (C)](../map/#c-kaartlagen) paneel geeft je volledige controle over de actieve kaartlagen die worden
+Het [Kaartlagen (C)](../map/#kaartviewer) paneel geeft je volledige controle over de actieve kaartlagen die worden
 weergegeven op de kaart. In dit gedeelte van de handleiding leggen we uit hoe je de verschillende functies binnen dit
 paneel kunt gebruiken om actieve kaartlagen te beheren.
 

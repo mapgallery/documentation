@@ -37,20 +37,18 @@ nav:
       - manual/search.md
       - manual/map.md
       - Kaartviewer:
-            - manual/operation/index.md
-            - manual/layers/index.md
+            - manual/header/index.md
             - manual/mapinfo/index.md
+            - manual/layers/index.md
             - manual/quick_search/index.md
+            - manual/tools/index.md
             - manual/background/index.md
       - Geavanceerd:
           - manual/filter/index.md
           - manual/selection/index.md
           - manual/measure/index.md
           - manual/metadata/index.md
-      - Exporteer:
-          - manual/export/map.md
-          - manual/export/layer.md
-          - manual/export/selection.md
+          - manual/export/index.md
       - Troubleshooting:
           - manual/cache/index.md
   - Beheerder:
@@ -67,7 +65,7 @@ nav:
       - admin/layers.md
       - admin/services.md
   - Changelog:
-      - changelog/v7.md
+      - changelog/index.md
 plugins:
   - macros:
       include_dir: includes
@@ -87,7 +85,7 @@ theme:
 #    - navigation.indexes
     - navigation.sections
     - navigation.tabs
-#    - navigation.tabs.sticky
+    - navigation.tabs.sticky
     - navigation.tracking
     - search.suggest
     - search.highlight

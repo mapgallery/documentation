@@ -8,7 +8,7 @@ voor het onderdeel waar je aan werkt.
 ### Updates
 
 Voor de laatste updates binnen MapGallery kun je het lampje (![](/assets/svg/updates.svg)) rechtsboven aanklikken. Deze
-updates zijn ook te vinden op [mapgallery.eu/changelog](https://mapgallery.eu/changelog), waar we de meest recente
+updates zijn ook te vinden op [docs.mapgallery.eu/latest/changelog](https://docs.mapgallery.eu/latest/changelog/), waar we de meest recente
 wijzigingen en verbeteringen delen.
 
 Volg ons ook op [LinkedIn](https://www.linkedin.com/company/mapgallery/) voor nieuws en aankondigingen.
@@ -26,7 +26,7 @@ dan de ‘Suggest Edits’-knop rechtsboven op de betreffende pagina of ga recht
 ### Ondersteuning
 
 Heb je vragen die niet in de documentatie worden beantwoord? Onze supportdesk staat klaar om je verder te helpen. Stuur
-ons een e-mail via [support@mapgallery.eu](support@mapgallery.eu) of ga naar het support portaal
+ons een e-mail via [support@mapgallery.eu](mailto:support@mapgallery.eu') of ga naar het support portaal
 op [mapgallery.inserve.nl/](https://mapgallery.inserve.nl/).
 
 [//]: # (Neem telefonisch contact met ons op via 0570 - 74 60 78.)

@@ -1,8 +1,8 @@
 ---
-title: "Zoekfunctie"
+title: "D. Zoekfunctie"
 ---
 
-De [Zoekfunctie (D)](../map/#d-zoekfunctie) maakt het eenvoudig om specifieke kaartlagen, coördinaten en adresgegevens
+De [Zoekfunctie (D)](../map/#kaartviewer) maakt het eenvoudig om specifieke kaartlagen, coördinaten en adresgegevens
 te vinden. Hieronder volgt een stapsgewijze uitleg voor het gebruik van deze functie.
 
 ![](search1.png)
@@ -39,8 +39,7 @@ Stappen voor het zoeken naar een locatie:
 ### Coördinaten
 
 Wanneer je coördinaten hebt ingevoerd, dan maakt MapGallery automatisch een match op mogelijke projecties. Klik
-vervolgens
-op de juiste projectie om de locatie direct op de kaart weer te geven.
+vervolgens op de juiste projectie om de locatie direct op de kaart weer te geven.
 
 ### Adressen
 
@@ -76,6 +75,9 @@ wiki, [gebruik van de de zoektermen](https://github.com/PDOK/locatieserver/wiki/
 De zoekfunctie geeft niet alleen resultaten voor specifieke locaties, maar ook voor relevante kaartlagen en
 ondergronden. MapGallery doorzoekt het volledige bestand van kaartlagen, metadata en beschrijvingen, en stelt deze
 beschikbaar via een klikbaar overzicht.
+
+Klik vervolgens op een kaartlaag om deze toe te voegen aan het actieve [Kaartlagen (C)](../map/#kaartviewer) paneel en zichtbaar te maken. Zie ook het
+onderdeel [Kaartlagen](../layers/) van deze documentatie voor een beschrijving van de functies per kaartlaag.
 
 ### Gegevens
 

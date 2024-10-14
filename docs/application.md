@@ -56,4 +56,4 @@ een [issue](../questions/#ondersteuning):
 | Opera   |    36+ |      03/2016 |   1.44% |   .01% |      1.45% |
 |         |        |              |         |        | __92.67%__ |
 
-_Browserondersteuning gegevens afkomstig van [caniuse.com](caniuse.com)._
+_Browserondersteuning gegevens afkomstig van [caniuse.com](https://caniuse.com)._

@@ -2,43 +2,32 @@
 title: "Metadata"
 ---
 
-Het [Kaartlagen (C)](../map/#c-kaartlagen) paneel geeft een overzicht van de actieve kaartlagen die worden
-weergegeven op de kaart. Via dit paneel kan van Metadata worden opgevraagd.
+Via het [Kaartlagen (C)](../map/#kaartviewer) paneel is van elke actieve kaartlaag metadata op te vragen. Volg de
+onderstaande stappen om toegang te krijgen tot deze informatie:
 
-Overzicht van het Kaartlagen-paneel
+![](metadata.png)
 
-menu-legend.png
-![](menu-legend.png)
+1. Zorg ervoor dat de [**Kaartviewer**](../map) actief is.
+2. Zoek een kaartlaag en voeg deze toe, zie ook de [**Zoekfunctie**](../quick_search/) van deze documentatie voor een beschrijving.
+3. Zorg dat de kaartlaag is uitgeklapt via de via de **collapse** knop.
+4. Klik op de info knop ![](info.svg) van een specifieke kaartlaag.
+5. Dit opent een venster met meer informatie over de laag. Zodra het venster "Over deze kaartlaag" verschijnt, kun je
+   verschillende soorten metadata bekijken. Deze metadata bevat belangrijke informatie over de geselecteerde dataset.
 
-Elke actieve kaartlaag wordt weergegeven in dit paneel. Een kaartlaag kan worden in- en uitgeklapt via de **collapse**
-knop en worden gesloten door op de **sluiten** knop (![](/assets/svg/close.svg)) te klikken. Door te **slepen** kan de volgorde van de
-kaartlagen worden aangepast. Elke laag heeft specifieke opties voor weergave en interactie.
+| Naam             | Beschrijving                                                                                              |
+|------------------|-----------------------------------------------------------------------------------------------------------|
+| `Service`        | De naam van de bron of server van de kaartlaag.                                                           |
+| `Protocol`       | Het bestandsformaat of gebruikte protocol van de service.                                                 |
+| `URL`            | De URL van de bron of server.                                                                             |
+| `Kaartlaag`      | De naam van de kaartlaag                                                                                  |
+| `Omschrijving`   | Een korte beschrijving van wat de kaartlaag bevat                                                         |
+| `Classificaties` | De (hoofd)groepen waar deze kaartlaag onder valt. Gebruik deze term om gerelateerde kaartlagen te vinden. |
+| `Metadata`       | In dit deel vind je meer specifieke gegevens, zoals taal, eigenaar, datum, bronprojectie of restricties.  |
 
-### Metadata
-
-
-![](zorgcon.png)
-
-3. Klik op ![](informatie.svg) linksboven in de uitgeklapte **kaartlaag.** Er verschijnt een pop-upscherm met informatie over de kaartlaag.
-
-
-![](zorgcon.png)
-
-!!! note
-Het pop-upscherm bevat alle beschikbare technische details over de kaartlaag.
- 
-
-4. Klik op **Download** om de gegevens van de kaartlaag te downloaden in verschillende formaten.
+4. Indien beschikbaar, kun je de gegevens ook downloaden door op de knop "Download" te klikken.
 
 !!! note
-  Het hangt van de service af of dit is toegestaan en in welke formaten.
-
-
-![](kaartlaag.png)
-
-
-
-
+      Indien beschikbaar, kun je de gegevens ook downloaden via de stappen bij [Exporteren -> Kaartlaag](../export/).
 
 
 

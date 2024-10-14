@@ -1,8 +1,8 @@
 ---
-title: "Ondergrondkaart"
+title: "F. Ondergronden"
 ---
 
-De optie rechtsonder bij [Ondergronden (F)](../map/#f-ondergronden) biedt de mogelijkheid om de ondergrondkaart te
+De optie rechtsonder bij [Ondergronden (F)](../map/#kaartviewer) biedt de mogelijkheid om de ondergrondkaart te
 kiezen die als basislaag wordt gebruikt in de kaartweergave. De ondergrondkaart fungeert als visuele basis waarop andere
 kaartlagen worden geplaatst. Hieronder vind je een uitleg van de beschikbare opties.
 

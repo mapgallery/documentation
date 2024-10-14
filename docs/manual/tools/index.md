@@ -1,6 +1,8 @@
 ---
-title: "Bediening"
+title: "E. Tools"
 ---
+
+Het [Tools- (E)](../map/#kaartviewer) paneel biedt de mogelijkheid om het kaartbeeld aan te passen.
 
 Het kaartbeeld kan eenvoudig worden verplaatst door te klikken en te slepen, en in- of uit te zoomen met de knoppen
 rechtsonder of de scrollknop van je muis. Je kunt het kaartbeeld draaien door de Shift-toets ingedrukt te houden en te
@@ -8,7 +10,7 @@ slepen. Eventuele pop-ups (indien beschikbaar) kunnen worden geopend door erop t
 
 De interactieve functies van de kaart zijn toegankelijk via het onderste menu in de interface:
 
-![](menu-operation.png)
+![](menu-extra.png)
 
 - **Zoomen**: Gebruik de plus (![](zoomin.svg)) en min (![](zoomout.svg)) knoppen om in of uit te zoomen op de kaart.
 - **Locatie**: Klik op de GPS-knop (![](gps.svg)) om je huidige locatie op de kaart weer te geven.

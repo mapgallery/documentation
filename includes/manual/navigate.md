@@ -1,4 +1,4 @@
-![](/assets/img/manual-navigate.png#right)
+![](/assets/img/user-main-menu.png#right)
 
 ### Navigatie
 

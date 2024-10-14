@@ -12,7 +12,7 @@ informatie kan naar wens worden uitgebreid of beperkt door het in- of uitschakel
 Zodra geactiveerd, zijn deze instellingen van toepassing op alle collecties binnen de applicatie.
 
 {% include "admin/navigate-1.md" %}
-2. Selecteer **Dashboard** uit het menu, kies het menu onder **Opties** (![menu](/assets/svg/access.svg "menu")) en ga
+2. Selecteer **Dashboard** uit het menu, kies het menu onder **Opties** (![](/assets/svg/access.svg)) en ga
    naar de sectie **{{ page.meta.vars.plural }}**.
 {% include "admin/navigate-2.md" %}
 

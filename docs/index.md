@@ -19,13 +19,13 @@ Veel plezier met het gebruik van MapGallery!
 
 ### Aan de slag als gebruiker
 
-Wil je direct de kaartviewer gebruiken? Bezoek dan de sectie [Aan de slag met MapGallery als gebruiker](/manual) voor
+Wil je direct de kaartviewer gebruiken? Bezoek dan de sectie [Aan de slag met MapGallery als gebruiker](manual/) voor
 alle
 relevante informatie.
 
 ### Aan de slag als beheerder
 
-Ben je verantwoordelijk voor het beheer van de omgeving? Ga naar [Aan de slag met MapGallery als beheerder](/admin) om
+Ben je verantwoordelijk voor het beheer van de omgeving? Ga naar [Aan de slag met MapGallery als beheerder](admin/) om
 te leren hoe je de omgeving kunt beheren.
 
 ### Gebruikersbeheer
@@ -38,7 +38,7 @@ informatie over gebruikersbeheer kun je hier terugvinden.
 Deze documentatie bevat verschillende toetsenbord sneltoetsen waarmee je de documentatie van je project via het
 toetsenbord kunt navigeren. Er zijn twee modi:
 
-`Globale modus`
+### Globale modus
 
 Deze modus is actief wanneer de zoekfunctie niet gefocust is en er geen ander element is dat gevoelig is voor
 toetsenbordinvoer. De volgende toetsen zijn beschikbaar:
@@ -47,7 +47,7 @@ toetsenbordinvoer. De volgende toetsen zijn beschikbaar:
 * ++p++ , ++comma++ : ga naar de vorige pagina
 * ++n++ , ++period++ : ga naar de volgende pagina
 
-`Zoekmodus`
+### Zoekmodus
 
 Deze modus is actief wanneer het zoekveld gefocust is. Het biedt verschillende toetscombinaties om de zoekfunctie
 toegankelijk en navigeerbaar te maken via het toetsenbord:
@@ -58,12 +58,12 @@ toegankelijk en navigeerbaar te maken via het toetsenbord:
 
 ## Release Notes
 
-Bekijk de laatste nieuwe functies en verbeteringen onder Release Notes op deze pagina.
+Bekijk de laatste nieuwe functies en verbeteringen onder [Changelog](changelog/) op deze website.
 
 ## Vragen & Support
 
 Heb je vragen, suggesties, of heb je ondersteuning nodig? Neem gerust contact met ons op
-via [Vragen & Support](/questions/).
+via [Vragen & Support](questions/).
 
 ---
 

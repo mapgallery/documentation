@@ -9,7 +9,7 @@ vars:
 Een groep definiëert verschillende sets van [gebruikers](../users/) die toegang hebben tot specifieke kaartlagen en collecties.
 
 {% include "admin/navigate-1.md" %}
-2. Selecteer **Dashboard** uit het menu, kies het menu onder **Toegang** (![menu](/assets/svg/access.svg "menu")) en ga
+2. Selecteer **Dashboard** uit het menu, kies het menu onder **Toegang** (![](/assets/svg/access.svg)) en ga
    naar de sectie **{{ page.meta.vars.plural }}**.
 {% include "admin/navigate-2.md" %}
 
@@ -46,11 +46,11 @@ worden gewijzingd.
 
 Uitleg van de Velden:
 
-| Naam           | Beschrijving                                                                                                           |
-|----------------|------------------------------------------------------------------------------------------------------------------------|
-| `Naam`         | De naam van de **{{ page.meta.vars.singular }}**.                                                                      |
+| Naam           | Beschrijving                                                                                          |
+|----------------|-------------------------------------------------------------------------------------------------------|
+| `Naam`         | De naam van de **{{ page.meta.vars.singular }}**.                                                     |
 | `Notitie`      | Hier kunnen eventuele beheernotities worden toevoegen die niet zichtbaar zijn voor de eindgebruikers. |
-| `Omschrijving` | Een korte uitleg over wat de {{ page.meta.vars.singular }} inhoudt.                                                    |
+| `Omschrijving` | Een korte uitleg over wat de {{ page.meta.vars.singular }} inhoudt.                                   |
 
 ### Acties
 
