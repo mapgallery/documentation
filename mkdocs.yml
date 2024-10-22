@@ -11,7 +11,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/mapgallery
     - icon: fontawesome/brands/linkedin
-      link: https://github.com/mapgallery
+      link: https://www.linkedin.com/company/mapgallery
   version:
     provider: mike
 extra_css:
@@ -47,6 +47,7 @@ nav:
           - manual/filter/index.md
           - manual/selection/index.md
           - manual/measure/index.md
+          - manual/favorites/index.md
           - manual/metadata/index.md
           - manual/export/index.md
       - Troubleshooting:

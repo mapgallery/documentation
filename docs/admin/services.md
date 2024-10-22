@@ -115,7 +115,7 @@ kun je een {{ page.meta.vars.singular }} verwijderen.
 
 ### Ondersteunde formaten en protocollen
 
-* **GeoJSON**: JSON-gebaseerd [GIS-bestand](https://geojson.org/) voor het uitwisselen van geografische gegevens.
+* **GeoJSON**: JSON-gebaseerd [GIS-bestand](https://geojson.org/) in WGS84 projectie voor het uitwisselen van geografische gegevens.
 * **HTTP**: URL van web-assets voor het direct laden van symbolen of metadata. Dit protocol wordt gebruikt om assets te
   _whitelisten_ voor de proxy, zodat deze kunnen worden geladen.
 * **MapBox**: Vectorlaag dat de MapBox/MapLibre specificatie volgt, vaak gebruikt voor schaalbare,

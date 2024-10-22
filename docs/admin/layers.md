@@ -79,6 +79,12 @@ zijn verplicht. Uitleg van de Velden:
 | `Metadata URL`   | Voeg een URL toe waar gedetailleerde metadata over de kaartlaag kan worden gevonden. Deze URL wordt embedded weergegeven in de dialoog.                                 |
 | `Metadata`       | Voer hier aanvullende metadata-informatie in. Dit kan platte tekst, HTML-opmaak of een link bevatten.                                                                   |
 
+##### Kaartlaag groepen
+
+Bij sommige protocollen zoals WMS en WFS is het toegestaan om meerdere kaartlagen als ```groep``` in één verzoek op te halen. Dit heeft als voordeel dat meerdere layers als één MapGallery kaartlaag kunnen worden gepubliceerd.
+
+Om dit te doen, klik hiervoor op de bewerk knop ![](/assets/svg/edit.svg) en voer de kaartlaag namen in, gescheiden met een komma.
+
 #### Tabblad Velden
 
 Biedt de mogelijkheid om de attribuutinformatie van deze kaartlaag aan te passen. Je kunt hier de volgorde,
