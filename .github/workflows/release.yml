@@ -1,8 +1,10 @@
-name: Build/Publish Latest Release Docs
+name: Branch Release Docs
 
 on:
-  release:
-    types: [published]
+  push:
+    # Sequence of patterns matched against refs/heads
+    branches-ignore:
+      - 'main'
 
 permissions:
   contents: write
@@ -24,4 +26,4 @@ jobs:
           git config --global user.name "Mike"
           git config --global user.email "mike@mapgallery.eu"
       - name: Build Docs Website
-        run: mike deploy --push --update-aliases ${{ github.event.release.tag_name }} latest
+        run: mike deploy --push --update-aliases ${{ github.ref_name }} latest
