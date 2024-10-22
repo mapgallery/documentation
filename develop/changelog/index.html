@@ -843,6 +843,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../manual/favorites/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Favorieten
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../manual/metadata/" class="md-nav__link">
         
   
@@ -1413,13 +1434,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#material-for-mkdocs" class="md-nav__link">
+  <a href="#mapgallery-webgis" class="md-nav__link">
     <span class="md-ellipsis">
-      Material for MkDocs
+      MapGallery webGIS
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Material for MkDocs">
+    <nav class="md-nav" aria-label="MapGallery webGIS">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1506,13 +1527,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#material-for-mkdocs" class="md-nav__link">
+  <a href="#mapgallery-webgis" class="md-nav__link">
     <span class="md-ellipsis">
-      Material for MkDocs
+      MapGallery webGIS
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Material for MkDocs">
+    <nav class="md-nav" aria-label="MapGallery webGIS">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1588,39 +1609,62 @@
 
 
 <h1 id="changelog-v7">Changelog v7</h1>
-<h2 id="material-for-mkdocs">Material for MkDocs</h2>
+<h2 id="mapgallery-webgis">MapGallery webGIS</h2>
 <h3 id="73-oktober-2024">7.3 <small>oktober 2024</small></h3>
+<p>Deze update richt zich op de integratie en verbetering van de documentatie en het uitbreiden van onze
+supportmogelijkheden. Hieronder een overzicht van de belangrijkste verbeteringen:</p>
 <ul>
-<li>TODO</li>
+<li>Interactieve <strong>Documentatie</strong>op <a href="https://docs.mapgallery.eu">docs.mapgallery.eu</a>: Er is nu uitgebreide documentatie van MapGallery beschikbaar. Daarnaast zijn de links
+  vanuit MapGallery naar de
+  documentatie contextueel gevoelig. Dit betekent dat je direct wordt doorverwezen naar de relevante informatie
+  op basis van waar je je in de applicatie bevindt.</li>
+<li>Nieuw <strong>Support</strong> kanaal: We hebben een gloednieuw supportkanaal gelanceerd. Klanten kunnen nu eenvoudig via e-mail
+  vragen stellen of verzoeken indienen. Stuur een email naar <a href="support@mapgallery.eu">support@mapgallery.eu</a> om een ticket aan
+  te maken.</li>
+<li>Verbetering van de <strong>Favorieten</strong>: Het is nu mogelijk om alle kaartlagen uit een groep tegelijkertijd aan de kaart toe
+  te voegen. Daarnaast is de interface rustiger en duidelijker geworden.</li>
+<li>Ondersteuning voor <strong>oblique luchtfoto's</strong>: In samenwerking met <a href="https://kavel10.nl/">Kavel10</a> is
+  ondersteuning toegevoegd voor oblique luchtfoto’s. Een beheerder kan via de beheer interface deze optie aanzetten
+  door de <abbr title="Application Programming Interface">API</abbr> token van Kavel10 in te vullen.</li>
+<li><strong>Styles</strong> in- en exporteren: Er is nu ondersteuning voor het importeren en exporteren van SLD (GeoServer) styles en
+  Json (Mapbox of MapLibre) styles. Hierdoor kun je eenvoudig stijlen gebruiken in andere applicaties.</li>
+<li>Kleine verbeteringen: Tekstuele correcties zijn doorgevoerd om de woordkeuze consistenter te maken, wat aansluit bij
+  de documentatie, verbeterde omgang met polling voor realtime data, een oplossing voor onterechte Foutberichten in Edge
+  browsers, verbeterde stabiliteit en kleinere bugfixes.</li>
 </ul>
 <h3 id="72-juli-2024">7.2 <small>juli 2024</small></h3>
-<p>Deze update staat in het teken van nieuwe functies en algemene aanpassingen die het werken met MapGallery nog fijner
+<p>Deze update staat in het teken van nieuwe functies en algemene aanpassingen die het werken met MapGallery prettiger
 maken.</p>
 <ul>
-<li>Favorietenfunctie: Gebruikers kunnen nu kaartlagen aan een favorietenlijst toevoegen, die individueel aanpasbaar is en
+<li><strong>Favorieten</strong>-functie: Gebruikers kunnen nu kaartlagen aan een favorietenlijst toevoegen, die individueel aanpasbaar
+  is en
   in groepen kan worden georganiseerd.</li>
-<li>Filteroptie: Filters kunnen eenvoudig worden toegepast via de locatie-informatie en vanuit de legenda kunnen
+<li><strong>Filteroptie</strong>: Filters kunnen eenvoudig worden toegepast via de locatie-informatie en vanuit de legenda kunnen
   toegepaste filters overzichtelijk worden beheerd.</li>
-<li>Verbeterde legenda: De legenda is compacter en intuïtiever. Ingeklapt verschijnt een oogsymbool om kaartlagen aan/uit
+<li>Verbeterde <strong>legenda</strong>: De legenda is compacter en intuïtiever. Ingeklapt verschijnt een oogsymbool om kaartlagen
+  aan/uit
   te zetten.</li>
-<li>Flexibele collecties: Beheerders kunnen nu aangeven of kaartlagen standaard actief en/of ingeklapt moeten zijn, wat
+<li>Flexibele <strong>collecties</strong>: Beheerders kunnen nu aangeven of kaartlagen standaard actief en/of ingeklapt moeten zijn,
+  wat
   zorgt voor een overzichtelijkere layout.</li>
-<li>Geostyler-stijl genereren: Met een knop kunnen beheerders eenvoudig een stijl genereren op basis van data, met opties
+<li>Geostyler-<strong>stijl genereren</strong>: Met een knop kunnen beheerders eenvoudig een stijl genereren op basis van data, met
+  opties
   voor labels, kleuren en titels in de legenda.</li>
 <li>Kleine verbeteringen: Snellere <abbr title="Web Feature Service">WFS</abbr>-data downloads, direct openen van collecties/kaartlagen vanuit beheeromgeving, en
   selectie naar CSV-conversie in een worker.</li>
 </ul>
 <h3 id="71-april-2024">7.1 <small>april 2024</small></h3>
-<p>De update richt zich voornamelijk op optimalisaties en bugfixes, met snellere kaarten en kleine verbeteringen.</p>
+<p>Deze update richt zich voornamelijk op optimalisaties en bugfixes, met snellere kaarten en kleine verbeteringen.</p>
 <ul>
-<li>MapGallery geeft nu betere informatie bij foutmeldingen van web-services.</li>
+<li>MapGallery geeft nu betere <strong>informatie</strong> bij <strong>foutmeldingen</strong> van web-services.</li>
+<li><strong>Foutmeldingen</strong> van services worden nu <strong>gelogd</strong> en zijn zichtbaar in een speciaal tabblad, met details over datum,
+  tijd en
+  type fout.</li>
 <li>De beheerknop is verplaatst van de collectiesknop naar de gebruikersknop in de titelbalk, wat beter aansluit bij de
   verwachting van beheerders.</li>
-<li>Foutmeldingen van services worden nu gelogd en zijn zichtbaar in een speciaal tabblad, met details over datum, tijd en
-  type fout.</li>
-<li>Het beheer van gebruikersgroepen is vereenvoudigd; groepen kunnen worden aangemaakt en gekoppeld aan gebruikers en
+<li>Het beheer van <strong>gebruikersgroepen</strong> is vereenvoudigd; groepen kunnen worden aangemaakt en gekoppeld aan gebruikers en
   services.</li>
-<li>Kleine verbeteringen: naam van kaartlagen kan aangepast worden, kaartlagen kunnen direct vanuit een service worden
+<li>Kleine verbeteringen: de naam van kaartlagen kan aangepast worden, kaartlagen kunnen direct vanuit een service worden
   toegevoegd, protocolopties staan in een eigen tabblad, en overzichten van collecties en services tonen nu het
   toegangsbeleid.</li>
 </ul>
@@ -1735,7 +1779,7 @@ beknopte samenvatting:</p>
       
       
     
-    <a href="https://github.com/mapgallery" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+    <a href="https://www.linkedin.com/company/mapgallery" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
     </a>
   
