@@ -4,6 +4,9 @@ site_url: https://docs.mapgallery.eu/
 repo_url: https://github.com/mapgallery/documentation
 edit_uri: edit/main/docs/
 extra:
+  analytics:
+    provider: plausible
+    domain: docs.mapgallery.eu
   homepage: https://mapgallery.eu
   social:
     - icon: fontawesome/solid/paper-plane
@@ -70,6 +73,7 @@ nav:
 plugins:
   - macros:
       include_dir: includes
+  - material-plausible
   - privacy
   - search
   - social
