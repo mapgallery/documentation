@@ -74,7 +74,6 @@ plugins:
   - macros:
       include_dir: includes
   - material-plausible
-  - privacy
   - search
   - social
   - tags
