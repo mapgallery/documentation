@@ -7,9 +7,8 @@
 Deze update richt zich op de integratie en verbetering van de documentatie en het uitbreiden van onze
 supportmogelijkheden. Hieronder een overzicht van de belangrijkste verbeteringen:
 
-* Interactieve **Documentatie**op [docs.mapgallery.eu](https://docs.mapgallery.eu): Er is nu uitgebreide documentatie van MapGallery beschikbaar. Daarnaast zijn de links
-  vanuit MapGallery naar de
-  documentatie contextueel gevoelig. Dit betekent dat je direct wordt doorverwezen naar de relevante informatie
+* Interactieve **Documentatie** op [docs.mapgallery.eu](https://docs.mapgallery.eu): Er is nu uitgebreide documentatie van MapGallery beschikbaar. Daarnaast zijn de links
+  vanuit MapGallery naar de documentatie contextueel gevoelig. Dit betekent dat je direct wordt doorverwezen naar de relevante informatie
   op basis van waar je je in de applicatie bevindt.
 * Nieuw **Support** kanaal: We hebben een gloednieuw supportkanaal gelanceerd. Klanten kunnen nu eenvoudig via e-mail
   vragen stellen of verzoeken indienen. Stuur een email naar [support@mapgallery.eu](support@mapgallery.eu) om een ticket aan
@@ -31,19 +30,15 @@ Deze update staat in het teken van nieuwe functies en algemene aanpassingen die 
 maken.
 
 * **Favorieten**-functie: Gebruikers kunnen nu kaartlagen aan een favorietenlijst toevoegen, die individueel aanpasbaar
-  is en
-  in groepen kan worden georganiseerd.
+  is en in groepen kan worden georganiseerd.
 * **Filteroptie**: Filters kunnen eenvoudig worden toegepast via de locatie-informatie en vanuit de legenda kunnen
   toegepaste filters overzichtelijk worden beheerd.
 * Verbeterde **legenda**: De legenda is compacter en intuïtiever. Ingeklapt verschijnt een oogsymbool om kaartlagen
-  aan/uit
-  te zetten.
+  aan/uit te zetten.
 * Flexibele **collecties**: Beheerders kunnen nu aangeven of kaartlagen standaard actief en/of ingeklapt moeten zijn,
-  wat
-  zorgt voor een overzichtelijkere layout.
+  wat zorgt voor een overzichtelijkere layout.
 * Geostyler-**stijl genereren**: Met een knop kunnen beheerders eenvoudig een stijl genereren op basis van data, met
-  opties
-  voor labels, kleuren en titels in de legenda.
+  opties voor labels, kleuren en titels in de legenda.
 * Kleine verbeteringen: Snellere WFS-data downloads, direct openen van collecties/kaartlagen vanuit beheeromgeving, en
   selectie naar CSV-conversie in een worker.
 
@@ -53,8 +48,7 @@ Deze update richt zich voornamelijk op optimalisaties en bugfixes, met snellere 
 
 * MapGallery geeft nu betere **informatie** bij **foutmeldingen** van web-services.
 * **Foutmeldingen** van services worden nu **gelogd** en zijn zichtbaar in een speciaal tabblad, met details over datum,
-  tijd en
-  type fout.
+  tijd en type fout.
 * De beheerknop is verplaatst van de collectiesknop naar de gebruikersknop in de titelbalk, wat beter aansluit bij de
   verwachting van beheerders.
 * Het beheer van **gebruikersgroepen** is vereenvoudigd; groepen kunnen worden aangemaakt en gekoppeld aan gebruikers en
