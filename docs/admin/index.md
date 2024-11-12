@@ -4,16 +4,16 @@ title: "Aan de slag"
 
 # Aan de slag met MapGallery als beheerder
 
-Deze documentatie beschrijft de verschillende onderdelen van de MapGallery-beheeromgeving en hoe je deze effectief kunt
+Deze documentatie beschrijft de verschillende onderdelen van de MapGallery beheeromgeving en hoe je deze effectief kunt
 gebruiken.
 
-De kaartinrichting in MapGallery wordt beheerd via de beheer omgeving; een complete beheeromgeving waarmee je
-eenvoudig bronnen kunt koppene en informatielagen beschikbaar kunt stellen.
+De inrichting van MapGallery wordt beheerd via een uitgebreide beheeromgeving, waarmee je eenvoudig bronnen kunt
+koppelen en informatielagen beschikbaar kunt stellen.
 
 ### Hoofdmenu
 
-Rechtsboven in de applicatie vind je een navigatiemenu waarmee je snel toegang krijgt tot delen van de
-beheer omgeving, zoals het dashboard, kaartlagenbeheer, collecties en services.
+Rechtsboven in de applicatie bevindt zich een navigatiemenu waarmee je eenvoudig toegang hebt tot verschillende
+onderdelen van de beheeromgeving, zoals het dashboard, kaartlagenbeheer, collecties en services.
 
 ![](/assets/img/admin-main-menu.png)
 
