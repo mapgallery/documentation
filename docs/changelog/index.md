@@ -2,16 +2,32 @@
 
 ## MapGallery webGIS
 
+### 7.4 <small>januari 2025</small>
+
+Deze update richt zich op beter beheer en een aansluiting op donkere modus. Hieronder een overzicht van de belangrijkste
+verbeteringen:
+
+* **Donkere modus**: MapGallery ondersteunt nu **donkere modus**, ideaal voor avondgebruik of als je de donkere weergave prettiger vindt. De modus wordt automatisch ingeschakeld wanneer je systeemkleur op 'donker' staat.
+* Gebruikers kunnen nu eenvoudig hun **wachtwoord resetten** via de inlogpagina. Bij het inloggen kun je op **‘Wachtwoord vergeten’** klikken om een resetlink per e-mail te ontvangen. Nieuw geregistreerde gebruikers ontvangen automatisch een reset-token tijdens het onboarden, zodat ze direct een wachtwoord kunnen instellen.
+* Verbeterde onboarding: Nieuwe gebruikers ontvangen nu een **welkomstmail** met een introductie van MapGallery, een link naar de documentatie en toegang tot ons supportkanaal. Dit helpt nieuwe gebruikers sneller hun weg te vinden in de applicatie.
+* Koppeling van **gerelateerde kaartlagen**: Beheerders kunnen nu gerelateerde kaartlagen koppelen aan een Collectie. Deze kaartlagen worden overzichtelijk weergegeven onder de zoekbalk, gegroepeerd in subcategorieën voor snelle toegang.
+* Thema-kleur aanpassen: Beheerders kunnen nu de **hoofdkleur van het thema aanpassen** in de beheerinterface. Hierdoor kan MapGallery beter worden afgestemd op de huisstijl van de organisatie.
+* Wekelijkse statusmail: Beheerders ontvangen voortaan een **wekelijkse e-mail** met een overzicht van services die mogelijk haperen. Dit helpt bij het sneller opsporen en oplossen van problemen.
+* Overige verbeteringen & bugfixes: Verbeterd en overzichtelijker **layer-overzicht** en betere navigatie met browserknoppen (terug/vooruit). Stabiliteitsverbeteringen en diverse bugfixes.
+
 ### 7.3 <small>oktober 2024</small>
 
 Deze update richt zich op de integratie en verbetering van de documentatie en het uitbreiden van onze
 supportmogelijkheden. Hieronder een overzicht van de belangrijkste verbeteringen:
 
-* Interactieve **Documentatie** op [docs.mapgallery.eu](https://docs.mapgallery.eu): Er is nu uitgebreide documentatie van MapGallery beschikbaar. Daarnaast zijn de links
-  vanuit MapGallery naar de documentatie contextueel gevoelig. Dit betekent dat je direct wordt doorverwezen naar de relevante informatie
+* Interactieve **Documentatie** op [docs.mapgallery.eu](https://docs.mapgallery.eu): Er is nu uitgebreide documentatie
+  van MapGallery beschikbaar. Daarnaast zijn de links
+  vanuit MapGallery naar de documentatie contextueel gevoelig. Dit betekent dat je direct wordt doorverwezen naar de
+  relevante informatie
   op basis van waar je je in de applicatie bevindt.
 * Nieuw **Support** kanaal: We hebben een gloednieuw supportkanaal gelanceerd. Klanten kunnen nu eenvoudig via e-mail
-  vragen stellen of verzoeken indienen. Stuur een email naar [support@mapgallery.eu](support@mapgallery.eu) om een ticket aan
+  vragen stellen of verzoeken indienen. Stuur een email naar [support@mapgallery.eu](support@mapgallery.eu) om een
+  ticket aan
   te maken.
 * Verbetering van de **Favorieten**: Het is nu mogelijk om alle kaartlagen uit een groep tegelijkertijd aan de kaart toe
   te voegen. Daarnaast is de interface rustiger en duidelijker geworden.
