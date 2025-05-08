@@ -2,6 +2,26 @@
 
 ## MapGallery webGIS
 
+### 7.5 <small>april 2025</small>
+
+Deze update richt zich voornamelijk op prestatieverbeteringen en het oplossen van bugs. Kaarten laden sneller en er zijn diverse kleine verbeteringen doorgevoerd. Hieronder een overzicht van de belangrijkste wijzigingen:
+
+* Ondersteuning voor **WMS-selecties**: Het is nu mogelijk om selecties te maken op WMS-lagen door een WFS aan de WMS te koppelen. MapGallery haalt vervolgens de geselecteerde gegevens via de WFS op en toont deze in de viewer. Beheerders kunnen eenvoudig via de beheeromgeving een WFS-service koppelen aan een WMS.
+
+* Optimalisatie van **vector data**: Vector data (zoals WFS, GeoJSON of REST API’s) worden nu opgehaald en verwerkt in een aparte worker thread. Dit voorkomt geheugengerelateerde bugs en zorgt voor een stabielere en snellere viewer. Ook het doorzoeken van vector data gebeurt nu op de achtergrond, zonder dat de browser vastloopt.
+
+* **Herlaadknop** bij foutmeldingen in kaartlagen: Wanneer een kaartlaag een foutmelding geeft (bijvoorbeeld door een tijdelijk onbeschikbare externe service), biedt MapGallery nu de mogelijkheid om eenvoudig opnieuw te laden. Door op het woord 'Fout' te klikken, verschijnt bovendien gedetailleerde foutinformatie.
+
+* Verbeteringen in de **legenda**: De legenda toont nu ook WMS-layergroepen, een symbool voor lagen zonder legenda en een standaardafbeelding voor geparametriseerde symbolen.
+
+* Overige **verbeteringen** en **bugfixes**:
+    * Bugfix voor RD-coördinaten transformatie
+    * Update van de StreetSmart API
+    * Correcte volgorde van complexe lijnen in GeoStyler
+    * Opgelost hover-issue bij collectie-overzicht
+    * Diverse verbeteringen in de donkere modus
+    * Algemene stabiliteitsverbeteringen en bugfixes
+
 ### 7.4 <small>januari 2025</small>
 
 Deze update richt zich op beter beheer en een aansluiting op donkere modus. Hieronder een overzicht van de belangrijkste
