@@ -21,3 +21,6 @@ img[src*='#center'] {
   display: block;
   margin: auto;
 }
+img[src*='#middle'] {
+  vertical-align:middle;
+}

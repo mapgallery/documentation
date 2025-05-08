@@ -1496,6 +1496,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#75-april-2025" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.5 april 2025
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#74-januari-2025" class="md-nav__link">
     <span class="md-ellipsis">
       7.4 januari 2025
@@ -1598,6 +1607,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#75-april-2025" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.5 april 2025
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#74-januari-2025" class="md-nav__link">
     <span class="md-ellipsis">
       7.4 januari 2025
@@ -1680,6 +1698,33 @@
 
 <h1 id="changelog-v7">Changelog v7</h1>
 <h2 id="mapgallery-webgis">MapGallery webGIS</h2>
+<h3 id="75-april-2025">7.5 <small>april 2025</small></h3>
+<p>Deze update richt zich voornamelijk op prestatieverbeteringen en het oplossen van bugs. Kaarten laden sneller en er zijn diverse kleine verbeteringen doorgevoerd. Hieronder een overzicht van de belangrijkste wijzigingen:</p>
+<ul>
+<li>
+<p>Ondersteuning voor <strong><abbr title="Web Map Service">WMS</abbr>-selecties</strong>: Het is nu mogelijk om selecties te maken op <abbr title="Web Map Service">WMS</abbr>-lagen door een <abbr title="Web Feature Service">WFS</abbr> aan de <abbr title="Web Map Service">WMS</abbr> te koppelen. MapGallery haalt vervolgens de geselecteerde gegevens via de <abbr title="Web Feature Service">WFS</abbr> op en toont deze in de viewer. Beheerders kunnen eenvoudig via de beheeromgeving een <abbr title="Web Feature Service">WFS</abbr>-service koppelen aan een <abbr title="Web Map Service">WMS</abbr>.</p>
+</li>
+<li>
+<p>Optimalisatie van <strong>vector data</strong>: Vector data (zoals <abbr title="Web Feature Service">WFS</abbr>, GeoJSON of REST <abbr title="Application Programming Interface">API</abbr>’s) worden nu opgehaald en verwerkt in een aparte worker thread. Dit voorkomt geheugengerelateerde bugs en zorgt voor een stabielere en snellere viewer. Ook het doorzoeken van vector data gebeurt nu op de achtergrond, zonder dat de browser vastloopt.</p>
+</li>
+<li>
+<p><strong>Herlaadknop</strong> bij foutmeldingen in kaartlagen: Wanneer een kaartlaag een foutmelding geeft (bijvoorbeeld door een tijdelijk onbeschikbare externe service), biedt MapGallery nu de mogelijkheid om eenvoudig opnieuw te laden. Door op het woord 'Fout' te klikken, verschijnt bovendien gedetailleerde foutinformatie.</p>
+</li>
+<li>
+<p>Verbeteringen in de <strong>legenda</strong>: De legenda toont nu ook <abbr title="Web Map Service">WMS</abbr>-layergroepen, een symbool voor lagen zonder legenda en een standaardafbeelding voor geparametriseerde symbolen.</p>
+</li>
+<li>
+<p>Overige <strong>verbeteringen</strong> en <strong>bugfixes</strong>:</p>
+<ul>
+<li>Bugfix voor RD-coördinaten transformatie</li>
+<li>Update van de StreetSmart <abbr title="Application Programming Interface">API</abbr></li>
+<li>Correcte volgorde van complexe lijnen in GeoStyler</li>
+<li>Opgelost hover-issue bij collectie-overzicht</li>
+<li>Diverse verbeteringen in de donkere modus</li>
+<li>Algemene stabiliteitsverbeteringen en bugfixes</li>
+</ul>
+</li>
+</ul>
 <h3 id="74-januari-2025">7.4 <small>januari 2025</small></h3>
 <p>Deze update richt zich op beter beheer en een aansluiting op donkere modus. Hieronder een overzicht van de belangrijkste
 verbeteringen:</p>
