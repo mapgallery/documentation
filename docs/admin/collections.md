@@ -13,8 +13,9 @@ onderzoek en besluitvorming. Beheerders kunnen bovendien zelfgemaakte collecties
 tot deze collecties.
 
 {% include "admin/navigate-1.md" %}
+
 2. Selecteer **Dashboard** uit het menu en ga naar de sectie **{{ page.meta.vars.plural }}**.
-{% include "admin/navigate-2.md" %}
+   {% include "admin/navigate-2.md" %}
 
 ## Lijstweergave
 
@@ -51,7 +52,8 @@ worden gewijzingd.
 
 ### Bewerkingsopties
 
-Bovenaan de pagina zijn de tabbladen [**Algemeen**](base) en [**Kaartlagen**](layers) voor verschillende instellingen
+Bovenaan de pagina zijn de tabbladen [**Algemeen**](#tabblad-algemeen), [**Kaartlagen**](#tabblad-kaartlagen) en [*
+*Gerelateerd**](#tabblad-gerelateerd) voor verschillende instellingen
 van de {{ page.meta.vars.singular }}.
 
 #### Tabblad Algemeen
@@ -80,7 +82,7 @@ Uitleg van de Velden:
 
 #### Tabblad Kaartlagen
 
-Geeft een overzicht van de kaartlagen die aan de collectie zijn gekoppeld. Elke kaartlaag heeft een optie om deze
+Geeft een overzicht van actieve kaartlagen die aan de collectie zijn gekoppeld. Elke kaartlaag heeft een optie om deze
 Inactief of Ingeklapt te maken:
 
 - **Inactief**: Als je het vakje onder "Inactief" aanvinkt, wordt de kaartlaag niet weergegeven op de kaart.
@@ -101,6 +103,11 @@ Inactief of Ingeklapt te maken:
 
 Onder de lijst van kaartlagen vind je een dropdown-menu met de titel Actieve ondergrond. Kies hier de gewenste
 ondergrondkaart, bijvoorbeeld OSM (OpenStreetMap), om de kaartlagen bovenop deze kaart te tonen.
+
+#### Tabblad Gerelateerd
+
+Geeft een overzicht van gerelateerde kaartlagen voor de collectie. Gerelateerde kaartlagen komen als suggestie in beeld
+linksboven onder de zoekbalk.
 
 ### Acties
 

@@ -40,8 +40,7 @@ Elke gebruiker heeft een eigen profiel en toegangsrechten binnen de applicatie.
 
 ## Bewerkingsscherm
 
-Via het bewerkingsscherm worden alle relevante details van een **{{ page.meta.vars.singular }}** weergegeven en kunnen
-kunnen de instellingen
+Via het bewerkingsscherm worden alle relevante details van een **{{ page.meta.vars.singular }}** weergegeven en kunnen de instellingen
 worden gewijzingd.
 
 ### Bewerkingsopties

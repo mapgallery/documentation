@@ -19,20 +19,22 @@ metadata en stijl van de {{ page.meta.vars.singular }}. Hieronder vind je een ov
 invullen, uitgelegd in een tabel.
 
 {% include "admin/navigate-1.md" %}
+
 2. Selecteer **Dashboard** uit het menu en ga naar de sectie **{{ page.meta.vars.plural }}**.
-{% include "admin/navigate-2.md" %}
+   {% include "admin/navigate-2.md" %}
 
 ## Lijstweergave
 
 {% include "admin/overview/intro.md" %}
 
-| Naam           | Beschrijving                                                                               |
-|----------------|--------------------------------------------------------------------------------------------|
-| `Id`           | Uniek identificatienummer van de {{ page.meta.vars.singular }}.                            |
-| `Datum`        | Datum waarop de {{ page.meta.vars.singular }} is toegevoegd of voor het laatst is bewerkt. |
-| `Naam`         | De naam van de {{ page.meta.vars.singular }}.                                              |
-| `Omschrijving` | Een korte uitleg over wat de {{ page.meta.vars.singular }} inhoudt.                        |
-| `Ondergrond`   | Geeft aan of de {{ page.meta.vars.singular }} als ondergrond wordt gebruikt (Ja of Nee).   |
+| Naam         | Beschrijving                                                                               |
+|--------------|--------------------------------------------------------------------------------------------|
+| `Id`         | Uniek identificatienummer van de {{ page.meta.vars.singular }}.                            |
+| `Datum`      | Datum waarop de {{ page.meta.vars.singular }} is toegevoegd of voor het laatst is bewerkt. |
+| `Naam`       | De naam van de {{ page.meta.vars.singular }}.                                              |
+| `Service`    | De service die wordt gebruik door de {{ page.meta.vars.singular }}.                        |
+| `Protocol`   | Het protocol dat wordt gebruikt voor de {{ page.meta.vars.singular }}.                     |
+| `Ondergrond` | Geeft aan of de {{ page.meta.vars.singular }} als ondergrond wordt gebruikt (Ja of Nee).   |
 
 ### Acties
 
@@ -51,13 +53,11 @@ invullen, uitgelegd in een tabel.
 ## Bewerkingsscherm
 
 Via het bewerkingsscherm worden alle relevante details van een **{{ page.meta.vars.singular }}** weergegeven en kunnen
-kunnen de instellingen
-worden gewijzingd.
+kunnen de instellingen worden gewijzingd.
 
 ### Bewerkingsopties
 
-Bovenaan de pagina zijn de tabbladen [**Algemeen**](base) en [**Kaartlagen**](layers) voor verschillende instellingen
-van de {{ page.meta.vars.singular }}.
+Bovenaan de pagina zijn de tabbladen [**Algemeen**](#tabblad-algemeen), [**Velden**](#tabblad-velden), [**Interacties**](#tabblad-interacties) en [**Style**](#tabblad-style) voor verschillende instellingen van de {{ page.meta.vars.singular }}.
 
 #### Tabblad Algemeen
 
@@ -81,9 +81,11 @@ zijn verplicht. Uitleg van de Velden:
 
 ##### Kaartlaag groepen
 
-Bij sommige protocollen zoals WMS en WFS is het toegestaan om meerdere kaartlagen als ```groep``` in één verzoek op te halen. Dit heeft als voordeel dat meerdere layers als één MapGallery kaartlaag kunnen worden gepubliceerd.
+Bij sommige protocollen zoals WMS en WFS is het toegestaan om meerdere kaartlagen als ```groep``` in één verzoek op te
+halen. Dit heeft als voordeel dat meerdere layers als één MapGallery kaartlaag kunnen worden gepubliceerd.
 
-Om dit te doen, klik hiervoor op de bewerk knop ![](/assets/svg/edit.svg) en voer de kaartlaag namen in, gescheiden met een komma.
+Om dit te doen, klik hiervoor op de bewerk knop ![](/assets/svg/edit.svg) en voer de kaartlaag namen in, gescheiden met
+een komma.
 
 #### Tabblad Velden
 

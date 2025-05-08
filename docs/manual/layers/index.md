@@ -11,7 +11,8 @@ Overzicht van het Kaartlagen-paneel
 ![](menu-legend.png)
 
 Elke actieve kaartlaag wordt weergegeven in dit paneel. Een kaartlaag kan worden in- en uitgeklapt via de **collapse**
-knop en worden gesloten door op de **sluiten** knop (![](/assets/svg/close.svg)) te klikken. Door te **slepen** kan de volgorde van de
+knop en worden gesloten door op de **sluiten** knop (![](/assets/svg/close.svg#middle)) te klikken. Door te **slepen** kan
+de volgorde van de
 kaartlagen worden aangepast. Elke laag heeft specifieke opties voor weergave en interactie.
 
 ### Functies van de legenda
@@ -25,27 +26,29 @@ oor op een legenda item te klikken wordt het item aan- of uitgezet.
 
 #### Metadata
 
-De metadata knop (![](metadata.svg)) geeft extra kermerken over de kaartlaag.
+De metadata knop (![](metadata.svg#middle)) geeft extra kermerken over de kaartlaag.
 
 #### Zichtbaarheid
 
-Dit icoon (![](eye.svg)) bepaalt of een kaartlaag zichtbaar is op de kaart. Door op het oogpictogram
+Dit icoon (![](eye.svg#middle)) bepaalt of een kaartlaag zichtbaar is op de kaart. Door op het oogpictogram
 te klikken, kun je de laag aan- of uitzetten. Dit is handig als je tijdelijk een laag wilt verbergen zonder deze
 volledig te verwijderen.
 
 #### Zoom
 
-Zoom naar laag: Klik op het vergrootglas om automatisch in te zoomen naar het volledige gebied dat door de kaartlaag
-wordt gedekt. Dit is nuttig om snel het hele bereik van een laag te bekijken.
+Zoom naar laag of actieve filtering: Klik op het icoon (![](crop.svg#middle)) om automatisch in te zoomen op het volledige gebied dat door de
+kaartlaag wordt gedekt. Als er een actieve filtering is, wordt ingezoomd op het gebied dat door het filter wordt
+bepaald.
 
 #### Favoriet
 
-Met het bladwijzer-icoon kun je een kaartlaag markeren als favoriet. Dit stelt je in
+Met het bladwijzer-icoon (![](bookmark.svg#middle)) kun je een kaartlaag markeren als favoriet. Dit stelt je in
 staat om snel terug te keren naar deze laag zonder steeds door de volledige lijst van lagen te moeten zoeken.
 
 #### Stijl
 
-Door op dit pictogram (![](paint.svg)) te klikken, kun je de weergave-instellingen van de kaartlaag aanpassen. Dit omvat
+Door op dit pictogram (![](paint.svg#middle)) te klikken, kun je de weergave-instellingen van de kaartlaag aanpassen. Dit
+omvat
 het wijzigen van kleuren, symbolen, en andere visuele aspecten om de laag beter aan te passen aan je specifieke
 analysebehoeften.
 
