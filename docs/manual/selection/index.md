@@ -21,7 +21,7 @@ objecten op de kaart te kunnen selecteren. Volg onderderstaande stappen om een s
 
 6. Om de totalen uit te laten rekenen per attribute waarde, klik dan op ![](m.svg) linksonder in menu. Selecteer een gewenste attribuut uit het uitklapmenu.
 ![](barchart.png#right)
-7. Onder de totalen staan een aantal opties om de selectie verder te kunnen analyseren.
+7. Onder de totalen staan een aantal opties om de selectie verder te analyseren.
    
       a. ![](staaf.svg) voor een staafdiagramweergave;
 

@@ -53,11 +53,13 @@ invullen, uitgelegd in een tabel.
 ## Bewerkingsscherm
 
 Via het bewerkingsscherm worden alle relevante details van een **{{ page.meta.vars.singular }}** weergegeven en kunnen
-kunnen de instellingen worden gewijzingd.
+de instellingen worden gewijzingd.
 
 ### Bewerkingsopties
 
-Bovenaan de pagina zijn de tabbladen [**Algemeen**](#tabblad-algemeen), [**Velden**](#tabblad-velden), [**Interacties**](#tabblad-interacties) en [**Style**](#tabblad-style) voor verschillende instellingen van de {{ page.meta.vars.singular }}.
+Bovenaan de pagina zijn de tabbladen [**Algemeen**](#tabblad-algemeen), [**Velden**](#tabblad-velden), [**Interacties
+**](#tabblad-interacties) en [**Style**](#tabblad-style) voor verschillende instellingen van de {{
+page.meta.vars.singular }}.
 
 #### Tabblad Algemeen
 

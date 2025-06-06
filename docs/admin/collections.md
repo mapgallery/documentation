@@ -1,6 +1,7 @@
 ---
 title: "Collecties"
 description: "Collecties"
+tags: [ thema, groep, collectie ]
 vars:
   plural: 'collecties'
   singular: 'collectie'
@@ -59,8 +60,7 @@ van de {{ page.meta.vars.singular }}.
 #### Tabblad Algemeen
 
 Bevat de belangrijkste instellingen van de {{ page.meta.vars.singular }} (zoals hieronder beschreven). Velden met een *
-zijn verplicht.
-Uitleg van de Velden:
+zijn verplicht. Uitleg van de Velden:
 
 - **Verbergen**: Wanneer deze optie is aangevinkt, wordt de collectie niet getoond in het overzicht voor de
   eindgebruikers. De collectie blijft echter wel toegankelijk voor beheerders.
