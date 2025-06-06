@@ -68,6 +68,7 @@ nav:
       - admin/collections.md
       - admin/layers.md
       - admin/services.md
+      - admin/application.md
   - Changelog:
       - changelog/index.md
 plugins:
