@@ -54,8 +54,8 @@ Hieronder vind je een stappenplan om MapGallery te koppelen met Azure Active Dir
 Graph App Manifest.
 
 !!! note "Voorbereiding"
-    Zorg voor toegang tot Azure Portal. Je hebt minimaal de rol Application Administrator of Global Administrator nodig
-    binnen Azure AD.
+    Zorg voor toegang tot Azure Portal. Je hebt minimaal de rol _Application Administrator_ of _Global Administrator_ nodig
+    binnen Microsoft Azure.
 
 #### Stap 1: Nieuwe App-registratie in Azure
 
@@ -70,11 +70,12 @@ Graph App Manifest.
 
 Ga in MapGallery naar **Applicatie** > **SSO** en vul de gegevens in.
 
-* Zet evt. “Login verplicht” aan
-* Vul uit het overzicht van de App-registratie de _Application (client) ID_ en de _Issuer URL_ in. De Issuer URL is
+* Zet eventueel de optie “Login verplicht” aan
+* Vul uit het overzicht van de App-registratie in Azure de _Application (client) ID_ en de _Issuer URL_ in. De Issuer URL is
   meestal een endpoint van de Identity Provider met de _Directory (tenant) ID_:
     * OIDC v2.0: [https://login.microsoftonline.com/{tenant-id}/v2.0]()
     * OIDC v1.0: [https://sts.windows.net/{tenant-id}/]()
+* Klik op **Genereer Manifest**
 * Klik op **Genereer Manifest**
 * Download het JSON-bestand dat wordt aangemaakt
 
