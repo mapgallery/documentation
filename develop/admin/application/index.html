@@ -1945,8 +1945,8 @@ Provider (zoals Azure AD).</p>
 Graph App Manifest.</p>
 <div class="admonition note">
 <p class="admonition-title">Voorbereiding</p>
-<p>Zorg voor toegang tot Azure Portal. Je hebt minimaal de rol Application Administrator of Global Administrator nodig
-binnen Azure AD.</p>
+<p>Zorg voor toegang tot Azure Portal. Je hebt minimaal de rol <em>Application Administrator</em> of <em>Global Administrator</em> nodig
+binnen Microsoft Azure.</p>
 </div>
 <h4 id="stap-1-nieuwe-app-registratie-in-azure">Stap 1: Nieuwe App-registratie in Azure</h4>
 <ul>
@@ -1960,13 +1960,14 @@ binnen Azure AD.</p>
 <h4 id="stap-2-genereer-manifest-in-mapgallery">Stap 2: Genereer manifest in MapGallery</h4>
 <p>Ga in MapGallery naar <strong>Applicatie</strong> &gt; <strong>SSO</strong> en vul de gegevens in.</p>
 <ul>
-<li>Zet evt. “Login verplicht” aan</li>
-<li>Vul uit het overzicht van de App-registratie de <em>Application (client) ID</em> en de <em>Issuer URL</em> in. De Issuer URL is
+<li>Zet eventueel de optie “Login verplicht” aan</li>
+<li>Vul uit het overzicht van de App-registratie in Azure de <em>Application (client) ID</em> en de <em>Issuer URL</em> in. De Issuer URL is
   meestal een endpoint van de Identity Provider met de <em>Directory (tenant) ID</em>:<ul>
 <li>OIDC v2.0: <a href="">https://login.microsoftonline.com/{tenant-id}/v2.0</a></li>
 <li>OIDC v1.0: <a href="">https://sts.windows.net/{tenant-id}/</a></li>
 </ul>
 </li>
+<li>Klik op <strong>Genereer Manifest</strong></li>
 <li>Klik op <strong>Genereer Manifest</strong></li>
 <li>Download het JSON-bestand dat wordt aangemaakt</li>
 </ul>
