@@ -7,21 +7,30 @@
 Deze zomer release bevat belangrijke verbeteringen voor snelheid, stabiliteit en functionaliteit.
 
 🚀 Nieuw
-* Ondersteuning voor **ArcGIS REST API**-kaartlagen
-Het is nu mogelijk om kaartlagen te gebruiken die via de ArcGIS REST API zijn gepubliceerd. Deze lagen kunnen eenvoudig worden toegevoegd via de beheeromgeving.
+
+* Ondersteuning voor **ArcGIS REST API**-kaartlagen. Het is nu mogelijk om kaartlagen te gebruiken die via de ArcGIS REST API zijn gepubliceerd. Deze lagen kunnen eenvoudig worden toegevoegd via de beheeromgeving.
+
 * Ondersteuning voor Azure AD-koppeling via het **OAuth2**-protocol
 Beheerders kunnen nu zelf een koppeling met Azure Active Directory instellen via het OAuth2-protocol. Dit vereenvoudigt het authenticatieproces en biedt meer flexibiliteit in het gebruikersbeheer. Een uitgebreid stappenplan is beschikbaar in de documentatie.
 
 ⚙️ Voor Beheerders
+
 * Beheerders kunnen nu direct een wachtwoord-reset e-mail sturen naar individuele gebruikers vanuit de beheeromgeving.
+
 * Per gebruiker is nu inzichtelijk tot welke gebruikersgroepen deze behoort.
+
 * Voor WMS- en WFS-kaartlagen kan de downloadoptie worden uitgeschakeld, bijvoorbeeld om datagebruik te beperken of rechten te beheren.
+
 * Verbeterde ondersteuning en instellingen voor gebruikersauthenticatie en toegangsbeheer.
 
 🛠️ Opgelost
+
 * De koppeling met Cyclomedia Streetview werkt nu weer correct.
+
 * Legenda’s voor TMS- en Vector Tiles worden nu juist weergegeven in de kaartviewer.
+
 * In het dashboard kunnen statistieken worden gedownload, waarbij automatisch rekening wordt gehouden met de geselecteerde periode.
+
 * Diverse kleine bugfixes en prestatieverbeteringen in de beheeromgeving en kaartviewer.
 
 ### 7.5 <small>april 2025</small>
