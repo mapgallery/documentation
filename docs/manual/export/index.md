@@ -48,7 +48,7 @@ openen.
 
 ## Exporteer Selectie
 
-Via de stappen bij [Geavanceerd -> Selecteren](../../selection) kan bij de laatste stap de lijstweergave worden
+Via de stappen bij [Geavanceerd -> Selecteren](../selection) kan bij de laatste stap de lijstweergave worden
 opgevraagd.
 Kies nu die optie **Download** naast sluiten om de gegeven te exporteren naar **CSV**.
 
