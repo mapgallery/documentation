@@ -76,7 +76,6 @@ Ga in MapGallery naar **Applicatie** > **SSO** en vul de gegevens in.
     * OIDC v2.0: [https://login.microsoftonline.com/{tenant-id}/v2.0]()
     * OIDC v1.0: [https://sts.windows.net/{tenant-id}/]()
 * Klik op **Genereer Manifest**
-* Klik op **Genereer Manifest**
 * Download het JSON-bestand dat wordt aangemaakt
 
 #### Stap 3: Importeer manifest in Azure
