@@ -105,7 +105,29 @@ klikken en deze naar boven of beneden te slepen.
 
 #### Tabblad Interacties
 
-N.t.b.
+**Animatie**
+
+Voor het animeren van data kunnen verschillende parameters worden ingesteld:
+
+* _Veldnaam_: Het veld dat wordt gebruikt voor de animatie.
+* _Vergelijking_ + _waarde_: Bepaalt welke data zichtbaar is. Het is mogelijk om alleen symbolen weer te geven die gelijk
+  zijn aan een specifieke
+  waarde (`== ${value}`), of om cumulatieve data te tonen waarbij de dataset zich geleidelijk uitbreidt (`<= ${value}`).
+* _Startwaarde_ + _stapgrootte_: De waarde waarmee de animatie start en de grootte van de stappen waarin de data wordt
+  doorlopen.
+* _Omit_: Een getal dat wordt overgeslagen tijdens de animatie.
+* _Minimale_ en _maximale_ waarde: Het bereik van de animatie; de begin- en eindwaarde.
+
+Let op: animatie is uitsluitend mogelijk met numerieke data. Niet-numerieke waarden worden niet ondersteund.
+
+**Hoogte**
+
+De instellingen voor hoogte komen overeen met die van animatie. In plaats van een bewegende animatie resulteert dit
+echter in een schakelknop waarmee tussen verschillende hoogtes of verdiepingen kan worden gewisseld.
+
+**Verversen**
+
+Het veld Verversen bepaalt in seconden hoe vaak de data opnieuw wordt opgehaald bij de service.
 
 #### Tabblad Style
 
