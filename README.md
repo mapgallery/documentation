@@ -29,6 +29,12 @@ pip install mkdocs
 pip install -r requirements.txt
 ```
 
+Otherwise, install the required packages:
+
+```bash
+pip install mike mkdocs mkdocs-macros-plugin mkdocs-material material-plausible-plugin mkdocs-material[imaging] mkdocs-snippets
+```
+
 3. To run the documentation locally, run:
 
 ```bash
