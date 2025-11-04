@@ -36,7 +36,7 @@ Deze release bevat belangrijke verbeteringen voor snelheid, stabiliteit en funct
 * Het **GeoStyler kookboek** is nu beschikbaar!
   Het MapGallery GeoStyler Kookboek bevat praktische ‘recepten’ voor het stylen van kaartlagen binnen MapGallery. Deze
   handleiding helpt beheerders en gebruikers om het maximale uit MapGallery te halen.
-  Lees het kookboek hier: https://geostyler.mapgallery.eu
+  Lees het kookboek hier: [https://geostyler.mapgallery.eu](https://geostyler.mapgallery.eu)
 
 * Ondersteuning voor een **Gedeeltelijk WFS-verzoek**.
   Het is nu mogelijk om een WFS kaartlaag in te stellen zodat alleen objecten binnen de actieve kaartweergave (bounding
