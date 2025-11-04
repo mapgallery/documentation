@@ -2,16 +2,80 @@
 
 ## MapGallery webGIS
 
+### 7.7 <small>oktober 2025</small>
+
+Deze release bevat belangrijke verbeteringen voor snelheid, stabiliteit en functionaliteit.
+
+🚀 Nieuw
+
+* **Vernieuwde favorieten**. De favorietenweergave is volledig vernieuwd voor een rustiger en overzichtelijker gebruik.
+  Nieuw is de mogelijkheid om tussenkopjes toe te voegen en om te kiezen tussen twee selectietypen:
+    * Checkbox: aan/uit-schakeling van een kaartlaag
+    * Radio button: wisselen tussen kaartlagen (de vorige laag wordt automatisch uitgeschakeld)
+
+* MapGallery voldoet nu aan de **WCAG 2.1**-standaard, wat betekent dat het platform beter toegankelijk is voor
+  gebruikers met een visuele beperking.
+  Verbeteringen omvatten o.a.:
+    * Aangepaste contrasten en kleuren voor betere leesbaarheid
+    * Verbeterde labels en alternatieve teksten voor schermlezers
+    * Automatische aanpassing aan de systeeminstellingen voor hoog contrast
+
+* **Kaartlagen vergelijken**.
+  Je kunt nu eenvoudig kaartlagen naast elkaar vergelijken door MapGallery in een nieuw venster te openen. Dit kan
+  rechtstreeks via het logo rechtsboven de zoekbalk: er verschijnt dan een optie om MapGallery in een nieuw venster te
+  starten. De weergave tussen beide vensters wordt automatisch gesynchroniseerd, zodat verschillen direct zichtbaar
+  zijn.
+
+* Verbeterde **selecties** op kaartlagen.
+  Bij het selecteren van objecten op een kaartlaag kun je nu totalen van numerieke velden laten berekenen.
+  Maak een selectie, kies het gewenste veld en klik op de Σ (sigma)-knop. Handig bij bijvoorbeeld het vergelijken van
+  het totaal aantal huishoudens per gemeente of andere statistische gegevens.
+
+⚙️ Voor Beheerders
+
+* Het **GeoStyler kookboek** is nu beschikbaar!
+  Het MapGallery GeoStyler Kookboek bevat praktische ‘recepten’ voor het stylen van kaartlagen binnen MapGallery. Deze
+  handleiding helpt beheerders en gebruikers om het maximale uit MapGallery te halen.
+  Lees het kookboek hier: https://geostyler.mapgallery.eu
+
+* Ondersteuning voor een **Gedeeltelijk WFS-verzoek**.
+  Het is nu mogelijk om een WFS kaartlaag in te stellen zodat alleen objecten binnen de actieve kaartweergave (bounding
+  box) worden opgevraagd. Deze optie is vooral handig bij zware WFS kaartlagen zoals de BAG of BGT en kan eenvoudig
+  worden ingesteld via de beheeromgeving.
+
+* Ondersteuning voor **animaties**.
+  Beheerders kunnen nu animaties configureren voor WMS-, WFS- en TileJSON-kaartlagen — vergelijkbaar met de werking van buienradar.
+  Diverse parameters zijn instelbaar voor volledige controle over de animatie.
+  Een gedetailleerd stappenplan is te vinden in de documentatie.
+
+* De **gerelateerde kaartlagen** sectie is verbetered.
+  De lay-out van de gerelateerde kaartlagen is vereenvoudigd en consistenter gemaakt, met duidelijke tussenkopjes voor een rustiger uitstraling.
+  Net als bij de favorieten kun je nu kiezen tussen checkboxen en radio buttons, en zelf tussenkopjes toevoegen.
+
+* Featureinfo **template**-functionaliteit (beta).
+  In de beheeromgeving kun je nu HTML-templates genereren op basis van de beschikbare velden, of handmatig een template samenstellen.
+  Ideaal voor complexe kaartlagen zoals het brandrisicoprofiel of de woonzorgwijzer. Deze functie is momenteel beschikbaar als bèta.
+
+🛠️ Opgelost
+
+* Ondersteuning toegevoegd voor meerdere OAuth2-providers – het systeem kan nu meerdere authenticatiebronnen beheren.
+* FeatureInfo wordt weer correct weergegeven voor JSON-objecten.
+* Diverse verbeteringen en bugfixes voor ArcGIS-kaartlagen (WMS, WFS en REST API).
+* Algemeen: tal van kleine bugfixes, prestatieoptimalisaties en verbeteringen in de beheeromgeving en kaartviewer.
+
 ### 7.6 <small>juli 2025</small>
 
 Deze zomer release bevat belangrijke verbeteringen voor snelheid, stabiliteit en functionaliteit.
 
 🚀 Nieuw
 
-* Ondersteuning voor **ArcGIS REST API**-kaartlagen. Het is nu mogelijk om kaartlagen te gebruiken die via de ArcGIS REST API zijn gepubliceerd. Deze lagen kunnen eenvoudig worden toegevoegd via de beheeromgeving.
+* Ondersteuning voor **ArcGIS REST API**-kaartlagen. Het is nu mogelijk om kaartlagen te gebruiken die via de ArcGIS
+  REST API zijn gepubliceerd. Deze lagen kunnen eenvoudig worden toegevoegd via de beheeromgeving.
 
 * Ondersteuning voor Azure AD-koppeling via het **OAuth2**-protocol
-Beheerders kunnen nu zelf een koppeling met Azure Active Directory instellen via het OAuth2-protocol. Dit vereenvoudigt het authenticatieproces en biedt meer flexibiliteit in het gebruikersbeheer. Een uitgebreid stappenplan is beschikbaar in de documentatie.
+  Beheerders kunnen nu zelf een koppeling met Azure Active Directory instellen via het OAuth2-protocol. Dit
+  vereenvoudigt het authenticatieproces en biedt meer flexibiliteit in het gebruikersbeheer. Een uitgebreid stappenplan
+  is beschikbaar in de documentatie.
 
 ⚙️ Voor Beheerders
 
@@ -19,7 +83,8 @@ Beheerders kunnen nu zelf een koppeling met Azure Active Directory instellen via
 
 * Per gebruiker is nu inzichtelijk tot welke gebruikersgroepen deze behoort.
 
-* Voor WMS- en WFS-kaartlagen kan de downloadoptie worden uitgeschakeld, bijvoorbeeld om datagebruik te beperken of rechten te beheren.
+* Voor WMS- en WFS-kaartlagen kan de downloadoptie worden uitgeschakeld, bijvoorbeeld om datagebruik te beperken of
+  rechten te beheren.
 
 * Verbeterde ondersteuning en instellingen voor gebruikersauthenticatie en toegangsbeheer.
 
@@ -29,21 +94,30 @@ Beheerders kunnen nu zelf een koppeling met Azure Active Directory instellen via
 
 * Legenda’s voor TMS- en Vector Tiles worden nu juist weergegeven in de kaartviewer.
 
-* In het dashboard kunnen statistieken worden gedownload, waarbij automatisch rekening wordt gehouden met de geselecteerde periode.
+* In het dashboard kunnen statistieken worden gedownload, waarbij automatisch rekening wordt gehouden met de
+  geselecteerde periode.
 
 * Diverse kleine bugfixes en prestatieverbeteringen in de beheeromgeving en kaartviewer.
 
 ### 7.5 <small>april 2025</small>
 
-Deze update richt zich voornamelijk op prestatieverbeteringen en het oplossen van bugs. Kaarten laden sneller en er zijn diverse kleine verbeteringen doorgevoerd. Hieronder een overzicht van de belangrijkste wijzigingen:
+Deze update richt zich voornamelijk op prestatieverbeteringen en het oplossen van bugs. Kaarten laden sneller en er zijn
+diverse kleine verbeteringen doorgevoerd. Hieronder een overzicht van de belangrijkste wijzigingen:
 
-* Ondersteuning voor **WMS-selecties**: Het is nu mogelijk om selecties te maken op WMS-lagen door een WFS aan de WMS te koppelen. MapGallery haalt vervolgens de geselecteerde gegevens via de WFS op en toont deze in de viewer. Beheerders kunnen eenvoudig via de beheeromgeving een WFS-service koppelen aan een WMS.
+* Ondersteuning voor **WMS-selecties**: Het is nu mogelijk om selecties te maken op WMS-lagen door een WFS aan de WMS te
+  koppelen. MapGallery haalt vervolgens de geselecteerde gegevens via de WFS op en toont deze in de viewer. Beheerders
+  kunnen eenvoudig via de beheeromgeving een WFS-service koppelen aan een WMS.
 
-* Optimalisatie van **vector data**: Vector data (zoals WFS, GeoJSON of REST API’s) worden nu opgehaald en verwerkt in een aparte worker thread. Dit voorkomt geheugengerelateerde bugs en zorgt voor een stabielere en snellere viewer. Ook het doorzoeken van vector data gebeurt nu op de achtergrond, zonder dat de browser vastloopt.
+* Optimalisatie van **vector data**: Vector data (zoals WFS, GeoJSON of REST API’s) worden nu opgehaald en verwerkt in
+  een aparte worker thread. Dit voorkomt geheugengerelateerde bugs en zorgt voor een stabielere en snellere viewer. Ook
+  het doorzoeken van vector data gebeurt nu op de achtergrond, zonder dat de browser vastloopt.
 
-* **Herlaadknop** bij foutmeldingen in kaartlagen: Wanneer een kaartlaag een foutmelding geeft (bijvoorbeeld door een tijdelijk onbeschikbare externe service), biedt MapGallery nu de mogelijkheid om eenvoudig opnieuw te laden. Door op het woord 'Fout' te klikken, verschijnt bovendien gedetailleerde foutinformatie.
+* **Herlaadknop** bij foutmeldingen in kaartlagen: Wanneer een kaartlaag een foutmelding geeft (bijvoorbeeld door een
+  tijdelijk onbeschikbare externe service), biedt MapGallery nu de mogelijkheid om eenvoudig opnieuw te laden. Door op
+  het woord 'Fout' te klikken, verschijnt bovendien gedetailleerde foutinformatie.
 
-* Verbeteringen in de **legenda**: De legenda toont nu ook WMS-layergroepen, een symbool voor lagen zonder legenda en een standaardafbeelding voor geparametriseerde symbolen.
+* Verbeteringen in de **legenda**: De legenda toont nu ook WMS-layergroepen, een symbool voor lagen zonder legenda en
+  een standaardafbeelding voor geparametriseerde symbolen.
 
 * Overige **verbeteringen** en **bugfixes**:
     * Bugfix voor RD-coördinaten transformatie
@@ -58,13 +132,23 @@ Deze update richt zich voornamelijk op prestatieverbeteringen en het oplossen va
 Deze update richt zich op beter beheer en een aansluiting op donkere modus. Hieronder een overzicht van de belangrijkste
 verbeteringen:
 
-* **Donkere modus**: MapGallery ondersteunt nu **donkere modus**, ideaal voor avondgebruik of als je de donkere weergave prettiger vindt. De modus wordt automatisch ingeschakeld wanneer je systeemkleur op 'donker' staat.
-* Gebruikers kunnen nu eenvoudig hun **wachtwoord resetten** via de inlogpagina. Bij het inloggen kun je op **‘Wachtwoord vergeten’** klikken om een resetlink per e-mail te ontvangen. Nieuw geregistreerde gebruikers ontvangen automatisch een reset-token tijdens het onboarden, zodat ze direct een wachtwoord kunnen instellen.
-* Verbeterde onboarding: Nieuwe gebruikers ontvangen nu een **welkomstmail** met een introductie van MapGallery, een link naar de documentatie en toegang tot ons supportkanaal. Dit helpt nieuwe gebruikers sneller hun weg te vinden in de applicatie.
-* Koppeling van **gerelateerde kaartlagen**: Beheerders kunnen nu gerelateerde kaartlagen koppelen aan een Collectie. Deze kaartlagen worden overzichtelijk weergegeven onder de zoekbalk, gegroepeerd in subcategorieën voor snelle toegang.
-* Thema-kleur aanpassen: Beheerders kunnen nu de **hoofdkleur van het thema aanpassen** in de beheerinterface. Hierdoor kan MapGallery beter worden afgestemd op de huisstijl van de organisatie.
-* Wekelijkse statusmail: Beheerders ontvangen voortaan een **wekelijkse e-mail** met een overzicht van services die mogelijk haperen. Dit helpt bij het sneller opsporen en oplossen van problemen.
-* Overige verbeteringen & bugfixes: Verbeterd en overzichtelijker **layer-overzicht** en betere navigatie met browserknoppen (terug/vooruit). Stabiliteitsverbeteringen en diverse bugfixes.
+* **Donkere modus**: MapGallery ondersteunt nu **donkere modus**, ideaal voor avondgebruik of als je de donkere weergave
+  prettiger vindt. De modus wordt automatisch ingeschakeld wanneer je systeemkleur op 'donker' staat.
+* Gebruikers kunnen nu eenvoudig hun **wachtwoord resetten** via de inlogpagina. Bij het inloggen kun je op *
+  *‘Wachtwoord vergeten’** klikken om een resetlink per e-mail te ontvangen. Nieuw geregistreerde gebruikers ontvangen
+  automatisch een reset-token tijdens het onboarden, zodat ze direct een wachtwoord kunnen instellen.
+* Verbeterde onboarding: Nieuwe gebruikers ontvangen nu een **welkomstmail** met een introductie van MapGallery, een
+  link naar de documentatie en toegang tot ons supportkanaal. Dit helpt nieuwe gebruikers sneller hun weg te vinden in
+  de applicatie.
+* Koppeling van **gerelateerde kaartlagen**: Beheerders kunnen nu gerelateerde kaartlagen koppelen aan een Collectie.
+  Deze kaartlagen worden overzichtelijk weergegeven onder de zoekbalk, gegroepeerd in subcategorieën voor snelle
+  toegang.
+* Thema-kleur aanpassen: Beheerders kunnen nu de **hoofdkleur van het thema aanpassen** in de beheerinterface. Hierdoor
+  kan MapGallery beter worden afgestemd op de huisstijl van de organisatie.
+* Wekelijkse statusmail: Beheerders ontvangen voortaan een **wekelijkse e-mail** met een overzicht van services die
+  mogelijk haperen. Dit helpt bij het sneller opsporen en oplossen van problemen.
+* Overige verbeteringen & bugfixes: Verbeterd en overzichtelijker **layer-overzicht** en betere navigatie met
+  browserknoppen (terug/vooruit). Stabiliteitsverbeteringen en diverse bugfixes.
 
 ### 7.3 <small>oktober 2024</small>
 
