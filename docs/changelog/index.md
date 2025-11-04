@@ -11,7 +11,8 @@ Deze release bevat belangrijke verbeteringen voor snelheid, stabiliteit en funct
 * **Vernieuwde favorieten**. De favorietenweergave is volledig vernieuwd voor een rustiger en overzichtelijker gebruik.
   Nieuw is de mogelijkheid om tussenkopjes toe te voegen en om te kiezen tussen twee selectietypen:
     * Checkbox: aan/uit-schakeling van een kaartlaag
-    * Radio button: wisselen tussen kaartlagen (de vorige laag wordt automatisch uitgeschakeld)
+    * Radio button: wisselen tussen kaartlagen, dit maakt het mogelijk om één kaartlaag tegelijk te tonen. Wanneer je
+      een nieuwe laag selecteert uit de groep, wordt de eerder actieve laag automatisch uitgeschakeld.
 
 * MapGallery voldoet nu aan de **WCAG 2.1**-standaard, wat betekent dat het platform beter toegankelijk is voor
   gebruikers met een visuele beperking.
@@ -22,8 +23,8 @@ Deze release bevat belangrijke verbeteringen voor snelheid, stabiliteit en funct
 
 * **Kaartlagen vergelijken**.
   Je kunt nu eenvoudig kaartlagen naast elkaar vergelijken door MapGallery in een nieuw venster te openen. Dit kan
-  rechtstreeks via het logo rechtsboven de zoekbalk: er verschijnt dan een optie om MapGallery in een nieuw venster te
-  starten. De weergave tussen beide vensters wordt automatisch gesynchroniseerd, zodat verschillen direct zichtbaar
+  rechtstreeks via het icoon rechtsboven de zoekbalk: er verschijnt dan een optie om MapGallery in een nieuw venster te
+  starten. De kaartweergave tussen beide vensters wordt automatisch gesynchroniseerd, zodat verschillen direct zichtbaar
   zijn.
 
 * Verbeterde **selecties** op kaartlagen.
@@ -44,17 +45,20 @@ Deze release bevat belangrijke verbeteringen voor snelheid, stabiliteit en funct
   worden ingesteld via de beheeromgeving.
 
 * Ondersteuning voor **animaties**.
-  Beheerders kunnen nu animaties configureren voor WMS-, WFS- en TileJSON-kaartlagen — vergelijkbaar met de werking van buienradar.
-  Diverse parameters zijn instelbaar voor volledige controle over de animatie.
-  Een gedetailleerd stappenplan is te vinden in de documentatie.
+  Beheerders kunnen nu animaties configureren voor WMS-, WFS- en TileJSON-kaartlagen. Vergelijkbaar met de werking van
+  buienradar. Diverse parameters zijn instelbaar voor volledige controle over de animatie. Een gedetailleerd stappenplan
+  is te vinden in [de documentatie](/admin/layers/#tabblad-interacties).
 
-* De **gerelateerde kaartlagen** sectie is verbetered.
-  De lay-out van de gerelateerde kaartlagen is vereenvoudigd en consistenter gemaakt, met duidelijke tussenkopjes voor een rustiger uitstraling.
+* De **gerelateerde kaartlagen** sectie is verbeterd.
+  De lay-out van de gerelateerde kaartlagen is vereenvoudigd en consistenter gemaakt, met duidelijke tussenkopjes voor
+  een rustiger uitstraling.
   Net als bij de favorieten kun je nu kiezen tussen checkboxen en radio buttons, en zelf tussenkopjes toevoegen.
 
 * Featureinfo **template**-functionaliteit (beta).
-  In de beheeromgeving kun je nu HTML-templates genereren op basis van de beschikbare velden, of handmatig een template samenstellen.
-  Ideaal voor complexe kaartlagen zoals het brandrisicoprofiel of de woonzorgwijzer. Deze functie is momenteel beschikbaar als bèta.
+  In de beheeromgeving kun je nu HTML-templates genereren op basis van de beschikbare velden, of handmatig een template
+  samenstellen.
+  Ideaal voor complexe kaartlagen zoals het brandrisicoprofiel of de woonzorgwijzer. Deze functie is momenteel
+  beschikbaar als bèta.
 
 🛠️ Opgelost
 
