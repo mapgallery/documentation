@@ -1517,6 +1517,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#77-oktober-2025" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.7 oktober 2025
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#76-juli-2025" class="md-nav__link">
     <span class="md-ellipsis">
       7.6 juli 2025
@@ -1637,6 +1646,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#77-oktober-2025" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.7 oktober 2025
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#76-juli-2025" class="md-nav__link">
     <span class="md-ellipsis">
       7.6 juli 2025
@@ -1737,16 +1755,93 @@
 
 <h1 id="changelog-v7">Changelog v7</h1>
 <h2 id="mapgallery-webgis">MapGallery webGIS</h2>
+<h3 id="77-oktober-2025">7.7 <small>oktober 2025</small></h3>
+<p>Deze release bevat belangrijke verbeteringen voor snelheid, stabiliteit en functionaliteit.</p>
+<p>🚀 Nieuw</p>
+<ul>
+<li>
+<p><strong>Vernieuwde favorieten</strong>. De favorietenweergave is volledig vernieuwd voor een rustiger en overzichtelijker gebruik.
+  Nieuw is de mogelijkheid om tussenkopjes toe te voegen en om te kiezen tussen twee selectietypen:</p>
+<ul>
+<li>Checkbox: aan/uit-schakeling van een kaartlaag</li>
+<li>Radio button: wisselen tussen kaartlagen (de vorige laag wordt automatisch uitgeschakeld)</li>
+</ul>
+</li>
+<li>
+<p>MapGallery voldoet nu aan de <strong>WCAG 2.1</strong>-standaard, wat betekent dat het platform beter toegankelijk is voor
+  gebruikers met een visuele beperking.
+  Verbeteringen omvatten o.a.:</p>
+<ul>
+<li>Aangepaste contrasten en kleuren voor betere leesbaarheid</li>
+<li>Verbeterde labels en alternatieve teksten voor schermlezers</li>
+<li>Automatische aanpassing aan de systeeminstellingen voor hoog contrast</li>
+</ul>
+</li>
+<li>
+<p><strong>Kaartlagen vergelijken</strong>.
+  Je kunt nu eenvoudig kaartlagen naast elkaar vergelijken door MapGallery in een nieuw venster te openen. Dit kan
+  rechtstreeks via het logo rechtsboven de zoekbalk: er verschijnt dan een optie om MapGallery in een nieuw venster te
+  starten. De weergave tussen beide vensters wordt automatisch gesynchroniseerd, zodat verschillen direct zichtbaar
+  zijn.</p>
+</li>
+<li>
+<p>Verbeterde <strong>selecties</strong> op kaartlagen.
+  Bij het selecteren van objecten op een kaartlaag kun je nu totalen van numerieke velden laten berekenen.
+  Maak een selectie, kies het gewenste veld en klik op de Σ (sigma)-knop. Handig bij bijvoorbeeld het vergelijken van
+  het totaal aantal huishoudens per gemeente of andere statistische gegevens.</p>
+</li>
+</ul>
+<p>⚙️ Voor Beheerders</p>
+<ul>
+<li>
+<p>Het <strong>GeoStyler kookboek</strong> is nu beschikbaar!
+  Het MapGallery GeoStyler Kookboek bevat praktische ‘recepten’ voor het stylen van kaartlagen binnen MapGallery. Deze
+  handleiding helpt beheerders en gebruikers om het maximale uit MapGallery te halen.
+  Lees het kookboek hier: https://geostyler.mapgallery.eu</p>
+</li>
+<li>
+<p>Ondersteuning voor een <strong>Gedeeltelijk <abbr title="Web Feature Service">WFS</abbr>-verzoek</strong>.
+  Het is nu mogelijk om een <abbr title="Web Feature Service">WFS</abbr> kaartlaag in te stellen zodat alleen objecten binnen de actieve kaartweergave (bounding
+  box) worden opgevraagd. Deze optie is vooral handig bij zware <abbr title="Web Feature Service">WFS</abbr> kaartlagen zoals de BAG of BGT en kan eenvoudig
+  worden ingesteld via de beheeromgeving.</p>
+</li>
+<li>
+<p>Ondersteuning voor <strong>animaties</strong>.
+  Beheerders kunnen nu animaties configureren voor <abbr title="Web Map Service">WMS</abbr>-, <abbr title="Web Feature Service">WFS</abbr>- en TileJSON-kaartlagen — vergelijkbaar met de werking van buienradar.
+  Diverse parameters zijn instelbaar voor volledige controle over de animatie.
+  Een gedetailleerd stappenplan is te vinden in de documentatie.</p>
+</li>
+<li>
+<p>De <strong>gerelateerde kaartlagen</strong> sectie is verbetered.
+  De lay-out van de gerelateerde kaartlagen is vereenvoudigd en consistenter gemaakt, met duidelijke tussenkopjes voor een rustiger uitstraling.
+  Net als bij de favorieten kun je nu kiezen tussen checkboxen en radio buttons, en zelf tussenkopjes toevoegen.</p>
+</li>
+<li>
+<p>Featureinfo <strong>template</strong>-functionaliteit (beta).
+  In de beheeromgeving kun je nu <abbr title="Hyper Text Markup Language">HTML</abbr>-templates genereren op basis van de beschikbare velden, of handmatig een template samenstellen.
+  Ideaal voor complexe kaartlagen zoals het brandrisicoprofiel of de woonzorgwijzer. Deze functie is momenteel beschikbaar als bèta.</p>
+</li>
+</ul>
+<p>🛠️ Opgelost</p>
+<ul>
+<li>Ondersteuning toegevoegd voor meerdere OAuth2-providers – het systeem kan nu meerdere authenticatiebronnen beheren.</li>
+<li>FeatureInfo wordt weer correct weergegeven voor JSON-objecten.</li>
+<li>Diverse verbeteringen en bugfixes voor ArcGIS-kaartlagen (<abbr title="Web Map Service">WMS</abbr>, <abbr title="Web Feature Service">WFS</abbr> en REST <abbr title="Application Programming Interface">API</abbr>).</li>
+<li>Algemeen: tal van kleine bugfixes, prestatieoptimalisaties en verbeteringen in de beheeromgeving en kaartviewer.</li>
+</ul>
 <h3 id="76-juli-2025">7.6 <small>juli 2025</small></h3>
 <p>Deze zomer release bevat belangrijke verbeteringen voor snelheid, stabiliteit en functionaliteit.</p>
 <p>🚀 Nieuw</p>
 <ul>
 <li>
-<p>Ondersteuning voor <strong>ArcGIS REST <abbr title="Application Programming Interface">API</abbr></strong>-kaartlagen. Het is nu mogelijk om kaartlagen te gebruiken die via de ArcGIS REST <abbr title="Application Programming Interface">API</abbr> zijn gepubliceerd. Deze lagen kunnen eenvoudig worden toegevoegd via de beheeromgeving.</p>
+<p>Ondersteuning voor <strong>ArcGIS REST <abbr title="Application Programming Interface">API</abbr></strong>-kaartlagen. Het is nu mogelijk om kaartlagen te gebruiken die via de ArcGIS
+  REST <abbr title="Application Programming Interface">API</abbr> zijn gepubliceerd. Deze lagen kunnen eenvoudig worden toegevoegd via de beheeromgeving.</p>
 </li>
 <li>
 <p>Ondersteuning voor Azure AD-koppeling via het <strong>OAuth2</strong>-protocol
-Beheerders kunnen nu zelf een koppeling met Azure Active Directory instellen via het OAuth2-protocol. Dit vereenvoudigt het authenticatieproces en biedt meer flexibiliteit in het gebruikersbeheer. Een uitgebreid stappenplan is beschikbaar in de documentatie.</p>
+  Beheerders kunnen nu zelf een koppeling met Azure Active Directory instellen via het OAuth2-protocol. Dit
+  vereenvoudigt het authenticatieproces en biedt meer flexibiliteit in het gebruikersbeheer. Een uitgebreid stappenplan
+  is beschikbaar in de documentatie.</p>
 </li>
 </ul>
 <p>⚙️ Voor Beheerders</p>
@@ -1758,7 +1853,8 @@ Beheerders kunnen nu zelf een koppeling met Azure Active Directory instellen via
 <p>Per gebruiker is nu inzichtelijk tot welke gebruikersgroepen deze behoort.</p>
 </li>
 <li>
-<p>Voor <abbr title="Web Map Service">WMS</abbr>- en <abbr title="Web Feature Service">WFS</abbr>-kaartlagen kan de downloadoptie worden uitgeschakeld, bijvoorbeeld om datagebruik te beperken of rechten te beheren.</p>
+<p>Voor <abbr title="Web Map Service">WMS</abbr>- en <abbr title="Web Feature Service">WFS</abbr>-kaartlagen kan de downloadoptie worden uitgeschakeld, bijvoorbeeld om datagebruik te beperken of
+  rechten te beheren.</p>
 </li>
 <li>
 <p>Verbeterde ondersteuning en instellingen voor gebruikersauthenticatie en toegangsbeheer.</p>
@@ -1773,26 +1869,35 @@ Beheerders kunnen nu zelf een koppeling met Azure Active Directory instellen via
 <p>Legenda’s voor TMS- en Vector Tiles worden nu juist weergegeven in de kaartviewer.</p>
 </li>
 <li>
-<p>In het dashboard kunnen statistieken worden gedownload, waarbij automatisch rekening wordt gehouden met de geselecteerde periode.</p>
+<p>In het dashboard kunnen statistieken worden gedownload, waarbij automatisch rekening wordt gehouden met de
+  geselecteerde periode.</p>
 </li>
 <li>
 <p>Diverse kleine bugfixes en prestatieverbeteringen in de beheeromgeving en kaartviewer.</p>
 </li>
 </ul>
 <h3 id="75-april-2025">7.5 <small>april 2025</small></h3>
-<p>Deze update richt zich voornamelijk op prestatieverbeteringen en het oplossen van bugs. Kaarten laden sneller en er zijn diverse kleine verbeteringen doorgevoerd. Hieronder een overzicht van de belangrijkste wijzigingen:</p>
+<p>Deze update richt zich voornamelijk op prestatieverbeteringen en het oplossen van bugs. Kaarten laden sneller en er zijn
+diverse kleine verbeteringen doorgevoerd. Hieronder een overzicht van de belangrijkste wijzigingen:</p>
 <ul>
 <li>
-<p>Ondersteuning voor <strong><abbr title="Web Map Service">WMS</abbr>-selecties</strong>: Het is nu mogelijk om selecties te maken op <abbr title="Web Map Service">WMS</abbr>-lagen door een <abbr title="Web Feature Service">WFS</abbr> aan de <abbr title="Web Map Service">WMS</abbr> te koppelen. MapGallery haalt vervolgens de geselecteerde gegevens via de <abbr title="Web Feature Service">WFS</abbr> op en toont deze in de viewer. Beheerders kunnen eenvoudig via de beheeromgeving een <abbr title="Web Feature Service">WFS</abbr>-service koppelen aan een <abbr title="Web Map Service">WMS</abbr>.</p>
+<p>Ondersteuning voor <strong><abbr title="Web Map Service">WMS</abbr>-selecties</strong>: Het is nu mogelijk om selecties te maken op <abbr title="Web Map Service">WMS</abbr>-lagen door een <abbr title="Web Feature Service">WFS</abbr> aan de <abbr title="Web Map Service">WMS</abbr> te
+  koppelen. MapGallery haalt vervolgens de geselecteerde gegevens via de <abbr title="Web Feature Service">WFS</abbr> op en toont deze in de viewer. Beheerders
+  kunnen eenvoudig via de beheeromgeving een <abbr title="Web Feature Service">WFS</abbr>-service koppelen aan een <abbr title="Web Map Service">WMS</abbr>.</p>
 </li>
 <li>
-<p>Optimalisatie van <strong>vector data</strong>: Vector data (zoals <abbr title="Web Feature Service">WFS</abbr>, GeoJSON of REST <abbr title="Application Programming Interface">API</abbr>’s) worden nu opgehaald en verwerkt in een aparte worker thread. Dit voorkomt geheugengerelateerde bugs en zorgt voor een stabielere en snellere viewer. Ook het doorzoeken van vector data gebeurt nu op de achtergrond, zonder dat de browser vastloopt.</p>
+<p>Optimalisatie van <strong>vector data</strong>: Vector data (zoals <abbr title="Web Feature Service">WFS</abbr>, GeoJSON of REST <abbr title="Application Programming Interface">API</abbr>’s) worden nu opgehaald en verwerkt in
+  een aparte worker thread. Dit voorkomt geheugengerelateerde bugs en zorgt voor een stabielere en snellere viewer. Ook
+  het doorzoeken van vector data gebeurt nu op de achtergrond, zonder dat de browser vastloopt.</p>
 </li>
 <li>
-<p><strong>Herlaadknop</strong> bij foutmeldingen in kaartlagen: Wanneer een kaartlaag een foutmelding geeft (bijvoorbeeld door een tijdelijk onbeschikbare externe service), biedt MapGallery nu de mogelijkheid om eenvoudig opnieuw te laden. Door op het woord 'Fout' te klikken, verschijnt bovendien gedetailleerde foutinformatie.</p>
+<p><strong>Herlaadknop</strong> bij foutmeldingen in kaartlagen: Wanneer een kaartlaag een foutmelding geeft (bijvoorbeeld door een
+  tijdelijk onbeschikbare externe service), biedt MapGallery nu de mogelijkheid om eenvoudig opnieuw te laden. Door op
+  het woord 'Fout' te klikken, verschijnt bovendien gedetailleerde foutinformatie.</p>
 </li>
 <li>
-<p>Verbeteringen in de <strong>legenda</strong>: De legenda toont nu ook <abbr title="Web Map Service">WMS</abbr>-layergroepen, een symbool voor lagen zonder legenda en een standaardafbeelding voor geparametriseerde symbolen.</p>
+<p>Verbeteringen in de <strong>legenda</strong>: De legenda toont nu ook <abbr title="Web Map Service">WMS</abbr>-layergroepen, een symbool voor lagen zonder legenda en
+  een standaardafbeelding voor geparametriseerde symbolen.</p>
 </li>
 <li>
 <p>Overige <strong>verbeteringen</strong> en <strong>bugfixes</strong>:</p>
@@ -1810,13 +1915,23 @@ Beheerders kunnen nu zelf een koppeling met Azure Active Directory instellen via
 <p>Deze update richt zich op beter beheer en een aansluiting op donkere modus. Hieronder een overzicht van de belangrijkste
 verbeteringen:</p>
 <ul>
-<li><strong>Donkere modus</strong>: MapGallery ondersteunt nu <strong>donkere modus</strong>, ideaal voor avondgebruik of als je de donkere weergave prettiger vindt. De modus wordt automatisch ingeschakeld wanneer je systeemkleur op 'donker' staat.</li>
-<li>Gebruikers kunnen nu eenvoudig hun <strong>wachtwoord resetten</strong> via de inlogpagina. Bij het inloggen kun je op <strong>‘Wachtwoord vergeten’</strong> klikken om een resetlink per e-mail te ontvangen. Nieuw geregistreerde gebruikers ontvangen automatisch een reset-token tijdens het onboarden, zodat ze direct een wachtwoord kunnen instellen.</li>
-<li>Verbeterde onboarding: Nieuwe gebruikers ontvangen nu een <strong>welkomstmail</strong> met een introductie van MapGallery, een link naar de documentatie en toegang tot ons supportkanaal. Dit helpt nieuwe gebruikers sneller hun weg te vinden in de applicatie.</li>
-<li>Koppeling van <strong>gerelateerde kaartlagen</strong>: Beheerders kunnen nu gerelateerde kaartlagen koppelen aan een Collectie. Deze kaartlagen worden overzichtelijk weergegeven onder de zoekbalk, gegroepeerd in subcategorieën voor snelle toegang.</li>
-<li>Thema-kleur aanpassen: Beheerders kunnen nu de <strong>hoofdkleur van het thema aanpassen</strong> in de beheerinterface. Hierdoor kan MapGallery beter worden afgestemd op de huisstijl van de organisatie.</li>
-<li>Wekelijkse statusmail: Beheerders ontvangen voortaan een <strong>wekelijkse e-mail</strong> met een overzicht van services die mogelijk haperen. Dit helpt bij het sneller opsporen en oplossen van problemen.</li>
-<li>Overige verbeteringen &amp; bugfixes: Verbeterd en overzichtelijker <strong>layer-overzicht</strong> en betere navigatie met browserknoppen (terug/vooruit). Stabiliteitsverbeteringen en diverse bugfixes.</li>
+<li><strong>Donkere modus</strong>: MapGallery ondersteunt nu <strong>donkere modus</strong>, ideaal voor avondgebruik of als je de donkere weergave
+  prettiger vindt. De modus wordt automatisch ingeschakeld wanneer je systeemkleur op 'donker' staat.</li>
+<li>Gebruikers kunnen nu eenvoudig hun <strong>wachtwoord resetten</strong> via de inlogpagina. Bij het inloggen kun je op *
+  <em>‘Wachtwoord vergeten’</em>* klikken om een resetlink per e-mail te ontvangen. Nieuw geregistreerde gebruikers ontvangen
+  automatisch een reset-token tijdens het onboarden, zodat ze direct een wachtwoord kunnen instellen.</li>
+<li>Verbeterde onboarding: Nieuwe gebruikers ontvangen nu een <strong>welkomstmail</strong> met een introductie van MapGallery, een
+  link naar de documentatie en toegang tot ons supportkanaal. Dit helpt nieuwe gebruikers sneller hun weg te vinden in
+  de applicatie.</li>
+<li>Koppeling van <strong>gerelateerde kaartlagen</strong>: Beheerders kunnen nu gerelateerde kaartlagen koppelen aan een Collectie.
+  Deze kaartlagen worden overzichtelijk weergegeven onder de zoekbalk, gegroepeerd in subcategorieën voor snelle
+  toegang.</li>
+<li>Thema-kleur aanpassen: Beheerders kunnen nu de <strong>hoofdkleur van het thema aanpassen</strong> in de beheerinterface. Hierdoor
+  kan MapGallery beter worden afgestemd op de huisstijl van de organisatie.</li>
+<li>Wekelijkse statusmail: Beheerders ontvangen voortaan een <strong>wekelijkse e-mail</strong> met een overzicht van services die
+  mogelijk haperen. Dit helpt bij het sneller opsporen en oplossen van problemen.</li>
+<li>Overige verbeteringen &amp; bugfixes: Verbeterd en overzichtelijker <strong>layer-overzicht</strong> en betere navigatie met
+  browserknoppen (terug/vooruit). Stabiliteitsverbeteringen en diverse bugfixes.</li>
 </ul>
 <h3 id="73-oktober-2024">7.3 <small>oktober 2024</small></h3>
 <p>Deze update richt zich op de integratie en verbetering van de documentatie en het uitbreiden van onze
