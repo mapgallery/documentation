@@ -110,7 +110,8 @@ klikken en deze naar boven of beneden te slepen.
 Voor het animeren van data kunnen verschillende parameters worden ingesteld:
 
 * _Veldnaam_: Het veld dat wordt gebruikt voor de animatie.
-* _Vergelijking_ + _waarde_: Bepaalt welke data zichtbaar is. Het is mogelijk om alleen symbolen weer te geven die gelijk
+* _Vergelijking_ + _waarde_: Bepaalt welke data zichtbaar is. Het is mogelijk om alleen symbolen weer te geven die
+  gelijk
   zijn aan een specifieke
   waarde (`== ${value}`), of om cumulatieve data te tonen waarbij de dataset zich geleidelijk uitbreidt (`<= ${value}`).
 * _Startwaarde_ + _stapgrootte_: De waarde waarmee de animatie start en de grootte van de stappen waarin de data wordt
@@ -132,7 +133,8 @@ Het veld Verversen bepaalt in seconden hoe vaak de data opnieuw wordt opgehaald 
 #### Tabblad Style
 
 De Style tab geeft de mogelijkheid om de stijl van een kaartlaag te configureren. Dit omvat het aanpassen van visuele
-eigenschappen zoals symbolen, kleuren, groottes, en andere weergaveopties.
+eigenschappen zoals symbolen, kleuren, groottes, en andere weergaveopties. Zie voor meer informatie over de
+stijlmogelijkheden [Tabblad Style](./layer-style.md).
 
 **Legenda**: Aan de linkerkant van de pagina zie je de legenda die een overzicht geeft van de symbolen en stijlen die op
 de
@@ -141,8 +143,36 @@ kaartlaag worden toegepast.
 **JSON** configuratie: Aan de rechterkant van de pagina kun je de JSON-code zien die de stijl van de kaartlaag
 definieert. De syntax die gebruikt wordt is gebaseerd op [GeoStyler](https://geostyler.org).
 
-**Genereer style**: Hiermee kun je automatisch een standaardstijl genereren voor de kaartlaag, gebaseerd op de
-attributen die in de laag aanwezig zijn. Dit is handig als je snel een eenvoudige weergave wilt maken.
+**Genereer style**: Met deze functie kun je automatisch een standaardstijl genereren voor een kaartlaag, gebaseerd op de
+attributen die in de laag aanwezig zijn. Dit is vooral handig wanneer je snel een eenvoudige, maar duidelijke weergave
+van de data wilt maken. Zie ook: [MapGallery GeoStyler kookboek](https://geostyler.mapgallery.eu).
+
+Bij het aanmaken van een stijl zijn er verschillende instellingen en keuzes beschikbaar:
+
+##### Kies het juiste geometrietype
+
+Bepaal eerst het type geometrie van de kaartlaag: punt, lijn of vlak. Dit is essentieel, omdat elke geometrie specifieke
+stylingopties heeft.
+
+##### Styling voor punten
+
+Je kunt kiezen tussen een eenvoudig symbool of een afbeelding (via een hyperlink).
+
+Als je geen afbeelding gebruikt en geen categoriegebaseerde weergave wilt, kun je de kleur van het symbool instellen om
+de punten monochroom weer te geven.
+
+##### Weergave op categorie
+
+Kies “Weergave op categorie” wanneer je verschillende symbolen of kleuren wilt gebruiken voor meerdere categorieën
+binnen de kaartlaag. Selecteer vervolgens het attribuutveld dat gebruikt moet worden voor de categorisatie. De stijl (
+zoals vulling, randkleur, symbooltype, enzovoort) wordt automatisch gegenereerd voor elke categorie. Indien gewenst kun
+je de automatisch aangemaakte stijlen handmatig aanpassen in het codeveld.
+
+##### Labels weergeven
+
+Activeer “Labels tonen” om tekstlabels aan de kaart toe te voegen. Kies het veld dat als labeltekst moet worden
+weergegeven. Labels hebben hun eigen reeks stylingopties (zoals lettertype, grootte, kleur en plaatsing). Voor meer
+informatie over labelopties, zie ook [MapGallery GeoStyler kookboek](https://geostyler.mapgallery.eu).
 
 **Extra**: Met deze knop kun je de stijl exporteren naar SLD of Mapbox, of een stijl vanuit SLD of Mapbox importeren.
 
