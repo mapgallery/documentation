@@ -1513,6 +1513,48 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Tabblad Style">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kies-het-juiste-geometrietype" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kies het juiste geometrietype
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#styling-voor-punten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Styling voor punten
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weergave-op-categorie" class="md-nav__link">
+    <span class="md-ellipsis">
+      Weergave op categorie
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#labels-weergeven" class="md-nav__link">
+    <span class="md-ellipsis">
+      Labels weergeven
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -1837,6 +1879,48 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Tabblad Style">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kies-het-juiste-geometrietype" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kies het juiste geometrietype
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#styling-voor-punten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Styling voor punten
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weergave-op-categorie" class="md-nav__link">
+    <span class="md-ellipsis">
+      Weergave op categorie
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#labels-weergeven" class="md-nav__link">
+    <span class="md-ellipsis">
+      Labels weergeven
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -2129,7 +2213,8 @@ klikken en deze naar boven of beneden te slepen.</p>
 <p>Voor het animeren van data kunnen verschillende parameters worden ingesteld:</p>
 <ul>
 <li><em>Veldnaam</em>: Het veld dat wordt gebruikt voor de animatie.</li>
-<li><em>Vergelijking</em> + <em>waarde</em>: Bepaalt welke data zichtbaar is. Het is mogelijk om alleen symbolen weer te geven die gelijk
+<li><em>Vergelijking</em> + <em>waarde</em>: Bepaalt welke data zichtbaar is. Het is mogelijk om alleen symbolen weer te geven die
+  gelijk
   zijn aan een specifieke
   waarde (<code>== ${value}</code>), of om cumulatieve data te tonen waarbij de dataset zich geleidelijk uitbreidt (<code>&lt;= ${value}</code>).</li>
 <li><em>Startwaarde</em> + <em>stapgrootte</em>: De waarde waarmee de animatie start en de grootte van de stappen waarin de data wordt
@@ -2145,14 +2230,33 @@ echter in een schakelknop waarmee tussen verschillende hoogtes of verdiepingen k
 <p>Het veld Verversen bepaalt in seconden hoe vaak de data opnieuw wordt opgehaald bij de service.</p>
 <h4 id="tabblad-style">Tabblad Style</h4>
 <p>De Style tab geeft de mogelijkheid om de stijl van een kaartlaag te configureren. Dit omvat het aanpassen van visuele
-eigenschappen zoals symbolen, kleuren, groottes, en andere weergaveopties.</p>
+eigenschappen zoals symbolen, kleuren, groottes, en andere weergaveopties. Zie voor meer informatie over de
+stijlmogelijkheden <a href="./layer-style.md">Tabblad Style</a>.</p>
 <p><strong>Legenda</strong>: Aan de linkerkant van de pagina zie je de legenda die een overzicht geeft van de symbolen en stijlen die op
 de
 kaartlaag worden toegepast.</p>
 <p><strong>JSON</strong> configuratie: Aan de rechterkant van de pagina kun je de JSON-code zien die de stijl van de kaartlaag
 definieert. De syntax die gebruikt wordt is gebaseerd op <a href="https://geostyler.org">GeoStyler</a>.</p>
-<p><strong>Genereer style</strong>: Hiermee kun je automatisch een standaardstijl genereren voor de kaartlaag, gebaseerd op de
-attributen die in de laag aanwezig zijn. Dit is handig als je snel een eenvoudige weergave wilt maken.</p>
+<p><strong>Genereer style</strong>: Met deze functie kun je automatisch een standaardstijl genereren voor een kaartlaag, gebaseerd op de
+attributen die in de laag aanwezig zijn. Dit is vooral handig wanneer je snel een eenvoudige, maar duidelijke weergave
+van de data wilt maken. Zie ook: <a href="https://geostyler.mapgallery.eu">MapGallery GeoStyler kookboek</a>.</p>
+<p>Bij het aanmaken van een stijl zijn er verschillende instellingen en keuzes beschikbaar:</p>
+<h5 id="kies-het-juiste-geometrietype">Kies het juiste geometrietype</h5>
+<p>Bepaal eerst het type geometrie van de kaartlaag: punt, lijn of vlak. Dit is essentieel, omdat elke geometrie specifieke
+stylingopties heeft.</p>
+<h5 id="styling-voor-punten">Styling voor punten</h5>
+<p>Je kunt kiezen tussen een eenvoudig symbool of een afbeelding (via een hyperlink).</p>
+<p>Als je geen afbeelding gebruikt en geen categoriegebaseerde weergave wilt, kun je de kleur van het symbool instellen om
+de punten monochroom weer te geven.</p>
+<h5 id="weergave-op-categorie">Weergave op categorie</h5>
+<p>Kies “Weergave op categorie” wanneer je verschillende symbolen of kleuren wilt gebruiken voor meerdere categorieën
+binnen de kaartlaag. Selecteer vervolgens het attribuutveld dat gebruikt moet worden voor de categorisatie. De stijl (
+zoals vulling, randkleur, symbooltype, enzovoort) wordt automatisch gegenereerd voor elke categorie. Indien gewenst kun
+je de automatisch aangemaakte stijlen handmatig aanpassen in het codeveld.</p>
+<h5 id="labels-weergeven">Labels weergeven</h5>
+<p>Activeer “Labels tonen” om tekstlabels aan de kaart toe te voegen. Kies het veld dat als labeltekst moet worden
+weergegeven. Labels hebben hun eigen reeks stylingopties (zoals lettertype, grootte, kleur en plaatsing). Voor meer
+informatie over labelopties, zie ook <a href="https://geostyler.mapgallery.eu">MapGallery GeoStyler kookboek</a>.</p>
 <p><strong>Extra</strong>: Met deze knop kun je de stijl exporteren naar SLD of Mapbox, of een stijl vanuit SLD of Mapbox importeren.</p>
 <h3 id="acties_1">Acties</h3>
 <p>Rechtsboven in het overzicht bevinden zich de actie knoppen.</p>
