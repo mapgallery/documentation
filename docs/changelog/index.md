@@ -47,7 +47,7 @@ Deze release bevat belangrijke verbeteringen voor snelheid, stabiliteit en funct
 * Ondersteuning voor **animaties**.
   Beheerders kunnen nu animaties configureren voor WMS-, WFS- en TileJSON-kaartlagen. Vergelijkbaar met de werking van
   buienradar. Diverse parameters zijn instelbaar voor volledige controle over de animatie. Een gedetailleerd stappenplan
-  is te vinden in [de documentatie](/admin/layers/#tabblad-interacties).
+  is te vinden in [de documentatie](../admin/layers/#tabblad-interacties).
 
 * De **gerelateerde kaartlagen** sectie is verbeterd.
   De lay-out van de gerelateerde kaartlagen is vereenvoudigd en consistenter gemaakt, met duidelijke tussenkopjes voor
