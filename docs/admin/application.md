@@ -64,6 +64,7 @@ Graph App Manifest.
 * Klik op **Add** en vervolgens **App registration**
 * Geef een herkenbare naam op (bijv. MapGallery WebGIS), kies bij _Ondersteunde accounttypen_ de optie **Default
   Directory only**. Je kunt _Redirect URI_ overslaan.
+* De scopes die door MapGallery worden gebruik zijn: **openid profile email offline_access**
 * Klik op **Register**
 
 #### Stap 2: Genereer manifest in MapGallery
