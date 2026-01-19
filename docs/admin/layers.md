@@ -103,6 +103,63 @@ klikken en deze naar boven of beneden te slepen.
 
 **Hernoemen** van velden: Je kunt de naam van de velden aanpassen door een andere waarden in te vullen.
 
+#### Tabblad WFS/WMS opties 
+**WFS opties** geeft de mogelijkheid om:
+
+a) te filteren op een numerieke attribuutwaarde met het “CQL filter”
+<div style="margin-left: 1em;"> 
+
+* “attribuut-ID” [rekenoperator] (numerieke waarde)
+* voorbeeldattribuut = 100 (In dit geval worden alleen de objecten (zoals punten, etc.) weergegeven waarvoor het voorbeeldattribuut exact de waarde 100 heeft)
+* De attribuut-ID die je moet gebruiken, vind je terug onder het tabblad Velden
+* Rekentekens zoals <, >, = kunnen hiervoor worden gebruikt
+</div>
+
+OF
+
+b) Symbolen of objecten alleen weergeven binnen een gewenst gebied dat overeenkomt met een bepaald zoomniveau
+<div style="margin-left: 1em;"> 
+
+* Hiervoor vul je een passende waarde in bij “Kaartweergave start zoomniveau”
+* Richtwaarden voor zoomniveaus: 1 = de hele wereld, 7 = een land, 11 = een stad, 15 = een straat, 18 = een huis
+* Daarnaast moet het selectievakje “Gedeeltelijk WFS-verzoek” worden aangevinkt
+Deze optie is vooral handig bij zware kaartlagen.
+</div>
+
+**Let op:** opties a) en b) kunnen niet gecombineerd worden.
+
+**Tip:** leeg regelmatig je cache via Beheer om het gewenste resultaat te krijgen. Dit is ook een goede eerste stap als je problemen ervaart met filters.
+
+**WMS opties** geeft de mogelijkheid om:
+
+a) te filteren op een numerieke attribuutwaarde met het “CQL filter” (zie WFS opties a))
+
+EN/OF
+
+b) te bepalen hoe kaartafbeeldingen door de server worden opgevraagd en weergegeven met de instelling “Image handling”
+
+1. Single Image: De kaart vraagt telkens één grote afbeelding op voor het volledige kaartgebied wanneer je in- of uitzoomt of de kaart verschuift.
+<div style="margin-left: 1em;"> 
+
+* Goed voor kleine kaartlagen 
+* Voordelen: Makkelijk te renderen, ziet er naadloos uit (geen tegelranden).
+* Nadelen: Kan traag zijn voor grote kaarten, in- en uitzoomen kan merkbare laadtijd veroorzaken.
+</div>
+
+2. Tiled Images: De kaart vraagt veel kleinere tegels op in plaats van één grote afbeelding.
+<div style="margin-left: 1em;"> 
+
+* Goed voor zware kaartlagen
+* Voordelen: Sneller laden > Alleen de tegels die veranderen bij zoomen hoeven opnieuw te worden opgevraagd
+* Nadelen: Licht zichtbare tegelranden terwijl het laden
+</div>
+
+En/OF
+
+
+c) Ook de "Style" (default of SLD) en het "Legenda type " kunnen worden geselecteerd.
+Opties kunnen wel gecombineerd worden.
+
 #### Tabblad Interacties
 
 **Animatie**
