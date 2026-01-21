@@ -1498,6 +1498,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#tabblad-wfswms-opties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabblad WFS/WMS opties
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#tabblad-interacties" class="md-nav__link">
     <span class="md-ellipsis">
       Tabblad Interacties
@@ -1864,6 +1873,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#tabblad-wfswms-opties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabblad WFS/WMS opties
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#tabblad-interacties" class="md-nav__link">
     <span class="md-ellipsis">
       Tabblad Interacties
@@ -2208,6 +2226,56 @@ kaartinterface.</p>
 te
 klikken en deze naar boven of beneden te slepen.</p>
 <p><strong>Hernoemen</strong> van velden: Je kunt de naam van de velden aanpassen door een andere waarden in te vullen.</p>
+<h4 id="tabblad-wfswms-opties">Tabblad <abbr title="Web Feature Service">WFS</abbr>/<abbr title="Web Map Service">WMS</abbr> opties</h4>
+<p><strong><abbr title="Web Feature Service">WFS</abbr> opties</strong> geeft de mogelijkheid om:</p>
+<p>a) te filteren op een numerieke attribuutwaarde met het “CQL filter”</p>
+<div style="margin-left: 1em;"> 
+
+* “attribuut-ID” [rekenoperator] (numerieke waarde)
+* voorbeeldattribuut = 100 (In dit geval worden alleen de objecten (zoals punten, etc.) weergegeven waarvoor het voorbeeldattribuut exact de waarde 100 heeft)
+* De attribuut-ID die je moet gebruiken, vind je terug onder het tabblad Velden
+* Rekentekens zoals <, >, = kunnen hiervoor worden gebruikt
+</div>
+
+<p>OF</p>
+<p>b) Symbolen of objecten alleen weergeven binnen een gewenst gebied dat overeenkomt met een bepaald zoomniveau</p>
+<div style="margin-left: 1em;"> 
+
+* Hiervoor vul je een passende waarde in bij “Kaartweergave start zoomniveau”
+* Richtwaarden voor zoomniveaus: 1 = de hele wereld, 7 = een land, 11 = een stad, 15 = een straat, 18 = een huis
+* Daarnaast moet het selectievakje “Gedeeltelijk WFS-verzoek” worden aangevinkt
+Deze optie is vooral handig bij zware kaartlagen.
+</div>
+
+<p><strong>Let op:</strong> opties a) en b) kunnen niet gecombineerd worden.</p>
+<p><strong>Tip:</strong> leeg regelmatig je cache via Beheer om het gewenste resultaat te krijgen. Dit is ook een goede eerste stap als je problemen ervaart met filters.</p>
+<p><strong><abbr title="Web Map Service">WMS</abbr> opties</strong> geeft de mogelijkheid om:</p>
+<p>a) te filteren op een numerieke attribuutwaarde met het “CQL filter” (zie <abbr title="Web Feature Service">WFS</abbr> opties a))</p>
+<p>EN/OF</p>
+<p>b) te bepalen hoe kaartafbeeldingen door de server worden opgevraagd en weergegeven met de instelling “Image handling”</p>
+<ol>
+<li>Single Image: De kaart vraagt telkens één grote afbeelding op voor het volledige kaartgebied wanneer je in- of uitzoomt of de kaart verschuift.</li>
+</ol>
+<div style="margin-left: 1em;"> 
+
+* Goed voor kleine kaartlagen 
+* Voordelen: Makkelijk te renderen, ziet er naadloos uit (geen tegelranden).
+* Nadelen: Kan traag zijn voor grote kaarten, in- en uitzoomen kan merkbare laadtijd veroorzaken.
+</div>
+
+<ol>
+<li>Tiled Images: De kaart vraagt veel kleinere tegels op in plaats van één grote afbeelding.</li>
+</ol>
+<div style="margin-left: 1em;"> 
+
+* Goed voor zware kaartlagen
+* Voordelen: Sneller laden > Alleen de tegels die veranderen bij zoomen hoeven opnieuw te worden opgevraagd
+* Nadelen: Licht zichtbare tegelranden terwijl het laden
+</div>
+
+<p>En/OF</p>
+<p>c) Ook de "Style" (default of SLD) en het "Legenda type " kunnen worden geselecteerd.
+Opties kunnen wel gecombineerd worden.</p>
 <h4 id="tabblad-interacties">Tabblad Interacties</h4>
 <p><strong>Animatie</strong></p>
 <p>Voor het animeren van data kunnen verschillende parameters worden ingesteld:</p>
@@ -2379,7 +2447,7 @@ kaartlaag handmatig kunt invoeren.</p>
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2016 - 2025 MapGallery B.V.
+      Copyright &copy; 2016 - 2026 MapGallery B.V.
     </div>
   
   
