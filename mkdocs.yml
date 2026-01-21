@@ -10,7 +10,7 @@ extra:
   homepage: https://mapgallery.eu
   social:
     - icon: fontawesome/solid/paper-plane
-      link: mailto:<info@mapgallery.eu>
+      link: mailto:info@mapgallery.eu
     - icon: fontawesome/brands/github
       link: https://github.com/mapgallery
     - icon: fontawesome/brands/linkedin
