@@ -5,14 +5,15 @@ title: "Vragen & Support"
 Via de zoekbalk rechtsboven kun je direct deze documentatie doorzoeken en snel handleidingen en stappenplannen vinden
 voor het onderdeel waar je aan werkt.
 
+Bekijk onze website op [mapgallery.eu](https://mapgallery.eu) voor nieuws en achtergronden.
+
 ### Updates
 
 Voor de laatste updates binnen MapGallery kun je het lampje (![](/assets/svg/updates.svg)) rechtsboven aanklikken. Deze
 updates zijn ook te vinden op [docs.mapgallery.eu/latest/changelog](https://docs.mapgallery.eu/latest/changelog/), waar
-we de meest recente
-wijzigingen en verbeteringen delen.
+we de meest recente wijzigingen en verbeteringen delen.
 
-Volg ons ook op [LinkedIn](https://www.linkedin.com/company/mapgallery/) voor nieuws en aankondigingen.
+Volg ons ook op [LinkedIn](https://www.linkedin.com/company/mapgallery/) voor aankondigingen.
 
 ### Suggesties
 

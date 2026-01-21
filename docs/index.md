@@ -4,7 +4,7 @@ title: "Welkom"
 
 # {{ config.site_name }}
 
-Welkom bij de documentatie voor MapGallery, de complete gids voor het beheren, configureren en gebruiken van kaartlagen
+Welkom bij de documentatie voor [MapGallery](https://mapgallery.eu), de complete gids voor het beheren, configureren en gebruiken van kaartlagen
 en collecties. Deze handleiding helpt je op weg met het platform, of je nu nieuw bent of al ervaring hebt met
 geospatiale applicaties.
 
@@ -13,7 +13,7 @@ gebruikerstype. Navigeer door de verschillende secties op basis van jouw behoeft
 het zowel zelfstandig als in combinatie met andere secties bruikbaar is. Gebruik de zoekfunctie om snel de juiste
 handleidingen te vinden voor het onderwerp waar je mee bezig bent.
 
-Veel plezier met het gebruik van MapGallery!
+Veel plezier met het gebruik van [MapGallery](https://mapgallery.eu)!
 
 ## Aan de slag
 
