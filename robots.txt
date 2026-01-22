@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /develop/
+Disallow: /7.3/
+Disallow: /7.4/
+Disallow: /7.5/
+Disallow: /7.6/
+Disallow: /7.7/
+Disallow: /7.8/
+Disallow: /7.9/
+Disallow: /8.0/
