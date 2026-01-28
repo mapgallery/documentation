@@ -2,6 +2,31 @@
 
 ## MapGallery webGIS
 
+### 7.8 <small>januari 2026</small>
+
+Nieuwe versie MapGallery 7.8 met belangrijke verbeteringen in snelheid, stabiliteit en functionaliteit.
+
+👤 Voor gebruikers
+
+* **Nieuw MapGallery-logo.** De applicatie heeft een nieuw logo dat beter aansluit bij de uitstraling en herkenbaarheid van het product.
+
+* **Uitgebreide filterfunctionaliteit.** Filters zijn nu rechtstreeks te bouwen op kaartlagen uit WFS, GeoJSON en REST API-bronnen. 
+    * Gebruikers kunnen eenvoudig veld, conditie en waarde selecteren.
+    * De waarden worden automatisch aangevuld aan de hand van de dataset.
+    * Bij meerdere filtercondities kan worden gekozen tussen AND/OR-logica.
+    * Tijdens het filteren worden direct aantallen weergegeven voor de gefilterde objecten.
+    * De vertrouwde manier van filteren via feature-info blijft beschikbaar en werkt samen met de nieuwe filtertool.
+
+⚙️ Voor beheerders
+
+* **Waarschuwing bij niet-opgeslagen wijzigingen.** Beheerders krijgen een melding wanneer zij een pagina willen verlaten terwijl wijzigingen nog niet zijn opgeslagen.
+
+* **Visuele status uitgeschakelde kaartlagen/services.** In overzichtsschermen worden kaartlagen en services die zijn uitgeschakeld nu grijs weergegeven, zodat direct zichtbaar is wat niet actief is.
+
+* **Verbeterde automatische e-mailnotificaties.** Automatische mails worden aangepast zodat het duidelijk is dat deze berichten automatisch zijn gegenereerd.
+
+* **Aanpasbare helptekst in helpdialoogvenster.** Het is nu mogelijk om op aanvraag een eigen helptekst weer te geven in het helpvenster (bijv. verwijzing naar interne documentatie of een mail adres).
+
 ### 7.7 <small>oktober 2025</small>
 
 Deze release bevat belangrijke verbeteringen voor snelheid, stabiliteit en functionaliteit.
