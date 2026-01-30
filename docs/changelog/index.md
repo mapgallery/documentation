@@ -8,9 +8,11 @@ Nieuwe versie MapGallery 7.8 met belangrijke verbeteringen in snelheid, stabilit
 
 👤 Voor gebruikers
 
-* **Nieuw MapGallery-logo.** De applicatie heeft een nieuw logo dat beter aansluit bij de uitstraling en herkenbaarheid van het product.
+* **Nieuw MapGallery-logo.** De applicatie heeft een nieuw logo dat beter aansluit bij de uitstraling en herkenbaarheid
+  van het product.
 
-* **Uitgebreide filterfunctionaliteit.** Filters zijn nu rechtstreeks te bouwen op kaartlagen uit WFS, GeoJSON en REST API-bronnen. 
+* **Uitgebreide filterfunctionaliteit.** Filters zijn nu rechtstreeks te bouwen op kaartlagen uit WFS, GeoJSON en REST
+  API-bronnen.
     * Gebruikers kunnen eenvoudig veld, conditie en waarde selecteren.
     * De waarden worden automatisch aangevuld aan de hand van de dataset.
     * Bij meerdere filtercondities kan worden gekozen tussen AND/OR-logica.
@@ -19,13 +21,20 @@ Nieuwe versie MapGallery 7.8 met belangrijke verbeteringen in snelheid, stabilit
 
 ⚙️ Voor beheerders
 
-* **Waarschuwing bij niet-opgeslagen wijzigingen.** Beheerders krijgen een melding wanneer zij een pagina willen verlaten terwijl wijzigingen nog niet zijn opgeslagen.
+* **Waarschuwing bij niet-opgeslagen wijzigingen.** Beheerders krijgen een melding wanneer zij een pagina willen
+  verlaten terwijl wijzigingen nog niet zijn opgeslagen.
 
-* **Visuele status uitgeschakelde kaartlagen/services.** In overzichtsschermen worden kaartlagen en services die zijn uitgeschakeld nu grijs weergegeven, zodat direct zichtbaar is wat niet actief is.
+* **Export van configuratie.** Beheerders kunnen nu de categorieën, collecties, gebruikers, groepen, kaartlagen, services
+  en zoekwoorden exporteren naar een CSV of JSON voor verdere analyse of rapportage. Dit zit bij Beheer -> Applicatie -> Exporteren.
 
-* **Verbeterde automatische e-mailnotificaties.** Automatische mails worden aangepast zodat het duidelijk is dat deze berichten automatisch zijn gegenereerd.
+* **Visuele status uitgeschakelde kaartlagen/services.** In overzichtsschermen worden kaartlagen en services die zijn
+  uitgeschakeld nu grijs weergegeven, zodat direct zichtbaar is wat niet actief is.
 
-* **Aanpasbare helptekst in helpdialoogvenster.** Het is nu mogelijk om op aanvraag een eigen helptekst weer te geven in het helpvenster (bijv. verwijzing naar interne documentatie of een mail adres).
+* **Verbeterde automatische e-mailnotificaties.** De automatische mails zijn aangepast zodat het duidelijk is dat deze
+  berichten automatisch zijn gegenereerd.
+
+* **Aanpasbare helptekst in helpdialoogvenster.** Het is nu mogelijk om op aanvraag een eigen helptekst weer te geven in
+  het helpvenster. Dit is handig voor bijvoorbeeld verwijzing naar interne documentatie of een mailadres.
 
 ### 7.7 <small>oktober 2025</small>
 
