@@ -24,7 +24,7 @@ klikken, kan het actieve filter worden aangepast.
 
 Afhankelijk van het type data kun je verschillende vergelijkingsopties gebruiken:
 
-* **Tekstvelden**: Hier kun je filteren op basis van exacte matches (==) of uitsluitingen (!=).
+* **Tekstvelden**: Hier kun je filteren op basis van exacte matches (==), uitsluitingen (!=) of een substring (bevat).
 * **Numerieke** velden: Naast exacte match en uitsluiten, kun je kiezen voor groter dan (>) of kleiner dan (<) om numerieke
   waardes te filteren.
 
