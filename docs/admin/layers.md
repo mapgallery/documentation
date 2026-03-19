@@ -91,8 +91,10 @@ een komma.
 
 #### Tabblad Velden
 
-Biedt de mogelijkheid om de attribuutinformatie van deze kaartlaag aan te passen. Je kunt hier de volgorde,
-zichtbaarheid en namen van de velden wijzigen.
+Biedt de mogelijkheid om de attribuutinformatie van deze kaartlaag aan te passen. Er zijn twee opties: velden en template.
+
+##### Velden
+Je kunt hier de volgorde, zichtbaarheid en namen van de velden wijzigen.
 
 **Zichtbaarheid**: Als het selectievakje is aangevinkt, betekent dit dat het betreffende veld zichtbaar is in de
 kaartinterface.
@@ -102,6 +104,11 @@ te
 klikken en deze naar boven of beneden te slepen.
 
 **Hernoemen** van velden: Je kunt de naam van de velden aanpassen door een andere waarden in te vullen.
+
+##### Template
+In plaats van velden te selecteren kan er ook een template met behulp van html gemaakt worden. Deze template wordt gerenderd in het venster voor de attribuutinformatie.
+
+Alle standaard html wordt geaccepteerd. Door de veldnamen kunnen als volgt toegevoegd worden `${veldnaam}`
 
 #### Tabblad WFS/WMS opties 
 **WFS opties** geeft de mogelijkheid om:

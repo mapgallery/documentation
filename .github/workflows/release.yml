@@ -5,6 +5,7 @@ on:
     # Sequence of patterns matched against refs/heads
     branches-ignore:
       - 'main'
+      - 'draft/**'
 
 permissions:
   contents: write
