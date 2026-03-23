@@ -8,17 +8,17 @@ Nieuwe versie MapGallery 7.9 met toevoegingen en verbeteringen voor gebruikers e
 
 👤 Voor gebruikers
 
-* **Filterfunctionaliteit bevat.** In de filterfunctionaliteit van kaartlagen kan voor tekstvelden nu de filter `bevat`gebruikt worden. Deze filter kijkt of een stuk tekst in het veld voorkomt.
+* **Filterfunctionaliteit `bevat`.** In de filterfunctionaliteit van kaartlagen kan voor tekstvelden nu de filter `bevat` gebruikt worden. Deze filter kijkt of een stuk tekst in het veld voorkomt. Het filter is niet hoofdlettergevoelig.
 
-* **Aanpasbare elementgrootte.** De grootte van verschillende elementen kan nu aangepast. Bijvoorbeeld de breedte van de legenda of de hoogte van het streetview-venster.
+* **Aanpasbare elementgrootte.** De grootte van verschillende elementen kan nu aangepast worden. Bijvoorbeeld de breedte van de legenda of de hoogte van het streetview-venster.
 
-* **Legenda in kaartafbeelding.** De legenda kan nu worden weergegeven in de kaartafbeelding.
+* **Legenda in kaartafbeelding.** De legenda wordt nu weergegeven in de kaartafbeelding.
 
 ⚙️ Voor beheerders
 
-* **Attribuutinformatie Template.** De attribuutinformatie kan nu worden aangepast via een template. Doormiddel van HTML-code kan de opmaak volledig gepersonaliseerd worden. Voor meer informatie zie TODO:link toevoegen naar template documentatie 
+* **Attribuutinformatie Template.** De attribuutinformatie kan nu worden weergegeven via een template. Door middel van HTML-code kan de opmaak volledig gepersonaliseerd worden. Zie: TODO:link toevoegen naar template documentatie 
 
-* **Ondersteuning voor WellKnownMarks.** WellKnownMarks worden nu ondersteund bij het aanpassen van de stijl van een kaartlaag.
+* **Ondersteuning voor WellKnownMarks.** WellKnownMarks worden nu ondersteund bij het aanpassen van de stijl van een kaartlaag. De WellKnownMarks zijn `circle`, `square`, `triangle`, `star`, `cross` en `x`.
 
 * **Ondersteuning voor OGC API - Features.** MapGallery ondersteunt nu het OGC API - Features protocol. Deze kunnen nu net als andere protocollen worden toegevoegd. 
 
