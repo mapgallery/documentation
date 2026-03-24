@@ -4,14 +4,14 @@ title: "Welkom"
 
 # {{ config.site_name }}
 
-Welkom bij de documentatie voor [MapGallery](https://mapgallery.eu), de complete gids voor het beheren, configureren en gebruiken van kaartlagen
-en collecties. Deze handleiding helpt je op weg met het platform, of je nu nieuw bent of al ervaring hebt met
-geospatiale applicaties.
+Welkom bij de documentatie voor [MapGallery](https://mapgallery.eu), de complete gids voor het beheren, configureren en
+gebruiken van kaartlagen en collecties. Deze handleiding helpt je op weg met het platform, of je nu nieuw bent of al
+ervaring hebt met geospatiale applicaties.
 
-![](/assets/logo.png#left) Deze documentatie biedt snelle toegang tot alles wat je nodig hebt om efficiënt aan de slag te gaan, afgestemd op jouw
-gebruikerstype. Navigeer door de verschillende secties op basis van jouw behoeften. Elk onderdeel is zo geschreven dat
-het zowel zelfstandig als in combinatie met andere secties bruikbaar is. Gebruik de zoekfunctie om snel de juiste
-handleidingen te vinden voor het onderwerp waar je mee bezig bent.
+![](/assets/logo.png#left) Deze documentatie biedt snelle toegang tot alles wat je nodig hebt om efficiënt aan de slag
+te gaan, afgestemd op jouw gebruikerstype. Elk onderdeel is zo geschreven dat het zowel zelfstandig als in combinatie
+met andere secties bruikbaar is. Gebruik de zoekfunctie om snel de juiste handleidingen te vinden voor het onderwerp
+waar je mee bezig bent.
 
 Veel plezier met het gebruik van [MapGallery](https://mapgallery.eu)!
 
@@ -20,8 +20,7 @@ Veel plezier met het gebruik van [MapGallery](https://mapgallery.eu)!
 ### Aan de slag als gebruiker
 
 Wil je direct de kaartviewer gebruiken? Bezoek dan de sectie [Aan de slag met MapGallery als gebruiker](manual/) voor
-alle
-relevante informatie.
+alle relevante informatie.
 
 ### Aan de slag als beheerder
 
