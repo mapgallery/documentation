@@ -1495,6 +1495,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Tabblad Velden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#velden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Velden
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#template" class="md-nav__link">
+    <span class="md-ellipsis">
+      Template
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
@@ -1870,6 +1894,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Tabblad Velden">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#velden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Velden
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#template" class="md-nav__link">
+    <span class="md-ellipsis">
+      Template
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
@@ -2218,14 +2266,21 @@ halen. Dit heeft als voordeel dat meerdere layers als één MapGallery kaartlaag
 <p>Om dit te doen, klik hiervoor op de bewerk knop <img alt="" src="../../assets/svg/edit.svg" /> en voer de kaartlaag namen in, gescheiden met
 een komma.</p>
 <h4 id="tabblad-velden">Tabblad Velden</h4>
-<p>Biedt de mogelijkheid om de attribuutinformatie van deze kaartlaag aan te passen. Je kunt hier de volgorde,
-zichtbaarheid en namen van de velden wijzigen.</p>
+<p>Biedt de mogelijkheid om de attribuutinformatie van deze kaartlaag aan te passen. Er zijn twee opties: velden en template.</p>
+<h5 id="velden">Velden</h5>
+<p>Je kunt hier de volgorde, zichtbaarheid en namen van de velden wijzigen.</p>
 <p><strong>Zichtbaarheid</strong>: Als het selectievakje is aangevinkt, betekent dit dat het betreffende veld zichtbaar is in de
 kaartinterface.</p>
 <p><strong>Herordenen</strong> van velden: Je kunt de volgorde van de velden aanpassen door op de drie verticale puntjes naast het veld
 te
 klikken en deze naar boven of beneden te slepen.</p>
 <p><strong>Hernoemen</strong> van velden: Je kunt de naam van de velden aanpassen door een andere waarden in te vullen.</p>
+<h5 id="template">Template</h5>
+<p>In plaats van velden te selecteren kan er ook een template met behulp van html gemaakt worden. Deze template wordt gerenderd in het venster voor de attribuutinformatie.</p>
+<p><strong><abbr title="Hyper Text Markup Language">HTML</abbr></strong>-configuratie: Aan de linkerkant van de pagina kun je de <abbr title="Hyper Text Markup Language">HTML</abbr>-code zien die de opmaak van de informatie
+definieert.</p>
+<p><strong>Preview</strong>: Aan de rechterkant van de pagina zie je een preview die weergeeft hoe de template eruit ziet. Indien mogelijk wordt de eerste feature van de kaartlaag weergegeven als voorbeeld, anders komt hier de veldnaam in te staan.</p>
+<p><strong>Genereer lijst of tabel</strong>: Met deze functie kan er automatisch een standaard lijst of tabel gegenereerd worden als template op basis van de velden. Dit kan een goed begin zijn om verder op te bouwen</p>
 <h4 id="tabblad-wfswms-opties">Tabblad <abbr title="Web Feature Service">WFS</abbr>/<abbr title="Web Map Service">WMS</abbr> opties</h4>
 <p><strong><abbr title="Web Feature Service">WFS</abbr> opties</strong> geeft de mogelijkheid om:</p>
 <p>a) te filteren op een numerieke attribuutwaarde met het “CQL filter”</p>
@@ -2300,11 +2355,11 @@ echter in een schakelknop waarmee tussen verschillende hoogtes of verdiepingen k
 <p>De Style tab geeft de mogelijkheid om de stijl van een kaartlaag te configureren. Dit omvat het aanpassen van visuele
 eigenschappen zoals symbolen, kleuren, groottes, en andere weergaveopties. Zie voor meer informatie over de
 stijlmogelijkheden <a href="./layer-style.md">Tabblad Style</a>.</p>
-<p><strong>Legenda</strong>: Aan de linkerkant van de pagina zie je de legenda die een overzicht geeft van de symbolen en stijlen die op
+<p><strong>JSON</strong> configuratie: Aan de linker van de pagina is de JSON-code zien die de stijl van de kaartlaag
+definieert. De syntax die gebruikt wordt is gebaseerd op <a href="https://geostyler.org">GeoStyler</a>.</p>
+<p><strong>Legenda</strong>: Aan de rechterkant van de pagina zie je de legenda die een overzicht geeft van de symbolen en stijlen die op
 de
 kaartlaag worden toegepast.</p>
-<p><strong>JSON</strong> configuratie: Aan de rechterkant van de pagina kun je de JSON-code zien die de stijl van de kaartlaag
-definieert. De syntax die gebruikt wordt is gebaseerd op <a href="https://geostyler.org">GeoStyler</a>.</p>
 <p><strong>Genereer style</strong>: Met deze functie kun je automatisch een standaardstijl genereren voor een kaartlaag, gebaseerd op de
 attributen die in de laag aanwezig zijn. Dit is vooral handig wanneer je snel een eenvoudige, maar duidelijke weergave
 van de data wilt maken. Zie ook: <a href="https://geostyler.mapgallery.eu">MapGallery GeoStyler kookboek</a>.</p>
@@ -2313,7 +2368,7 @@ van de data wilt maken. Zie ook: <a href="https://geostyler.mapgallery.eu">MapGa
 <p>Bepaal eerst het type geometrie van de kaartlaag: punt, lijn of vlak. Dit is essentieel, omdat elke geometrie specifieke
 stylingopties heeft.</p>
 <h5 id="styling-voor-punten">Styling voor punten</h5>
-<p>Je kunt kiezen tussen een eenvoudig symbool of een afbeelding (via een hyperlink).</p>
+<p>Je kunt kiezen tussen eenvoudige symbolen of een afbeelding (via een hyperlink). De eenvoudige symbolen kunnen worden aangegeven door middel van de WellKnownMarks van geostyler. De opties zijn: <code>circle</code>, <code>square</code>, <code>triangle</code>, <code>star</code>, <code>cross</code> en <code>x</code>.</p>
 <p>Als je geen afbeelding gebruikt en geen categoriegebaseerde weergave wilt, kun je de kleur van het symbool instellen om
 de punten monochroom weer te geven.</p>
 <h5 id="weergave-op-categorie">Weergave op categorie</h5>
