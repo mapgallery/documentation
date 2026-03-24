@@ -130,6 +130,7 @@ kun je een {{ page.meta.vars.singular }} verwijderen.
   gegevens.
 * **WMTS**: Web Map Tile Service, een OGC-standaard voor het opvragen van kaartlagen als voorgerenderde tiles.
 * **XYZ**: Laag met een eenvoudige URL-structuur voor het laden van kaarten als rastertiles.
+* **OGC API - features**: OGC-standaard voor het uitwisselen van geografische data via een REST API.
 
 ## Een {{ page.meta.vars.singular }} verwijderen
 

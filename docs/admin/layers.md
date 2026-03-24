@@ -91,8 +91,10 @@ een komma.
 
 #### Tabblad Velden
 
-Biedt de mogelijkheid om de attribuutinformatie van deze kaartlaag aan te passen. Je kunt hier de volgorde,
-zichtbaarheid en namen van de velden wijzigen.
+Biedt de mogelijkheid om de attribuutinformatie van deze kaartlaag aan te passen. Er zijn twee opties: velden en template.
+
+##### Velden
+Je kunt hier de volgorde, zichtbaarheid en namen van de velden wijzigen.
 
 **Zichtbaarheid**: Als het selectievakje is aangevinkt, betekent dit dat het betreffende veld zichtbaar is in de
 kaartinterface.
@@ -102,6 +104,16 @@ te
 klikken en deze naar boven of beneden te slepen.
 
 **Hernoemen** van velden: Je kunt de naam van de velden aanpassen door een andere waarden in te vullen.
+
+##### Template
+In plaats van velden te selecteren kan er ook een template met behulp van html gemaakt worden. Deze template wordt gerenderd in het venster voor de attribuutinformatie.
+
+**HTML**-configuratie: Aan de linkerkant van de pagina kun je de HTML-code zien die de opmaak van de informatie
+definieert.
+
+**Preview**: Aan de rechterkant van de pagina zie je een preview die weergeeft hoe de template eruit ziet. Indien mogelijk wordt de eerste feature van de kaartlaag weergegeven als voorbeeld, anders komt hier de veldnaam in te staan.
+
+**Genereer lijst of tabel**: Met deze functie kan er automatisch een standaard lijst of tabel gegenereerd worden als template op basis van de velden. Dit kan een goed begin zijn om verder op te bouwen
 
 #### Tabblad WFS/WMS opties 
 **WFS opties** geeft de mogelijkheid om:
@@ -193,12 +205,12 @@ De Style tab geeft de mogelijkheid om de stijl van een kaartlaag te configureren
 eigenschappen zoals symbolen, kleuren, groottes, en andere weergaveopties. Zie voor meer informatie over de
 stijlmogelijkheden [Tabblad Style](./layer-style.md).
 
-**Legenda**: Aan de linkerkant van de pagina zie je de legenda die een overzicht geeft van de symbolen en stijlen die op
+**JSON** configuratie: Aan de linker van de pagina is de JSON-code zien die de stijl van de kaartlaag
+definieert. De syntax die gebruikt wordt is gebaseerd op [GeoStyler](https://geostyler.org).
+
+**Legenda**: Aan de rechterkant van de pagina zie je de legenda die een overzicht geeft van de symbolen en stijlen die op
 de
 kaartlaag worden toegepast.
-
-**JSON** configuratie: Aan de rechterkant van de pagina kun je de JSON-code zien die de stijl van de kaartlaag
-definieert. De syntax die gebruikt wordt is gebaseerd op [GeoStyler](https://geostyler.org).
 
 **Genereer style**: Met deze functie kun je automatisch een standaardstijl genereren voor een kaartlaag, gebaseerd op de
 attributen die in de laag aanwezig zijn. Dit is vooral handig wanneer je snel een eenvoudige, maar duidelijke weergave
@@ -213,7 +225,7 @@ stylingopties heeft.
 
 ##### Styling voor punten
 
-Je kunt kiezen tussen een eenvoudig symbool of een afbeelding (via een hyperlink).
+Je kunt kiezen tussen eenvoudige symbolen of een afbeelding (via een hyperlink). De eenvoudige symbolen kunnen worden aangegeven door middel van de WellKnownMarks van geostyler. De opties zijn: `circle`, `square`, `triangle`, `star`, `cross` en `x`.
 
 Als je geen afbeelding gebruikt en geen categoriegebaseerde weergave wilt, kun je de kleur van het symbool instellen om
 de punten monochroom weer te geven.

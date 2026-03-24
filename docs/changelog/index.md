@@ -2,6 +2,26 @@
 
 ## MapGallery webGIS
 
+### 7.9 <small>april 2026</small>
+
+Nieuwe versie MapGallery 7.9 met toevoegingen en verbeteringen voor gebruikers en beheerders.
+
+👤 Voor gebruikers
+
+* **Filterfunctionaliteit `bevat`.** In de filterfunctionaliteit van kaartlagen kan voor tekstvelden nu de filter `bevat` gebruikt worden. Deze filter kijkt of een stuk tekst in het veld voorkomt. Het filter is niet hoofdlettergevoelig.
+
+* **Aanpasbare elementgrootte.** De grootte van verschillende elementen kan nu aangepast worden. Bijvoorbeeld de breedte van de legenda of de hoogte van het streetview-venster.
+
+* **Legenda in kaartafbeelding.** De legenda wordt nu weergegeven in de kaartafbeelding.
+
+⚙️ Voor beheerders
+
+* **Attribuutinformatie Template.** De attribuutinformatie kan nu worden weergegeven via een template. Door middel van HTML-code kan de opmaak volledig gepersonaliseerd worden. Zie: TODO:link toevoegen naar template documentatie 
+
+* **Ondersteuning voor WellKnownMarks.** WellKnownMarks worden nu ondersteund bij het aanpassen van de stijl van een kaartlaag. De WellKnownMarks zijn `circle`, `square`, `triangle`, `star`, `cross` en `x`.
+
+* **Ondersteuning voor OGC API - Features.** MapGallery ondersteunt nu het OGC API - Features protocol. Deze kunnen nu net als andere protocollen worden toegevoegd. 
+
 ### 7.8 <small>januari 2026</small>
 
 Nieuwe versie MapGallery 7.8 met belangrijke verbeteringen in snelheid, stabiliteit en functionaliteit.
