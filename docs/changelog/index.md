@@ -1,4 +1,4 @@
-# Changelog v7
+# Changelog versie 7
 
 ## MapGallery webGIS
 
