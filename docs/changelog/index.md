@@ -14,6 +14,8 @@ Nieuwe versie MapGallery 7.9 met toevoegingen en verbeteringen voor gebruikers e
 
 * **Legenda in kaartafbeelding.** De legenda wordt nu weergegeven in de kaartafbeelding.
 
+* **Selectie methode aangepast.** Bij het maken van de selectie wordt nu gekeken of features in het element zitten in plaats van een intersectie met de selectie hebben.
+
 ⚙️ Voor beheerders
 
 * **Attribuutinformatie Template.** De attribuutinformatie kan nu worden weergegeven via een template. Door middel van HTML-code kan de opmaak volledig gepersonaliseerd worden. Zie: TODO:link toevoegen naar template documentatie 
