@@ -1528,6 +1528,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Tabblad WFS/WMS opties">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wfs-opties" class="md-nav__link">
+    <span class="md-ellipsis">
+      WFS opties
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wms-opties" class="md-nav__link">
+    <span class="md-ellipsis">
+      WMS opties
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
@@ -1927,6 +1951,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Tabblad WFS/WMS opties">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wfs-opties" class="md-nav__link">
+    <span class="md-ellipsis">
+      WFS opties
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wms-opties" class="md-nav__link">
+    <span class="md-ellipsis">
+      WMS opties
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
@@ -2276,61 +2324,50 @@ te
 klikken en deze naar boven of beneden te slepen.</p>
 <p><strong>Hernoemen</strong> van velden: Je kunt de naam van de velden aanpassen door een andere waarden in te vullen.</p>
 <h5 id="template">Template</h5>
-<p>In plaats van velden te selecteren kan er ook een template met behulp van html gemaakt worden. Deze template wordt gerenderd in het venster voor de attribuutinformatie.</p>
+<p>In plaats van velden te selecteren kan er ook een template met behulp van html gemaakt worden. Deze template wordt gerenderd in het venster
+voor de attribuutinformatie.</p>
 <p><strong><abbr title="Hyper Text Markup Language">HTML</abbr></strong>-configuratie: Aan de linkerkant van de pagina kun je de <abbr title="Hyper Text Markup Language">HTML</abbr>-code zien die de opmaak van de informatie
 definieert.</p>
-<p><strong>Preview</strong>: Aan de rechterkant van de pagina zie je een preview die weergeeft hoe de template eruit ziet. Indien mogelijk wordt de eerste feature van de kaartlaag weergegeven als voorbeeld, anders komt hier de veldnaam in te staan.</p>
-<p><strong>Genereer lijst of tabel</strong>: Met deze functie kan er automatisch een standaard lijst of tabel gegenereerd worden als template op basis van de velden. Dit kan een goed begin zijn om verder op te bouwen</p>
+<p><strong>Preview</strong>: Aan de rechterkant van de pagina zie je een preview die weergeeft hoe de template eruit ziet. Indien mogelijk wordt de eerste
+feature van de kaartlaag weergegeven als voorbeeld, anders komt hier de veldnaam in te staan.</p>
+<p><strong>Genereer lijst of tabel</strong>: Met deze functie kan er automatisch een standaard lijst of tabel gegenereerd worden als template op basis van
+de velden. Dit kan een goed begin zijn om verder op te bouwen</p>
 <h4 id="tabblad-wfswms-opties">Tabblad <abbr title="Web Feature Service">WFS</abbr>/<abbr title="Web Map Service">WMS</abbr> opties</h4>
-<p><strong><abbr title="Web Feature Service">WFS</abbr> opties</strong> geeft de mogelijkheid om:</p>
-<p>a) te filteren op een numerieke attribuutwaarde met het “CQL filter”</p>
-<div style="margin-left: 1em;"> 
-
-* “attribuut-ID” [rekenoperator] (numerieke waarde)
-* voorbeeldattribuut = 100 (In dit geval worden alleen de objecten (zoals punten, etc.) weergegeven waarvoor het voorbeeldattribuut exact de waarde 100 heeft)
-* De attribuut-ID die je moet gebruiken, vind je terug onder het tabblad Velden
-* Rekentekens zoals <, >, = kunnen hiervoor worden gebruikt
-</div>
-
-<p>OF</p>
-<p>b) Symbolen of objecten alleen weergeven binnen een gewenst gebied dat overeenkomt met een bepaald zoomniveau</p>
-<div style="margin-left: 1em;"> 
-
-* Hiervoor vul je een passende waarde in bij “Kaartweergave start zoomniveau”
-* Richtwaarden voor zoomniveaus: 1 = de hele wereld, 7 = een land, 11 = een stad, 15 = een straat, 18 = een huis
-* Daarnaast moet het selectievakje “Gedeeltelijk WFS-verzoek” worden aangevinkt
-Deze optie is vooral handig bij zware kaartlagen.
-</div>
-
-<p><strong>Let op:</strong> opties a) en b) kunnen niet gecombineerd worden.</p>
-<p><strong>Tip:</strong> leeg regelmatig je cache via Beheer om het gewenste resultaat te krijgen. Dit is ook een goede eerste stap als je problemen ervaart met filters.</p>
-<p><strong><abbr title="Web Map Service">WMS</abbr> opties</strong> geeft de mogelijkheid om:</p>
-<p>a) te filteren op een numerieke attribuutwaarde met het “CQL filter” (zie <abbr title="Web Feature Service">WFS</abbr> opties a))</p>
-<p>EN/OF</p>
-<p>b) te bepalen hoe kaartafbeeldingen door de server worden opgevraagd en weergegeven met de instelling “Image handling”</p>
+<h5 id="wfs-opties"><abbr title="Web Feature Service">WFS</abbr> opties</h5>
+<p>Geeft de mogelijkheid om:</p>
 <ol>
-<li>Single Image: De kaart vraagt telkens één grote afbeelding op voor het volledige kaartgebied wanneer je in- of uitzoomt of de kaart verschuift.</li>
+<li>
+<p>Te filteren op een numerieke attribuutwaarde met het “CQL filter”, zie voor meer informatie over CQL filters
+de <a href="https://docs.geoserver.org/stable/en/user/tutorials/cql/cql_tutorial.html">GeoServer documentatie</a>.</p>
+</li>
+<li>
+<p>Symbolen of objecten alleen weergeven binnen een gewenst gebied dat overeenkomt met een bepaald zoomniveau</p>
+<p>Door een passende waarde in te vullen bij <strong>Kaartweergave start zoomniveau</strong> en het selectievakje <strong>Gedeeltelijk <abbr title="Web Feature Service">WFS</abbr>-verzoek</strong> aan te
+vinken, kan de <abbr title="Web Feature Service">WFS</abbr>-kaartlaag alleen objecten binnen de actieve kaartweergave opvragen. De richtwaarden voor zoomniveaus lopen van 1 voor de
+hele wereld tot 18 voor een huis, en deze optie is vooral handig bij zware kaartlagen.</p>
+</li>
 </ol>
-<div style="margin-left: 1em;"> 
-
-* Goed voor kleine kaartlagen 
-* Voordelen: Makkelijk te renderen, ziet er naadloos uit (geen tegelranden).
-* Nadelen: Kan traag zijn voor grote kaarten, in- en uitzoomen kan merkbare laadtijd veroorzaken.
-</div>
-
+<p><strong>Let op:</strong> opties 1 en 2 kunnen niet gecombineerd worden.</p>
+<p><strong>Tip:</strong> leeg de cache via Beheer als je problemen ervaart met filters.</p>
+<h5 id="wms-opties"><abbr title="Web Map Service">WMS</abbr> opties</h5>
+<p>Geeft de mogelijkheid om:</p>
 <ol>
-<li>Tiled Images: De kaart vraagt veel kleinere tegels op in plaats van één grote afbeelding.</li>
+<li>
+<p>Te filteren op een numerieke attribuutwaarde met het “CQL filter” (zie <abbr title="Web Feature Service">WFS</abbr> opties 1)</p>
+</li>
+<li>
+<p>Te bepalen hoe kaartafbeeldingen door de server worden opgevraagd en weergegeven met de instelling “Image handling”</p>
+<p><strong>Single Image</strong>: De kaart vraagt telkens één grote afbeelding op voor het volledige kaartgebied wanneer je in- of uitzoomt of de kaart
+verschuift. Deze methode is makkelijk te renderen en zorgt voor een naadloze weergave zonder zichtbare tegelranden. Bij grotere kaarten kan
+deze aanpak echter trager zijn, en het in- en uitzoomen kan merkbare laadtijd veroorzaken.</p>
+<p><strong>Tiled Images</strong>: De kaart vraagt veel kleinere tegels op in plaats van één grote afbeelding. Deze methode zorgt voor sneller laden, omdat
+alleen de tegels die veranderen bij het in- of uitzoomen opnieuw hoeven te worden opgevraagd.
+Een nadeel is dat tijdens het laden licht zichtbare tegelranden kunnen optreden.</p>
+</li>
+<li>
+<p>Ook de "Style" (default of SLD) en het "Legenda type " kunnen worden geselecteerd.</p>
+</li>
 </ol>
-<div style="margin-left: 1em;"> 
-
-* Goed voor zware kaartlagen
-* Voordelen: Sneller laden > Alleen de tegels die veranderen bij zoomen hoeven opnieuw te worden opgevraagd
-* Nadelen: Licht zichtbare tegelranden terwijl het laden
-</div>
-
-<p>En/OF</p>
-<p>c) Ook de "Style" (default of SLD) en het "Legenda type " kunnen worden geselecteerd.
-Opties kunnen wel gecombineerd worden.</p>
 <h4 id="tabblad-interacties">Tabblad Interacties</h4>
 <p><strong>Animatie</strong></p>
 <p>Voor het animeren van data kunnen verschillende parameters worden ingesteld:</p>
@@ -2358,8 +2395,7 @@ stijlmogelijkheden <a href="./layer-style.md">Tabblad Style</a>.</p>
 <p><strong>JSON</strong> configuratie: Aan de linker van de pagina is de JSON-code zien die de stijl van de kaartlaag
 definieert. De syntax die gebruikt wordt is gebaseerd op <a href="https://geostyler.org">GeoStyler</a>.</p>
 <p><strong>Legenda</strong>: Aan de rechterkant van de pagina zie je de legenda die een overzicht geeft van de symbolen en stijlen die op
-de
-kaartlaag worden toegepast.</p>
+de kaartlaag worden toegepast.</p>
 <p><strong>Genereer style</strong>: Met deze functie kun je automatisch een standaardstijl genereren voor een kaartlaag, gebaseerd op de
 attributen die in de laag aanwezig zijn. Dit is vooral handig wanneer je snel een eenvoudige, maar duidelijke weergave
 van de data wilt maken. Zie ook: <a href="https://geostyler.mapgallery.eu">MapGallery GeoStyler kookboek</a>.</p>
@@ -2368,7 +2404,8 @@ van de data wilt maken. Zie ook: <a href="https://geostyler.mapgallery.eu">MapGa
 <p>Bepaal eerst het type geometrie van de kaartlaag: punt, lijn of vlak. Dit is essentieel, omdat elke geometrie specifieke
 stylingopties heeft.</p>
 <h5 id="styling-voor-punten">Styling voor punten</h5>
-<p>Je kunt kiezen tussen eenvoudige symbolen of een afbeelding (via een hyperlink). De eenvoudige symbolen kunnen worden aangegeven door middel van de WellKnownMarks van geostyler. De opties zijn: <code>circle</code>, <code>square</code>, <code>triangle</code>, <code>star</code>, <code>cross</code> en <code>x</code>.</p>
+<p>Je kunt kiezen tussen eenvoudige symbolen of een afbeelding (via een hyperlink). De eenvoudige symbolen kunnen worden aangegeven door middel
+van de WellKnownMarks van geostyler. De opties zijn: <code>circle</code>, <code>square</code>, <code>triangle</code>, <code>star</code>, <code>cross</code> en <code>x</code>.</p>
 <p>Als je geen afbeelding gebruikt en geen categoriegebaseerde weergave wilt, kun je de kleur van het symbool instellen om
 de punten monochroom weer te geven.</p>
 <h5 id="weergave-op-categorie">Weergave op categorie</h5>

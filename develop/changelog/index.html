@@ -1796,26 +1796,49 @@
 <p>👤 Voor gebruikers</p>
 <ul>
 <li>
-<p><strong>Filterfunctionaliteit <code>bevat</code>.</strong> In de filterfunctionaliteit van kaartlagen kan voor tekstvelden nu de filter <code>bevat</code> gebruikt worden. Deze filter kijkt of een stuk tekst in het veld voorkomt. Het filter is niet hoofdlettergevoelig.</p>
+<p><strong>Filterfunctionaliteit <code>bevat</code>.</strong> In de filterfunctionaliteit van kaartlagen kan voor tekstvelden nu de filter <code>bevat</code> gebruikt worden.
+  Deze filter kijkt of een stuk tekst in het veld voorkomt. Het filter is niet hoofdlettergevoelig.</p>
 </li>
 <li>
-<p><strong>Aanpasbare elementgrootte.</strong> De grootte van verschillende elementen kan nu aangepast worden. Bijvoorbeeld de breedte van de legenda of de hoogte van het streetview-venster.</p>
+<p><strong>Aanpasbare elementgrootte.</strong> De grootte van verschillende elementen kan nu aangepast worden. Bijvoorbeeld de breedte van de legenda of
+  de hoogte van het streetview-venster.</p>
 </li>
 <li>
-<p><strong>Legenda in kaartafbeelding.</strong> De legenda wordt nu weergegeven in de kaartafbeelding.</p>
+<p><strong>Legenda in export.</strong> De legenda wordt nu weergegeven in de export afbeelding van de kaart.</p>
 </li>
 </ul>
 <p>⚙️ Voor beheerders</p>
 <ul>
 <li>
-<p><strong>Attribuutinformatie Template.</strong> De attribuutinformatie kan nu worden weergegeven via een template. Door middel van <abbr title="Hyper Text Markup Language">HTML</abbr>-code kan de opmaak volledig gepersonaliseerd worden. Zie: TODO:link toevoegen naar template documentatie </p>
+<p><strong>Attribuutinformatie Template.</strong> De attribuutinformatie kan nu worden weergegeven via een template. Door middel van <abbr title="Hyper Text Markup Language">HTML</abbr>-code kan de
+  opmaak volledig gepersonaliseerd worden. Zie: <a href="/admin/layers/#template">template documentatie</a></p>
 </li>
 <li>
-<p><strong>Ondersteuning voor WellKnownMarks.</strong> WellKnownMarks worden nu ondersteund bij het aanpassen van de stijl van een kaartlaag. De WellKnownMarks zijn <code>circle</code>, <code>square</code>, <code>triangle</code>, <code>star</code>, <code>cross</code> en <code>x</code>.</p>
+<p><strong>Ondersteuning voor WellKnownMarks.</strong> WellKnownMarks worden nu ondersteund bij het aanpassen van de stijl van een kaartlaag. De
+  WellKnownMarks zijn <code>circle</code>, <code>square</code>, <code>triangle</code>, <code>star</code>, <code>cross</code> en <code>x</code>.</p>
 </li>
 <li>
-<p><strong>Ondersteuning voor OGC <abbr title="Application Programming Interface">API</abbr> - Features.</strong> MapGallery ondersteunt nu het OGC <abbr title="Application Programming Interface">API</abbr> - Features protocol. Deze kunnen nu net als andere protocollen worden toegevoegd. </p>
+<p><strong>Ondersteuning voor OGC <abbr title="Application Programming Interface">API</abbr> - Features.</strong> MapGallery ondersteunt nu het OGC <abbr title="Application Programming Interface">API</abbr> - Features protocol. Deze kunnen nu net als andere
+  protocollen worden toegevoegd.</p>
 </li>
+<li>
+<p><strong>Geavanceerde filteropties:</strong> MapGallery ondersteunt nu <code>in</code>-operators (in array) en <code>*=</code>-operators (wildcards) voor geavanceerde
+  filtering.</p>
+</li>
+<li>
+<p><strong>Foutmeldingen bij ongeldige GeoStyler-stijl:</strong> Wanneer een GeoStyler-stijl ongeldig is, toont MapGallery nu een duidelijke foutmelding.</p>
+</li>
+</ul>
+<p>🛠️ Opgelost</p>
+<ul>
+<li>Het downloaden van statistieken werkt weer correct; het is ook mogelijk om een volledig jaar te downloaden.</li>
+<li>Bij de export van de gebruikerslijst wordt nu ook de gekoppelde groep meegeëxporteerd.</li>
+<li>Bij het toevoegen van een <abbr title="Web Map Service">WMS</abbr>/<abbr title="Web Feature Service">WFS</abbr> wordt het servertype (GeoServer, MapServer of ArcGIS) nu automatisch herkend.</li>
+<li>Selectie van MultiPolygon-features werkt nu correct.</li>
+<li>Symbolen op een lijnstijl worden nu correct weergegeven in zowel de kaartviewer als de legenda, zie ook: <a href="https://geostyler.mapgallery.eu/develop/lijnen/#gecombineerde-lijnstijl">Gecombineerde lijnstijlen</a></li>
+<li>Foutmeldingen bij de preview van een kaartlaag zijn opgelost.</li>
+<li>3D tiles kunnen nu een offset krijgen, zodat de kaartlaag beter aansluit op 2D-data.</li>
+<li>Diverse kleine bugfixes, prestatieoptimalisaties en verbeteringen in de beheeromgeving en kaartviewer.</li>
 </ul>
 <h3 id="78-januari-2026">7.8 <small>januari 2026</small></h3>
 <p>Nieuwe versie MapGallery 7.8 met belangrijke verbeteringen in snelheid, stabiliteit en functionaliteit.</p>
