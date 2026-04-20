@@ -94,6 +94,7 @@ een komma.
 Biedt de mogelijkheid om de attribuutinformatie van deze kaartlaag aan te passen. Er zijn twee opties: velden en template.
 
 ##### Velden
+
 Je kunt hier de volgorde, zichtbaarheid en namen van de velden wijzigen.
 
 **Zichtbaarheid**: Als het selectievakje is aangevinkt, betekent dit dat het betreffende veld zichtbaar is in de
@@ -106,71 +107,53 @@ klikken en deze naar boven of beneden te slepen.
 **Hernoemen** van velden: Je kunt de naam van de velden aanpassen door een andere waarden in te vullen.
 
 ##### Template
-In plaats van velden te selecteren kan er ook een template met behulp van html gemaakt worden. Deze template wordt gerenderd in het venster voor de attribuutinformatie.
+
+In plaats van velden te selecteren kan er ook een template met behulp van html gemaakt worden. Deze template wordt gerenderd in het venster
+voor de attribuutinformatie.
 
 **HTML**-configuratie: Aan de linkerkant van de pagina kun je de HTML-code zien die de opmaak van de informatie
 definieert.
 
-**Preview**: Aan de rechterkant van de pagina zie je een preview die weergeeft hoe de template eruit ziet. Indien mogelijk wordt de eerste feature van de kaartlaag weergegeven als voorbeeld, anders komt hier de veldnaam in te staan.
+**Preview**: Aan de rechterkant van de pagina zie je een preview die weergeeft hoe de template eruit ziet. Indien mogelijk wordt de eerste
+feature van de kaartlaag weergegeven als voorbeeld, anders komt hier de veldnaam in te staan.
 
-**Genereer lijst of tabel**: Met deze functie kan er automatisch een standaard lijst of tabel gegenereerd worden als template op basis van de velden. Dit kan een goed begin zijn om verder op te bouwen
+**Genereer lijst of tabel**: Met deze functie kan er automatisch een standaard lijst of tabel gegenereerd worden als template op basis van
+de velden. Dit kan een goed begin zijn om verder op te bouwen
 
-#### Tabblad WFS/WMS opties 
-**WFS opties** geeft de mogelijkheid om:
+#### Tabblad WFS/WMS opties
 
-a) te filteren op een numerieke attribuutwaarde met het “CQL filter”
-<div style="margin-left: 1em;"> 
+##### WFS opties
+Geeft de mogelijkheid om:
 
-* “attribuut-ID” [rekenoperator] (numerieke waarde)
-* voorbeeldattribuut = 100 (In dit geval worden alleen de objecten (zoals punten, etc.) weergegeven waarvoor het voorbeeldattribuut exact de waarde 100 heeft)
-* De attribuut-ID die je moet gebruiken, vind je terug onder het tabblad Velden
-* Rekentekens zoals <, >, = kunnen hiervoor worden gebruikt
-</div>
+1. Te filteren op een numerieke attribuutwaarde met het “CQL filter”, zie voor meer informatie over CQL filters
+de [GeoServer documentatie](https://docs.geoserver.org/stable/en/user/tutorials/cql/cql_tutorial.html).
 
-OF
+2. Symbolen of objecten alleen weergeven binnen een gewenst gebied dat overeenkomt met een bepaald zoomniveau
 
-b) Symbolen of objecten alleen weergeven binnen een gewenst gebied dat overeenkomt met een bepaald zoomniveau
-<div style="margin-left: 1em;"> 
+    Door een passende waarde in te vullen bij **Kaartweergave start zoomniveau** en het selectievakje **Gedeeltelijk WFS-verzoek** aan te
+    vinken, kan de WFS-kaartlaag alleen objecten binnen de actieve kaartweergave opvragen. De richtwaarden voor zoomniveaus lopen van 1 voor de
+    hele wereld tot 18 voor een huis, en deze optie is vooral handig bij zware kaartlagen.
 
-* Hiervoor vul je een passende waarde in bij “Kaartweergave start zoomniveau”
-* Richtwaarden voor zoomniveaus: 1 = de hele wereld, 7 = een land, 11 = een stad, 15 = een straat, 18 = een huis
-* Daarnaast moet het selectievakje “Gedeeltelijk WFS-verzoek” worden aangevinkt
-Deze optie is vooral handig bij zware kaartlagen.
-</div>
+**Let op:** opties 1 en 2 kunnen niet gecombineerd worden.
 
-**Let op:** opties a) en b) kunnen niet gecombineerd worden.
+**Tip:** leeg de cache via Beheer als je problemen ervaart met filters.
 
-**Tip:** leeg regelmatig je cache via Beheer om het gewenste resultaat te krijgen. Dit is ook een goede eerste stap als je problemen ervaart met filters.
+##### WMS opties
+Geeft de mogelijkheid om:
 
-**WMS opties** geeft de mogelijkheid om:
+1. Te filteren op een numerieke attribuutwaarde met het “CQL filter” (zie WFS opties 1)
 
-a) te filteren op een numerieke attribuutwaarde met het “CQL filter” (zie WFS opties a))
+2. Te bepalen hoe kaartafbeeldingen door de server worden opgevraagd en weergegeven met de instelling “Image handling”
 
-EN/OF
+    **Single Image**: De kaart vraagt telkens één grote afbeelding op voor het volledige kaartgebied wanneer je in- of uitzoomt of de kaart
+    verschuift. Deze methode is makkelijk te renderen en zorgt voor een naadloze weergave zonder zichtbare tegelranden. Bij grotere kaarten kan
+    deze aanpak echter trager zijn, en het in- en uitzoomen kan merkbare laadtijd veroorzaken.
+    
+    **Tiled Images**: De kaart vraagt veel kleinere tegels op in plaats van één grote afbeelding. Deze methode zorgt voor sneller laden, omdat
+    alleen de tegels die veranderen bij het in- of uitzoomen opnieuw hoeven te worden opgevraagd.
+    Een nadeel is dat tijdens het laden licht zichtbare tegelranden kunnen optreden.
 
-b) te bepalen hoe kaartafbeeldingen door de server worden opgevraagd en weergegeven met de instelling “Image handling”
-
-1. Single Image: De kaart vraagt telkens één grote afbeelding op voor het volledige kaartgebied wanneer je in- of uitzoomt of de kaart verschuift.
-<div style="margin-left: 1em;"> 
-
-* Goed voor kleine kaartlagen 
-* Voordelen: Makkelijk te renderen, ziet er naadloos uit (geen tegelranden).
-* Nadelen: Kan traag zijn voor grote kaarten, in- en uitzoomen kan merkbare laadtijd veroorzaken.
-</div>
-
-2. Tiled Images: De kaart vraagt veel kleinere tegels op in plaats van één grote afbeelding.
-<div style="margin-left: 1em;"> 
-
-* Goed voor zware kaartlagen
-* Voordelen: Sneller laden > Alleen de tegels die veranderen bij zoomen hoeven opnieuw te worden opgevraagd
-* Nadelen: Licht zichtbare tegelranden terwijl het laden
-</div>
-
-En/OF
-
-
-c) Ook de "Style" (default of SLD) en het "Legenda type " kunnen worden geselecteerd.
-Opties kunnen wel gecombineerd worden.
+3. Ook de "Style" (default of SLD) en het "Legenda type " kunnen worden geselecteerd.
 
 #### Tabblad Interacties
 
@@ -209,8 +192,7 @@ stijlmogelijkheden [Tabblad Style](./layer-style.md).
 definieert. De syntax die gebruikt wordt is gebaseerd op [GeoStyler](https://geostyler.org).
 
 **Legenda**: Aan de rechterkant van de pagina zie je de legenda die een overzicht geeft van de symbolen en stijlen die op
-de
-kaartlaag worden toegepast.
+de kaartlaag worden toegepast.
 
 **Genereer style**: Met deze functie kun je automatisch een standaardstijl genereren voor een kaartlaag, gebaseerd op de
 attributen die in de laag aanwezig zijn. Dit is vooral handig wanneer je snel een eenvoudige, maar duidelijke weergave
@@ -225,7 +207,8 @@ stylingopties heeft.
 
 ##### Styling voor punten
 
-Je kunt kiezen tussen eenvoudige symbolen of een afbeelding (via een hyperlink). De eenvoudige symbolen kunnen worden aangegeven door middel van de WellKnownMarks van geostyler. De opties zijn: `circle`, `square`, `triangle`, `star`, `cross` en `x`.
+Je kunt kiezen tussen eenvoudige symbolen of een afbeelding (via een hyperlink). De eenvoudige symbolen kunnen worden aangegeven door middel
+van de WellKnownMarks van geostyler. De opties zijn: `circle`, `square`, `triangle`, `star`, `cross` en `x`.
 
 Als je geen afbeelding gebruikt en geen categoriegebaseerde weergave wilt, kun je de kleur van het symbool instellen om
 de punten monochroom weer te geven.

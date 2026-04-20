@@ -8,19 +8,40 @@ Nieuwe versie MapGallery 7.9 met toevoegingen en verbeteringen voor gebruikers e
 
 👤 Voor gebruikers
 
-* **Filterfunctionaliteit `bevat`.** In de filterfunctionaliteit van kaartlagen kan voor tekstvelden nu de filter `bevat` gebruikt worden. Deze filter kijkt of een stuk tekst in het veld voorkomt. Het filter is niet hoofdlettergevoelig.
+* **Filterfunctionaliteit `bevat`.** In de filterfunctionaliteit van kaartlagen kan voor tekstvelden nu de filter `bevat` gebruikt worden.
+  Deze filter kijkt of een stuk tekst in het veld voorkomt. Het filter is niet hoofdlettergevoelig.
 
-* **Aanpasbare elementgrootte.** De grootte van verschillende elementen kan nu aangepast worden. Bijvoorbeeld de breedte van de legenda of de hoogte van het streetview-venster.
+* **Aanpasbare elementgrootte.** De grootte van verschillende elementen kan nu aangepast worden. Bijvoorbeeld de breedte van de legenda of
+  de hoogte van het streetview-venster.
 
-* **Legenda in kaartafbeelding.** De legenda wordt nu weergegeven in de kaartafbeelding.
+* **Legenda in export.** De legenda wordt nu weergegeven in de export afbeelding van de kaart.
 
 ⚙️ Voor beheerders
 
-* **Attribuutinformatie Template.** De attribuutinformatie kan nu worden weergegeven via een template. Door middel van HTML-code kan de opmaak volledig gepersonaliseerd worden. Zie: TODO:link toevoegen naar template documentatie 
+* **Attribuutinformatie Template.** De attribuutinformatie kan nu worden weergegeven via een template. Door middel van HTML-code kan de
+  opmaak volledig gepersonaliseerd worden. Zie: [template documentatie](/admin/layers/#template)
 
-* **Ondersteuning voor WellKnownMarks.** WellKnownMarks worden nu ondersteund bij het aanpassen van de stijl van een kaartlaag. De WellKnownMarks zijn `circle`, `square`, `triangle`, `star`, `cross` en `x`.
+* **Ondersteuning voor WellKnownMarks.** WellKnownMarks worden nu ondersteund bij het aanpassen van de stijl van een kaartlaag. De
+  WellKnownMarks zijn `circle`, `square`, `triangle`, `star`, `cross` en `x`.
 
-* **Ondersteuning voor OGC API - Features.** MapGallery ondersteunt nu het OGC API - Features protocol. Deze kunnen nu net als andere protocollen worden toegevoegd. 
+* **Ondersteuning voor OGC API - Features.** MapGallery ondersteunt nu het OGC API - Features protocol. Deze kunnen nu net als andere
+  protocollen worden toegevoegd.
+
+* **Geavanceerde filteropties:** MapGallery ondersteunt nu `in`-operators (in array) en `*=`-operators (wildcards) voor geavanceerde
+  filtering.
+
+* **Foutmeldingen bij ongeldige GeoStyler-stijl:** Wanneer een GeoStyler-stijl ongeldig is, toont MapGallery nu een duidelijke foutmelding.
+
+🛠️ Opgelost
+
+* Het downloaden van statistieken werkt weer correct; het is ook mogelijk om een volledig jaar te downloaden.
+* Bij de export van de gebruikerslijst wordt nu ook de gekoppelde groep meegeëxporteerd.
+* Bij het toevoegen van een WMS/WFS wordt het servertype (GeoServer, MapServer of ArcGIS) nu automatisch herkend.
+* Selectie van MultiPolygon-features werkt nu correct.
+* Symbolen op een lijnstijl worden nu correct weergegeven in zowel de kaartviewer als de legenda, zie ook: [Gecombineerde lijnstijlen](https://geostyler.mapgallery.eu/develop/lijnen/#gecombineerde-lijnstijl)
+* Foutmeldingen bij de preview van een kaartlaag zijn opgelost.
+* 3D tiles kunnen nu een offset krijgen, zodat de kaartlaag beter aansluit op 2D-data.
+* Diverse kleine bugfixes, prestatieoptimalisaties en verbeteringen in de beheeromgeving en kaartviewer.
 
 ### 7.8 <small>januari 2026</small>
 
