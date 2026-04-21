@@ -91,7 +91,8 @@ een komma.
 
 #### Tabblad Velden
 
-Biedt de mogelijkheid om de attribuutinformatie van deze kaartlaag aan te passen. Er zijn twee opties: velden en template.
+Biedt de mogelijkheid om de attribuutinformatie van deze kaartlaag aan te passen. Er zijn twee opties: velden en
+template.
 
 ##### Velden
 
@@ -108,50 +109,175 @@ klikken en deze naar boven of beneden te slepen.
 
 ##### Template
 
-In plaats van velden te selecteren kan er ook een template met behulp van html gemaakt worden. Deze template wordt gerenderd in het venster
-voor de attribuutinformatie.
+Met de Template-functionaliteit kun je volledig zelf bepalen hoe attribuutinformatie van een kaartlaag wordt
+weergegeven. In plaats van standaard velden te tonen, bouw je een eigen layout met HTML en dynamische veldwaarden.
+
+###### Basisprincipe
+
+Een template bestaat uit HTML waarin je veldwaarden injecteert met template literals:
+
+```${veldnaam}```
+
+Bijvoorbeeld:
+
+```<p>Naam: <strong>${naam}</strong></p>```
+
+Tijdens het renderen worden deze placeholders vervangen door de daadwerkelijke waarden van een feature.
+
+Deel het template in met verschillende secties om de structuur en leesbaarheid te verbeteren. Denk hierbij aan een header
+met de titel en identificatie, gevolgd door een overzicht met bijvoorbeeld scores en daarna detailsecties
+met kenmerken per categorie. Voor de vormgeving kun je gebruikmaken van CSS classes, zoals [Bootstrap](https://getbootstrap.com), maar ook van
+inline styles indien nodig. Daarnaast is het mogelijk om responsieve layouts toe te passen, bijvoorbeeld met flexbox of
+grid, zodat de weergave zich goed aanpast aan verschillende schermformaten.
+
+Voorbeeldstructuur:
+
+```html
+<header>
+    <h1>${titel}</h1>
+</header>
+
+<section>
+    <h2>Overzicht</h2>
+    <p class="primary-text">${score}</p>
+</section>
+```
+
+###### Voorbeelden
+
+Via een expressie kan de uitvoer worden aangepast. Zie onderstaande voorbeelden.
+
+De waarde van status tonen als die aanwezig is. Als het veld leeg is, wordt _Onbekend_ weergegeven.
+
+```<p>Status: ${status ? status : 'Onbekend'}</p>```
+
+Meerdere veldwaarden combineren in één regel:
+
+```<p>${straat} ${huisnummer}, ${postcode} ${plaats}</p>```
+
+Als een veld niet gevuld is, kun je een alternatieve tekst tonen:
+
+```<p>Omschrijving: ${omschrijving || 'Geen omschrijving beschikbaar'}</p>```
+
+Een klikbare link maken van een veld met een URL bevat:
+
+```<a href="${url}" target="_blank">Open link</a>```
+
+of:
+
+```<a href="${url}" target="_blank">${url}</a>```
+
+De tekst aanpassen op basis van een waarde:
+
+```<p>Risiconiveau: ${score > 7 ? 'Hoog' : 'Normaal'}</p>```
+
+Of een ja/nee-weergave maken:
+
+```<p>Beschikbaar: ${actief ? 'Ja' : 'Nee'}</p>```
+
+Voorwaardelijke styling, classes of inline styling dynamisch aanpassen. Hier wordt een badge met een andere kleur per status weergegeven:
+
+```
+<span class="badge ${status === 'Actief' ? 'bg-success' : 'bg-secondary'}">
+  ${status}
+</span>
+```
+
+Of met inline styling:
+```
+<span style="${score > 7 ? 'color:red;font-weight:bold;' : 'color:inherit;'}">
+  ${score}
+</span>
+```
+
+Numerieke waarden extra nadruk geven, bijvoorbeeld met een badge:
+
+```<span class="badge bg-light text-dark border">${aantal}</span>```
+
+Bij tekstvelden kleine bewerkingen doen, zoals hoofdletters:
+
+```<p>Status: ${status ? status.toUpperCase() : '-'}</p>```
+
+Of de eerste letter als hoofdletter tonen:
+
+```<p>Categorie: ${categorie ? categorie.charAt(0).toUpperCase() + categorie.slice(1) : '-'}</p>```
+
+Onderstaand voorbeeld combineert meerdere technieken:
+```html
+<div>
+  <h3>${naam}</h3>
+  <p>Categorie: ${categorie || 'Onbekend'}</p>
+  <p>
+    Score:
+    <span class="badge bg-light text-dark border">
+      ${score ?? '-'}
+    </span>
+  </p>
+  <p>
+    Status:
+    <span class="badge ${status === 'Actief' ? 'bg-success' : 'bg-secondary'}">
+      ${status || 'Onbekend'}
+    </span>
+  </p>
+  <p>
+    Bron:
+    ${url ? `<a href="${url}" target="_blank">Open link</a>` : 'Geen link beschikbaar'}
+  </p>
+</div>
+```
+
+###### Opbouw van de interface
 
 **HTML**-configuratie: Aan de linkerkant van de pagina kun je de HTML-code zien die de opmaak van de informatie
 definieert.
 
-**Preview**: Aan de rechterkant van de pagina zie je een preview die weergeeft hoe de template eruit ziet. Indien mogelijk wordt de eerste
+**Preview**: Aan de rechterkant van de pagina zie je een preview die weergeeft hoe de template eruit ziet. Indien
+mogelijk wordt de eerste
 feature van de kaartlaag weergegeven als voorbeeld, anders komt hier de veldnaam in te staan.
 
-**Genereer lijst of tabel**: Met deze functie kan er automatisch een standaard lijst of tabel gegenereerd worden als template op basis van
+**Genereer lijst of tabel**: Met deze functie kan er automatisch een standaard lijst of tabel gegenereerd worden als
+template op basis van
 de velden. Dit kan een goed begin zijn om verder op te bouwen
 
 #### Tabblad WFS/WMS opties
 
 ##### WFS opties
+
 Geeft de mogelijkheid om:
 
 1. Te filteren op een numerieke attribuutwaarde met het “CQL filter”, zie voor meer informatie over CQL filters
-de [GeoServer documentatie](https://docs.geoserver.org/stable/en/user/tutorials/cql/cql_tutorial.html).
+   de [GeoServer documentatie](https://docs.geoserver.org/stable/en/user/tutorials/cql/cql_tutorial.html).
 
 2. Symbolen of objecten alleen weergeven binnen een gewenst gebied dat overeenkomt met een bepaald zoomniveau
 
-    Door een passende waarde in te vullen bij **Kaartweergave start zoomniveau** en het selectievakje **Gedeeltelijk WFS-verzoek** aan te
-    vinken, kan de WFS-kaartlaag alleen objecten binnen de actieve kaartweergave opvragen. De richtwaarden voor zoomniveaus lopen van 1 voor de
-    hele wereld tot 18 voor een huis, en deze optie is vooral handig bij zware kaartlagen.
+   Door een passende waarde in te vullen bij **Kaartweergave start zoomniveau** en het selectievakje **Gedeeltelijk
+   WFS-verzoek** aan te
+   vinken, kan de WFS-kaartlaag alleen objecten binnen de actieve kaartweergave opvragen. De richtwaarden voor
+   zoomniveaus lopen van 1 voor de
+   hele wereld tot 18 voor een huis, en deze optie is vooral handig bij zware kaartlagen.
 
 **Let op:** opties 1 en 2 kunnen niet gecombineerd worden.
 
 **Tip:** leeg de cache via Beheer als je problemen ervaart met filters.
 
 ##### WMS opties
+
 Geeft de mogelijkheid om:
 
 1. Te filteren op een numerieke attribuutwaarde met het “CQL filter” (zie WFS opties 1)
 
 2. Te bepalen hoe kaartafbeeldingen door de server worden opgevraagd en weergegeven met de instelling “Image handling”
 
-    **Single Image**: De kaart vraagt telkens één grote afbeelding op voor het volledige kaartgebied wanneer je in- of uitzoomt of de kaart
-    verschuift. Deze methode is makkelijk te renderen en zorgt voor een naadloze weergave zonder zichtbare tegelranden. Bij grotere kaarten kan
-    deze aanpak echter trager zijn, en het in- en uitzoomen kan merkbare laadtijd veroorzaken.
-    
-    **Tiled Images**: De kaart vraagt veel kleinere tegels op in plaats van één grote afbeelding. Deze methode zorgt voor sneller laden, omdat
-    alleen de tegels die veranderen bij het in- of uitzoomen opnieuw hoeven te worden opgevraagd.
-    Een nadeel is dat tijdens het laden licht zichtbare tegelranden kunnen optreden.
+   **Single Image**: De kaart vraagt telkens één grote afbeelding op voor het volledige kaartgebied wanneer je in- of
+   uitzoomt of de kaart
+   verschuift. Deze methode is makkelijk te renderen en zorgt voor een naadloze weergave zonder zichtbare tegelranden.
+   Bij grotere kaarten kan
+   deze aanpak echter trager zijn, en het in- en uitzoomen kan merkbare laadtijd veroorzaken.
+
+   **Tiled Images**: De kaart vraagt veel kleinere tegels op in plaats van één grote afbeelding. Deze methode zorgt voor
+   sneller laden, omdat
+   alleen de tegels die veranderen bij het in- of uitzoomen opnieuw hoeven te worden opgevraagd.
+   Een nadeel is dat tijdens het laden licht zichtbare tegelranden kunnen optreden.
 
 3. Ook de "Style" (default of SLD) en het "Legenda type " kunnen worden geselecteerd.
 
@@ -191,7 +317,8 @@ stijlmogelijkheden [Tabblad Style](./layer-style.md).
 **JSON** configuratie: Aan de linker van de pagina is de JSON-code zien die de stijl van de kaartlaag
 definieert. De syntax die gebruikt wordt is gebaseerd op [GeoStyler](https://geostyler.org).
 
-**Legenda**: Aan de rechterkant van de pagina zie je de legenda die een overzicht geeft van de symbolen en stijlen die op
+**Legenda**: Aan de rechterkant van de pagina zie je de legenda die een overzicht geeft van de symbolen en stijlen die
+op
 de kaartlaag worden toegepast.
 
 **Genereer style**: Met deze functie kun je automatisch een standaardstijl genereren voor een kaartlaag, gebaseerd op de
@@ -207,7 +334,8 @@ stylingopties heeft.
 
 ##### Styling voor punten
 
-Je kunt kiezen tussen eenvoudige symbolen of een afbeelding (via een hyperlink). De eenvoudige symbolen kunnen worden aangegeven door middel
+Je kunt kiezen tussen eenvoudige symbolen of een afbeelding (via een hyperlink). De eenvoudige symbolen kunnen worden
+aangegeven door middel
 van de WellKnownMarks van geostyler. De opties zijn: `circle`, `square`, `triangle`, `star`, `cross` en `x`.
 
 Als je geen afbeelding gebruikt en geen categoriegebaseerde weergave wilt, kun je de kleur van het symbool instellen om
