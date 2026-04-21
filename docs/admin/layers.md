@@ -125,14 +125,15 @@ Bijvoorbeeld:
 Tijdens het renderen worden deze placeholders vervangen door de daadwerkelijke waarden van een feature.
 
 Deel het template in met verschillende secties om de structuur en leesbaarheid te verbeteren. Denk hierbij aan een header
-met de titel en identificatie, gevolgd door een overzicht met bijvoorbeeld scores en daarna detailsecties
-met kenmerken per categorie. Voor de vormgeving kun je gebruikmaken van CSS classes, zoals [Bootstrap](https://getbootstrap.com), maar ook van
-inline styles indien nodig. Daarnaast is het mogelijk om responsieve layouts toe te passen, bijvoorbeeld met flexbox of
-grid, zodat de weergave zich goed aanpast aan verschillende schermformaten.
+met de titel en identificatie, gevolgd door een overzicht met bijvoorbeeld scores en daarna detailsecties met kenmerken per categorie. Voor
+de vormgeving kun je gebruikmaken van CSS classes van [Bootstrap](https://getbootstrap.com). Daarnaast is het mogelijk om responsieve
+layouts toe te passen, bijvoorbeeld met flexbox of grid, zodat de weergave zich goed aanpast aan verschillende
+schermformaten.
 
 Voorbeeldstructuur:
 
 ```html
+
 <header>
     <h1>${titel}</h1>
 </header>
@@ -183,13 +184,6 @@ Voorwaardelijke styling, classes of inline styling dynamisch aanpassen. Hier wor
 </span>
 ```
 
-Of met inline styling:
-```
-<span style="${score > 7 ? 'color:red;font-weight:bold;' : 'color:inherit;'}">
-  ${score}
-</span>
-```
-
 Numerieke waarden extra nadruk geven, bijvoorbeeld met een badge:
 
 ```<span class="badge bg-light text-dark border">${aantal}</span>```
@@ -203,26 +197,28 @@ Of de eerste letter als hoofdletter tonen:
 ```<p>Categorie: ${categorie ? categorie.charAt(0).toUpperCase() + categorie.slice(1) : '-'}</p>```
 
 Onderstaand voorbeeld combineert meerdere technieken:
+
 ```html
+
 <div>
-  <h3>${naam}</h3>
-  <p>Categorie: ${categorie || 'Onbekend'}</p>
-  <p>
-    Score:
-    <span class="badge bg-light text-dark border">
+    <h3>${naam}</h3>
+    <p>Categorie: ${categorie || 'Onbekend'}</p>
+    <p>
+        Score:
+        <span class="badge bg-light text-dark border">
       ${score ?? '-'}
     </span>
-  </p>
-  <p>
-    Status:
-    <span class="badge ${status === 'Actief' ? 'bg-success' : 'bg-secondary'}">
+    </p>
+    <p>
+        Status:
+        <span class="badge ${status === 'Actief' ? 'bg-success' : 'bg-secondary'}">
       ${status || 'Onbekend'}
     </span>
-  </p>
-  <p>
-    Bron:
-    ${url ? `<a href="${url}" target="_blank">Open link</a>` : 'Geen link beschikbaar'}
-  </p>
+    </p>
+    <p>
+        Bron:
+        ${url ? `<a href="${url}" target="_blank">Open link</a>` : 'Geen link beschikbaar'}
+    </p>
 </div>
 ```
 
