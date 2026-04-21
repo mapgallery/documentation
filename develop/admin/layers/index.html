@@ -1514,6 +1514,39 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Template">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#basisprincipe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basisprincipe
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#voorbeelden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Voorbeelden
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#opbouw-van-de-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      Opbouw van de interface
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -1937,6 +1970,39 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Template">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#basisprincipe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basisprincipe
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#voorbeelden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Voorbeelden
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#opbouw-van-de-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      Opbouw van de interface
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -2314,7 +2380,8 @@ halen. Dit heeft als voordeel dat meerdere layers als één MapGallery kaartlaag
 <p>Om dit te doen, klik hiervoor op de bewerk knop <img alt="" src="../../assets/svg/edit.svg" /> en voer de kaartlaag namen in, gescheiden met
 een komma.</p>
 <h4 id="tabblad-velden">Tabblad Velden</h4>
-<p>Biedt de mogelijkheid om de attribuutinformatie van deze kaartlaag aan te passen. Er zijn twee opties: velden en template.</p>
+<p>Biedt de mogelijkheid om de attribuutinformatie van deze kaartlaag aan te passen. Er zijn twee opties: velden en
+template.</p>
 <h5 id="velden">Velden</h5>
 <p>Je kunt hier de volgorde, zichtbaarheid en namen van de velden wijzigen.</p>
 <p><strong>Zichtbaarheid</strong>: Als het selectievakje is aangevinkt, betekent dit dat het betreffende veld zichtbaar is in de
@@ -2324,13 +2391,91 @@ te
 klikken en deze naar boven of beneden te slepen.</p>
 <p><strong>Hernoemen</strong> van velden: Je kunt de naam van de velden aanpassen door een andere waarden in te vullen.</p>
 <h5 id="template">Template</h5>
-<p>In plaats van velden te selecteren kan er ook een template met behulp van html gemaakt worden. Deze template wordt gerenderd in het venster
-voor de attribuutinformatie.</p>
+<p>Met de Template-functionaliteit kun je volledig zelf bepalen hoe attribuutinformatie van een kaartlaag wordt
+weergegeven. In plaats van standaard velden te tonen, bouw je een eigen layout met <abbr title="Hyper Text Markup Language">HTML</abbr> en dynamische veldwaarden.</p>
+<h6 id="basisprincipe">Basisprincipe</h6>
+<p>Een template bestaat uit <abbr title="Hyper Text Markup Language">HTML</abbr> waarin je veldwaarden injecteert met template literals:</p>
+<p><code>${veldnaam}</code></p>
+<p>Bijvoorbeeld:</p>
+<p><code>&lt;p&gt;Naam: &lt;strong&gt;${naam}&lt;/strong&gt;&lt;/p&gt;</code></p>
+<p>Tijdens het renderen worden deze placeholders vervangen door de daadwerkelijke waarden van een feature.</p>
+<p>Deel het template in met verschillende secties om de structuur en leesbaarheid te verbeteren. Denk hierbij aan een header
+met de titel en identificatie, gevolgd door een overzicht met bijvoorbeeld scores en daarna detailsecties
+met kenmerken per categorie. Voor de vormgeving kun je gebruikmaken van CSS classes, zoals <a href="https://getbootstrap.com">Bootstrap</a>, maar ook van
+inline styles indien nodig. Daarnaast is het mogelijk om responsieve layouts toe te passen, bijvoorbeeld met flexbox of
+grid, zodat de weergave zich goed aanpast aan verschillende schermformaten.</p>
+<p>Voorbeeldstructuur:</p>
+<pre><code class="language-html">&lt;header&gt;
+    &lt;h1&gt;${titel}&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;section&gt;
+    &lt;h2&gt;Overzicht&lt;/h2&gt;
+    &lt;p class=&quot;primary-text&quot;&gt;${score}&lt;/p&gt;
+&lt;/section&gt;
+</code></pre>
+<h6 id="voorbeelden">Voorbeelden</h6>
+<p>Via een expressie kan de uitvoer worden aangepast. Zie onderstaande voorbeelden.</p>
+<p>De waarde van status tonen als die aanwezig is. Als het veld leeg is, wordt <em>Onbekend</em> weergegeven.</p>
+<p><code>&lt;p&gt;Status: ${status ? status : 'Onbekend'}&lt;/p&gt;</code></p>
+<p>Meerdere veldwaarden combineren in één regel:</p>
+<p><code>&lt;p&gt;${straat} ${huisnummer}, ${postcode} ${plaats}&lt;/p&gt;</code></p>
+<p>Als een veld niet gevuld is, kun je een alternatieve tekst tonen:</p>
+<p><code>&lt;p&gt;Omschrijving: ${omschrijving || 'Geen omschrijving beschikbaar'}&lt;/p&gt;</code></p>
+<p>Een klikbare link maken van een veld met een URL bevat:</p>
+<p><code>&lt;a href="${url}" target="_blank"&gt;Open link&lt;/a&gt;</code></p>
+<p>of:</p>
+<p><code>&lt;a href="${url}" target="_blank"&gt;${url}&lt;/a&gt;</code></p>
+<p>De tekst aanpassen op basis van een waarde:</p>
+<p><code>&lt;p&gt;Risiconiveau: ${score &gt; 7 ? 'Hoog' : 'Normaal'}&lt;/p&gt;</code></p>
+<p>Of een ja/nee-weergave maken:</p>
+<p><code>&lt;p&gt;Beschikbaar: ${actief ? 'Ja' : 'Nee'}&lt;/p&gt;</code></p>
+<p>Voorwaardelijke styling, classes of inline styling dynamisch aanpassen. Hier wordt een badge met een andere kleur per status weergegeven:</p>
+<pre><code>&lt;span class=&quot;badge ${status === 'Actief' ? 'bg-success' : 'bg-secondary'}&quot;&gt;
+  ${status}
+&lt;/span&gt;
+</code></pre>
+<p>Of met inline styling:</p>
+<pre><code>&lt;span style=&quot;${score &gt; 7 ? 'color:red;font-weight:bold;' : 'color:inherit;'}&quot;&gt;
+  ${score}
+&lt;/span&gt;
+</code></pre>
+<p>Numerieke waarden extra nadruk geven, bijvoorbeeld met een badge:</p>
+<p><code>&lt;span class="badge bg-light text-dark border"&gt;${aantal}&lt;/span&gt;</code></p>
+<p>Bij tekstvelden kleine bewerkingen doen, zoals hoofdletters:</p>
+<p><code>&lt;p&gt;Status: ${status ? status.toUpperCase() : '-'}&lt;/p&gt;</code></p>
+<p>Of de eerste letter als hoofdletter tonen:</p>
+<p><code>&lt;p&gt;Categorie: ${categorie ? categorie.charAt(0).toUpperCase() + categorie.slice(1) : '-'}&lt;/p&gt;</code></p>
+<p>Onderstaand voorbeeld combineert meerdere technieken:</p>
+<pre><code class="language-html">&lt;div&gt;
+  &lt;h3&gt;${naam}&lt;/h3&gt;
+  &lt;p&gt;Categorie: ${categorie || 'Onbekend'}&lt;/p&gt;
+  &lt;p&gt;
+    Score:
+    &lt;span class=&quot;badge bg-light text-dark border&quot;&gt;
+      ${score ?? '-'}
+    &lt;/span&gt;
+  &lt;/p&gt;
+  &lt;p&gt;
+    Status:
+    &lt;span class=&quot;badge ${status === 'Actief' ? 'bg-success' : 'bg-secondary'}&quot;&gt;
+      ${status || 'Onbekend'}
+    &lt;/span&gt;
+  &lt;/p&gt;
+  &lt;p&gt;
+    Bron:
+    ${url ? `&lt;a href=&quot;${url}&quot; target=&quot;_blank&quot;&gt;Open link&lt;/a&gt;` : 'Geen link beschikbaar'}
+  &lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+<h6 id="opbouw-van-de-interface">Opbouw van de interface</h6>
 <p><strong><abbr title="Hyper Text Markup Language">HTML</abbr></strong>-configuratie: Aan de linkerkant van de pagina kun je de <abbr title="Hyper Text Markup Language">HTML</abbr>-code zien die de opmaak van de informatie
 definieert.</p>
-<p><strong>Preview</strong>: Aan de rechterkant van de pagina zie je een preview die weergeeft hoe de template eruit ziet. Indien mogelijk wordt de eerste
+<p><strong>Preview</strong>: Aan de rechterkant van de pagina zie je een preview die weergeeft hoe de template eruit ziet. Indien
+mogelijk wordt de eerste
 feature van de kaartlaag weergegeven als voorbeeld, anders komt hier de veldnaam in te staan.</p>
-<p><strong>Genereer lijst of tabel</strong>: Met deze functie kan er automatisch een standaard lijst of tabel gegenereerd worden als template op basis van
+<p><strong>Genereer lijst of tabel</strong>: Met deze functie kan er automatisch een standaard lijst of tabel gegenereerd worden als
+template op basis van
 de velden. Dit kan een goed begin zijn om verder op te bouwen</p>
 <h4 id="tabblad-wfswms-opties">Tabblad <abbr title="Web Feature Service">WFS</abbr>/<abbr title="Web Map Service">WMS</abbr> opties</h4>
 <h5 id="wfs-opties"><abbr title="Web Feature Service">WFS</abbr> opties</h5>
@@ -2338,15 +2483,17 @@ de velden. Dit kan een goed begin zijn om verder op te bouwen</p>
 <ol>
 <li>
 <p>Te filteren op een numerieke attribuutwaarde met het “CQL filter”, zie voor meer informatie over CQL filters
-de <a href="https://docs.geoserver.org/stable/en/user/tutorials/cql/cql_tutorial.html">GeoServer documentatie</a>.</p>
+   de <a href="https://docs.geoserver.org/stable/en/user/tutorials/cql/cql_tutorial.html">GeoServer documentatie</a>.</p>
 </li>
 <li>
 <p>Symbolen of objecten alleen weergeven binnen een gewenst gebied dat overeenkomt met een bepaald zoomniveau</p>
-<p>Door een passende waarde in te vullen bij <strong>Kaartweergave start zoomniveau</strong> en het selectievakje <strong>Gedeeltelijk <abbr title="Web Feature Service">WFS</abbr>-verzoek</strong> aan te
-vinken, kan de <abbr title="Web Feature Service">WFS</abbr>-kaartlaag alleen objecten binnen de actieve kaartweergave opvragen. De richtwaarden voor zoomniveaus lopen van 1 voor de
-hele wereld tot 18 voor een huis, en deze optie is vooral handig bij zware kaartlagen.</p>
 </li>
 </ol>
+<p>Door een passende waarde in te vullen bij <strong>Kaartweergave start zoomniveau</strong> en het selectievakje <strong>Gedeeltelijk
+   <abbr title="Web Feature Service">WFS</abbr>-verzoek</strong> aan te
+   vinken, kan de <abbr title="Web Feature Service">WFS</abbr>-kaartlaag alleen objecten binnen de actieve kaartweergave opvragen. De richtwaarden voor
+   zoomniveaus lopen van 1 voor de
+   hele wereld tot 18 voor een huis, en deze optie is vooral handig bij zware kaartlagen.</p>
 <p><strong>Let op:</strong> opties 1 en 2 kunnen niet gecombineerd worden.</p>
 <p><strong>Tip:</strong> leeg de cache via Beheer als je problemen ervaart met filters.</p>
 <h5 id="wms-opties"><abbr title="Web Map Service">WMS</abbr> opties</h5>
@@ -2357,16 +2504,19 @@ hele wereld tot 18 voor een huis, en deze optie is vooral handig bij zware kaart
 </li>
 <li>
 <p>Te bepalen hoe kaartafbeeldingen door de server worden opgevraagd en weergegeven met de instelling “Image handling”</p>
-<p><strong>Single Image</strong>: De kaart vraagt telkens één grote afbeelding op voor het volledige kaartgebied wanneer je in- of uitzoomt of de kaart
-verschuift. Deze methode is makkelijk te renderen en zorgt voor een naadloze weergave zonder zichtbare tegelranden. Bij grotere kaarten kan
-deze aanpak echter trager zijn, en het in- en uitzoomen kan merkbare laadtijd veroorzaken.</p>
-<p><strong>Tiled Images</strong>: De kaart vraagt veel kleinere tegels op in plaats van één grote afbeelding. Deze methode zorgt voor sneller laden, omdat
-alleen de tegels die veranderen bij het in- of uitzoomen opnieuw hoeven te worden opgevraagd.
-Een nadeel is dat tijdens het laden licht zichtbare tegelranden kunnen optreden.</p>
 </li>
-<li>
-<p>Ook de "Style" (default of SLD) en het "Legenda type " kunnen worden geselecteerd.</p>
-</li>
+</ol>
+<p><strong>Single Image</strong>: De kaart vraagt telkens één grote afbeelding op voor het volledige kaartgebied wanneer je in- of
+   uitzoomt of de kaart
+   verschuift. Deze methode is makkelijk te renderen en zorgt voor een naadloze weergave zonder zichtbare tegelranden.
+   Bij grotere kaarten kan
+   deze aanpak echter trager zijn, en het in- en uitzoomen kan merkbare laadtijd veroorzaken.</p>
+<p><strong>Tiled Images</strong>: De kaart vraagt veel kleinere tegels op in plaats van één grote afbeelding. Deze methode zorgt voor
+   sneller laden, omdat
+   alleen de tegels die veranderen bij het in- of uitzoomen opnieuw hoeven te worden opgevraagd.
+   Een nadeel is dat tijdens het laden licht zichtbare tegelranden kunnen optreden.</p>
+<ol>
+<li>Ook de "Style" (default of SLD) en het "Legenda type " kunnen worden geselecteerd.</li>
 </ol>
 <h4 id="tabblad-interacties">Tabblad Interacties</h4>
 <p><strong>Animatie</strong></p>
@@ -2394,7 +2544,8 @@ eigenschappen zoals symbolen, kleuren, groottes, en andere weergaveopties. Zie v
 stijlmogelijkheden <a href="./layer-style.md">Tabblad Style</a>.</p>
 <p><strong>JSON</strong> configuratie: Aan de linker van de pagina is de JSON-code zien die de stijl van de kaartlaag
 definieert. De syntax die gebruikt wordt is gebaseerd op <a href="https://geostyler.org">GeoStyler</a>.</p>
-<p><strong>Legenda</strong>: Aan de rechterkant van de pagina zie je de legenda die een overzicht geeft van de symbolen en stijlen die op
+<p><strong>Legenda</strong>: Aan de rechterkant van de pagina zie je de legenda die een overzicht geeft van de symbolen en stijlen die
+op
 de kaartlaag worden toegepast.</p>
 <p><strong>Genereer style</strong>: Met deze functie kun je automatisch een standaardstijl genereren voor een kaartlaag, gebaseerd op de
 attributen die in de laag aanwezig zijn. Dit is vooral handig wanneer je snel een eenvoudige, maar duidelijke weergave
@@ -2404,7 +2555,8 @@ van de data wilt maken. Zie ook: <a href="https://geostyler.mapgallery.eu">MapGa
 <p>Bepaal eerst het type geometrie van de kaartlaag: punt, lijn of vlak. Dit is essentieel, omdat elke geometrie specifieke
 stylingopties heeft.</p>
 <h5 id="styling-voor-punten">Styling voor punten</h5>
-<p>Je kunt kiezen tussen eenvoudige symbolen of een afbeelding (via een hyperlink). De eenvoudige symbolen kunnen worden aangegeven door middel
+<p>Je kunt kiezen tussen eenvoudige symbolen of een afbeelding (via een hyperlink). De eenvoudige symbolen kunnen worden
+aangegeven door middel
 van de WellKnownMarks van geostyler. De opties zijn: <code>circle</code>, <code>square</code>, <code>triangle</code>, <code>star</code>, <code>cross</code> en <code>x</code>.</p>
 <p>Als je geen afbeelding gebruikt en geen categoriegebaseerde weergave wilt, kun je de kleur van het symbool instellen om
 de punten monochroom weer te geven.</p>
