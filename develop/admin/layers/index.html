@@ -2400,12 +2400,13 @@ weergegeven. In plaats van standaard velden te tonen, bouw je een eigen layout m
 <p><code>&lt;p&gt;Naam: &lt;strong&gt;${naam}&lt;/strong&gt;&lt;/p&gt;</code></p>
 <p>Tijdens het renderen worden deze placeholders vervangen door de daadwerkelijke waarden van een feature.</p>
 <p>Deel het template in met verschillende secties om de structuur en leesbaarheid te verbeteren. Denk hierbij aan een header
-met de titel en identificatie, gevolgd door een overzicht met bijvoorbeeld scores en daarna detailsecties
-met kenmerken per categorie. Voor de vormgeving kun je gebruikmaken van CSS classes, zoals <a href="https://getbootstrap.com">Bootstrap</a>, maar ook van
-inline styles indien nodig. Daarnaast is het mogelijk om responsieve layouts toe te passen, bijvoorbeeld met flexbox of
-grid, zodat de weergave zich goed aanpast aan verschillende schermformaten.</p>
+met de titel en identificatie, gevolgd door een overzicht met bijvoorbeeld scores en daarna detailsecties met kenmerken per categorie. Voor
+de vormgeving kun je gebruikmaken van CSS classes van <a href="https://getbootstrap.com">Bootstrap</a>. Daarnaast is het mogelijk om responsieve
+layouts toe te passen, bijvoorbeeld met flexbox of grid, zodat de weergave zich goed aanpast aan verschillende
+schermformaten.</p>
 <p>Voorbeeldstructuur:</p>
-<pre><code class="language-html">&lt;header&gt;
+<pre><code class="language-html">
+&lt;header&gt;
     &lt;h1&gt;${titel}&lt;/h1&gt;
 &lt;/header&gt;
 
@@ -2435,11 +2436,6 @@ grid, zodat de weergave zich goed aanpast aan verschillende schermformaten.</p>
   ${status}
 &lt;/span&gt;
 </code></pre>
-<p>Of met inline styling:</p>
-<pre><code>&lt;span style=&quot;${score &gt; 7 ? 'color:red;font-weight:bold;' : 'color:inherit;'}&quot;&gt;
-  ${score}
-&lt;/span&gt;
-</code></pre>
 <p>Numerieke waarden extra nadruk geven, bijvoorbeeld met een badge:</p>
 <p><code>&lt;span class="badge bg-light text-dark border"&gt;${aantal}&lt;/span&gt;</code></p>
 <p>Bij tekstvelden kleine bewerkingen doen, zoals hoofdletters:</p>
@@ -2447,25 +2443,26 @@ grid, zodat de weergave zich goed aanpast aan verschillende schermformaten.</p>
 <p>Of de eerste letter als hoofdletter tonen:</p>
 <p><code>&lt;p&gt;Categorie: ${categorie ? categorie.charAt(0).toUpperCase() + categorie.slice(1) : '-'}&lt;/p&gt;</code></p>
 <p>Onderstaand voorbeeld combineert meerdere technieken:</p>
-<pre><code class="language-html">&lt;div&gt;
-  &lt;h3&gt;${naam}&lt;/h3&gt;
-  &lt;p&gt;Categorie: ${categorie || 'Onbekend'}&lt;/p&gt;
-  &lt;p&gt;
-    Score:
-    &lt;span class=&quot;badge bg-light text-dark border&quot;&gt;
+<pre><code class="language-html">
+&lt;div&gt;
+    &lt;h3&gt;${naam}&lt;/h3&gt;
+    &lt;p&gt;Categorie: ${categorie || 'Onbekend'}&lt;/p&gt;
+    &lt;p&gt;
+        Score:
+        &lt;span class=&quot;badge bg-light text-dark border&quot;&gt;
       ${score ?? '-'}
     &lt;/span&gt;
-  &lt;/p&gt;
-  &lt;p&gt;
-    Status:
-    &lt;span class=&quot;badge ${status === 'Actief' ? 'bg-success' : 'bg-secondary'}&quot;&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+        Status:
+        &lt;span class=&quot;badge ${status === 'Actief' ? 'bg-success' : 'bg-secondary'}&quot;&gt;
       ${status || 'Onbekend'}
     &lt;/span&gt;
-  &lt;/p&gt;
-  &lt;p&gt;
-    Bron:
-    ${url ? `&lt;a href=&quot;${url}&quot; target=&quot;_blank&quot;&gt;Open link&lt;/a&gt;` : 'Geen link beschikbaar'}
-  &lt;/p&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+        Bron:
+        ${url ? `&lt;a href=&quot;${url}&quot; target=&quot;_blank&quot;&gt;Open link&lt;/a&gt;` : 'Geen link beschikbaar'}
+    &lt;/p&gt;
 &lt;/div&gt;
 </code></pre>
 <h6 id="opbouw-van-de-interface">Opbouw van de interface</h6>
