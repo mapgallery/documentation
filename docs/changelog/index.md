@@ -19,7 +19,7 @@ Nieuwe versie MapGallery 7.9 met toevoegingen en verbeteringen voor gebruikers e
 ⚙️ Voor beheerders
 
 * **Attribuutinformatie Template.** De attribuutinformatie kan nu worden weergegeven via een template. Door middel van HTML-code kan de
-  opmaak volledig gepersonaliseerd worden. Zie: [template documentatie](/admin/layers/#template)
+  opmaak volledig gepersonaliseerd worden. Zie: [template documentatie](../admin/layers/#template)
 
 * **Ondersteuning voor WellKnownMarks.** WellKnownMarks worden nu ondersteund bij het aanpassen van de stijl van een kaartlaag. De
   WellKnownMarks zijn `circle`, `square`, `triangle`, `star`, `cross` en `x`.
