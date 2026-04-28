@@ -63,8 +63,32 @@ zijn verplicht. Uitleg van de Velden:
 
 #### Tabblad Match
 
-Via een reguliere expressie kunnen nieuwe gebruikers op basis van een match op e-mailadres of een SAML-claim (het veld
-_group_) automatisch aan de juiste groep worden toegekend.
+Via het tabblad Match kunnen nieuwe gebruikers automatisch aan een groep worden toegekend op basis van hun e-mailadres of een SAML-claim (
+het veld _group_).
+Je configureert hier:
+
+* Match gebruikers op basis van: kies tussen **e-mailadres** of **SAML**-claim.
+* Match-waarde: een tekenreeks of een reguliere expressie waartegen de waarde wordt getoetst.
+
+Wanneer een nieuwe gebruiker zich aanmeldt en de waarde matcht, wordt de gebruiker automatisch lid van de groep.
+
+##### Voorbeeld 1
+
+Interne viewer: Een groep voor gebruikers met een `@mapgallery.eu` e-mailadres.
+
+Match op: E-mailadres
+
+Waarde: `@mapgallery.eu`
+
+##### Voorbeeld 2
+
+Externe viewer: Een groep voor gebruikers zonder een `@mapgallery.eu` adres, via een reguliere expressie met negative lookahead.
+
+Match op: E-mailadres
+
+Waarde (reguliere expressie): `^(?!.*@mapgallery\.eu$)`
+
+Door beide groepen naast elkaar te gebruiken, ontstaat een automatische scheiding tussen interne en externe gebruikers.
 
 ### Acties
 
