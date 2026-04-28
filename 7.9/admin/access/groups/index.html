@@ -1318,6 +1318,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Tabblad Match">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#voorbeeld-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Voorbeeld 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#voorbeeld-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Voorbeeld 2
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -1758,6 +1782,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Tabblad Match">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#voorbeeld-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Voorbeeld 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#voorbeeld-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Voorbeeld 2
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -1930,8 +1978,23 @@ zijn verplicht. Uitleg van de Velden:</p>
 </tbody>
 </table>
 <h4 id="tabblad-match">Tabblad Match</h4>
-<p>Via een reguliere expressie kunnen nieuwe gebruikers op basis van een match op e-mailadres of een SAML-claim (het veld
-<em>group</em>) automatisch aan de juiste groep worden toegekend.</p>
+<p>Via het tabblad Match kunnen nieuwe gebruikers automatisch aan een groep worden toegekend op basis van hun e-mailadres of een SAML-claim (
+het veld <em>group</em>).
+Je configureert hier:</p>
+<ul>
+<li>Match gebruikers op basis van: kies tussen <strong>e-mailadres</strong> of <strong>SAML</strong>-claim.</li>
+<li>Match-waarde: een tekenreeks of een reguliere expressie waartegen de waarde wordt getoetst.</li>
+</ul>
+<p>Wanneer een nieuwe gebruiker zich aanmeldt en de waarde matcht, wordt de gebruiker automatisch lid van de groep.</p>
+<h5 id="voorbeeld-1">Voorbeeld 1</h5>
+<p>Interne viewer: Een groep voor gebruikers met een <code>@mapgallery.eu</code> e-mailadres.</p>
+<p>Match op: E-mailadres</p>
+<p>Waarde: <code>@mapgallery.eu</code></p>
+<h5 id="voorbeeld-2">Voorbeeld 2</h5>
+<p>Externe viewer: Een groep voor gebruikers zonder een <code>@mapgallery.eu</code> adres, via een reguliere expressie met negative lookahead.</p>
+<p>Match op: E-mailadres</p>
+<p>Waarde (reguliere expressie): <code>^(?!.*@mapgallery\.eu$)</code></p>
+<p>Door beide groepen naast elkaar te gebruiken, ontstaat een automatische scheiding tussen interne en externe gebruikers.</p>
 <h3 id="acties_1">Acties</h3>
 <p>Rechtsboven in het overzicht bevinden zich de actie knoppen.</p>
 <p><img alt="" src="../../../assets/img/button-save.png#right" title="Opslaan" /> Klik op de knop <strong>Opslaan</strong> om aangebrachte wijzigingen aan de groep op te slaan. Een kleine spinner
