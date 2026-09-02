@@ -29,7 +29,7 @@ de [GitHub repository](https://github.com/mapgallery/documentation/issues) en ma
 ### Ondersteuning
 
 Heb je vragen die niet in de documentatie worden beantwoord? Onze supportdesk staat klaar om je verder te helpen. Stuur
-ons een e-mail via [support@mapgallery.eu](mailto:support@mapgallery.eu') of ga naar het support portaal
+ons een e-mail via [support@mapgallery.eu](mailto:support@mapgallery.eu) of ga naar het support portaal
 op [mapgallery.inserve.nl](https://mapgallery.inserve.nl/).
 
 [//]: # (Neem telefonisch contact met ons op via 0570 - 74 60 78.)

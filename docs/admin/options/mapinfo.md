@@ -36,8 +36,7 @@ Zodra geactiveerd, zijn deze instellingen van toepassing op alle collecties binn
 
 ## Bewerkingsscherm
 
-Via het bewerkingsscherm worden alle relevante details van een **{{ page.meta.vars.singular }}** weergegeven en kunnen
-kunnen de instellingen worden gewijzingd.
+Via het bewerkingsscherm worden alle relevante details van een **{{ page.meta.vars.singular }}** weergegeven en kunnen dwe instellingen worden gewijzigd.
 
 ### Bewerkingsopties
 

@@ -17,7 +17,7 @@ favoriet.
 1. Zorg ervoor dat de [**Kaartviewer**](../map) actief is.
 2. Zoek een kaartlaag en voeg deze toe, zie ook de [**Zoekfunctie**](../quick_search/) van deze documentatie voor een
    beschrijving.
-3. Zorg dat de kaartlaag is uitgeklapt via de via de **collapse** knop.
+3. Zorg dat de kaartlaag is uitgeklapt via de **collapse** knop.
 4. Klik op de favoriet knop ![](bookmark.svg) van de specifieke kaartlaag.
 5. De kaartlaag wordt nu toegevoegd aan de favorietenlijst aan de linkerzijde onder het zoekscherm. De knop verandert nu
    in een gekleurde bladwijzer ![](bookmark_active.svg) als indicatie dat de kaartlaag favoriet is.

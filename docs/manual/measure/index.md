@@ -2,12 +2,12 @@
 title: "Meten & Annoteren"
 ---
 
-De **Kaart opties** bij [Tools (E)](../map/#e-kaartnavigatie-tools) bieden de mogelijkheid om te meten
-en te annoteren op de kaart. Volg onderderstaande stappen om dit te kunnen doen.
+De **Kaart opties** bij [Tools (E)](../map/#e-tools) bieden de mogelijkheid om te meten
+en te annoteren op de kaart. Volg onderstaande stappen om dit te kunnen doen.
 
 1. Zorg ervoor dat de [**Kaartviewer**](../map) actief is. ![](/assets/img/user-extra-menu.png#right)
 
-2. Klik bij [Tools (E)](../map/#e-kaartnavigatie-tools) op het uitklapmenu (![](/assets/svg/dot.svg)) en kies vervolgens **Meten & Annoteren**.
+2. Klik bij [Tools (E)](../map/#e-tools) op het uitklapmenu (![](/assets/svg/dot.svg)) en kies vervolgens **Meten & Annoteren**.
 
 3. Het Meten & Annoteren venster verschijnt met drie opties:
      - Klik op ![](coord.svg) voor **coördinaten.** Klik op een gewenste locatie op de kaart om de coördinaten van die

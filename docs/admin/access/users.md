@@ -41,7 +41,7 @@ Elke gebruiker heeft een eigen profiel en toegangsrechten binnen de applicatie.
 ## Bewerkingsscherm
 
 Via het bewerkingsscherm worden alle relevante details van een **{{ page.meta.vars.singular }}** weergegeven en kunnen de instellingen
-worden gewijzingd.
+worden gewijzigd.
 
 ### Bewerkingsopties
 
@@ -53,7 +53,7 @@ Uitleg van de Velden:
 | `Email`   | Het emailadres van de {{ page.meta.vars.singular }}.                                                                  |
 | `Naam`    | De naam van de {{ page.meta.vars.singular }}.                                                                          |
 | `Notitie` | Hier kunnen eventuele beheernotities worden toevoegen die niet zichtbaar zijn voor de eindgebruikers. |
-| `Rechten` | Geeft de rol aan van de gebruiker.                                                                                     |
+| `Rechten` | Geeft aan of een {{ page.meta.vars.singular }} beheerder is of niet.                                                                               |
 | `Groepen` | De groepen waar de gebruiker aan gekoppeld is.                                                                         |
 
 ### Acties

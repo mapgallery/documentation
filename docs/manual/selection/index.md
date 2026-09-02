@@ -2,12 +2,12 @@
 title: "Selecteren"
 ---
 
-De **Kaart opties** bij [Tools (E)](../map/#e-kaartnavigatie-tools) bieden de mogelijkheid om meerdere
-objecten op de kaart te kunnen selecteren. Volg onderderstaande stappen om een selectie te maken op de kaart.
+De **Kaart opties** bij [Tools (E)](../map/#e-tools) bieden de mogelijkheid om meerdere
+objecten op de kaart te kunnen selecteren. Volg onderstaande stappen om een selectie te maken op de kaart.
 
 1. Zorg ervoor dat de [**Kaartviewer**](../map) actief is. ![](/assets/img/user-extra-menu.png#right)
 
-2. Klik bij [Tools (E)](../map/#e-kaartnavigatie-tools) op het uitklapmenu (![](/assets/svg/dot.svg))
+2. Klik bij [Tools (E)](../map/#e-tools) op het uitklapmenu (![](/assets/svg/dot.svg))
    en kies vervolgens **Selecteren**.
 
 3. In het midden van de kaart verschijnt een blauw selectiekader en aan de linkerkant het Selecteren venster.

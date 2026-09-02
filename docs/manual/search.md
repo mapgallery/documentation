@@ -31,8 +31,6 @@ volgende informatie te zien:
 * **Beschrijving**: Een korte uitleg van wat de kaartlaag bevat.
 * **Zoekwoorden**: Relevante trefwoorden die aan de kaartlaag zijn gekoppeld, waardoor je makkelijk kunt zien waar de
   dataset over gaat.
-* **Zoekwoorden**: Relevante trefwoorden die aan de kaartlaag zijn gekoppeld, waardoor je makkelijk kunt zien waar de
-  dataset over gaat.
 * **Classificaties**: Classificaties die aan de kaartlaag zijn gekoppeld, waardoor je makkelijk kunt zien waar de
   dataset over gaat.
 

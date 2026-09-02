@@ -21,8 +21,7 @@ Elke kaartlaag biedt een interactieve legenda met een aantal interactieve knoppe
 
 #### Legenda
 
-De kleuren en symbolen naast elke kaartlaag geven een visuele weergave van de categorieën binnen de laag.
-oor op een legenda item te klikken wordt het item aan- of uitgezet.
+De kleuren en symbolen naast elke kaartlaag geven een visuele weergave van de categorieën binnen de laag. Door op een legenda-item te klikken wordt het item aan- of uitgezet.
 
 #### Metadata
 
@@ -68,9 +67,7 @@ een gedetailleerde uitleg van de beschikbare opties in dit menu.
   Clustering is handig wanneer je met veel punten werkt, omdat het een overzichtelijke weergave biedt zonder dat de
   kaart overladen raakt.
 - **Stijl terugzetten.** Gebruik deze optie om alle aangepaste stijlinstellingen terug te zetten naar de oorspronkelijke
-  standaardweergave.
-
-<pre> </pre>
+  standaardweergave.  
 
 - **Weergave**:
     - Grootte van de symbolen (bovenste schuifregelaar): Pas de grootte van de symbolen aan met deze schuifregelaar.
@@ -89,5 +86,5 @@ beheren. Hieronder volgt een uitleg van de verschillende opties die beschikbaar 
 * **Uitzetten**: Met deze optie kun je alle actieve kaartlagen in één keer uitschakelen.
 * **Aanzetten**: Hiermee zet je alle kaartlagen die zijn uitgeschakeld, weer aan.
 * **Inklappen**: Deze optie klapt alle legenda's van de actieve kaartlagen in.
-* **Uitklappen**: Met deze optie worden alle legenda;s in het Kaartlagen-paneel uitgeklapt.
+* **Uitklappen**: Met deze optie worden alle legenda's in het Kaartlagen-paneel uitgeklapt.
 * **Sluiten**: Sluit alle kaartlagen.

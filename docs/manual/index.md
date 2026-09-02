@@ -16,7 +16,7 @@ loggen. Klik op de link in de e-mail om toegang te krijgen.
 Na registratie kun je inloggen op MapGallery via de link in de uitnodigingsmail. Vanaf daar kun je navigeren naar de
 gewenste omgeving.
 
-1. Klik op de URL die je per e-mail van MapGallery hebt ontvangen om naar het inlogscherm te gaan..
+1. Klik op de URL die je per e-mail van MapGallery hebt ontvangen om naar het inlogscherm te gaan.
 1. Voer de **Gebruikersnaam** en het **Wachtwoord** in die je per e-mail van MapGallery hebt ontvangen.
 1. Klik op **Aanmelden**.
 

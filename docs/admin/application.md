@@ -19,12 +19,13 @@ Bovenin het scherm bevinden zich tabbladen om te wisselen tussen verschillende c
 ## Algemeen
 
 Het dashboard geeft een overzicht van de huidige status van de MapGallery applicatie.
+In deze sectie configureer je de algemene instellingen van de omgeving.-
 
 | Naam                    | Beschrijving                                                                             |
 |-------------------------|------------------------------------------------------------------------------------------|
-| `Titel`                 | De naam van de omgeving zoals weergegeven in de gebruikersinterface..                    |
+| `Titel`                 | De naam van de omgeving zoals weergegeven in de gebruikersinterface.                    |
 | `Organisatie (kort)`    | De afkorting of projectnaam van de organisatie. Wordt o.a. gebruikt bij het tabblad.     |
-| `Email adres beheerder` | Het e-mailadres van de hoofdbeheerder. Wordt gebruikt voor systeemmeldingen en contact.. |
+| `Email adres beheerder` | Het e-mailadres van de hoofdbeheerder. Wordt gebruikt voor systeemmeldingen en contact. |
 | `Kleur`                 | Bepaal de primaire kleur van de gebruikersinterface.                                     |
 
 ##### Configuratie
@@ -64,7 +65,7 @@ Graph App Manifest.
 * Klik op **Add** en vervolgens **App registration**
 * Geef een herkenbare naam op (bijv. MapGallery WebGIS), kies bij _Ondersteunde accounttypen_ de optie **Default
   Directory only**. Je kunt _Redirect URI_ overslaan.
-* De scopes die door MapGallery worden gebruik zijn: **openid profile email offline_access**
+* De scopes die door MapGallery worden gebruikt zijn: **openid profile email offline_access**
 * Klik op **Register**
 
 #### Stap 2: Genereer manifest in MapGallery
@@ -75,7 +76,7 @@ Ga in MapGallery naar **Applicatie** > **SSO** en vul de gegevens in.
 * Vul uit het overzicht van de App-registratie in Azure de _Application (client) ID_ en de _Issuer URL_ in. De Issuer URL is
   meestal een endpoint van de Identity Provider met de _Directory (tenant) ID_:
     * OIDC v2.0: [https://login.microsoftonline.com/{tenant-id}/v2.0]()
-    * OIDC v1.0: [https://sts.windows.net/{tenant-id}/]()
+    * OIDC v1.0: [https://sts.windows.net/{tenant-id}]()
 * Klik op **Genereer Manifest**
 * Download het JSON-bestand dat wordt aangemaakt
 

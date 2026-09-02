@@ -43,7 +43,7 @@ Een kaartlaag is een informatielaag, bestaande uit data die een gebruiker aan en
 gebruiker onafhankelijk van elkaar aan- en uitzetten. Afhankelijk van het protocol van de service waar de kaartlaag aan
 gekoppeld is, bestaat de mogelijkheid gegroepeerde data in een kaartlaag aan of uit te zetten, te filteren of te stylen.
 
-Zie voor meer informatie het onderdeel [Layers](../layers/).
+Zie voor meer informatie het onderdeel [Kaartlagen](../layers/).
 
 ### D. Zoekfunctie
 

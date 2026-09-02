@@ -7,8 +7,7 @@ vars:
   singular: 'service'
 ---
 
-In deze sectie van de MapGallery beheeromgeving kun je verschillende services beheren, zoals API's, WMS en WFS. Een
-service kan meerdere kaartlagen onstluiten.
+In deze sectie van de MapGallery beheeromgeving kun je verschillende services beheren, zoals API's, WMS en WFS. Een service kan meerdere kaartlagen ontluiten.
 
 {% include "admin/navigate-1.md" %}
 2. Selecteer **Dashboard** uit het menu en ga naar de sectie **{{ page.meta.vars.plural }}**.
@@ -43,24 +42,22 @@ service kan meerdere kaartlagen onstluiten.
 
 ## Bewerkingsscherm
 
-Via het bewerkingsscherm worden alle relevante details van een **{{ page.meta.vars.singular }}** weergegeven en kunnen
-kunnen de instellingen
-worden gewijzingd.
+Via het bewerkingsscherm worden alle relevante details van een **{{ page.meta.vars.singular }}** weergegeven en kunnen de instellingen worden gewijzigd.
 
 ### Bewerkingsopties
 
-Bovenaan de pagina zijn de tabbladen [**Algemeen**](base) en [**Kaartlagen**](layers) voor verschillende instellingen
+Bovenaan de pagina zijn de tabbladen [**Algemeen**](#tabblad-algemeen), [**Protocol**](#tabblad-protocol), [**Authenticatie**](#tabblad-authenticatie) en [**Foutmeldingen**](#tabblad-foutmeldingen) voor verschillende instellingen
 van de {{ page.meta.vars.singular }}.
 
 #### Tabblad Algemeen
 
 Bevat de belangrijkste instellingen van de {{ page.meta.vars.singular }} (zoals hieronder beschreven). Velden met een *
 zijn verplicht.
-Uitleg van de Velden:
+Uitleg van de velden:
 
 | Naam               | Beschrijving                                                                                                                                                                                 |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `Uitschakelen`     | Wanneer deze optie is aangevinkt, wordt de collectie niet getoond in het overzicht voor de  eindgebruikers. De {{ page.meta.vars.singular }} blijft echter wel toegankelijk voor beheerders. |
+| `Uitschakelen`     | Wanneer deze optie is aangevinkt, wordt de {{ page.meta.vars.singular }} niet getoond in het overzicht voor de  eindgebruikers. De {{ page.meta.vars.singular }} blijft echter wel toegankelijk voor beheerders. |
 | `Toegang`          | Hier kun je de toegang van de {{ page.meta.vars.singular }} instellen.                                                                                                                       |
 | `Naam`             | De naam van de {{ page.meta.vars.singular }}.                                                                                                                                                |
 | `Notitie`          | Hier kunnen eventuele beheernotities worden toevoegen die niet zichtbaar zijn voor de eindgebruikers.                                                                                        |

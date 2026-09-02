@@ -1,9 +1,11 @@
-# Changelog versie 7
+---
+title: "Changelog versie 7"
+---
 
+# Changelog versie 7
 ## MapGallery webGIS
 
 ### 7.9 <small>april 2026</small>
-
 Nieuwe versie MapGallery 7.9 met toevoegingen en verbeteringen voor gebruikers en beheerders.
 
 👤 Voor gebruikers

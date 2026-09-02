@@ -42,7 +42,7 @@ collecties.
 
 Via het bewerkingsscherm worden alle relevante details van een **{{ page.meta.vars.singular }}** weergegeven en kunnen
 de instellingen
-worden gewijzingd.
+worden gewijzigd.
 
 ### Bewerkingsopties
 

@@ -47,14 +47,11 @@ tot deze collecties.
 
 ## Bewerkingsscherm
 
-Via het bewerkingsscherm worden alle relevante details van een **{{ page.meta.vars.singular }}** weergegeven en kunnen
-kunnen de instellingen
-worden gewijzingd.
+Via het bewerkingsscherm worden alle relevante details van een **{{ page.meta.vars.singular }}** weergegeven en kunnen de instellingen worden gewijzigd.
 
 ### Bewerkingsopties
 
-Bovenaan de pagina zijn de tabbladen [**Algemeen**](#tabblad-algemeen), [**Kaartlagen**](#tabblad-kaartlagen) en [*
-*Gerelateerd**](#tabblad-gerelateerd) voor verschillende instellingen
+Bovenaan de pagina zijn de tabbladen [**Algemeen**](#tabblad-algemeen), [**Kaartlagen**](#tabblad-kaartlagen) en [**Gerelateerd**](#tabblad-gerelateerd) voor verschillende instellingen
 van de {{ page.meta.vars.singular }}.
 
 #### Tabblad Algemeen
@@ -76,7 +73,7 @@ zijn verplicht. Uitleg van de Velden:
   mogelijke symbolen van de iconen set (Material Icons).
 - **Zoekwoorden**: Tags om de collectie beter vindbaar te maken. Bijvoorbeeld trefwoorden die gerelateerd zijn aan de
   collectie. Deze kunnen één voor één worden toegevoegd.
-- **Classificatie**: Hier kunt u de collectie classificeren binnen specifieke thema's. Deze classificaties helpen
+- **Classificatie**: Hier kun je de collectie classificeren binnen specifieke thema's. Deze classificaties helpen
   gebruikers de collectie
   beter te categoriseren en te vinden.
 

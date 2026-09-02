@@ -32,7 +32,5 @@ te openen in een nieuw venster.
 Dit geeft specifieke attribuut informatie over de locatie van de kaartlaag.
 
 !!! note
-Een marker geeft de geselecteerde locatie op de kaart weer en in het zoekveld verschijnt alle relevante informatie van
-de geselecteerde locatie. Klik op een andere locatie op de kaart of versleep de marker naar een nieuwe locatie voor
-andere informatie.
+    Een marker geeft de geselecteerde locatie op de kaart weer en in het zoekveld verschijnt alle relevante informatie van de geselecteerde locatie. Klik op een andere locatie op de kaart of versleep de marker naar een nieuwe locatie voor andere informatie.
 

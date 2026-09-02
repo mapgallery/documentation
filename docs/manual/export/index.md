@@ -2,17 +2,17 @@
 title: "Exporteren"
 ---
 
-Er zijn verschillende manieren om gegeven te exporteren uit MapGallery.
+Er zijn verschillende manieren om gegevens te exporteren uit MapGallery.
 
 ## Exporteer Kaartbeeld
 
-De opties onder **Export** bij [Tools (E)](../../map/#kaartviewer) bieden de mogelijkheid om de
+De opties onder **Export** bij [Tools (E)](../map/#e-tools) bieden de mogelijkheid om de
 huidige kaartweergave op te slaan of te delen. Beide opties maken het mogelijk om eenvoudig de resultaten van je
 kaartwerk te bewaren of te delen. Hier zijn de beschrijvingen van de twee exportopties:
 
 1. Zorg ervoor dat de [**Kaartviewer**](../map) actief is. ![](/assets/img/user-extra-menu.png#right)
 
-1. Klik bij [Tools (E)](../map/#e-kaartnavigatie-tools) op het uitklapmenu (![](/assets/svg/dot.svg)) en kies vervolgens
+1. Klik bij [Tools (E)](../map/#e-tools) op het uitklapmenu (![](/assets/svg/dot.svg)) en kies vervolgens
    een van de volgende opties:
 
 #### Kaartbeeld als afbeelding
