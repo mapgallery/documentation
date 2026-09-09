@@ -6,18 +6,13 @@ Deze handleiding geeft een overzicht van de verschillende onderdelen van de kaar
 aangegeven op de kaart. Elk gemarkeerd gebied (A-F) biedt belangrijke functionaliteiten voor het navigeren en gebruiken
 van de kaartweergave.
 
-{% include "manual/navigate.md" %}
-
-2. Kies **Kaart** uit het menu.
-
-Het is ook mogelijk om direct op de knop **MapGallery** te klikken.
-
 ## Kaartviewer
 
 De Kaartviewer is een gebruiksvriendelijke tool voor het verkennen van geografische informatie. Met deze interactieve
 kaart kunnen gebruikers eenvoudig geografische informatie verkennen en analyseren.
 
 ![](map.png)
+
 
 ### A. Hoofdmenu
 
@@ -47,7 +42,7 @@ Zie voor meer informatie het onderdeel [Kaartlagen](../layers/).
 
 ### D. Zoekfunctie
 
-Bovenaan links in het scherm zie je de zoekbalk waarmee je snel naar specifieke locaties kunt zoeken. Typ een locatie of
+Bovenaan rechts in het scherm zie je het icoon van een vergrootglas waarmee je snel naar specifieke locaties kunt zoeken. Typ een locatie of
 trefwoord in, en MapGallery zoomt automatisch in op het betreffende gebied.
 
 Zie voor meer informatie het onderdeel [Zoekfunctie](../quick_search/).
@@ -65,4 +60,4 @@ Zie voor meer informatie het onderdeel [Tools](../tools/).
 
 ### F. Ondergronden
 
-Rechtsonder zie je de ondergrondkaart die actief als basislaag in de kaartweergave. Zie voor meer informatie het onderdeel [Ondergronden](../background/).
+Rechtsboven zie je de ondergrondkaart die actief als basislaag in de kaartweergave. Zie voor meer informatie het onderdeel [Ondergronden](../background/).

@@ -31,7 +31,7 @@ geprojecteerd worden. Een kaartlaag bevat een visualisatie van specifieke geogra
 bijvoorbeeld de locaties van bluswatervoorzieningen of zorginstellingen, maar ook een visualisatie van de actuele
 verkeersinformatie of een digitale weergave van het aardoppervlak met oppervlaktetopografie.
 
-![](index.png)
+![](index_mg8.png)
 
 MapGallery bevat een veelzijdig **zoekveld**, waarmee je naar coördinaten, adressen, kaartlagen, ondergronden of
 gegevens kunt zoeken. Ook beschikt de kaart over verschillende weergavefuncties, zoals een 2D- en 3D-weergave, in- en

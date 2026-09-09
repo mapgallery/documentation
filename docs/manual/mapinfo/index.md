@@ -2,20 +2,17 @@
 title: "B. Kaart"
 ---
 
-Het centrale gedeelte van de interface is de [Kaart (B)](../map/#kaartviewer). Hier kun je inzoomen, uitzoomen en de kaart verplaatsen om
-verschillende geografische gebieden te verkennen.
+Het centrale gedeelte van de interface is de [Kaart (B)](../map/#kaartviewer). Hier kun je inzoomen, uitzoomen en de kaart verplaatsen om verschillende geografische gebieden te verkennen.
 
 Wanneer je op een locatie in de kaart klikt, verschijnt het Locatie informatie-paneel links. Hier krijg je
 gedetailleerde informatie over de geselecteerde locatie. Elk paneel is inklapbaar. De volgende elementen zijn zichtbaar
 in dit paneel.
 
-![](menu-mapinfo.png)
+![](mapinfo_mg8.png)
 
 #### Coördinaten
 
-De WGS84-coördinaten van de geselecteerde locatie worden bovenaan weergegeven. Door op het coordinaat te klikken wordt
-een pop-upscherm getoond met coordinaten in de projecties Web Mercator (EPSG:3857), WGS84 (EPSG:4326) en
-Rijksdriehoekstelsel (EPSG:28992).
+De WGS84-coördinaten van de geselecteerde locatie worden bovenaan weergegeven. Door op het icoon van de 3 puntjes te klikken wordt een drop down menu getoond met coordinaten in de projecties Web Mercator (EPSG:3857), WGS84 (EPSG:4326) en Rijksdriehoekstelsel (EPSG:28992).
 
 #### Streetview
 

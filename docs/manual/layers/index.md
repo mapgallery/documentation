@@ -8,7 +8,7 @@ paneel kunt gebruiken om actieve kaartlagen te beheren.
 
 Overzicht van het Kaartlagen-paneel
 
-![](menu-legend.png)
+![](legend_mg8.png)
 
 Elke actieve kaartlaag wordt weergegeven in dit paneel. Een kaartlaag kan worden in- en uitgeklapt via de **collapse**
 knop en worden gesloten door op de **sluiten** knop (![](/assets/svg/close.svg#middle)) te klikken. Door te **slepen** kan
@@ -56,7 +56,7 @@ analysebehoeften.
 Bij een vectorkaartlaag kan de style worden aangepast, evenals de transparantie en dikte van symbolen. Hieronder volgt
 een gedetailleerde uitleg van de beschikbare opties in dit menu.
 
-![](menu-style.png#right)
+![](style_menu_mg8.png#right)
 
 - **Eenvoudig.** Kies deze optie om een eenvoudige, standaardweergave te gebruiken voor de kaartlaag. Dit is de
   basisstijl zonder speciale effecten of aanpassingen.
@@ -66,9 +66,11 @@ een gedetailleerde uitleg van de beschikbare opties in dit menu.
 - **Clusters.** Deze optie groepeert dicht bij elkaar liggende punten tot clusters, afhankelijk van het zoomniveau.
   Clustering is handig wanneer je met veel punten werkt, omdat het een overzichtelijke weergave biedt zonder dat de
   kaart overladen raakt.
+
+<br>
+
 - **Stijl terugzetten.** Gebruik deze optie om alle aangepaste stijlinstellingen terug te zetten naar de oorspronkelijke
   standaardweergave.  
-
 - **Weergave**:
     - Grootte van de symbolen (bovenste schuifregelaar): Pas de grootte van de symbolen aan met deze schuifregelaar.
     - Transparantie (onderste schuifregelaar): Met deze schuifregelaar kun je de transparantie van de kaartlaag
@@ -82,9 +84,12 @@ beheren. Hieronder volgt een uitleg van de verschillende opties die beschikbaar 
 
 ![](menu-layers.png#right)
 
-* **Kaartlaag toevoegen**: Deze optie opent een dialoogvenster waarmee je nieuwe kaartlagen kunt toevoegen.
 * **Uitzetten**: Met deze optie kun je alle actieve kaartlagen in één keer uitschakelen.
 * **Aanzetten**: Hiermee zet je alle kaartlagen die zijn uitgeschakeld, weer aan.
 * **Inklappen**: Deze optie klapt alle legenda's van de actieve kaartlagen in.
 * **Uitklappen**: Met deze optie worden alle legenda's in het Kaartlagen-paneel uitgeklapt.
 * **Sluiten**: Sluit alle kaartlagen.
+
+Naast het contextmenu (het icoon met drie puntjes) bevindt zich de knop om de legenda te verbergen (het icoon met twee pijltjes). Door hierop te drukken, verdwijnt de legenda, maar blijven de kaartlagen op de kaart zichtbaar.
+
+De legenda wordt weer zichtbaar door rechtsboven op het kaartlagen-icoon te klikken en vervolgens Legenda tonen te selecteren.

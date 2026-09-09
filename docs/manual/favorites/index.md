@@ -19,8 +19,7 @@ favoriet.
    beschrijving.
 3. Zorg dat de kaartlaag is uitgeklapt via de **collapse** knop.
 4. Klik op de favoriet knop ![](bookmark.svg) van de specifieke kaartlaag.
-5. De kaartlaag wordt nu toegevoegd aan de favorietenlijst aan de linkerzijde onder het zoekscherm. De knop verandert nu
-   in een gekleurde bladwijzer ![](bookmark_active.svg) als indicatie dat de kaartlaag favoriet is.
+5. De kaartlaag wordt nu toegevoegd aan de favorietenlijst aan de linkerzijde onder de bookmarks knop ![](bookmarks.svg). De knop verandert nu in een gekleurde bladwijzer ![](bookmark_active.svg) als indicatie dat de kaartlaag favoriet is.
 
 Wanneer een kaartlaag niet meer favoriet is, kan op de favoriet-knop worden geklikt om deze te verwijderen uit de
 favorietenlijst.
@@ -32,14 +31,13 @@ favorietenlijst.
 ### Toegang tot favorieten
 
 Gebruikers kunnen hun favorieten terugzien onder de [Zoekfunctie (D)](../map/#kaartviewer) aan de linkerzijde van het
-scherm. Klik op een kaartlaag om deze aan de kaarviewer toe te voegen.
+scherm, via het favorieten venster. Klik op een kaartlaag om deze aan de kaarviewer toe te voegen.
 
 ![](bookmarks.png)
 
-1. Om een kaartlaag toe te voegen, klik op de naam van de kaartlaag of de toevoeg knop ![](add.svg).
+1. Om een kaartlaag toe te voegen, klik op de naam van de kaartlaag.
     * De kaartlaag wordt toegevoegd aan de [**Kaartviewer**](../map).
-    * Het symbool achter de kaartlaag verandert naar het sluit-knopje ![](remove.svg). Nogmaals op deze kaartlaag
-      klikken zal de kaartlaag sluiten.
+    * Klik nogmaals op deze kaartlaag op deze kaartlaag te sluiten. 
 
 2. Je kunt alle kaartlagen uit een groep in één keer toevoegen door op de **Groep toevoegen** knop ![](add_group.svg) te
    klikken. Alle kaartlagen uit die groep worden dan toegevoegd aan de kaartviewer.
@@ -50,9 +48,9 @@ Gebruikers kunnen hun favorieten zelf beheren en onder groepen indelen. Favoriet
 
 ![](bookmarks_edit.png)
 
+
 1. Zorg ervoor dat de [**Kaartviewer**](../map) actief is.
-2. Klik op het favorieten symbool ![](bookmarks.svg) onder de [**Zoekfunctie**](../quick_search/). Dit opent een pop-up
-   waarin favorieten kunnen worden bewerkt.
+2. Klik op het favorieten symbool ![](bookmarks.svg) om het favorieten venster te openen. En daarna op het bewerk icoon (pen).
 3. Pas de titels aan en sleep de kaartlagen naar de gewenste volgorde. Klik op de verwijder-knop ![](remove.svg) om een
    kaartlaag uit de favorieten te verwijderen.
 4. Klik op de **Groep** toevoegen knop om een nieuwe groep te maken waarin je kaartlagen kunt groeperen.

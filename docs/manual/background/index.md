@@ -2,7 +2,7 @@
 title: "F. Ondergronden"
 ---
 
-De optie rechtsonder bij [Ondergronden (F)](../map/#kaartviewer) biedt de mogelijkheid om de ondergrondkaart te
+De optie rechtsboven bij [Ondergronden (F)](../map/#kaartviewer) biedt de mogelijkheid om de ondergrondkaart te
 kiezen die als basislaag wordt gebruikt in de kaartweergave. De ondergrondkaart fungeert als visuele basis waarop andere
 kaartlagen worden geplaatst. Hieronder vind je een uitleg van de beschikbare opties.
 
@@ -14,7 +14,7 @@ behoeften en analyses.
 
 ### Opties
 
-De kaartlagen in de dropdown zijn door de beheerder aangemerkt als standaardondergronden en worden als beschikbare
+De kaartlagen in het overzicht zijn door de beheerder aangemerkt als standaardondergronden en worden als beschikbare
 opties weergegeven. De actieve ondergrond is gemarkeerd met een bolletje. Door op een andere ondergrond in de lijst te
 klikken, wissel je de actieve basislaag.
 
