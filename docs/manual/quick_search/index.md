@@ -1,51 +1,42 @@
 ---
-title: "D. Zoekfunctie"
+title: "E. Zoekfunctie"
 ---
 
-De [Zoekfunctie (D)](../map/#kaartviewer) maakt het eenvoudig om specifieke kaartlagen, coördinaten en adresgegevens
-te vinden. Hieronder volgt een stapsgewijze uitleg voor het gebruik van deze functie.
+De [Zoekfunctie (D)](../map/#kaartviewer) maakt het eenvoudig om specifieke kaartlagen, coördinaten, adresgegevens en gegevens binnen actieve kaartlagen te vinden. Hieronder volgt een uitleg van de verschillende mogelijkheden en opties binnen de zoekfunctie.
 
-![](search1.png)
+## Zoekvenster
+Door ++control++ + ++k++ in te drukken of rechtsboven op het vergrootglas (![](search_icon.svg#middle)) te klikken, kom je bij het zoekvenster.
 
-Stappen voor het zoeken naar een locatie:
+Voer een trefwoord in het zoekveld in, zoals een onderwerp, thema of specifieke term die je zoekt. Nadat je op ++enter++ drukt of op het vergrootglas klikt, worden de resultaten direct weergegeven.
 
-1. **Start** de zoekfunctie: Links boven zie je de zoekbalk. Begin met het typen van een kaartlaag naam, adres of
-   coördinaten om je zoekopdracht te starten.
+## Zoekresultaten
+De zoekresultaten worden weergegeven in een lijst. Als de zoekresultaten niet zijn wat je zoekt, kun je eenvoudig je zoekterm wijzigen door een nieuwe term in te voeren in het zoekveld. Voor elk kaartlaagresultaat krijg je de volgende informatie te zien:
 
-1. Voer een **zoekterm** in: Terwijl je typt, geeft het systeem suggesties die overeenkomen met jouw zoekterm.
+* **Titel** van de kaartlaag
+* Naam van de **Service** (bron) van de kaartlaag
+* **Classificaties**: Classificaties die aan de kaartlaag zijn gekoppeld, waardoor je makkelijk kunt zien waar de
+  dataset over gaat.
+* **Beschrijving**: Een korte uitleg van wat de kaartlaag bevat.
 
-1. Selecteer de juiste **categorie**: De zoekresultaten worden in verschillende categorieën weergegeven:
-    - **Coördinaten**: Voor ingevoerde coördinaten krijg je de mogelijke projecties die matchen.
-    - **Adressen**: Toont mogelijke adressen, zoals gemeenten, steden of specifieke straten.
-    - **Kaartlagen**: Hier worden relevante kaartlagen getoond die aansluiten op je zoekopdracht.
-    - **Ondergronden**: Toont verschillende achtergrondkaarten, zoals luchtfoto's, topografische kaarten, of andere
-      basismappen die beschikbaar zijn gesteld.
-    - **Gegevens**: Geeft een match op de gegevens binnen een kaartlaag.
+Klik op een van de zoekresultaten om de kaartlaag of locatie te openen.
 
-1. Bekijk de **resultaten**: Klik op een van de resultaten. De kaart zoomt automatisch in op de geselecteerde locatie of
-   activeert de bijbehorende kaartlaag.
+![](search_menu_mg8.png)
 
-1. Probeer meerdere **zoektermen**: Als het resultaat niet direct zichtbaar is, probeer variaties van je zoekterm,
-   bijvoorbeeld zonder afkortingen, of gebruik synoniemen.
 
-1. **Afsluiten**: Sluit het zoeken af door op de **sluiten** knop (![](/assets/svg/close.svg))  te klikken.
+## Zoekcategorieën
+De zoekresultaten worden weergegeven in verschillende categorieën. Je kunt zoeken naar adressen, gegevens, kaartlagen, collecties, ondergronden en coördinaten.
 
-!!! note
-      Gebruik de knop "Overzicht alle kaartlagen" of "Overzicht alle achtergronden" als je niet zeker weet welke lagen je
-      nodig hebt.
+1. **Adressen**: hier worden resultaten weergegeven van adressen, postcodes, buurten, wijken, woonplaatsen, gemeenten en provincies.
+1. **Gegevens**: hier kun je met zoekwoorden zoeken naar gegevens binnen de actieve kaartlagen.
+1. **Kaartlagen**: hier wordt gezocht naar titels, beschrijvingen, zoekwoorden en classificaties van kaartlagen.
+1. **Collecties**: hiermee kun je zoeken naar collecties en de bijbehorende beschrijving.
+1. **Ondergronden**: hiermee kun je zoeken naar verschillende ondergrondkaartlagen.
+1.  **Coördinaten**: hiermee kun je zoeken naar coördinaatpunten op de kaart.
 
-## Zoekopties
-
-### Coördinaten
-
-Wanneer je coördinaten hebt ingevoerd, dan maakt MapGallery automatisch een match op mogelijke projecties. Klik
-vervolgens op de juiste projectie om de locatie direct op de kaart weer te geven.
 
 ### Adressen
 
-Via de PDOK Locatieserver (geocodeerservice) wordt gezocht op gegevens uit diverse overheidsregistraties, zoals
-adressen, postcodes, woonplaatsen, en provincies. Je kunt ook zoeken op perceelnummers of specifieke objecten zoals
-hectometerpalen. Klikken op een resultaat selecteert de locatie of het gebied en zoomt hier op in.
+Via de PDOK Locatieserver (geocodeerservice) wordt gezocht op gegevens uit diverse overheidsregistraties, zoals adressen, postcodes, woonplaatsen en provincies. Je kunt ook zoeken op perceelnummers of specifieke objecten, zoals hectometerpalen. Klikken op een resultaat selecteert de locatie of het gebied en zoomt hierop in.
 
 Naast gewone zoekvelden kun je de zoekterm ook verder specificeren op:
 
@@ -70,20 +61,22 @@ Gemeente: `hoorn type:gemeente`
 Zie voor uitgebreide informatie over de PDOK Locatieserver de
 wiki, [gebruik van de de zoektermen](https://github.com/PDOK/locatieserver/wiki/API-Locatieserver#2-gebruik-van-zoektermen-bij-solr-services).
 
-### Kaartlagen en Ondergronden
-
-De zoekfunctie geeft niet alleen resultaten voor specifieke locaties, maar ook voor relevante kaartlagen en
-ondergronden. MapGallery doorzoekt het volledige bestand van kaartlagen, metadata en beschrijvingen, en stelt deze
-beschikbaar via een klikbaar overzicht.
-
-Klik vervolgens op een kaartlaag om deze toe te voegen aan het actieve [Kaartlagen (C)](../map/#kaartviewer) paneel en zichtbaar te maken. Zie ook het
-onderdeel [Kaartlagen](../layers/) van deze documentatie voor een beschrijving van de functies per kaartlaag.
 
 ### Gegevens
+Alle actieve vector-kaartlagen in de Kaartviewer zijn doorzoekbaar op gegevensvelden. De zoekfunctie geeft suggesties voor een match en toont hierbij de naam van de kaartlaag, het attribuut en de waarde waarop een match is gevonden.
 
-![](search2.png#right)
+Klik op een resultaat om de bijbehorende geometrie te selecteren en hierop in te zoomen.
 
-Alle actieve vector-kaartlagen in de Kaartviewer zijn doorzoekbaar op gegevensvelden. De tool geeft suggesties voor een
-match en geeft hierbij de kaartlaag naam, het attribuut en de waarde waar op gematched is. Klikken op een resultaat
-selecteert de geometrie en zoomt hier op in.
+### Kaartlagen
+De zoekfunctie geeft resultaten voor relevante kaartlagen. MapGallery doorzoekt het volledige bestand van kaartlagen, metadata en beschrijvingen. Op basis hiervan worden kaartlagen weergegeven die aansluiten bij de ingevoerde zoekterm. Klik op een kaartlaag om deze toe te voegen. 
+
+### Collecties
+Met de zoekfunctie kun je ook zoeken naar collecties. Hierbij wordt gezocht naar collecties die aansluiten bij de zoekterm en naar de bijbehorende beschrijving. Klik op een collectie om deze aan de kaart toe te voegen.
+
+### Ondergronden
+De zoekfunctie kan ook worden gebruikt om beschikbare ondergronden te vinden. Zoek op een onderwerp of specifieke term om beschikbare ondergrondkaartlagen te vinden. Klik op een zoekresultaat om de betreffende ondergrond te openen en te gebruiken.
+
+### Coördinaten
+Wanneer je coördinaten hebt ingevoerd, maakt MapGallery automatisch een match met mogelijke projecties. Klik vervolgens op de juiste projectie om de locatie direct op de kaart weer te geven.
+
 

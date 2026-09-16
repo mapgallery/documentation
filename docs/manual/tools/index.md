@@ -1,6 +1,8 @@
 ---
-title: "E. Tools"
+title: "F. Tools"
 ---
+
+<img src="tool_menu_vertical.png" width="60" align="right">
 
 Het [Tools- (E)](../map/#kaartviewer) paneel biedt de mogelijkheid om het kaartbeeld aan te passen.
 
@@ -9,8 +11,6 @@ rechtsonder of de scrollknop van je muis. Je kunt het kaartbeeld draaien door de
 slepen. Eventuele pop-ups (indien beschikbaar) kunnen worden geopend door erop te klikken.
 
 De interactieve functies van de kaart zijn toegankelijk via het onderste menu in de interface:
-
-![](menu-extra.png)
 
 - **Zoomen**: Gebruik de plus (![](zoomin.svg)) en min (![](zoomout.svg)) knoppen om in of uit te zoomen op de kaart.
 - **Locatie**: Klik op de GPS-knop (![](gps.svg)) om je huidige locatie op de kaart weer te geven.

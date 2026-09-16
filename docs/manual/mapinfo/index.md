@@ -1,18 +1,24 @@
 ---
 title: "B. Kaart"
 ---
+<img src="mapinfo_mg8.png" width="330" align="right">
 
 Het centrale gedeelte van de interface is de [Kaart (B)](../map/#kaartviewer). Hier kun je inzoomen, uitzoomen en de kaart verplaatsen om verschillende geografische gebieden te verkennen.
 
-Wanneer je op een locatie in de kaart klikt, verschijnt het Locatie informatie-paneel links. Hier krijg je
+Wanneer je op een locatie in de kaart klikt, verschijnt het Locatie **informatie-paneel** links. Hier krijg je
 gedetailleerde informatie over de geselecteerde locatie. Elk paneel is inklapbaar. De volgende elementen zijn zichtbaar
 in dit paneel.
 
-![](mapinfo_mg8.png)
-
 #### Coördinaten
 
-De WGS84-coördinaten van de geselecteerde locatie worden bovenaan weergegeven. Door op het icoon van de 3 puntjes te klikken wordt een drop down menu getoond met coordinaten in de projecties Web Mercator (EPSG:3857), WGS84 (EPSG:4326) en Rijksdriehoekstelsel (EPSG:28992).
+De WGS84-coördinaten van de geselecteerde locatie worden bovenaan weergegeven. Door op het icoon van de 3 puntjes (![](../../assets/svg/hor_dots.svg#middle)) te klikken wordt een drop down menu getoond met coordinaten in de projecties Web Mercator (EPSG:3857), WGS84 (EPSG:4326) en Rijksdriehoekstelsel (EPSG:28992).
+
+#### Attribuut-gegevens
+
+Dit geeft specifieke attribuut informatie over de locatie van de kaartlaag.
+
+!!! note
+    Een marker geeft de geselecteerde locatie op de kaart weer en in het zoekveld verschijnt alle relevante informatie van de geselecteerde locatie. Klik op een andere locatie op de kaart of versleep de marker naar een nieuwe locatie voor andere informatie.
 
 #### Streetview
 
@@ -23,11 +29,3 @@ te openen in een nieuw venster.
 
 Als deze functie is ingeschakeld, kun je oblique foto's van de locatie bekijken. Klik op het icoontje om de oblique
 te openen in een nieuw venster.
-
-#### Attribuut-gegevens
-
-Dit geeft specifieke attribuut informatie over de locatie van de kaartlaag.
-
-!!! note
-    Een marker geeft de geselecteerde locatie op de kaart weer en in het zoekveld verschijnt alle relevante informatie van de geselecteerde locatie. Klik op een andere locatie op de kaart of versleep de marker naar een nieuwe locatie voor andere informatie.
-

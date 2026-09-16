@@ -36,16 +36,14 @@ nav:
       - application.md
   - Gebruiker:
       - manual/index.md
-      - manual/collections.md
-      - manual/search.md
       - manual/map.md
-      - Kaartviewer:
+      - Kaartelementen:
             - manual/header/index.md
             - manual/mapinfo/index.md
             - manual/layers/index.md
+            - manual/collections/index.md
             - manual/quick_search/index.md
             - manual/tools/index.md
-            - manual/background/index.md
       - Geavanceerd:
           - manual/filter/index.md
           - manual/selection/index.md

@@ -2,7 +2,7 @@
 title: "Aan de slag"
 ---
 
-# Aan de slag met MapGallery als gebruiker
+# Aan de slag met MapGallery als gebruiker!
 
 Deze documentatie beschrijft de verschillende onderdelen van de MapGallery-gebruikersomgeving en hoe je deze effectief kunt gebruiken.
 
