@@ -11,10 +11,10 @@
         <link rel="canonical" href="https://docs.mapgallery.eu/develop/manual/selection/">
       
       
-        <link rel="prev" href="../filter/">
+        <link rel="prev" href="../measure/">
       
       
-        <link rel="next" href="../measure/">
+        <link rel="next" href="../favorites/">
       
       
       <link rel="icon" href="../../assets/favicon.png">
@@ -818,6 +818,27 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../measure/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Meten & Annoteren
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -838,27 +859,6 @@
 
       </a>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../measure/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Meten & Annoteren
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -1505,44 +1505,27 @@
 
   <h1>Selecteren</h1>
 
-<p>De <strong>Kaart opties</strong> bij <a href="../map/#e-tools">Tools (E)</a> bieden de mogelijkheid om meerdere
-objecten op de kaart te kunnen selecteren. Volg onderstaande stappen om een selectie te maken op de kaart.</p>
-<ol>
-<li>
-<p>Zorg ervoor dat de <a href="../map"><strong>Kaartviewer</strong></a> actief is. <img alt="" src="../../assets/img/user-extra-menu.png#right" /></p>
-</li>
-<li>
-<p>Klik bij <a href="../map/#e-tools">Tools (E)</a> op het uitklapmenu (<img alt="" src="../../assets/svg/dot.svg" />)
-   en kies vervolgens <strong>Selecteren</strong>.</p>
-</li>
-<li>
-<p>In het midden van de kaart verschijnt een blauw selectiekader en aan de linkerkant het Selecteren venster.</p>
-</li>
-<li>
-<p>Pas het selectiekader aan als dat nodig is:</p>
+<p>Er zijn verschillende manieren om een ruimtelijke selectie te maken:</p>
+<p><img src="selection_location_info.png" width="340" align="right"></p>
 <ul>
-<li>Klik één keer in het selectiekader en versleep met de linkermuisknop een hoekpunt van het selectiekader.</li>
-<li>Klik één keer in het selectiekader en versleep vervolgens met de linkermuisknop het gehele selectiekader.</li>
-<li>Klik <span class="keys"><kbd class="key-delete">Del</kbd></span> of <span class="keys"><kbd class="key-backspace">Backspace</kbd></span> en teken een nieuw kader in.</li>
+<li>De Meten &amp; Tekenen-tool, linksboven (<img alt="" src="../../assets/svg/pen_ruler.svg#middle" />) biedt de mogelijkheid om meerdere objecten op de kaart te kunnen selecteren. Dit kun je daarna overnemen naar locatie-informatie, zie hiervoor ook de pagina <a href="../measure">Meten &amp; Annoteren</a>.</li>
+<li>Een andere manier is om op een punt te klikken op de kaart en daarna bij locatie informatie op de buurt, wijk, gemeente of woonplaats te klikken, dit wordt dan automatisch ook een ruimtelijke selectie.</li>
+<li>Om een hele snelle selectie te maken, moet je het locatie informatie venster open hebben en dan kun je <span class="keys"><kbd class="key-shift">Shift</kbd></span> ingedrukt houden tijdens het slepen om een selectie te maken.</li>
+</ul>
+<p>MapGallery maakt een ruimtelijke selectie. Vervolgens worden de totalen per kaartlaag weergegeven. Ook worden de bijbehorende attributentabellen getoond, waarin je door de gegevens kunt bladeren.</p>
+<p>Via de knop 'statistieken tonen' (<img alt="" src="../../assets/svg/stats_search.svg#middle" />) kun je verschillende statistieken per veld bekijken:</p>
+<ul>
+<li>Om de totalen uit te laten rekenen per attribute waarde, klik dan op <img alt="" src="../../assets/svg/m.svg#middle" /> linksonder in menu. Selecteer een gewenste attribuut uit het uitklapmenu.
+<img alt="" src="barchart.png#right" /></li>
+<li>Onder de totalen staan een aantal opties om de selectie verder te analyseren.<ul>
+<li><img alt="" src="../../assets/svg/staaf.svg#middle" /> voor een staafdiagramweergave;</li>
+<li><img alt="" src="../../assets/svg/taart.svg#middle" /> voor een taartdiagramweergave;</li>
 </ul>
 </li>
-<li>
-<p>MapGallery maakt een ruimtelijke selectie en geeft nu de totalen weer per kaartlaag.</p>
-</li>
-<li>
-<p>Om de totalen uit te laten rekenen per attribute waarde, klik dan op <img alt="" src="m.svg" /> linksonder in menu. Selecteer een gewenste attribuut uit het uitklapmenu.
-<img alt="" src="barchart.png#right" /></p>
-</li>
-<li>
-<p>Onder de totalen staan een aantal opties om de selectie verder te analyseren.</p>
-<p>a. <img alt="" src="staaf.svg" /> voor een staafdiagramweergave;</p>
-<p>b. <img alt="" src="taart.svg" /> voor een taartdiagramweergave;</p>
-<p>c. <img alt="" src="lijst.svg" /> voor een lijstweergave. </p>
-</li>
-</ol>
+</ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>De selectie kan vervolgens worden geexporteerd naar een CSV-bestand via de stappen bij <a href="../export/">Exporteren -&gt; Selectie</a>.</p>
+<p>De selectie kan vervolgens worden geexporteerd via de stappen bij <a href="../export/#exporteer-selectie">Exporteren -&gt; Selectie</a>.</p>
 </div>
 
 
@@ -1578,7 +1561,7 @@ objecten op de kaart te kunnen selecteren. Volg onderstaande stappen om een sele
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../filter/" class="md-footer__link md-footer__link--prev" aria-label="Vorige: Filteren">
+          <a href="../measure/" class="md-footer__link md-footer__link--prev" aria-label="Vorige: Meten &amp; Annoteren">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1588,20 +1571,20 @@ objecten op de kaart te kunnen selecteren. Volg onderstaande stappen om een sele
                 Vorige
               </span>
               <div class="md-ellipsis">
-                Filteren
+                Meten & Annoteren
               </div>
             </div>
           </a>
         
         
           
-          <a href="../measure/" class="md-footer__link md-footer__link--next" aria-label="Volgende: Meten &amp; Annoteren">
+          <a href="../favorites/" class="md-footer__link md-footer__link--next" aria-label="Volgende: Favorieten">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Volgende
               </span>
               <div class="md-ellipsis">
-                Meten & Annoteren
+                Favorieten
               </div>
             </div>
             <div class="md-footer__button md-icon">

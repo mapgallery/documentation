@@ -11,10 +11,10 @@
         <link rel="canonical" href="https://docs.mapgallery.eu/develop/manual/measure/">
       
       
-        <link rel="prev" href="../selection/">
+        <link rel="prev" href="../filter/">
       
       
-        <link rel="next" href="../favorites/">
+        <link rel="next" href="../selection/">
       
       
       <link rel="icon" href="../../assets/favicon.png">
@@ -142,6 +142,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#eeenheden-aanpassen" class="md-skip">
+          Ga naar inhoud
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -818,6 +823,81 @@
                 
   
   
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Meten & Annoteren
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Meten & Annoteren
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhoudsopgave">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhoudsopgave
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#eeenheden-aanpassen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Eeenheden aanpassen
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#annotaties-beheren" class="md-nav__link">
+    <span class="md-ellipsis">
+      Annotaties beheren
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
   
   
     <li class="md-nav__item">
@@ -830,35 +910,6 @@
   
 
       </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    Meten & Annoteren
-  </span>
-  
-
-      </a>
-      
     </li>
   
 
@@ -1474,6 +1525,32 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhoudsopgave
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#eeenheden-aanpassen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Eeenheden aanpassen
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#annotaties-beheren" class="md-nav__link">
+    <span class="md-ellipsis">
+      Annotaties beheren
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1505,35 +1582,33 @@
 
   <h1>Meten & Annoteren</h1>
 
-<p>De <strong>Kaart opties</strong> bij <a href="../map/#e-tools">Tools (E)</a> bieden de mogelijkheid om te meten
-en te annoteren op de kaart. Volg onderstaande stappen om dit te kunnen doen.</p>
-<ol>
-<li>
-<p>Zorg ervoor dat de <a href="../map"><strong>Kaartviewer</strong></a> actief is. <img alt="" src="../../assets/img/user-extra-menu.png#right" /></p>
-</li>
-<li>
-<p>Klik bij <a href="../map/#e-tools">Tools (E)</a> op het uitklapmenu (<img alt="" src="../../assets/svg/dot.svg" />) en kies vervolgens <strong>Meten &amp; Annoteren</strong>.</p>
-</li>
-<li>
-<p>Het Meten &amp; Annoteren venster verschijnt met drie opties:</p>
+<p>De tool Meten &amp; Tekenen, linksboven (<img alt="" src="../../assets/svg/pen_ruler.svg#middle" />) biedt de mogelijkheid om afstanden, oppervlakken en coördinaten op de kaart te meten. Volg onderstaande stappen om de tool te gebruiken.</p>
 <ul>
-<li>Klik op <img alt="" src="coord.svg" /> voor <strong>coördinaten.</strong> Klik op een gewenste locatie op de kaart om de coördinaten van die
+<li>Het venster Meten &amp; Annoteren verschijnt met drie opties:<ul>
+<li>Klik op <img alt="" src="../../assets/svg/coord.svg#middle" /> voor <strong>coördinaten.</strong> Klik op een gewenste locatie op de kaart om de coördinaten van die
  locatie weer te geven.</li>
-<li>Klik op <img alt="" src="range.svg" /> voor <strong>afstanden.</strong> Klik op de <strong>kaart</strong> op een gewenst beginpunt en klik vervolgens op een
-   gewenst eindpunt om de afstand hemelsbreed weer te geven.</li>
-<li>Klik op <img alt="" src="surface.svg" /> voor <strong>oppervlak.</strong> Klik op de <strong>kaart</strong> op een beginpunt dat zich aan de rand bevindt van
-   een gewenst gebied, waarvan je het oppervlak wilt meten. Klik op meerdere punten aan de rand van het gebied en
-   dubbelklik om de selectie te sluiten. Het oppervlak wordt weergegeven in vierkante kilometer.</li>
+<li>Klik op <img alt="" src="../../assets/svg/range.svg#middle" /> voor <strong>afstanden.</strong> Klik op de <strong>kaart</strong> op een gewenst beginpunt en klik vervolgens dubbel op een gewenst eindpunt om de afstand hemelsbreed weer te geven in meters.</li>
+<li>Klik op <img alt="" src="../../assets/svg/surface.svg#middle" /> voor <strong>oppervlak.</strong> Klik op de <strong>kaart</strong> op een beginpunt dat zich aan de rand bevindt van een gewenst gebied, waarvan je het oppervlak wilt meten. Klik op meerdere punten en dubbelklik om de selectie te sluiten. Het oppervlak wordt weergegeven in vierkante kilometer.</li>
 </ul>
 </li>
-<li>
-<p>De resultaten worden getoond in een popup op de kaart. Klik op de popup om de tekst aan te passen naar een <strong>Annotatie</strong>.</p>
-</li>
-<li>
-<p>Klik op de <strong>verwijder</strong> knop om alle annotaties te wissen en opnieuw te beginnen.</p>
-</li>
-</ol>
-<p><img alt="" src="measure.png" /></p>
+</ul>
+<p>Om de annotatie te veranderen klik je eerst op of in de annotatie, wanneer de annotatie vervolgens oranje wordt, kan de annotatie verplaatst worden over de kaart.</p>
+<p><img src="measure_mg8.png" width="400" align="right"></p>
+<h4 id="eeenheden-aanpassen">Eeenheden aanpassen</h4>
+<p>Via het tandwielpictogram (<img alt="" src="../../assets/svg/pen_ruler.svg#middle" />) kun je de eenheden voor afstanden en oppervlakken aanpassen. Voor afstanden kun je kiezen uit meter, kilometer, mijl en zeemijl. Voor oppervlakken kun je kiezen uit vierkante meter, vierkante kilometer, vierkante mijl en hectare.</p>
+<h4 id="annotaties-beheren">Annotaties beheren</h4>
+<ul>
+<li>Met de cropknop (<img alt="" src="../../assets/svg/crop.svg#middle" />) zoom je in op de annotatie.</li>
+<li>Met het oogpictogram (<img alt="" src="../../assets/svg/eye.svg#middle" />) kun je een annotatie verbergen en weer zichtbaar maken.</li>
+<li>Klik op de drie puntjes (<img alt="" src="../../assets/svg/ver_dots.svg#middle" />) bij een annotatie om extra opties te openen. Je kunt de annotatie onder andere overnemen naar locatie informatie. Hiermee kun je bekijken welke objecten binnen de annotatie vallen, een export downloaden of de statistieken tonen. Zie hiervoor ook de pagina <a href="../selection">Selecteren</a>.</li>
+<li>Daarnaast kun je een GeoJSON-bestand van de annotatie exporteren. </li>
+<li>Ook kun je een buffer rond de annotatie maken met een zelfgekozen afstand.</li>
+<li>Klik op de knop Verwijderen om de annotaties te wissen en opnieuw te beginnen.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>De gemaakte annotaties worden automatisch opgeslagen. Ze blijven behouden wanneer de browser wordt vernieuwd of wanneer je de applicatie de volgende dag opnieuw opent. De annotaties worden pas verwijderd wanneer je op de verwijderknop klikt.</p>
+</div>
 
 
 
@@ -1568,7 +1643,7 @@ en te annoteren op de kaart. Volg onderstaande stappen om dit te kunnen doen.</p
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../selection/" class="md-footer__link md-footer__link--prev" aria-label="Vorige: Selecteren">
+          <a href="../filter/" class="md-footer__link md-footer__link--prev" aria-label="Vorige: Filteren">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1578,20 +1653,20 @@ en te annoteren op de kaart. Volg onderstaande stappen om dit te kunnen doen.</p
                 Vorige
               </span>
               <div class="md-ellipsis">
-                Selecteren
+                Filteren
               </div>
             </div>
           </a>
         
         
           
-          <a href="../favorites/" class="md-footer__link md-footer__link--next" aria-label="Volgende: Favorieten">
+          <a href="../selection/" class="md-footer__link md-footer__link--next" aria-label="Volgende: Selecteren">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Volgende
               </span>
               <div class="md-ellipsis">
-                Favorieten
+                Selecteren
               </div>
             </div>
             <div class="md-footer__button md-icon">
