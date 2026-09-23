@@ -18,11 +18,12 @@ Het doel van de cache is om kaarten sneller te laden, door eerder gedownloade be
 * **Raster tiles**: Tiles van TMS, WMTS en XYZ kaartlagen.
 * **Vector data**: Vector data van bijvoorbeeld WFS, GeoJSON of REST kaartlagen.
 
+<img src="../header/header_popup.png" width="200" align="right">
+
 ### Cache legen
 Het is mogelijk om de cache te wissen. Dit kan nuttig zijn wanneer je problemen ondervindt met verouderde inhoud, of om ruimte vrij te maken op je apparaat.
 
-1. Klik in het [Hoofdmenu (A)](../map/#a-hoofdmenu) op de dropdown van de gebruiker.
-   ![](/assets/img/user-user-menu.png)
+1. Klik in het [Hoofdmenu (A)](../map/#a-hoofdmenu).
 1. Klik op de optie **Cache leegmaken.**
 
 Alleen de cache voor MapGallery wordt gewist, gegevens van andere websites en domeinen worden niet gewist.

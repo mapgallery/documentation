@@ -12,9 +12,9 @@ slepen. Eventuele pop-ups (indien beschikbaar) kunnen worden geopend door erop t
 
 De interactieve functies van de kaart zijn toegankelijk via het onderste menu in de interface:
 
-- **Zoomen**: Gebruik de plus (![](zoomin.svg)) en min (![](zoomout.svg)) knoppen om in of uit te zoomen op de kaart.
-- **Locatie**: Klik op de GPS-knop (![](gps.svg)) om je huidige locatie op de kaart weer te geven.
-- **Kaart draaien**: Met de rotatie knop (![](rotate.svg)) kun je het kaartbeeld roteren.
+- **Zoomen**: Gebruik de plus (![](/assets/svg/zoomin.svg#middle)) en min (![](/assets/svg/zoomout.svg#middle)) knoppen om in of uit te zoomen op de kaart.
+- **Locatie**: Klik op de GPS-knop (![](/assets/svg/gps.svg#middle)) om je huidige locatie op de kaart weer te geven.
+- **Kaart draaien**: Met de rotatie knop (![](/assets/svg/rotate.svg#middle)) kun je het kaartbeeld roteren.
 - **2D/3D-modus**: Schakel tussen 2D- en 3D-weergave door op de knop 2D/3D te klikken.
 
 ### Keyboardbediening

@@ -46,8 +46,8 @@ nav:
             - manual/tools/index.md
       - Geavanceerd:
           - manual/filter/index.md
-          - manual/selection/index.md
           - manual/measure/index.md
+          - manual/selection/index.md
           - manual/favorites/index.md
           - manual/metadata/index.md
           - manual/export/index.md

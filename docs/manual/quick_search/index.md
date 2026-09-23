@@ -5,7 +5,7 @@ title: "E. Zoekfunctie"
 De [Zoekfunctie (D)](../map/#kaartviewer) maakt het eenvoudig om specifieke kaartlagen, coördinaten, adresgegevens en gegevens binnen actieve kaartlagen te vinden. Hieronder volgt een uitleg van de verschillende mogelijkheden en opties binnen de zoekfunctie.
 
 ## Zoekvenster
-Door ++control++ + ++k++ in te drukken of rechtsboven op het vergrootglas (![](search_icon.svg#middle)) te klikken, kom je bij het zoekvenster.
+Door ++control++ + ++k++ in te drukken of rechtsboven op het vergrootglas (![](/assets/svg/search_icon.svg#middle)) te klikken, kom je bij het zoekvenster.
 
 Voer een trefwoord in het zoekveld in, zoals een onderwerp, thema of specifieke term die je zoekt. Nadat je op ++enter++ drukt of op het vergrootglas klikt, worden de resultaten direct weergegeven.
 

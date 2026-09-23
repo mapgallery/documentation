@@ -2,32 +2,23 @@
 title: "Selecteren"
 ---
 
-De **Kaart opties** bij [Tools (E)](../map/#e-tools) bieden de mogelijkheid om meerdere
-objecten op de kaart te kunnen selecteren. Volg onderstaande stappen om een selectie te maken op de kaart.
+Er zijn verschillende manieren om een ruimtelijke selectie te maken:
 
-1. Zorg ervoor dat de [**Kaartviewer**](../map) actief is. ![](/assets/img/user-extra-menu.png#right)
+<img src="selection_location_info.png" width="340" align="right">
 
-2. Klik bij [Tools (E)](../map/#e-tools) op het uitklapmenu (![](/assets/svg/dot.svg))
-   en kies vervolgens **Selecteren**.
+* De Meten & Tekenen-tool, linksboven (![](/assets/svg/pen_ruler.svg#middle)) biedt de mogelijkheid om meerdere objecten op de kaart te kunnen selecteren. Dit kun je daarna overnemen naar locatie-informatie, zie hiervoor ook de pagina [Meten & Annoteren](../measure).
+* Een andere manier is om op een punt te klikken op de kaart en daarna bij locatie informatie op de buurt, wijk, gemeente of woonplaats te klikken, dit wordt dan automatisch ook een ruimtelijke selectie.
+* Om een hele snelle selectie te maken, moet je het locatie informatie venster open hebben en dan kun je ++shift++ ingedrukt houden tijdens het slepen om een selectie te maken.
 
-3. In het midden van de kaart verschijnt een blauw selectiekader en aan de linkerkant het Selecteren venster.
+MapGallery maakt een ruimtelijke selectie. Vervolgens worden de totalen per kaartlaag weergegeven. Ook worden de bijbehorende attributentabellen getoond, waarin je door de gegevens kunt bladeren.
 
-4. Pas het selectiekader aan als dat nodig is:
-    - Klik één keer in het selectiekader en versleep met de linkermuisknop een hoekpunt van het selectiekader.
-    - Klik één keer in het selectiekader en versleep vervolgens met de linkermuisknop het gehele selectiekader.
-    - Klik ++delete++ of ++backspace++ en teken een nieuw kader in.
+Via de knop 'statistieken tonen' (![](/assets/svg/stats_search.svg#middle)) kun je verschillende statistieken per veld bekijken:
 
-5. MapGallery maakt een ruimtelijke selectie en geeft nu de totalen weer per kaartlaag.
-
-6. Om de totalen uit te laten rekenen per attribute waarde, klik dan op ![](m.svg) linksonder in menu. Selecteer een gewenste attribuut uit het uitklapmenu.
+* Om de totalen uit te laten rekenen per attribute waarde, klik dan op ![](/assets/svg/m.svg#middle) linksonder in menu. Selecteer een gewenste attribuut uit het uitklapmenu.
 ![](barchart.png#right)
-7. Onder de totalen staan een aantal opties om de selectie verder te analyseren.
-   
-      a. ![](staaf.svg) voor een staafdiagramweergave;
-
-      b. ![](taart.svg) voor een taartdiagramweergave;
-
-      c. ![](lijst.svg) voor een lijstweergave. 
+* Onder de totalen staan een aantal opties om de selectie verder te analyseren.
+      * ![](/assets/svg/staaf.svg#middle) voor een staafdiagramweergave;
+      * ![](/assets/svg/taart.svg#middle) voor een taartdiagramweergave;
 
 !!! note 
-      De selectie kan vervolgens worden geexporteerd naar een CSV-bestand via de stappen bij [Exporteren -> Selectie](../export/).
+      De selectie kan vervolgens worden geexporteerd via de stappen bij [Exporteren -> Selectie](../export/#exporteer-selectie).

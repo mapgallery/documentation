@@ -23,28 +23,28 @@ De kleuren en symbolen naast elke kaartlaag geven een visuele weergave van de ca
 
 ### Metadata
 
-De metadata knop (![](metadata.svg#middle)) geeft extra kermerken over de kaartlaag.
+De metadata knop (![](/assets/svg/metadata.svg#middle)) geeft extra kermerken over de kaartlaag.
 
 ### Zichtbaarheid
 
-Dit icoon (![](eye.svg#middle)) bepaalt of een kaartlaag zichtbaar is op de kaart. Door op het oogpictogram
+Dit icoon (![](/assets/svg/eye.svg#middle)) bepaalt of een kaartlaag zichtbaar is op de kaart. Door op het oogpictogram
 te klikken, kun je de laag aan- of uitzetten. Dit is handig als je tijdelijk een laag wilt verbergen zonder deze
 volledig te verwijderen.
 
 ### Zoom
 
-Zoom naar laag of actieve filtering: Klik op het icoon (![](crop.svg#middle)) om automatisch in te zoomen op het volledige gebied dat door de
+Zoom naar laag of actieve filtering: Klik op het icoon (![](/assets/svg/crop.svg#middle)) om automatisch in te zoomen op het volledige gebied dat door de
 kaartlaag wordt gedekt. Als er een actieve filtering is, wordt ingezoomd op het gebied dat door het filter wordt
 bepaald.
 
 ### Favoriet
 
-Met het bladwijzer-icoon (![](bookmark.svg#middle)) kun je een kaartlaag markeren als favoriet. Dit stelt je in
+Met het bladwijzer-icoon (![](/assets/svg/bookmark.svg#middle)) kun je een kaartlaag markeren als favoriet. Dit stelt je in
 staat om snel terug te keren naar deze laag zonder steeds door de volledige lijst van lagen te moeten zoeken.
 
 ### Stijl
 
-Door op dit pictogram (![](paint.svg#middle)) te klikken, kun je de weergave-instellingen van de kaartlaag aanpassen. Dit
+Door op dit pictogram (![](/assets/svg/paint.svg#middle)) te klikken, kun je de weergave-instellingen van de kaartlaag aanpassen. Dit
 omvat
 het wijzigen van kleuren, symbolen, en andere visuele aspecten om de laag beter aan te passen aan je specifieke
 analysebehoeften.
