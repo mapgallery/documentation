@@ -69,6 +69,7 @@ nav:
       - admin/application.md
   - Changelog:
       - changelog/index.md
+      - changelog/v7.md
 plugins:
   - macros:
       include_dir: includes
