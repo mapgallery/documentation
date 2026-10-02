@@ -794,7 +794,7 @@
           <li class="md-nav__item">
   <a href="#voorbeelden-van-zoekopdrachten" class="md-nav__link">
     <span class="md-ellipsis">
-      Voorbeelden van zoekopdrachten
+      Voorbeelden van zoekopdrachten:
     </span>
   </a>
   
@@ -1052,7 +1052,7 @@
         
   
   <span class="md-ellipsis">
-    Exporteren
+    Delen
   </span>
   
 
@@ -1677,7 +1677,7 @@
           <li class="md-nav__item">
   <a href="#voorbeelden-van-zoekopdrachten" class="md-nav__link">
     <span class="md-ellipsis">
-      Voorbeelden van zoekopdrachten
+      Voorbeelden van zoekopdrachten:
     </span>
   </a>
   
@@ -1771,17 +1771,17 @@
 
   <h1>E. Zoekfunctie</h1>
 
-<p>De <a href="../map/#kaartviewer">Zoekfunctie (D)</a> maakt het eenvoudig om specifieke kaartlagen, coördinaten, adresgegevens en gegevens binnen actieve kaartlagen te vinden. Hieronder volgt een uitleg van de verschillende mogelijkheden en opties binnen de zoekfunctie.</p>
+<p>De <a href="../map/#kaartviewer">Zoekfunctie (E)</a> maakt het eenvoudig om specifieke kaartlagen, coördinaten, adresgegevens en gegevens binnen actieve kaartlagen te vinden. Hieronder volgt een uitleg van de verschillende mogelijkheden en opties binnen de zoekfunctie.</p>
 <h2 id="zoekvenster">Zoekvenster</h2>
 <p>Door <span class="keys"><kbd class="key-control">Ctrl</kbd></span> + <span class="keys"><kbd class="key-k">K</kbd></span> in te drukken of rechtsboven op het vergrootglas (<img alt="" src="../../assets/svg/search_icon.svg#middle" />) te klikken, kom je bij het zoekvenster.</p>
 <p>Voer een trefwoord in het zoekveld in, zoals een onderwerp, thema of specifieke term die je zoekt. Nadat je op <span class="keys"><kbd class="key-enter">Enter</kbd></span> drukt of op het vergrootglas klikt, worden de resultaten direct weergegeven.</p>
 <h2 id="zoekresultaten">Zoekresultaten</h2>
-<p>De zoekresultaten worden weergegeven in een lijst. Als de zoekresultaten niet zijn wat je zoekt, kun je eenvoudig je zoekterm wijzigen door een nieuwe term in te voeren in het zoekveld. Voor elk kaartlaagresultaat krijg je de volgende informatie te zien:</p>
+<p>De zoekresultaten worden weergegeven in een lijst. Als de zoekresultaten niet zijn wat je zoekt, kun je eenvoudig je zoekterm wijzigen door een nieuwe term in te voeren in het zoekveld. Voor elk resultaat van een kaartlaag krijg je de volgende informatie te zien:</p>
 <ul>
 <li><strong>Titel</strong> van de kaartlaag</li>
 <li>Naam van de <strong>Service</strong> (bron) van de kaartlaag</li>
-<li><strong>Classificaties</strong>: Classificaties die aan de kaartlaag zijn gekoppeld, waardoor je makkelijk kunt zien waar de
-  dataset over gaat.</li>
+<li><strong>Classificaties</strong> die aan de kaartlaag zijn gekoppeld, waardoor je makkelijk kunt zien waar de
+  dataset bevat.</li>
 <li><strong>Beschrijving</strong>: Een korte uitleg van wat de kaartlaag bevat.</li>
 </ul>
 <p>Klik op een van de zoekresultaten om de kaartlaag of locatie te openen.</p>
@@ -1800,28 +1800,30 @@
 <p>Via de PDOK Locatieserver (geocodeerservice) wordt gezocht op gegevens uit diverse overheidsregistraties, zoals adressen, postcodes, woonplaatsen en provincies. Je kunt ook zoeken op perceelnummers of specifieke objecten, zoals hectometerpalen. Klikken op een resultaat selecteert de locatie of het gebied en zoomt hierop in.</p>
 <p>Naast gewone zoekvelden kun je de zoekterm ook verder specificeren op:</p>
 <ul>
-<li>Type: zoals provincie, gemeente, woonplaats, postcode, adres, perceel, wijk, buurt, hectometerpaal, etc.</li>
+<li>Type, zoals provincie, gemeente, woonplaats, postcode, adres, perceel, wijk, buurt, hectometerpaal, enzovoort.</li>
 <li>Bron: zoals BAG (Basisregistratie Adressen en Gebouwen), NWB (Nationaal Wegen Bestand), DKK (Digitale Kadastrale
   Kaart), CBS, of HWH (Het Waterschapshuis).</li>
 </ul>
-<h4 id="voorbeelden-van-zoekopdrachten">Voorbeelden van zoekopdrachten</h4>
-<p>Adres: <code>Sint Jansstraat 4 Groningen</code></p>
-<p>Postcode: <code>1622 hp</code></p>
-<p>Perceel: <code>DMN00 A 220</code></p>
-<p>Hectometerpaal: <code>a1-100 type:hectometerpaal</code></p>
-<p>Wegtrace: <code>A2 bron:NWB</code></p>
-<p>Gemeente: <code>hoorn type:gemeente</code></p>
+<h4 id="voorbeelden-van-zoekopdrachten">Voorbeelden van zoekopdrachten:</h4>
+<ul>
+<li>Adres: <code>Sint Jansstraat 4 Groningen</code></li>
+<li>Postcode: <code>1622 hp</code></li>
+<li>Perceel: <code>DMN00 A 220</code></li>
+<li>Hectometerpaal: <code>a1-100 type:hectometerpaal</code></li>
+<li>Wegtracé: <code>A2 bron:NWB</code></li>
+<li>Gemeente: <code>hoorn type:gemeente</code></li>
+</ul>
 <p>Zie voor uitgebreide informatie over de PDOK Locatieserver de
-wiki, <a href="https://github.com/PDOK/locatieserver/wiki/API-Locatieserver#2-gebruik-van-zoektermen-bij-solr-services">gebruik van de de zoektermen</a>.</p>
+wiki, <a href="https://github.com/PDOK/locatieserver/wiki/API-Locatieserver#2-gebruik-van-zoektermen-bij-solr-services">gebruik van de zoektermen</a>.</p>
 <h3 id="gegevens">Gegevens</h3>
-<p>Alle actieve vector-kaartlagen in de Kaartviewer zijn doorzoekbaar op gegevensvelden. De zoekfunctie geeft suggesties voor een match en toont hierbij de naam van de kaartlaag, het attribuut en de waarde waarop een match is gevonden.</p>
+<p>Alle actieve vectorkaartlagen in de Kaartviewer zijn doorzoekbaar op gegevensvelden. De zoekfunctie geeft suggesties voor een match en toont hierbij de naam van de kaartlaag, het attribuut en de waarde waarop een overeenkomst is gevonden.</p>
 <p>Klik op een resultaat om de bijbehorende geometrie te selecteren en hierop in te zoomen.</p>
 <h3 id="kaartlagen">Kaartlagen</h3>
-<p>De zoekfunctie geeft resultaten voor relevante kaartlagen. MapGallery doorzoekt het volledige bestand van kaartlagen, metadata en beschrijvingen. Op basis hiervan worden kaartlagen weergegeven die aansluiten bij de ingevoerde zoekterm. Klik op een kaartlaag om deze toe te voegen. </p>
+<p>De zoekfunctie geeft resultaten voor relevante kaartlagen. MapGallery doorzoekt het volledige verzameling van kaartlagen, metadata en beschrijvingen. Op basis hiervan worden kaartlagen weergegeven die aansluiten bij de ingevoerde zoekterm. Klik op een kaartlaag om deze toe te voegen. </p>
 <h3 id="collecties">Collecties</h3>
 <p>Met de zoekfunctie kun je ook zoeken naar collecties. Hierbij wordt gezocht naar collecties die aansluiten bij de zoekterm en naar de bijbehorende beschrijving. Klik op een collectie om deze aan de kaart toe te voegen.</p>
 <h3 id="ondergronden">Ondergronden</h3>
-<p>De zoekfunctie kan ook worden gebruikt om beschikbare ondergronden te vinden. Zoek op een onderwerp of specifieke term om beschikbare ondergrondkaartlagen te vinden. Klik op een zoekresultaat om de betreffende ondergrond te openen en te gebruiken.</p>
+<p>De zoekfunctie kan ook worden gebruikt om beschikbare ondergronden te vinden. Zoek op een onderwerp of specifieke term om beschikbare ondergronden te vinden. Klik op een zoekresultaat om de betreffende ondergrond te openen en te gebruiken.</p>
 <h3 id="coordinaten">Coördinaten</h3>
 <p>Wanneer je coördinaten hebt ingevoerd, maakt MapGallery automatisch een match met mogelijke projecties. Klik vervolgens op de juiste projectie om de locatie direct op de kaart weer te geven.</p>
 
