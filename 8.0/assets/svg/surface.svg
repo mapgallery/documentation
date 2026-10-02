@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-bfb8972f-78c5-4b75-9c35-150f05c44b9a" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="36.6743" height="27.8003" viewBox="0 0 36.6743 27.8003">
+  <rect x=".5" y=".5" width="35.6743" height="26.8003" rx="3.6309" ry="3.6309" style="fill: none;"/>
+  <rect x="7.4113" y="3.2748" width="4.7657" height="4.7657" style="fill: none; stroke: #000; stroke-miterlimit: 10; stroke-width: 1.5743px;"/>
+  <rect x="24.0055" y="3.2748" width="4.7657" height="4.7657" style="fill: none; stroke: #000; stroke-miterlimit: 10; stroke-width: 1.5743px;"/>
+  <rect x="7.4113" y="19.9763" width="4.7657" height="4.7657" style="fill: none; stroke: #000; stroke-miterlimit: 10; stroke-width: 1.5743px;"/>
+  <rect x="24.0055" y="19.9763" width="4.7657" height="4.7657" style="fill: none; stroke: #000; stroke-miterlimit: 10; stroke-width: 1.5743px;"/>
+  <line x1="9.7942" y1="8.0405" x2="9.7942" y2="19.5899" style="fill: none; stroke: #000; stroke-miterlimit: 10; stroke-width: 1.5743px;"/>
+  <line x1="12.1771" y1="22.3592" x2="24.0055" y2="22.3592" style="fill: none; stroke: #000; stroke-miterlimit: 10; stroke-width: 1.5743px;"/>
+  <line x1="26.3884" y1="19.9763" x2="26.3884" y2="8.0405" style="fill: none; stroke: #000; stroke-miterlimit: 10; stroke-width: 1.5743px;"/>
+  <line x1="24.0055" y1="5.6576" x2="12.1771" y2="5.6576" style="fill: none; stroke: #000; stroke-miterlimit: 10; stroke-width: 1.5743px;"/>
+  <path d="m14.0508,18.0535l3.4619-9.0156h1.2852l3.6904,9.0156h-1.3594l-1.0518-2.7305h-3.7695l-.9902,2.7305h-1.2666Zm2.6016-3.7021h3.0557l-.9404-2.4961c-.2871-.7588-.5-1.3818-.6396-1.8701-.1152.5781-.2764,1.1523-.4854,1.7217l-.9902,2.6445Z"/>
+</svg>

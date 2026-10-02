@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-2a2c1f37-ec69-4a6b-9267-7d72bdd4402b" data-name="uuid-951a295b-baf3-45c3-bfc1-f3f23be614ba" xmlns="http://www.w3.org/2000/svg" width="36.2548" height="15.7086" viewBox="0 0 36.2548 15.7086">
+  <polygon points="25.4399 3.7962 33.4729 3.7185 29.4952 7.7738 25.4399 3.7962" style="fill: #000; stroke: #000; stroke-miterlimit: 10; stroke-width: .248px;"/>
+  <circle cx="9.4678" cy="3.7185" r="2.8919" style="fill: none; stroke: #000; stroke-miterlimit: 10; stroke-width: 1.2277px;"/>
+  <path d="M9.7511,8.8752c-.6667-.0725-2.2282-.1517-3.957.6497-1.6905.7836-2.6308,1.9872-3.0121,2.5396v2.3033h7.3629" style="fill: none; stroke: #000; stroke-miterlimit: 10; stroke-width: 1.2277px;"/>
+  <g>
+    <polygon points="12.4336 7.7477 11.5411 9.3756 12.5855 10.238 12.5855 11.5074 11.5411 12.3698 12.4621 13.9687 13.7248 13.4745 14.7502 14.0752 14.9591 15.49 16.82 15.49 17.0371 14.0946 18.0353 13.4745 19.317 13.9396 20.2759 12.3795 19.2031 11.4783 19.1651 10.2186 20.2759 9.3465 19.336 7.7477 18.0922 8.2419 17.0383 7.6411 16.8485 6.2167 14.9116 6.2167 14.7977 7.612 13.8008 8.2322 12.4336 7.7477" style="fill: #000; stroke: #000; stroke-miterlimit: 10; stroke-width: .0718px;"/>
+    <ellipse cx="15.9085" cy="10.8533" rx="2.3427" ry="2.391" style="fill: #fff; stroke: #fff; stroke-miterlimit: 10; stroke-width: .0642px;"/>
+  </g>
+</svg>
