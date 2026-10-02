@@ -26,7 +26,7 @@ gewenste omgeving.
 
 ### De belangrijkste kenmerken en functionaliteiten
 
-De basis van MapGallery bestaat uit een statische (wereld) **kaart**. Over deze kaart kunnen interactieve **kaartlagen**
+De basis van MapGallery bestaat uit een statische (wereld)**kaart**. Over deze kaart kunnen interactieve **kaartlagen**
 geprojecteerd worden. Een kaartlaag bevat een visualisatie van specifieke geografische data. Dit kan van alles zijn,
 bijvoorbeeld de locaties van bluswatervoorzieningen of zorginstellingen, maar ook een visualisatie van de actuele
 verkeersinformatie of een digitale weergave van het aardoppervlak met oppervlaktetopografie.
@@ -34,6 +34,5 @@ verkeersinformatie of een digitale weergave van het aardoppervlak met oppervlakt
 ![](index_mg8.png)
 
 MapGallery bevat een veelzijdig **zoekveld**, waarmee je naar coördinaten, adressen, kaartlagen, ondergronden of
-gegevens kunt zoeken. Ook beschikt de kaart over verschillende weergavefuncties, zoals een 2D- en 3D-weergave, in- en
-uitzoomen, ondergrond veranderen en locatie- en oriëntatiebepaling. Daarnaast is het mogelijk om op de kaart metingen
-uit te voeren, selecties te maken, afbeeldingen te exporteren naar PNG-formaat of te delen via een link (URL).
+gegevens kunt zoeken. Ook beschikt de kaart over verschillende weergavefuncties, zoals een 2D- en 3D-weergave, in- en uitzoomen, de ondergrond veranderen en de locatie en oriëntatie bepalen. Daarnaast is het mogelijk om op de kaart metingen
+uit te voeren, selecties te maken, afbeeldingen te exporteren of te delen via een link.

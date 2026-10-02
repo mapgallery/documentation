@@ -21,4 +21,4 @@ Via de knop 'statistieken tonen' (![](/assets/svg/stats_search.svg#middle)) kun 
       * ![](/assets/svg/taart.svg#middle) voor een taartdiagramweergave;
 
 !!! note 
-      De selectie kan vervolgens worden geexporteerd via de stappen bij [Exporteren -> Selectie](../export/#exporteer-selectie).
+      De selectie kan vervolgens worden geexporteerd via de stappen bij [Delen -> Selectie](../export/#exporteer-selectie).

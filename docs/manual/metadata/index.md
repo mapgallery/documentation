@@ -24,7 +24,7 @@ onderstaande stappen om toegang te krijgen tot deze informatie:
 
 
 !!! note
-      Indien beschikbaar, kun je de gegevens ook downloaden via de stappen bij [Exporteren -> Kaartlaag](../export/).
+      Indien beschikbaar, kun je de gegevens ook downloaden via de stappen bij [Delen](../export/).
 
 
 

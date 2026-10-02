@@ -1,5 +1,5 @@
 ---
-title: "Exporteren"
+title: "Delen"
 ---
 
 Er zijn verschillende manieren om gegevens te exporteren uit MapGallery.

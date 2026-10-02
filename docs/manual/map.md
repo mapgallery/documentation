@@ -16,7 +16,7 @@ kaart kunnen gebruikers eenvoudig geografische informatie verkennen en analysere
 
 ### A. Hoofdmenu
 
-Het hoofdmenu geeft toegang tot de verschillende onderdelen van MapGallery, zoals je profielinstellingen, documentatie,
+Het hoofdmenu geeft toegang tot de verschillende onderdelen van MapGallery, zoals je profielinstellingen, documentatie
 en andere belangrijke functies. 
 
 Zie voor meer informatie het onderdeel [Hoofdmenu](../header/).
@@ -31,7 +31,7 @@ Zie voor meer informatie het onderdeel [Kaart](../mapinfo/).
 
 ### C. Kaartlagen
 
-Aan de rechterkant bevindt zich het Kaartlagenpaneel (![](../assets/svg/layers.svg#middle)). Hier kun je kaartlagen in- en uitschakelen en de ondergrondkaart veranderen.
+Aan de rechterkant bevindt zich het kaartlagenpaneel (![](../assets/svg/layers.svg#middle)). Hier kun je kaartlagen in- en uitschakelen en de ondergrondkaart veranderen.
 
 Een kaartlaag is een informatielaag met geografische data die je onafhankelijk van andere kaartlagen kunt aan- en uitzetten. Afhankelijk van de gekoppelde service kun je gegevens binnen een kaartlaag ook filteren of stylen.
 
@@ -39,24 +39,23 @@ Zie voor meer informatie het onderdeel [Kaartlagen](../layers/).
 
 ### D. Collecties
 
-Via het menu linksboven kun je het collecties paneel (![](../manual/collections/collection.svg#middle)) openen. Hier zie je welke collectie momenteel geopend is en kun je zoeken naar andere beschikbare collecties. Een collectie bestaat uit één of meer kaartlagen die samen een thematische kaart vormen. Door op een collectie te klikken, wordt deze geopend en toegevoegd aan de kaart.
+Via het menu linksboven op het scherm kun je het collectiepaneel (![](../assets/svg/collection.svg#middle)) openen. Hier zie je welke collectie momenteel geopend is en kun je zoeken naar andere beschikbare collecties. Een collectie bestaat uit één of meer kaartlagen die samen een thematische kaart vormen. Door op een collectie te klikken, wordt deze geopend en toegevoegd aan de kaart.
 
 Zie voor meer informatie het onderdeel [Collecties](../collections/).
 
 ### E. Zoekfunctie
 
-Bovenaan rechts in het scherm zie je het icoon van een vergrootglas (![](../manual/quick_search/search_icon.svg#middle)) waarmee je snel naar specifieke locaties kunt zoeken. Typ een locatie of
-trefwoord in, en MapGallery zoomt automatisch in op het betreffende gebied.
+Rechtsboven in het scherm zie je het vergrootglasicoon (![](../assets/svg/search_icon.svg#middle)) waarmee je snel naar specifieke locaties kunt zoeken. Typ een locatie of trefwoord in, en MapGallery zoomt automatisch in op het betreffende gebied.
 
 Zie voor meer informatie het onderdeel [Zoekfunctie](../quick_search/).
 
 ### F. Tools
 
-Linksonder in het scherm bevindt zich de kaartnavigatie plus extra tools met de volgende functionaliteiten:
+Linksonder in het scherm bevindt zich de kaartnavigatie en aanvullende tools met de volgende functionaliteiten:
 
 * Zoomknoppen: Hiermee kun je in- en uitzoomen op de kaart.
 * 2D/3D-modus: Schakel tussen de 2D-weergave en de 3D-weergave voor een gedetailleerder perspectief van het terrein.
-* Noordpijl: Hiermee kun je de oriëntatie van de kaart bepalen.
+* Noordpijl: Hiermee wordt de oriëntatie aangegeven. 
 * Eigen locatie: Hiermee kun je je huidige locatie op de kaart bekijken.
 
 Zie voor meer informatie het onderdeel [Tools](../tools/).
