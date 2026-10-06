@@ -4,69 +4,29 @@ title: "Welkom"
 
 # {{ config.site_name }}
 
-Welkom bij de documentatie voor [MapGallery](https://mapgallery.eu), de complete gids voor het beheren, configureren en
-gebruiken van kaartlagen en collecties. Deze handleiding helpt je op weg met het platform, of je nu nieuw bent of al
-ervaring hebt met geospatiale applicaties.
+Welkom bij de documentatie van [MapGallery](https://mapgallery.eu), de WebGIS-applicatie voor het bekijken, analyseren
+en delen van kaarten en geografische gegevens. Hier vind je hoe je MapGallery gebruikt en hoe je een omgeving beheert.
 
-![](/assets/logo.png#left) Deze documentatie biedt snelle toegang tot alles wat je nodig hebt om efficiënt aan de slag
-te gaan, afgestemd op jouw gebruikerstype. Elk onderdeel is zo geschreven dat het zowel zelfstandig als in combinatie
-met andere secties bruikbaar is. Gebruik de zoekfunctie om snel de juiste handleidingen te vinden voor het onderwerp
-waar je mee bezig bent.
+## Waar wil je beginnen?
 
-Veel plezier met het gebruik van [MapGallery](https://mapgallery.eu)!
+### Ik gebruik de kaart
 
-## Aan de slag
+Je wilt kaartlagen bekijken, zoeken, informatie opvragen, meten of gegevens downloaden. Begin bij
+[Aan de slag als gebruiker](manual/index.md).
 
-### Aan de slag als gebruiker
+### Ik beheer een omgeving
 
-Wil je direct de kaartviewer gebruiken? Bezoek dan de sectie [Aan de slag met MapGallery als gebruiker](manual/) voor
-alle relevante informatie.
+Je beheert kaartlagen, collecties, services of gebruikers. Begin bij [Aan de slag als beheerder](admin/index.md).
 
-### Aan de slag als beheerder
+### Wat is er nieuw?
 
-Ben je verantwoordelijk voor het beheer van de omgeving? Ga naar [Aan de slag met MapGallery als beheerder](admin/) om
-te leren hoe je de omgeving kunt beheren.
+MapGallery 8 heeft een vernieuwde kaartinterface, één centraal zoekvenster, selecteren per gebied en meer
+downloadmogelijkheden. Lees alles in de [release notes van MapGallery 8](changelog/index.md).
 
-### Gebruikersbeheer
+## Meer informatie
 
-Het beheren van gebruikers doe je eenvoudig in de beheeromgeving onder het item [Gebruikers](admin/access/users/). Alle
-informatie over gebruikersbeheer kun je hier terugvinden.
+- [Wat is MapGallery](application.md): wat de applicatie doet en wat je nodig hebt om hem te gebruiken.
+- [Vragen & Support](questions.md): waar je terechtkunt met vragen, suggesties of problemen.
 
-## Documentatie sneltoetsen
-
-Deze documentatie bevat verschillende toetsenbord sneltoetsen waarmee je de documentatie van je project via het
-toetsenbord kunt navigeren. Er zijn twee modi:
-
-### Globale modus
-
-Deze modus is actief wanneer de zoekfunctie niet gefocust is en er geen ander element is dat gevoelig is voor
-toetsenbordinvoer. De volgende toetsen zijn beschikbaar:
-
-* ++f++ , ++s++ , ++slash++ : open het zoekvenster
-* ++p++ , ++comma++ : ga naar de vorige pagina
-* ++n++ , ++period++ : ga naar de volgende pagina
-
-### Zoekmodus
-
-Deze modus is actief wanneer het zoekveld gefocust is. Het biedt verschillende toetscombinaties om de zoekfunctie
-toegankelijk en navigeerbaar te maken via het toetsenbord:
-
-* ++arrow-down++ , ++arrow-up++ : selecteer het volgende / vorige resultaat
-* ++esc++ , ++tab++ : sluit het zoekvenster
-* ++enter++ : volg het geselecteerde resultaat
-
-## Release Notes
-
-Bekijk de laatste nieuwe functies en verbeteringen onder [Changelog](changelog/) op deze website.
-
-## Vragen & Support
-
-Heb je vragen, suggesties, of heb je ondersteuning nodig? Neem gerust contact met ons op
-via [Vragen & Support](questions/).
-
----
-
-We hopen dat deze handleiding je helpt om het meeste uit MapGallery te halen. Veel succes met het ontdekken van de
-wereld van geografische informatie!
-
-Het MapGallery Team
+!!! tip "Snel zoeken in deze documentatie"
+    Druk op ++f++, ++s++ of ++slash++ om direct te zoeken. Met ++p++ en ++n++ ga je naar de vorige of volgende pagina.

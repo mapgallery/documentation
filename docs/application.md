@@ -1,45 +1,47 @@
 ---
-title: "Applicatie"
+title: "Wat is MapGallery"
 ---
 
-MapGallery is een WebGIS-applicatie, gemaakt om de omgeving in kaart te brengen en beter te begrijpen door middel van
-het bekijken van interactieve kaarten en locatiegegevens. De applicatie werkt op alle belangrijke desktop- en mobiele
-platforms. MapGallery wordt onder andere gebruikt door gemeenten, stedenbouwkundigen, onderzoekers en de
-veiligheidsregio’s.
+MapGallery is een WebGIS-applicatie waarmee je de omgeving in kaart brengt en beter begrijpt. Je bekijkt interactieve
+kaarten, vraagt informatie op over locaties en objecten, en deelt of downloadt de gegevens. MapGallery wordt onder
+andere gebruikt door gemeenten, provincies, veiligheidsregio's, stedenbouwkundigen en onderzoekers.
 
-MapGallery biedt een krachtige en flexibele omgeving voor het beheren van geografische informatie. Of je nu kaarten wilt
-publiceren, geavanceerde kaartlagen wilt configureren, of eenvoudig inzicht wilt krijgen in ruimtelijke data, MapGallery
-biedt je de tools om dat effectief te doen.
+Beheerders stellen per omgeving samen welke kaartlagen, collecties en ondergronden beschikbaar zijn. Gebruikers werken
+met die kaarten in de browser, zonder extra software te installeren.
 
-### WebGIS en Web mapping
+### WebGIS
 
-Webgebaseerde ‘Geographic Information Systems’ (WebGIS) benutten het web om de opslag, visualisatie, analyse en het
-delen van geografische data via internet te vereenvoudigen. Deze systemen maken geavanceerde ruimtelijke analyses en
-kaartvisualisaties toegankelijk voor een breed publiek.
+Een WebGIS (webgebaseerd Geografisch Informatiesysteem) gebruikt het internet om geografische gegevens op te slaan,
+te tonen, te analyseren en te delen. Kaarten zijn daarbij niet statisch: je kiest zelf welke lagen je ziet, klikt op
+objecten voor meer informatie en combineert gegevens uit verschillende bronnen.
 
-Een veelgebruikte toepassing van WebGIS is Web mapping. Dit verwijst naar het proces van het creëren, gebruiken en delen
-van kaarten via het internet. Dit proces omvat niet alleen het ontwerpen van kaarten, maar ook het aanbieden van een
-interactieve dienst. Hierdoor kunnen gebruikers bepalen wat ze op de kaart willen zien en hoe ze de beschikbare
-geografische informatie willen verkennen.
+## Systeemeisen
 
-Kortom, Web mapping overstijgt traditionele cartografie door een dynamisch platform te bieden waarop kaarten niet alleen
-worden weergegeven, maar ook interactief zijn.
+MapGallery ondersteunt de **laatste twee hoofdversies** van de gangbare browsers, op desktop, tablet en telefoon:
 
-## Browser ondersteuning
+| Browser         | Desktop | Mobiel en tablet |
+|-----------------|:-------:|:----------------:|
+| Google Chrome   |   Ja    |  Ja (Android)    |
+| Microsoft Edge  |   Ja    |        —         |
+| Mozilla Firefox |   Ja    |  Ja (Android)    |
+| Apple Safari    |   Ja    | Ja (iOS / iPadOS) |
 
-MapGallery werkt op alle browsers die [WebGL](https://get.webgl.org/) ondersteunen. De volgende tabel toont alle
-browsers waarvoor MapGallery volledige ondersteuning biedt, wat betekent dat alle functies zonder kwaliteitsverlies
-werken. Als je merkt dat iets niet goed werkt in een browser die binnen het ondersteunde versiebereik valt, open dan
-een [issue](../questions/#ondersteuning):
+Gebruik je een oudere versie, dan kan MapGallery werken, maar valt die versie niet onder de ondersteuning. Browsers
+die op dezelfde techniek zijn gebouwd, zoals Opera en Samsung Internet, werken meestal ook, maar worden niet officieel
+ondersteund.
 
-| Browser | Versie | Releasedatum |         |        |    Gebruik |
-|---------|-------:|-------------:|--------:|-------:|-----------:|
-|         |        |              | desktop | mobiel |     totaal |
-| Chrome  |    49+ |      03/2016 |  25.65% | 38.33% |     63.98% |
-| Safari  |    10+ |      09/2016 |   4.63% | 14.96% |     19.59% |
-| Edge    |    79+ |      01/2020 |   3.95% |    n/a |      3.95% |
-| Firefox |    53+ |      04/2017 |   3.40% |   .30% |      3.70% |
-| Opera   |    36+ |      03/2016 |   1.44% |   .01% |      1.45% |
-|         |        |              |         |        | __92.67%__ |
+De browser moet daarnaast twee technieken ondersteunen en toestaan:
 
-_Browserondersteuning gegevens afkomstig van [caniuse.com](https://caniuse.com)._
+- **[WebGL 2](https://get.webgl.org/webgl2/)** voor het tekenen van de kaart, de kaartlagen en de 3D-weergave. Blijft
+  de kaart leeg, werk dan je browser bij en controleer of hardwareversnelling aan staat.
+- **[Service workers](https://developer.mozilla.org/docs/Web/API/Service_Worker_API)** voor het laden en lokaal
+  bewaren (cachen) van kaartgegevens. **Zonder service workers werkt MapGallery niet.** Sommige browsers schakelen
+  service workers uit in een privévenster, en organisaties kunnen ze via een beleid blokkeren. Open MapGallery in dat
+  geval in een gewoon browservenster of vraag je IT-afdeling om service workers toe te staan voor het adres van
+  MapGallery. Zie ook [Cache legen](manual/cache/index.md).
+
+!!! note "Gebruik op tablet en telefoon"
+    MapGallery werkt ook op tablets en telefoons. Sommige functies, zoals selecteren met ++shift++ en slepen of
+    toetsenbordsneltoetsen, vragen een toetsenbord en muis en zijn daarom alleen op een computer beschikbaar.
+
+Werkt iets niet goed in een van deze browsers? Meld het via [Vragen & Support](questions.md#ondersteuning).

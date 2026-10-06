@@ -2,34 +2,38 @@
 title: "Vragen & Support"
 ---
 
-Via de zoekbalk rechtsboven kun je direct deze documentatie doorzoeken en snel handleidingen en stappenplannen vinden
-voor het onderdeel waar je aan werkt.
+Kom je er niet uit? Hieronder lees je waar je terechtkunt met vragen, suggesties en problemen.
 
-Bekijk onze website op [mapgallery.eu](https://mapgallery.eu) voor nieuws en achtergronden.
+### Zoeken in de documentatie
 
-### Updates
+Met de zoekbalk rechtsboven doorzoek je deze documentatie. Je vindt daar snel de uitleg en stappenplannen voor het
+onderdeel waar je mee bezig bent.
 
-Voor de laatste updates binnen MapGallery kun je het lampje (![](/assets/svg/updates.svg)) rechtsboven aanklikken. Deze
-updates zijn ook te vinden op [docs.mapgallery.eu/latest/changelog](https://docs.mapgallery.eu/latest/changelog/), waar
-we de meest recente wijzigingen en verbeteringen delen.
+### Wat is er nieuw?
 
-Volg ons ook op [LinkedIn](https://www.linkedin.com/company/mapgallery/) voor aankondigingen.
+In MapGallery open je **Hoofdmenu → Wat is er nieuw?** voor de belangrijkste wijzigingen in de huidige versie. Alle
+wijzigingen staan in de [release notes](changelog/index.md).
+
+Volg ons ook op [LinkedIn](https://www.linkedin.com/company/mapgallery/) voor aankondigingen, of kijk op
+[mapgallery.eu](https://mapgallery.eu) voor nieuws en achtergronden.
 
 ### Suggesties
 
-Heb je ideeën voor verbeteringen voor MapGallery? Onder het belletje kun je suggesties indienen op
-ons [Kanban board](https://github.com/orgs/mapgallery/projects/6), waar je ook de roadmap voor toekomstige
-ontwikkelingen kunt inzien. Onze ontwikkelaars gebruiken dit bord om prioriteiten te bepalen
-voor nieuwe functies.
+Heb je een idee om MapGallery te verbeteren? Dien het in op ons
+[Kanban-bord](https://github.com/orgs/mapgallery/projects/6). Daar zie je ook de roadmap voor komende versies. Onze
+ontwikkelaars gebruiken dit bord om prioriteiten te bepalen.
 
-Heb je suggesties voor verbeteringen van de documentatie op [docs.mapgallery.eu](https://docs.mapgallery.eu)? Gebruik
-dan de ‘Suggest Edits’-knop rechtsboven op de betreffende pagina of ga rechtstreeks naar
-de [GitHub repository](https://github.com/mapgallery/documentation/issues) en maak een issue aan.
+Klopt er iets niet in deze documentatie? Klik op het potloodicoon rechtsboven op de pagina om een wijziging voor te
+stellen, of maak een issue aan in de [GitHub-repository](https://github.com/mapgallery/documentation/issues).
 
 ### Ondersteuning
 
-Heb je vragen die niet in de documentatie worden beantwoord? Onze supportdesk staat klaar om je verder te helpen. Stuur
-ons een e-mail via [support@mapgallery.eu](mailto:support@mapgallery.eu) of ga naar het support portaal
-op [mapgallery.inserve.nl](https://mapgallery.inserve.nl/).
+Heb je een vraag die niet in de documentatie wordt beantwoord? Onze supportdesk helpt je graag verder. Mail naar
+[support@mapgallery.eu](mailto:support@mapgallery.eu) of ga naar het
+[supportportaal](https://mapgallery.inserve.nl/).
+
+!!! note "Inloggen lukt niet?"
+    Gebruik **Wachtwoord vergeten?** op het inlogscherm. Heb je geen account of werkt je uitnodiging niet meer, neem
+    dan contact op met de beheerder van MapGallery binnen je organisatie.
 
 [//]: # (Neem telefonisch contact met ons op via 0570 - 74 60 78.)

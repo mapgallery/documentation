@@ -32,8 +32,8 @@ markdown_extensions:
 nav:
   - Introductie:
       - index.md
-      - questions.md
       - application.md
+      - questions.md
   - Gebruiker:
       - manual/index.md
       - manual/map.md
