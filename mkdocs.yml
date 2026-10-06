@@ -43,7 +43,7 @@ nav:
           - manual/layers/import.md
           - manual/layers/filter.md
           - manual/layers/metadata.md
-      - Collecties & Favorieten:
+      - Collecties:
         - manual/collections/index.md
         - manual/favorites/index.md
       - Locatie-informatie:
@@ -87,17 +87,37 @@ theme:
 #    - navigation.expand
     - navigation.path
     - navigation.footer
-#    - navigation.indexes
+    - navigation.indexes
     - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.tracking
     - search.suggest
     - search.highlight
-#    - toc.follow
+    - toc.follow
 #    - toc.integrate
   language: nl
   logo: assets/logo.png
+  palette:
+    # Volgt de instelling van het besturingssysteem
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Lichte modus
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Donkere modus
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Systeeminstelling volgen
 validation:
   links:
     absolute_links: relative_to_docs
