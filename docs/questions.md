@@ -30,10 +30,9 @@ stellen, of maak een issue aan in de [GitHub-repository](https://github.com/mapg
 
 Heb je een vraag die niet in de documentatie wordt beantwoord? Onze supportdesk helpt je graag verder. Mail naar
 [support@mapgallery.eu](mailto:support@mapgallery.eu) of ga naar het
-[supportportaal](https://mapgallery.inserve.nl/).
+[supportportaal](https://mapgallery.zammad.com/).
 
 !!! note "Inloggen lukt niet?"
     Gebruik **Wachtwoord vergeten?** op het inlogscherm. Heb je geen account of werkt je uitnodiging niet meer, neem
-    dan contact op met de beheerder van MapGallery binnen je organisatie.
+    dan contact op met jullie beheerder van MapGallery binnen je organisatie.
 
-[//]: # (Neem telefonisch contact met ons op via 0570 - 74 60 78.)
