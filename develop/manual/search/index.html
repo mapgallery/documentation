@@ -11,6 +11,10 @@
         <link rel="canonical" href="https://docs.mapgallery.eu/develop/manual/search/">
       
       
+        <link rel="prev" href="../map/">
+      
+      
+        <link rel="next" href="../layers/">
       
       
       <link rel="icon" href="../../assets/favicon.png">
@@ -108,7 +112,7 @@
       
         <meta  property="og:description"  content="None" >
       
-        <meta  property="og:image"  content="https://docs.mapgallery.eu/develop/assets/images/social/manual/search.png" >
+        <meta  property="og:image"  content="https://docs.mapgallery.eu/develop/assets/images/social/manual/search/index.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -124,7 +128,7 @@
       
         <meta  name="twitter:description"  content="None" >
       
-        <meta  name="twitter:image"  content="https://docs.mapgallery.eu/develop/assets/images/social/manual/search.png" >
+        <meta  name="twitter:image"  content="https://docs.mapgallery.eu/develop/assets/images/social/manual/search/index.png" >
       
     
     
@@ -140,7 +144,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#kaartlaag-zoeken" class="md-skip">
+        <a href="#zoeken" class="md-skip">
           Ga naar inhoud
         </a>
       
@@ -272,10 +276,12 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="../" class="md-tabs__link">
           
   
@@ -445,7 +451,7 @@
         
   
   <span class="md-ellipsis">
-    Wat is MapGallery
+    MapGallery
   </span>
   
 
@@ -466,7 +472,7 @@
         
   
   <span class="md-ellipsis">
-    Vragen & Support
+    Ondersteuning
   </span>
   
 
@@ -487,25 +493,30 @@
       
   
   
+    
   
   
+  
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -516,7 +527,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Gebruiker
@@ -555,11 +566,150 @@
         
   
   <span class="md-ellipsis">
-    Kaart
+    De kaart
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Zoeken
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Zoeken
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhoudsopgave">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhoudsopgave
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#het-zoekvenster-openen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Het zoekvenster openen
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zoekcategorieen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zoekcategorieën
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Zoekcategorieën">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adres" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adres
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gegevens" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gegevens
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kaartlagen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kaartlagen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collecties-en-ondergronden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Collecties en ondergronden
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coordinaat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Coördinaat
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sneltoetsen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sneltoetsen
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -576,76 +726,37 @@
     
       
       
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
         
           
-          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="">
             
   
   <span class="md-ellipsis">
-    Kaartelementen
+    Kaartlagen
   </span>
   
 
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_3">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
             <span class="md-nav__icon md-icon"></span>
-            Kaartelementen
+            Kaartlagen
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../header/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    A. Hoofdmenu
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../mapinfo/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    B. Kaart
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
             
               
                 
@@ -658,7 +769,7 @@
         
   
   <span class="md-ellipsis">
-    C. Kaartlagen
+    Kaartlagen & legenda
   </span>
   
 
@@ -675,11 +786,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../collections/" class="md-nav__link">
+      <a href="../layers/import/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    D. Collecties
+    Eigen bestanden
   </span>
   
 
@@ -696,11 +807,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../quick_search/" class="md-nav__link">
+      <a href="../layers/filter/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    E. Zoekfunctie
+    Filteren
   </span>
   
 
@@ -717,11 +828,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../tools/" class="md-nav__link">
+      <a href="../layers/metadata/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    F. Tools
+    Metadata
   </span>
   
 
@@ -751,31 +862,34 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
         
           
-          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="">
             
   
   <span class="md-ellipsis">
-    Geavanceerd
+    Collecties & Favorieten
   </span>
   
 
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_4">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
             <span class="md-nav__icon md-icon"></span>
-            Geavanceerd
+            Collecties & Favorieten
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -786,53 +900,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../filter/" class="md-nav__link">
+      <a href="../collections/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Filteren
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../measure/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Meten & Annoteren
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../selection/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Selecteren
+    Collecties
   </span>
   
 
@@ -863,6 +935,57 @@
 
               
             
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Locatie-informatie
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            Locatie-informatie
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
               
                 
   
@@ -870,11 +993,82 @@
   
   
     <li class="md-nav__item">
-      <a href="../metadata/" class="md-nav__link">
+      <a href="../location/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Metadata
+    Locatie-informatie
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../location/selection/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Selecteren, statistieken & tabel
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../streetview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Straatbeelden
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../draw/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Meten & Tekenen
   </span>
   
 
@@ -895,7 +1089,7 @@
         
   
   <span class="md-ellipsis">
-    Delen
+    Downloaden & delen
   </span>
   
 
@@ -904,54 +1098,6 @@
   
 
               
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
-        
-          
-          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Troubleshooting
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_5">
-            <span class="md-nav__icon md-icon"></span>
-            Troubleshooting
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
@@ -960,11 +1106,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../cache/" class="md-nav__link">
+      <a href="../menu/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Cache legen
+    Hoofdmenu
   </span>
   
 
@@ -974,9 +1120,22 @@
 
               
             
-          </ul>
-        </nav>
-      
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../troubleshooting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Problemen oplossen
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -1469,6 +1628,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1477,46 +1638,64 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#kaartlaag-zoeken" class="md-nav__link">
+  <a href="#het-zoekvenster-openen" class="md-nav__link">
     <span class="md-ellipsis">
-      Kaartlaag zoeken
+      Het zoekvenster openen
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Kaartlaag zoeken">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zoekcategorieen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zoekcategorieën
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Zoekcategorieën">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#uitgebreid-zoeken-naar-kaartlaag" class="md-nav__link">
+  <a href="#adres" class="md-nav__link">
     <span class="md-ellipsis">
-      Uitgebreid zoeken naar kaartlaag
+      Adres
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#1-zoekvenster" class="md-nav__link">
+  <a href="#gegevens" class="md-nav__link">
     <span class="md-ellipsis">
-      1. Zoekvenster
+      Gegevens
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-zoek-categorieen" class="md-nav__link">
+  <a href="#kaartlagen" class="md-nav__link">
     <span class="md-ellipsis">
-      2. Zoek categorieen
+      Kaartlagen
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-zoekresultaten" class="md-nav__link">
+  <a href="#collecties-en-ondergronden" class="md-nav__link">
     <span class="md-ellipsis">
-      3. Zoekresultaten
+      Collecties en ondergronden
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coordinaat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Coördinaat
     </span>
   </a>
   
@@ -1524,6 +1703,15 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sneltoetsen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sneltoetsen
+    </span>
+  </a>
   
 </li>
       
@@ -1542,7 +1730,7 @@
                   
 
   
-    <a href="https://github.com/mapgallery/documentation/edit/main/docs/manual/search.md" title="Wijzig deze pagina" class="md-content__button md-icon">
+    <a href="https://github.com/mapgallery/documentation/edit/main/docs/manual/search/index.md" title="Wijzig deze pagina" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -1551,46 +1739,163 @@
     
       
     
-    <a href="https://github.com/mapgallery/documentation/raw/main/docs/manual/search.md" title="Bron van deze pagina bekijken" class="md-content__button md-icon">
+    <a href="https://github.com/mapgallery/documentation/raw/main/docs/manual/search/index.md" title="Bron van deze pagina bekijken" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
     </a>
   
 
 
-  <h1>Zoeken</h1>
+<h1 id="zoeken">Zoeken</h1>
+<p>Met het zoekvenster vind je eenvoudig adressen, gegevens binnen actieve kaartlagen, kaartlagen, collecties,
+ondergronden en coördinaten. De resultaten verschijnen al terwijl je typt.</p>
+<h2 id="het-zoekvenster-openen">Het zoekvenster openen</h2>
+<p>Klik rechtsboven op <strong>Zoeken</strong>, of druk op <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-k">K</kbd></span> (Windows) of <span class="keys"><kbd class="key-command">Cmd</kbd><span>+</span><kbd class="key-k">K</kbd></span> (Mac). Voer een zoekterm in, zoals een
+adres, een plaatsnaam, een onderwerp, een thema of een coördinaat.</p>
+<!-- SCREENSHOT: search/search-layers.png — Zoekvenster, tabblad Kaartlagen: vinkjes, tags, protocol en sneltoetsenbalk -->
 
-<p>Via het zoekvenster van MapGallery kun je eenvoudig specifieke kaartlagen of datasets vinden door gebruik te maken van het zoekveld. Hieronder vind je een stap-voor-stap uitleg over hoe je deze functionaliteit gebruikt:</p>
-<h2 id="kaartlaag-zoeken">Kaartlaag zoeken</h2>
-<h3 id="uitgebreid-zoeken-naar-kaartlaag">Uitgebreid zoeken naar kaartlaag</h3>
-<h3 id="1-zoekvenster">1. Zoekvenster</h3>
-<p>Door <span class="keys"><kbd class="key-control">Ctrl</kbd></span> + <span class="keys"><kbd class="key-k">K</kbd></span> in te drukken of rechtsboven op het vergrootglas te klikken, kom je bij het zoekvenster.
-Voer een trefwoord in het zoekveld in, zoals een onderwerp, thema of specifieke term die je zoekt. Nadat je op <span class="keys"><kbd class="key-enter">Enter</kbd></span> drukt of op het vergrootglas klikt, worden de resultaten direct weergegeven.</p>
-<h3 id="2-zoek-categorieen">2. Zoek categorieen</h3>
-<p>Hier kan je zoeken op een trefwoord, zoals een onderwerp, thema of specifieke term. De zoekresultaten worden weergegeven in verschillende categorieën.</p>
-<ol>
-<li>Adres: hier worden resultaten weergegeven van adressen, postcodes, buurten, wijken, woonplaatsen, gemeenten en provincies.</li>
-<li>Gegevens: hier kan je met zoekwoorden gegevens binnen de actieve kaartlagen opzoeken.</li>
-<li>Kaartlagen: hier wordt gezocht naar titels, beschrijvingen, zoekwoorden en classificaties van kaartlagen.</li>
-<li>Collecties: zoek naar collecties en hun beschrijving.</li>
-<li>Ondergrond: zoek naar verschillende ondergrondkaartlagen.</li>
-<li>Coördinaat: zoek naar coördinaatpunten op de kaart.</li>
-</ol>
-<p>Klik op een van de zoekresultaten om de kaartlaag te openen en te gebruiken binnen MapGallery.</p>
-<h3 id="3-zoekresultaten">3. Zoekresultaten</h3>
-<p>De zoekresultaten worden weergegeven in een lijst. Als de zoekresultaten niet zijn wat je zoekt, kan je eenvoudig je zoekterm wijzigen door een nieuwe term in te voeren in het zoekveld. Voor elk resultaat krijg je de volgende informatie te zien:</p>
-<p><img alt="" src="search_menu_mg8.png" /></p>
+<h2 id="zoekcategorieen">Zoekcategorieën</h2>
+<p>De zoekresultaten worden verdeeld over zes tabbladen. Achter elk tabblad staat het aantal resultaten. Tabbladen
+zonder resultaten worden grijs weergegeven en het venster opent automatisch een tabblad met resultaten.</p>
+<table>
+<thead>
+<tr>
+<th>Tabblad</th>
+<th>Zoekt naar</th>
+<th>Wat er gebeurt bij een klik</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Adres</strong></td>
+<td>Adressen, wegen, postcodes, buurten, wijken, woonplaatsen, gemeenten, provincies en meer</td>
+<td>De kaart zoomt in op de locatie of het gebied.</td>
+</tr>
+<tr>
+<td><strong>Gegevens</strong></td>
+<td>Waarden in de actieve kaartlagen</td>
+<td>Het object wordt geselecteerd en de kaart zoomt erop in.</td>
+</tr>
+<tr>
+<td><strong>Kaartlagen</strong></td>
+<td>Titels, beschrijvingen, zoekwoorden en classificaties van kaartlagen</td>
+<td>De kaartlaag wordt aan de kaart toegevoegd.</td>
+</tr>
+<tr>
+<td><strong>Collecties</strong></td>
+<td>Collecties en hun beschrijving</td>
+<td>De collectie wordt geopend.</td>
+</tr>
+<tr>
+<td><strong>Ondergrond</strong></td>
+<td>Beschikbare ondergronden</td>
+<td>De ondergrond wordt geactiveerd.</td>
+</tr>
+<tr>
+<td><strong>Coördinaat</strong></td>
+<td>Coördinaatpunten in mogelijke coördinatenstelsels</td>
+<td>De locatie wordt op de kaart weergegeven.</td>
+</tr>
+</tbody>
+</table>
+<p>Elk resultaat heeft een label voor het soort resultaat, zoals <strong>PROVINCIE</strong>, <strong>WOONPLAATS</strong>, <strong><abbr title="Web Feature Service">WFS</abbr></strong> of
+<strong>MULTIPOLYGON</strong>. Bij kaartlagen, collecties en ondergronden zie je daarnaast de bron, de classificaties en een korte
+beschrijving.</p>
+<h3 id="adres">Adres</h3>
+<p>Via de PDOK Locatieserver wordt gezocht in gegevens uit diverse overheidsregistraties, zoals adressen, postcodes,
+woonplaatsen en provincies. Je kunt ook zoeken op perceelnummers of specifieke objecten, zoals hectometerpalen.</p>
+<p>Je kunt de zoekterm verder specificeren op:</p>
 <ul>
-<li><strong>Titel</strong> van de kaartlaag</li>
-<li>Naam van de <strong>Service</strong> (bron) van de kaartlaag</li>
-<li><strong>Classificaties</strong>: Classificaties die aan de kaartlaag zijn gekoppeld, waardoor je makkelijk kunt zien waar de
-  dataset over gaat.</li>
-<li><strong>Beschrijving</strong>: Een korte uitleg van wat de kaartlaag bevat.</li>
+<li><strong>Type</strong>, zoals provincie, gemeente, woonplaats, postcode, adres, perceel, wijk, buurt of hectometerpaal;</li>
+<li><strong>Bron</strong>, zoals BAG (Basisregistratie Adressen en Gebouwen), NWB (Nationaal Wegenbestand), DKK (Digitale
+  Kadastrale Kaart), CBS of HWH (Het Waterschapshuis).</li>
 </ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>De naam van de kaartlaag is ook een link naar de kaartlaag die je kunt bookmarken</p>
-</div>
+<table>
+<thead>
+<tr>
+<th>Zoeken naar</th>
+<th>Voorbeeld</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Adres</td>
+<td><code>Sint Jansstraat 4 Groningen</code></td>
+</tr>
+<tr>
+<td>Postcode</td>
+<td><code>1622 hp</code></td>
+</tr>
+<tr>
+<td>Perceel</td>
+<td><code>DMN00 A 220</code></td>
+</tr>
+<tr>
+<td>Hectometerpaal</td>
+<td><code>a1-100 type:hectometerpaal</code></td>
+</tr>
+<tr>
+<td>Wegtracé</td>
+<td><code>A2 bron:NWB</code></td>
+</tr>
+<tr>
+<td>Gemeente</td>
+<td><code>hoorn type:gemeente</code></td>
+</tr>
+</tbody>
+</table>
+<p>Uitgebreide informatie over de zoektermen vind je in de wiki van de PDOK Locatieserver onder
+<a href="https://github.com/PDOK/locatieserver/wiki/API-Locatieserver#2-gebruik-van-zoektermen-bij-solr-services">Gebruik van zoektermen</a>.</p>
+<h3 id="gegevens">Gegevens</h3>
+<p>Alle actieve vectorkaartlagen zijn doorzoekbaar op hun gegevensvelden. Bij elk resultaat zie je de naam van de
+kaartlaag, het attribuut en de waarde waarop een overeenkomst is gevonden.</p>
+<h3 id="kaartlagen">Kaartlagen</h3>
+<p>MapGallery doorzoekt de volledige verzameling kaartlagen, inclusief metadata en beschrijvingen. Zonder zoekterm zie je
+alle kaartlagen die voor jou beschikbaar zijn.</p>
+<ul>
+<li>Klik op een kaartlaag of op het <strong>vinkje</strong> ervoor om de kaartlaag toe te voegen.</li>
+<li>Een kaartlaag die al op de kaart staat, is aangevinkt. Haal het vinkje weg om de kaartlaag te verwijderen.</li>
+<li>Wil je meerdere kaartlagen achter elkaar toevoegen, gebruik dan <span class="keys"><kbd class="key-shift">Shift</kbd><span>+</span><kbd class="key-enter">Enter</kbd></span>. Het zoekvenster blijft dan open.</li>
+</ul>
+<h3 id="collecties-en-ondergronden">Collecties en ondergronden</h3>
+<p>Zoek op een onderwerp of een specifieke term. Klik op een collectie om deze te openen of op een ondergrond om deze te
+gebruiken. Zie ook <a href="../collections/">Collecties</a> en <a href="../map/#ondergronden">Ondergronden</a>.</p>
+<h3 id="coordinaat">Coördinaat</h3>
+<p>Voer een coördinaat in, bijvoorbeeld <code>155000 463000</code>. MapGallery zoekt automatisch naar de coördinatenstelsels
+waarin dit coördinaat kan liggen, zoals Rijksdriehoekstelsel (EPSG:28992), WGS84 (EPSG:4326) of Web Mercator
+(EPSG:3857). Klik op het juiste coördinatenstelsel om de locatie direct op de kaart weer te geven.</p>
+<h2 id="sneltoetsen">Sneltoetsen</h2>
+<p>Onder in het zoekvenster staan de sneltoetsen:</p>
+<table>
+<thead>
+<tr>
+<th>Toets</th>
+<th>Functie</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="keys"><kbd class="key-enter">Enter</kbd></span></td>
+<td>Het gekozen resultaat openen en het zoekvenster sluiten</td>
+</tr>
+<tr>
+<td><span class="keys"><kbd class="key-arrow-up">Up</kbd></span> / <span class="keys"><kbd class="key-arrow-down">Down</kbd></span></td>
+<td>Door de resultaten navigeren</td>
+</tr>
+<tr>
+<td><span class="keys"><kbd class="key-tab">Tab</kbd></span></td>
+<td>Naar het volgende tabblad gaan (bron kiezen)</td>
+</tr>
+<tr>
+<td><span class="keys"><kbd class="key-escape">Esc</kbd></span></td>
+<td>Het zoekvenster sluiten</td>
+</tr>
+<tr>
+<td><span class="keys"><kbd class="key-shift">Shift</kbd><span>+</span><kbd class="key-enter">Enter</kbd></span></td>
+<td>Het gekozen resultaat openen zonder het zoekvenster te sluiten</td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -1620,6 +1925,44 @@ Voer een trefwoord in het zoekveld in, zoals een onderwerp, thema of specifieke 
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../map/" class="md-footer__link md-footer__link--prev" aria-label="Vorige: De kaart">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Vorige
+              </span>
+              <div class="md-ellipsis">
+                De kaart
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../layers/" class="md-footer__link md-footer__link--next" aria-label="Volgende: Kaartlagen &amp; legenda">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Volgende
+              </span>
+              <div class="md-ellipsis">
+                Kaartlagen & legenda
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">

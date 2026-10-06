@@ -77,23 +77,11 @@
          <lastmod>2026-10-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.mapgallery.eu/develop/manual/map/</loc>
-         <lastmod>2026-10-06</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.mapgallery.eu/develop/manual/search/</loc>
-         <lastmod>2026-10-06</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.mapgallery.eu/develop/manual/background/</loc>
-         <lastmod>2026-10-06</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.mapgallery.eu/develop/manual/cache/</loc>
-         <lastmod>2026-10-06</lastmod>
-    </url>
-    <url>
          <loc>https://docs.mapgallery.eu/develop/manual/collections/</loc>
+         <lastmod>2026-10-06</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.mapgallery.eu/develop/manual/draw/</loc>
          <lastmod>2026-10-06</lastmod>
     </url>
     <url>
@@ -105,39 +93,47 @@
          <lastmod>2026-10-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.mapgallery.eu/develop/manual/filter/</loc>
-         <lastmod>2026-10-06</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.mapgallery.eu/develop/manual/header/</loc>
-         <lastmod>2026-10-06</lastmod>
-    </url>
-    <url>
          <loc>https://docs.mapgallery.eu/develop/manual/layers/</loc>
          <lastmod>2026-10-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.mapgallery.eu/develop/manual/mapinfo/</loc>
+         <loc>https://docs.mapgallery.eu/develop/manual/layers/filter/</loc>
          <lastmod>2026-10-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.mapgallery.eu/develop/manual/measure/</loc>
+         <loc>https://docs.mapgallery.eu/develop/manual/layers/import/</loc>
          <lastmod>2026-10-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.mapgallery.eu/develop/manual/metadata/</loc>
+         <loc>https://docs.mapgallery.eu/develop/manual/layers/metadata/</loc>
          <lastmod>2026-10-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.mapgallery.eu/develop/manual/quick_search/</loc>
+         <loc>https://docs.mapgallery.eu/develop/manual/location/</loc>
          <lastmod>2026-10-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.mapgallery.eu/develop/manual/selection/</loc>
+         <loc>https://docs.mapgallery.eu/develop/manual/location/selection/</loc>
          <lastmod>2026-10-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.mapgallery.eu/develop/manual/tools/</loc>
+         <loc>https://docs.mapgallery.eu/develop/manual/map/</loc>
+         <lastmod>2026-10-06</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.mapgallery.eu/develop/manual/menu/</loc>
+         <lastmod>2026-10-06</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.mapgallery.eu/develop/manual/search/</loc>
+         <lastmod>2026-10-06</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.mapgallery.eu/develop/manual/streetview/</loc>
+         <lastmod>2026-10-06</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.mapgallery.eu/develop/manual/troubleshooting/</loc>
          <lastmod>2026-10-06</lastmod>
     </url>
 </urlset>
