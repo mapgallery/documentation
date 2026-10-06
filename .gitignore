@@ -2,3 +2,4 @@
 .idea
 .venv
 site
+.DS_Store

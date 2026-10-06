@@ -2,55 +2,51 @@
 title: "Favorieten"
 ---
 
-De favorieten functie van MapGallery stelt gebruikers in staat om specifieke kaartlagen eenvoudig toegankelijk te
-maken door deze op te slaan als persoonlijk favoriet. De kaartlagen kunnen worden ingedeeld in eigen groepen.
-Hieronder volgt een beschrijving van hoe deze functionaliteit werkt.
+# Favorieten
 
-### Kaartlaag markeren als favoriet
+Met de favorietenfunctie maak je specifieke kaartlagen eenvoudig toegankelijk door ze op te slaan als persoonlijke
+favoriet. Je deelt de kaartlagen in eigen groepen in. Favorieten zijn alleen beschikbaar als je bent
+[ingelogd](../index.md#inloggen).
 
-Via het [Kaartlagen (C)](../map/#kaartviewer) paneel kunnen specifieke kaartlagen eenvoudig toegankelijk gemaakt worden
-door deze op te slaan als persoonlijke favoriet. Via onderstaande stappen kan een kaartlaag worden gemarkeerd als
-favoriet.
+## Een kaartlaag markeren als favoriet
 
-1. Zorg dat je ingelogt bent in de MapGallery omgeving. 
-1. Zoek een kaartlaag en voeg deze toe, zie ook de [**Zoekfunctie**](../quick_search/) van deze documentatie voor een
-   beschrijving.
-1. Zorg dat de kaartlaag is uitgeklapt via de **collapse** knop.
-1. Klik op de de drie puntjes ![](/assets/svg/ver_dots.svg#middle) en dan favoriet knop ![](/assets/svg/bookmark.svg#middle) van de specifieke kaartlaag.
-1. De kaartlaag wordt nu toegevoegd aan de favorietenlijst aan de linkerzijde onder de bookmarks knop ![](/assets/svg/bookmarks.svg#middle). De knop verandert nu in een gekleurde bladwijzer ![](/assets/svg/bookmark_active.svg#middle) als indicatie dat de kaartlaag favoriet is.
+1. Zoek een kaartlaag en voeg deze toe aan de kaart, bijvoorbeeld via het [zoekvenster](../search/index.md).
+1. Klik in de [legenda](../layers/index.md#knoppen-per-kaartlaag) op **⋮** bij de kaartlaag.
+1. Klik op **Favoriet**. Het icoon wordt gevuld als indicatie dat de kaartlaag een favoriet is.
 
-Wanneer een kaartlaag niet meer favoriet is, kan op de favoriet-knop worden geklikt om deze te verwijderen uit de
-favorietenlijst.
+Wil je een kaartlaag niet langer als favoriet bewaren, klik dan nogmaals op **Favoriet**.
 
-!!! note
-      Het is mogelijk om een kaartlaag te markeren als favoriet inclusief een bepaalde filtering. Pas eerste
-      de [Filtering](../filter) toe op de kaartlaag en markeer de kaart vervolgens als favoriet.
+!!! tip "Favoriet met filter"
+    Je kunt een kaartlaag als favoriet bewaren inclusief een bepaalde filtering. Pas eerst het
+    [filter](../layers/filter.md) toe op de kaartlaag en markeer de kaartlaag vervolgens als favoriet.
 
-<img src="bookmarks_mg8.png" width="430" align="right">
+## Je favorieten gebruiken
 
-### Toegang tot favorieten
+Klik in de zijbalk links op **Favorieten** om het favorietenpaneel te openen.
 
-Gebruikers kunnen hun favorieten terugzien onder de bookmarks knop ![](/assets/svg/bookmarks.svg#middle) aan de linkerzijde van het scherm, via het favorieten venster. Klik op een kaartlaag om deze aan de kaarviewer toe te voegen.
+<!-- SCREENSHOT: favorites/panel.png — Favorietenpaneel met een groep en enkele kaartlagen -->
 
+- Klik op een kaartlaag om deze aan de kaart toe te voegen. Klik nogmaals om de kaartlaag weer uit te zetten.
+- Met de knop in de kop van een groep zet je alle kaartlagen in die groep in één keer aan (**Alles weergeven**) of uit
+  (**Alles verbergen**).
 
-1. Om een kaartlaag toe te voegen, klik op de naam van de kaartlaag.
-    * De kaartlaag wordt toegevoegd aan de [**Kaartviewer**](../map).
-    * Klik nogmaals op deze kaartlaag op deze kaartlaag te sluiten. 
+## Favorieten beheren
 
-2. Je kunt alle kaartlagen uit een groep in één keer toevoegen door op de **Groep toevoegen** knop (![](/assets/svg/list_add.svg#middle)) te klikken. Alle kaartlagen uit die groep worden dan toegevoegd aan de kaartviewer.
+Je beheert je favorieten zelf en deelt ze in groepen in. Klik in het favorietenpaneel op het **potlood** om het
+venster **Favorieten bewerken** te openen.
 
-### Beheer van favorieten
+<!-- SCREENSHOT: favorites/edit.png — Venster Favorieten bewerken met groepen, laagnummers, + Groep en Opslaan -->
 
-Gebruikers kunnen hun favorieten zelf beheren en onder groepen indelen. Favorieten kunnen eenvoudig worden bewerkt.
+1. Pas de namen van groepen en kaartlagen aan door in de naam te klikken.
+1. Sleep groepen en kaartlagen aan het handvat links naar de gewenste volgorde. Je kunt een kaartlaag ook naar een
+   andere groep slepen.
+1. Klik op **⊖** om een kaartlaag of groep uit je favorieten te verwijderen.
+1. Klik op **+ Groep** om een nieuwe groep te maken.
+1. Kies met de knop in de kop van een groep hoe de kaartlagen in die groep werken:
+    - **Vinkjes**: elke klik voegt een kaartlaag toe, zodat je meerdere kaartlagen tegelijk toont.
+    - **Keuzerondjes**: je wisselt tussen de kaartlagen binnen de groep. Dit is geschikt om snel te wisselen tussen
+      kaartlagen die het hele gebied vullen.
+1. Klik op **Opslaan** om de wijzigingen te bewaren.
 
-![](bookmark_edit_mg8.png)
-
-
-1. Zorg ervoor dat de [**Kaartviewer**](../map) actief is.
-2. Klik op het favorieten symbool (![](/assets/svg/bookmarks.svg#middle)) om het favorieten venster te openen. En daarna op het bewerk icoon (![](/assets/svg/pen.svg#middle)).
-3. Pas de titels aan en sleep de kaartlagen naar de gewenste volgorde. Klik op de verwijder-knop ![](/assets/svg/remove.svg#middle) om een kaartlaag uit de favorieten te verwijderen.
-4. Klik op de **Groep** toevoegen knop om een nieuwe groep te maken waarin je kaartlagen kunt groeperen.
-5. De kaartlagen binnen een groep kunnen twee soorten knoppen hebben:
-      * **Checkbox**: hiermee kun je een kaartlaag aan- of uitzetten.
-      * **Radio button**: hiermee kun je wisselen tussen kaartlagen. Dit maakt het mogelijk om binnen een groep slechts één kaartlaag tegelijk te tonen. Wanneer je een nieuwe laag uit de groep selecteert, wordt de eerder actieve laag automatisch uitgeschakeld.
-6. Klik op de knop **Opslaan** om de wijzigingen te bewaren.
+Het grijze nummer achter een kaartlaag is het unieke nummer van de kaartlaag in MapGallery. Vermeld dit nummer als
+je een vraag hebt over een specifieke kaartlaag.

@@ -1,48 +1,69 @@
 ---
-title: "Delen"
+title: "Downloaden & delen"
 ---
 
-Er zijn verschillende manieren om gegevens te exporteren uit MapGallery.
+# Downloaden & delen
 
-## Exporteer Kaartbeeld
+Er zijn verschillende manieren om gegevens en kaartbeelden uit MapGallery te exporteren. Je downloadt de gegevens van
+kaartlagen, deelt een link naar het huidige kaartbeeld of slaat de kaart op als afbeelding.
 
-De opties onder **Export** bij [Hoofdmenu (A)](../header/index.md) bieden de mogelijkheid om de
-huidige kaartweergave op te slaan of te delen. Beide opties maken het mogelijk om eenvoudig de resultaten van je
-kaartwerk te bewaren of te delen. Hier zijn de beschrijvingen van de twee exportopties:
+## Gegevens downloaden
 
-Bij het [Hoofdmenu (A)](../header/index.md) kan je kiezen tussen een van de volgende opties:
+Je downloadt gegevens vanuit drie plaatsen:
 
-#### Kaartbeeld als afbeelding
+| Wat | Waar |
+|-----|------|
+| Een volledige kaartlaag | De knop **Download** in de [metadata](../layers/metadata.md) van de kaartlaag |
+| Een selectie | De knop **Download** in de [tabel](../location/selection.md#tabel) van een selectie |
+| Een gefilterde kaartlaag | De knop **Download** in de metadata, terwijl er een [filter](../layers/filter.md) actief is. Je ontvangt dan alleen de gefilterde objecten. |
 
-Met deze optie kun je de huidige weergave van de kaart opslaan als een afbeelding in PNG-formaat. Dit is handig voor het
-maken van visuele rapporten of presentaties waarin een momentopname van de kaart nodig is. De afbeelding wordt gegenereerd op
-basis van het huidige kaartbeeld, inclusief alle zichtbare kaartlagen en annotaties.
+Niet elke kaartlaag kan worden gedownload. Dit hangt af van de instellingen van de beheerder en van de bron van de
+gegevens.
 
-#### Link naar huidige kaartbeeld
+### Het downloadvenster
 
-Deze optie genereert een directe link of permalink naar het huidige kaartbeeld, inclusief de positie en zoomniveau van
-de kaart. Deze link kan worden gedeeld met anderen, zodat zij dezelfde kaartweergave kunnen bekijken. Dit is nuttig voor
-het eenvoudig delen van specifieke kaartlocaties of instellingen met collega's of klanten.
+<!-- SCREENSHOT: export/download.png — Downloadvenster met aantal objecten, formaten en projectie -->
 
-## Exporteer Kaartlaag
+1. Bovenaan zie je hoeveel objecten je downloadt.
+1. Kies het **bestandsformaat** waarin je de gegevens wilt opslaan:
 
-Via de stappen bij [Metadata](../metadata) klik je op de downloadoptie in het interfacevenster van de
-kaartlaag. Dit opent het downloadscherm waar je verschillende instellingen kunt aanpassen. 
+    | Formaat | Extensie | Toepassing |
+    |---------|----------|------------|
+    | GeoPackage | `.gpkg` | Aanbevolen voor QGIS en ArcGIS |
+    | Shapefile | `.zip` | Gezipt, voor oudere GIS-software |
+    | GeoJSON | `.geojson` | Voor webtoepassingen, altijd in WGS84 |
+    | CSV | `.csv` | Tabel met coördinaten of WKT-geometrie |
+    | Excel | `.xlsx` | Alleen de attributen, zonder geometrie |
+    | DXF | `.dxf` | Voor CAD-software, alleen de geometrie |
 
-![](export-layer.png)
+1. Kies de **projectie** waarin je de gegevens wilt downloaden: Rijksdriehoekstelsel (EPSG:28992), WGS84 (EPSG:4326)
+   of Web Mercator (EPSG:3857). De projectie bepaalt hoe de geografische coördinaten worden weergegeven.
+1. Klik op **Download** om de gegevens naar je apparaat te downloaden.
 
-In het downloadvenster is de mogelijkheid om de projectie te selecteren waarin je de gegevens wilt downloaden. De
-projectie bepaalt hoe de geografische coördinaten worden weergegeven. Daarnaast kun je ook het bestandsformaat kiezen
-waarin je de gegevens wilt opslaan (geopackage, GeoJSON, Excel, Shapefile, CSV, DXF). Nadat je de projectie en het bestandsformaat hebt gekozen, klik je op de Download-knop om de kaartlaaggegevens naar je apparaat te downloaden.
+## Link kopiëren
 
-#### Hyperlink genereren (optioneel)
-In sommige gevallen is het mogelijk om een directe link naar de dataset te genereren door op de knop Hyperlink te
-klikken. Dit kan handig zijn als je de gegevens wilt delen of later wilt downloaden zonder opnieuw de interface te
-openen. 
+Met deze optie maak je een directe link naar het huidige kaartbeeld. Deze link kun je delen met anderen, zodat zij
+dezelfde kaartweergave bekijken. Dit is nuttig om specifieke locaties of instellingen te delen met collega's of
+klanten.
 
-## Exporteer Selectie
+1. Open het [Hoofdmenu](../menu/index.md).
+1. Kies **Delen → Link kopiëren**. De link staat nu op je klembord.
+1. Plak de link in bijvoorbeeld een e-mail of chatbericht.
 
-Via de stappen bij [Selecteren](../selection) kan bij de laatste stap de lijstweergave worden
-opgevraagd. Kies nu die optie **Download** naast sluiten om de gegeven te exporteren naar een van de 6 bestand opties. 
+| Wordt meegenomen in de link | Wordt niet meegenomen |
+|-----------------------------|-----------------------|
+| Positie, zoomniveau, rotatie en kanteling | [Tekeningen](../draw/index.md#tekeningen-bewaren) |
+| Actieve kaartlagen en ondergrond | [Lokale bestanden](../layers/import.md#tijdelijke-laag) |
+| De geopende collectie | |
+| Filters en aangepaste stijlen | |
 
-![](export-selection.png)
+De ontvanger ziet alleen de kaartlagen waartoe hij of zij zelf toegang heeft.
+
+## Kaart als afbeelding
+
+Met deze optie sla je de huidige weergave van de kaart op als afbeelding in PNG-formaat. Dit is geschikt voor
+rapporten of presentaties waarin een momentopname van de kaart nodig is. De afbeelding bevat de zichtbare kaartlagen,
+de legenda en je tekeningen.
+
+1. Open het [Hoofdmenu](../menu/index.md).
+1. Kies **Delen → Kaart als afbeelding**.

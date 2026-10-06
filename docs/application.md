@@ -1,19 +1,25 @@
 ---
-title: "Wat is MapGallery"
+title: "MapGallery"
 ---
 
-MapGallery is een WebGIS-applicatie waarmee je de omgeving in kaart brengt en beter begrijpt. Je bekijkt interactieve
-kaarten, vraagt informatie op over locaties en objecten, en deelt of downloadt de gegevens. MapGallery wordt onder
-andere gebruikt door gemeenten, provincies, veiligheidsregio's, stedenbouwkundigen en onderzoekers.
+MapGallery is een WebGIS-applicatie, gemaakt om de omgeving in kaart te brengen en beter te begrijpen door middel van
+interactieve kaarten en locatiegegevens. De applicatie werkt in de browser op desktop, tablet en telefoon, zonder dat
+je extra software hoeft te installeren. MapGallery wordt onder andere gebruikt door gemeenten, veiligheidsregio's,
+stedenbouwkundigen en onderzoekers.
 
-Beheerders stellen per omgeving samen welke kaartlagen, collecties en ondergronden beschikbaar zijn. Gebruikers werken
-met die kaarten in de browser, zonder extra software te installeren.
+MapGallery biedt een krachtige en flexibele omgeving voor het werken met geografische informatie. Beheerders stellen
+per omgeving samen welke kaartlagen, collecties en ondergronden beschikbaar zijn. Als gebruiker bekijk je deze
+kaarten, vraag je informatie op over locaties en objecten, en deel of download je de gegevens.
 
-### WebGIS
+### WebGIS en web mapping
 
-Een WebGIS (webgebaseerd Geografisch Informatiesysteem) gebruikt het internet om geografische gegevens op te slaan,
-te tonen, te analyseren en te delen. Kaarten zijn daarbij niet statisch: je kiest zelf welke lagen je ziet, klikt op
-objecten voor meer informatie en combineert gegevens uit verschillende bronnen.
+Webgebaseerde geografische informatiesystemen (WebGIS) gebruiken het internet om geografische gegevens op te slaan,
+weer te geven, te analyseren en te delen. Daarmee worden ruimtelijke analyses en kaartvisualisaties toegankelijk voor
+een breed publiek.
+
+Een veelgebruikte toepassing van WebGIS is web mapping: het maken, gebruiken en delen van kaarten via het internet.
+De kaart is daarbij niet statisch. Je bepaalt zelf welke kaartlagen je ziet, klikt op objecten voor meer informatie en
+combineert gegevens uit verschillende bronnen.
 
 ## Systeemeisen
 
@@ -26,7 +32,7 @@ MapGallery ondersteunt de **laatste twee hoofdversies** van de gangbare browsers
 | Mozilla Firefox |   Ja    |  Ja (Android)    |
 | Apple Safari    |   Ja    | Ja (iOS / iPadOS) |
 
-Gebruik je een oudere versie, dan kan MapGallery werken, maar valt die versie niet onder de ondersteuning. Browsers
+Een oudere versie kan werken, maar valt niet onder de ondersteuning. Browsers
 die op dezelfde techniek zijn gebouwd, zoals Opera en Samsung Internet, werken meestal ook, maar worden niet officieel
 ondersteund.
 
@@ -38,7 +44,7 @@ De browser moet daarnaast twee technieken ondersteunen en toestaan:
   bewaren (cachen) van kaartgegevens. **Zonder service workers werkt MapGallery niet.** Sommige browsers schakelen
   service workers uit in een privévenster, en organisaties kunnen ze via een beleid blokkeren. Open MapGallery in dat
   geval in een gewoon browservenster of vraag je IT-afdeling om service workers toe te staan voor het adres van
-  MapGallery. Zie ook [Cache legen](manual/cache/index.md).
+  MapGallery. Zie ook [Cache leegmaken](manual/troubleshooting/index.md#cache-leegmaken).
 
 !!! note "Gebruik op tablet en telefoon"
     MapGallery werkt ook op tablets en telefoons. Sommige functies, zoals selecteren met ++shift++ en slepen of

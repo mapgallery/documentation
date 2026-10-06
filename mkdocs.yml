@@ -36,23 +36,24 @@ nav:
       - questions.md
   - Gebruiker:
       - manual/index.md
-      - manual/map.md
-      - Kaartelementen:
-            - manual/header/index.md
-            - manual/mapinfo/index.md
-            - manual/layers/index.md
-            - manual/collections/index.md
-            - manual/quick_search/index.md
-            - manual/tools/index.md
-      - Geavanceerd:
-          - manual/filter/index.md
-          - manual/measure/index.md
-          - manual/selection/index.md
-          - manual/favorites/index.md
-          - manual/metadata/index.md
-          - manual/export/index.md
-      - Troubleshooting:
-          - manual/cache/index.md
+      - manual/map/index.md
+      - manual/search/index.md
+      - Kaartlagen:
+          - manual/layers/index.md
+          - manual/layers/import.md
+          - manual/layers/filter.md
+          - manual/layers/metadata.md
+      - Collecties & Favorieten:
+        - manual/collections/index.md
+        - manual/favorites/index.md
+      - Locatie-informatie:
+          - manual/location/index.md
+          - manual/location/selection.md
+      - manual/streetview/index.md
+      - manual/draw/index.md
+      - manual/export/index.md
+      - manual/menu/index.md
+      - manual/troubleshooting/index.md
   - Beheerder:
       - admin/index.md
       - admin/dashboard.md

@@ -1,23 +1,58 @@
 ---
-title: "D. Collecties"
+title: "Collecties"
 ---
 
-In het menu linksboven kun je met de op één na onderste knop (![](/assets/svg/collection.svg#middle)) zien welke collectie momenteel geopend is en zoeken naar andere beschikbare collecties. 
+# Collecties
 
-## Collecties
-<img src="eg_collection.png" width="430" align="right">
+Een collectie bestaat uit één of meer kaartlagen die samen een thematische kaart vormen, gericht op een specifiek
+onderwerp. Collecties geven je eenvoudig toegang tot **thema's** en de bijbehorende kaartlagen, zodat je sneller de
+juiste geografische gegevens en visualisaties vindt. De beheerder stelt de collecties samen en bepaalt wie er toegang
+toe heeft.
 
-Een collectie bestaat uit één of meer kaartlagen die samen een thematische kaart vormen, gericht op een specifiek onderwerp.
+Je opent het collectiepaneel met de knop **Collecties** in de zijbalk links.
 
-Het doel van een collectie is om gebruikers eenvoudig toegang te bieden tot **thema's** en bijbehorende kaartlagen. Via deze collecties kunnen gebruikers gemakkelijker de juiste geografische data en visualisaties vinden. Beheerders kunnen daarnaast zelfgemaakte collecties beheren en gebruikers toegang geven tot deze collecties.
+## Een collectie kiezen
 
-Door in het menu linksboven op het collectie-icoon (![](/assets/svg/collection.svg#middle)) te klikken, kun je zien welke collectie momenteel op de kaart geopend is. Een collectie bestaat uit een titel, een icoon en een omschrijving. Daaronder worden de kaartlagen van de collectie weergegeven. Deze kunnen worden gestructureerd in verschillende groepen.
+Is er nog geen collectie geopend, dan toont het collectiepaneel:
 
-De kaartlagen binnen een collectie of groep kunnen twee soorten knoppen hebben:
+- **Recent bekeken collecties**: de collecties die je onlangs hebt geopend. Dit onderdeel is alleen zichtbaar als je
+  bent ingelogd.
+- **Populaire collecties**: de collecties die het meest worden gebruikt.
+- **Meer collecties weergeven**: opent het [zoekvenster](../search/index.md) op het tabblad Collecties, waar je alle
+  beschikbare collecties doorzoekt.
 
-* **Checkbox**: hiermee kun je een kaartlaag aan- of uitzetten.
-* **Radio button**: hiermee kun je wisselen tussen kaartlagen. Dit maakt het mogelijk om binnen een groep slechts één kaartlaag tegelijk te tonen. Wanneer je een nieuwe laag uit de groep selecteert, wordt de eerder actieve laag automatisch uitgeschakeld.
+Klik op een collectie om deze te openen.
 
-Helemaal onderaan kun je de gehele collectie deselecteren. Hiermee wordt de volledige collectie gesloten.
+<!-- SCREENSHOT: collections/start.png — Collectiepaneel zonder actieve collectie: Recent bekeken, Populaire collecties, Meer collecties weergeven -->
 
-Als er nog geen collectie geopend is, kun je naar een beschikbare collectie zoeken. Je wordt dan direct naar het zoekvenster geleid, waar je naar beschikbare collecties kunt zoeken. Door op een collectie te klikken, wordt deze aan de kaart toegevoegd.
+## Een collectie openen
+
+Wanneer je een collectie opent:
+
+- zoomt de kaart naar het gebied van de collectie en wisselt de ondergrond mee;
+- worden de **actieve kaartlagen vervangen** door de kaartlagen van de collectie;
+- toont het collectiepaneel de inhoud van de collectie.
+
+Wil je terug naar je eigen kaartlagen, open dan [Favorieten](../favorites/index.md) in de zijbalk.
+
+## Werken met een collectie
+
+<!-- SCREENSHOT: collections/collection.png — Geopende collectie met beschrijving, twee groepen, Alles verbergen/weergeven en Deselecteer collectie -->
+
+Een collectie bestaat uit een titel, een icoon en een beschrijving. Daaronder staan de kaartlagen van de collectie,
+die in verschillende groepen kunnen zijn ingedeeld. De kaartlagen binnen een groep hebben een van twee soorten knoppen:
+
+- **Vinkje**: hiermee zet je een kaartlaag aan of uit. Je kunt meerdere kaartlagen tegelijk tonen.
+- **Keuzerondje**: hiermee wissel je tussen kaartlagen. Binnen de groep is steeds één kaartlaag tegelijk zichtbaar.
+  Wanneer je een andere kaartlaag kiest, wordt de eerder actieve kaartlaag automatisch uitgezet. Dit is geschikt om
+  snel te wisselen tussen kaartlagen die het hele gebied vullen.
+
+Met de knop in de kop van een groep zet je alle kaartlagen in die groep in één keer aan (**Alles weergeven**) of uit
+(**Alles verbergen**).
+
+Klik helemaal onderaan op **Deselecteer collectie** om de volledige collectie te sluiten. De kaart blijft open en je
+kunt direct een andere collectie kiezen.
+
+!!! note "Voor beheerders"
+    Als beheerder zie je in de kop van de collectie de knop **Collectie beheren**. Hiermee open je de collectie in de
+    beheeromgeving. Zie [Collecties beheren](../../admin/collections.md).

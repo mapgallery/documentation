@@ -1,111 +1,85 @@
 ---
-title: "C. Kaartlagen"
+title: "Kaartlagen & legenda"
 ---
 
-<img src="legend_mg8.png" width="330" align="right">
+# Kaartlagen & legenda
 
-Het [Kaartlagen (C)](../map/#kaartviewer) paneel geeft je volledige controle over de actieve kaartlagen die worden
-weergegeven op de kaart. In dit gedeelte van de handleiding leggen we uit hoe je de verschillende functies binnen dit
-paneel kunt gebruiken om actieve kaartlagen te beheren.
+Een kaartlaag is een informatielaag met geografische gegevens die je onafhankelijk van andere kaartlagen aan- en
+uitzet. Via het menu **Kaartlagen** voeg je kaartlagen toe. In de **legenda** aan de rechterkant van het scherm heb je
+volledige controle over de actieve kaartlagen.
 
-Elke actieve kaartlaag wordt weergegeven in dit paneel. Een kaartlaag kan worden in- en uitgeklapt via de **in-/uitklapknop**
-knop (![](../../assets/svg/arrow_up.svg#middle)/![](../../assets/svg/arrow_down.svg#middle)) en worden gesloten door op de **sluit knop** (![](/assets/svg/close.svg#middle)) te klikken. Door te **slepen** kan
-de volgorde van de kaartlagen worden aangepast. Elke laag heeft specifieke opties voor weergave en interactie.
+## Het menu Kaartlagen
 
+Klik rechtsboven op **Kaartlagen**. Het getal op de knop geeft het aantal actieve kaartlagen aan.
 
-## Legenda
+<!-- SCREENSHOT: layers/layers-menu.png — Kaartlagen-menu: Legenda verbergen, Kaartlaag toevoegen, Lokaal bestand toevoegen, ondergronden -->
 
-Elke kaartlaag biedt een interactieve legenda met een aantal interactieve knoppen waarmee je de laag kunt beheren:
+| Optie | Functie |
+|-------|---------|
+| **Legenda verbergen** / **Legenda tonen** | De legenda verbergen of weer tonen, zonder dat de kaartlagen worden gesloten. |
+| **Kaartlaag toevoegen** | Het [zoekvenster](../search/index.md) openen op het tabblad Kaartlagen. |
+| **Lokaal bestand toevoegen** | Een eigen bestand tijdelijk op de kaart zetten. Zie [Eigen bestanden](import.md). |
+| Ondergronden | De actieve ondergrond wijzigen. Zie [Ondergronden](../map/index.md#ondergronden). |
 
-### Kaartlagen
+## De legenda
 
-De kleuren en symbolen naast elke kaartlaag geven een visuele weergave van de categorieën binnen de laag. Door op een legenda-item te klikken wordt het item aan- of uitgezet.
+Elke actieve kaartlaag wordt in de legenda weergegeven in een eigen blok, met specifieke opties voor weergave en
+interactie.
 
-### Metadata
+<!-- SCREENSHOT: layers/legend.png — Legenda met twee kaartlagen en de knoppen per laag -->
 
-De metadataknop (![](/assets/svg/metadata.svg#middle)) geeft extra kenmerken over de kaartlaag.
+- Klik op het **pijltje** om een kaartlaag in of uit te klappen en op het **kruisje** om de kaartlaag te sluiten.
+- **Sleep** een kaartlaag om de volgorde van de kaartlagen aan te passen.
+- De kleuren en symbolen geven de categorieën binnen de kaartlaag weer. Klik op een **legenda-item** om die categorie
+  aan of uit te zetten. Op dezelfde manier zet je labels aan of uit.
 
-### Zichtbaarheid
+### Knoppen per kaartlaag
 
-Dit icoon (![](/assets/svg/eye.svg#middle)) bepaalt of een kaartlaag zichtbaar is op de kaart. Door op het oogpictogram
-te klikken, kun je de laag aan- of uitzetten. Dit is handig als je tijdelijk een laag wilt verbergen zonder deze
-volledig te verwijderen.
+Onder in elk blok staan de knoppen voor die kaartlaag:
 
-### Zoom
+| Knop | Functie |
+|------|---------|
+| **Info** | De [metadata](metadata.md) van de kaartlaag bekijken. |
+| **Zichtbaarheid** (oog) | De kaartlaag tijdelijk verbergen zonder deze volledig te verwijderen. |
+| **Filter** | Alleen de objecten tonen die aan bepaalde voorwaarden voldoen. Zie [Filteren](filter.md). De knop is gekleurd als er een filter actief is. |
+| **Stijl** (palet) | De weergave van de kaartlaag aanpassen. Zie [Stijl](#stijl). |
+| **⋮** | Meer opties: **Gegevens herladen**, **Zoom naar extent** en **Favoriet**. |
 
-Zoom naar laag of actieve filtering: Klik op het icoon (![](/assets/svg/crop.svg#middle)) om automatisch in te zoomen op het volledige gebied dat door de kaartlaag wordt gedekt. Als er een actieve filtering is, wordt ingezoomd op het gebied dat door het filter wordt bepaald.
+- **Gegevens herladen** laadt de gegevens van de kaartlaag opnieuw.
+- **Zoom naar extent** zoomt in op het volledige gebied van de kaartlaag. Is er een filter actief, dan zoomt de kaart
+  in op het gebied van de gefilterde objecten.
+- **Favoriet** markeert de kaartlaag als [favoriet](../favorites/index.md), zodat je snel naar deze kaartlaag
+  terugkeert zonder de volledige lijst van kaartlagen te doorzoeken. Deze optie is alleen beschikbaar als je bent
+  ingelogd.
 
-### Favoriet
+### Legenda-opties
 
-Met het bladwijzer-icoon (![](/assets/svg/bookmark.svg#middle)) kun je een kaartlaag markeren als favoriet. Dit stelt je in
-staat om snel terug te keren naar deze laag zonder steeds door de volledige lijst van lagen te moeten zoeken.
+Klik op **⋮** bovenaan de legenda om de legenda-opties te openen. Deze gelden voor alle kaartlagen tegelijk:
 
-### Stijl
+| Optie | Functie |
+|-------|---------|
+| **Uitzetten** | Alle actieve kaartlagen in één keer uitzetten. |
+| **Aanzetten** | Alle uitgezette kaartlagen weer aanzetten. |
+| **Inklappen** | De blokken van alle kaartlagen inklappen. |
+| **Uitklappen** | De blokken van alle kaartlagen uitklappen. |
+| **Sluiten** | Alle kaartlagen sluiten. |
 
-Door op dit pictogram (![](/assets/svg/paint.svg#middle)) te klikken, kun je de weergave-instellingen van de kaartlaag aanpassen. Dit
-omvat
-het wijzigen van kleuren, symbolen en andere visuele aspecten om de laag beter aan te passen aan je specifieke
-analysebehoeften.
+Met de knop rechts naast **⋮** klap je de volledige legenda in. De kaartlagen blijven daarbij op de kaart staan.
 
-### De style aanpassen
+## Stijl
 
-Bij een vectorkaartlaag kan de stijl worden aangepast, evenals de transparantie en dikte van symbolen. Hieronder volgt
-een gedetailleerde uitleg van de beschikbare opties in dit menu.
+Bij een vectorkaartlaag pas je met de knop **Stijl** de weergave aan. Welke opties beschikbaar zijn, hangt af van het
+type kaartlaag.
 
-<img src="style_menu_mg8.png" width="240" align="left">
+<!-- SCREENSHOT: layers/style.png — Stijlmenu van een puntlaag (met Clusters en de schuifregelaar voor grootte) -->
 
-- **Eenvoudig.** Kies deze optie om een eenvoudige, standaardweergave te gebruiken voor de kaartlaag. Dit is de
-  basisstijl zonder speciale effecten of aanpassingen.
-- **Heatmap.** Met de Heatmap-optie (hittekaart) kun je gegevens visualiseren op basis van dichtheid. Hoe meer data er
-  in een bepaald
-  gebied is, hoe intenser de kleur. Dit is vooral nuttig voor het weergeven van concentraties in grote datasets.
-- **Clusters.** Deze optie groepeert dicht bij elkaar liggende punten tot clusters, afhankelijk van het zoomniveau.
-  Clustering is handig wanneer je met veel punten werkt, omdat het een overzichtelijke weergave biedt zonder dat de
-  kaart overladen raakt.
+| Optie | Functie | Beschikbaar voor |
+|-------|---------|------------------|
+| **Eenvoudig** | De standaardweergave van de kaartlaag, zonder speciale effecten of aanpassingen. | Alle vectorkaartlagen |
+| **Heatmap** | Gegevens weergeven op basis van dichtheid: hoe meer objecten in een gebied, hoe intenser de kleur. Geschikt om concentraties in grote datasets zichtbaar te maken. | Alle vectorkaartlagen |
+| **Clusters** | Dicht bij elkaar liggende punten groeperen tot clusters, afhankelijk van het zoomniveau. Zo blijft de kaart overzichtelijk bij veel punten. | Puntlagen |
+| **Stijl terugzetten** | Alle aangepaste stijlinstellingen terugzetten naar de oorspronkelijke weergave. | Alle vectorkaartlagen |
+| Grootte (schuifregelaar) | De grootte van de symbolen aanpassen. | Puntlagen |
+| Transparantie (schuifregelaar) | De transparantie van de kaartlaag aanpassen. | Alle vectorkaartlagen |
 
-<br>
-
-- **Stijl terugzetten.** Gebruik deze optie om alle aangepaste stijlinstellingen terug te zetten naar de oorspronkelijke
-  standaardweergave.  
-- **Weergave**:
-    - Grootte van de symbolen (bovenste schuifregelaar): Pas de grootte van de symbolen aan met deze schuifregelaar.
-    - Transparantie (onderste schuifregelaar): Met deze schuifregelaar kun je de transparantie van de kaartlaag
-      aanpassen.
-- **Gegevens herladen**: Deze optie zorgt ervoor dat de gegevens van de kaartlaag opnieuw worden geladen.
-
-### Legenda opties 
-
-<img src="legend_options.png" width="150" align="right">
-
-Door op de drie puntjes (![](/assets/svg/ver_dots.svg#middle)) bovenaan de legenda te klikken, worden de legenda-opties geopend. De volgende functionaliteiten zijn beschikbaar:
-
-* **Uitzetten**: Met deze optie kun je alle actieve kaartlagen in één keer uitschakelen.
-* **Aanzetten**: Hiermee zet je alle kaartlagen die zijn uitgeschakeld, weer aan.
-* **Inklappen**: Deze optie klapt alle legenda's van de actieve kaartlagen in.
-* **Uitklappen**: Met deze optie worden alle legenda's in het Kaartlagen-paneel uitgeklapt.
-* **Sluiten**: Sluit alle kaartlagen.
-
-Naast het icoon van de 3 puntjes staat het verberg-icoon (![](/assets/svg/closing.svg#middle)). Hiermee wordt de volledige legenda verborgen. De geopende kaartlagen blijven daarbij geopend, maar de legenda wordt niet meer weergegeven. De legenda kan vervolgens weer worden geopend via het kaartlagenpaneel (![](/assets/svg/layers.svg#middle)).
-
-
-
-
-## Kaartlagenpaneel
-
-Het context menu van het Kaartlagenpaneel (![](/assets/svg/layers.svg#middle)) biedt een aantal handige functies om de kaartlagen en kaartweergave aan te passen. Hieronder volgt een uitleg van de verschillende opties:
-
-<img src="legend_popup.png" width="280" align="right">
-
-* **Legenda verbergen/tonen**: Hiermee kan de legenda worden verborgen zonder dat de kaartlagen worden gesloten. De legenda kan vervolgens weer zichtbaar worden gemaakt.
-* **Kaartlagen toevoegen**: Hiermee word je direct naar het zoekvenster doorgestuurd om kaartlagen toe te voegen.
-* **Lokaal bestand importeren**: Sleep lokale bestanden hierheen of klik om een bestand te selecteren. De volgende bestandstypen worden ondersteund: CSV, Shapefile (zip), GeoJSON, KML en GPKG.
-* **Ondergronden**: Hiermee kun je de actieve ondergrond van de kaart wijzigen.
-
-### Ondergronden
-
-Door een ondergrondkaart te selecteren, bepaal je de basisweergave van de kaart waarop andere kaartlagen worden geprojecteerd. De ondergronden in het overzicht zijn door de beheerder aangemerkt als standaardondergronden en worden als beschikbare opties weergegeven.
-
-De actieve ondergrond is gemarkeerd met een bolletje. Door op een andere ondergrond in de lijst te klikken, wissel je de actieve ondergrond.
-
-#### Ondergrond kiezen
-Gebruik deze optie om alle beschikbare ondergrondkaarten te bekijken. Er wordt een pop-upvenster geopend met een overzicht van de beschikbare ondergronden. Selecteer een ondergrond om deze als basislaag voor de kaartweergave te gebruiken.
+Een aangepaste stijl gaat mee als je een [link deelt](../export/index.md#link-kopieren).
