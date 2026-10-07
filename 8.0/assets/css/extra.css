@@ -1,14 +1,78 @@
-:root {
+/* ------------------------------------------------------------------
+   Huisstijl MapGallery
+   ------------------------------------------------------------------ */
+:root,
+[data-md-color-scheme="default"] {
   --md-primary-fg-color:        #083C5D;
   --md-primary-fg-color--light: #21506d;
   --md-primary-fg-color--dark:  #073552;
+  --md-accent-fg-color:         #21506d;
+  --mg-heading-color:           #083C5D;
+  --mg-table-head-bg:           #f2f6f9;
+  --mg-image-border:            rgba(0, 0, 0, 0.12);
 }
 
-p > a {
-  font-weight: bolder !important;
-  text-decoration: underline !important ;
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #083C5D;
+  --md-primary-fg-color--light: #21506d;
+  --md-primary-fg-color--dark:  #073552;
+  --md-accent-fg-color:         #b3d7f0;
+  --md-typeset-a-color:         #8cc2e8;
+  --mg-heading-color:           #c9e2f4;
+  --mg-table-head-bg:           rgba(255, 255, 255, 0.05);
+  --mg-image-border:            rgba(255, 255, 255, 0.15);
 }
 
+/* ------------------------------------------------------------------
+   Koppen: vetter en in de huisstijlkleur
+   ------------------------------------------------------------------ */
+.md-typeset h1 {
+  font-weight: 500;
+  color: var(--mg-heading-color);
+}
+.md-typeset h2,
+.md-typeset h3 {
+  font-weight: 500;
+}
+
+/* ------------------------------------------------------------------
+   Links: overal hetzelfde, onderstreept en niet vet
+   ------------------------------------------------------------------ */
+.md-typeset a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.md-typeset a:hover {
+  text-decoration-thickness: 2px;
+}
+/* Geen onderstreping bij koppen-ankers en knoppen */
+.md-typeset .headerlink,
+.md-typeset .md-button,
+.md-typeset .md-content__button {
+  text-decoration: none;
+}
+
+/* ------------------------------------------------------------------
+   Tabellen: grotere tekst, volle breedte, duidelijke kop
+   ------------------------------------------------------------------ */
+.md-typeset table:not([class]) {
+  font-size: 0.8rem;
+  display: table;
+  width: 100%;
+}
+.md-typeset table:not([class]) th {
+  background-color: var(--mg-table-head-bg);
+  color: var(--mg-heading-color);
+}
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  padding: 0.6em 1em;
+  vertical-align: top;
+}
+
+/* ------------------------------------------------------------------
+   Afbeeldingen
+   ------------------------------------------------------------------ */
 img[src*='#left'] {
   float: left;
   padding: 10px;
@@ -22,5 +86,5 @@ img[src*='#center'] {
   margin: auto;
 }
 img[src*='#middle'] {
-  vertical-align:middle;
+  vertical-align: middle;
 }
