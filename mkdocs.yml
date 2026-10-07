@@ -38,15 +38,15 @@ nav:
       - manual/index.md
       - manual/map/index.md
       - manual/search/index.md
-      - Kaartlagen:
+      - Kaarten:
           - manual/layers/index.md
           - manual/layers/import.md
           - manual/layers/filter.md
           - manual/layers/metadata.md
-      - Collecties:
+      - Gerelateerd:
         - manual/collections/index.md
         - manual/favorites/index.md
-      - Locatie-informatie:
+      - Kaartinfo:
           - manual/location/index.md
           - manual/location/selection.md
       - manual/streetview/index.md
@@ -84,10 +84,10 @@ theme:
   features:
     - content.action.edit
     - content.action.view
-#    - navigation.expand
+    - navigation.expand
     - navigation.path
     - navigation.footer
-    - navigation.indexes
+#    - navigation.indexes
     - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
