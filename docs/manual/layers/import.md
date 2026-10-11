@@ -16,7 +16,7 @@ de andere kaartlagen, zonder het eerst te publiceren en zonder aanvullende GIS-s
 1. MapGallery herkent de projectie automatisch. Is de projectie onjuist, dan kun je deze aanpassen.
 1. De lagen worden op de kaart en in de [legenda](index.md#de-legenda) weergegeven.
 
-<!-- SCREENSHOT: layers/import.png — Venster Lokaal bestand importeren na het kiezen van een GPX-bestand, met de keuze van lagen -->
+![](import.png)
 
 ## Ondersteunde bestandstypen
 

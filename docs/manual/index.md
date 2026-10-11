@@ -18,7 +18,9 @@ mogelijk. Heb je toegang gekregen, dan ontvang je een uitnodigingsmail met een l
 1. Stel je eigen **wachtwoord** in.
 1. Vul op het inlogscherm je **Gebruikersnaam** en **Wachtwoord** in en klik op **Inloggen**.
 
-<!-- SCREENSHOT: manual/login.png — Inlogscherm met Gebruikersnaam, Wachtwoord, Wachtwoord vergeten? en Inloggen -->
+![](login.png)
+
+Sommige MapGallery-omgevingen zijn openbaar toegankelijk. In deze omgevingen kun je zonder in te loggen alle of bepaalde kaartlagen bekijken, afhankelijk van de ingestelde toegangsrechten.
 
 !!! note "Automatisch inloggen"
     Afhankelijk van de instellingen van MapGallery binnen je organisatie word je automatisch ingelogd bij het openen
@@ -37,7 +39,7 @@ Sommige onderdelen zijn alleen beschikbaar als je bent ingelogd:
 |--------------------------------------------------|---------------------------|
 | [Favorieten](favorites/index.md)                 | Alle ingelogde gebruikers |
 | Recent bekeken collecties                        | Alle ingelogde gebruikers |
-| **Naar beheeromgeving** en **Collectie beheren** | Alleen beheerders         |
+| **Naar beheeromgeving**                          | Alleen beheerders         |
 
 ## De belangrijkste kenmerken
 
@@ -57,11 +59,10 @@ Na het openen van MapGallery zie je direct de kaart. Is er nog geen collectie ge
 collectiepaneel met **Recent bekeken collecties**, **Populaire collecties** en de knop **Meer collecties weergeven**.
 Zie [Collecties](collections/index.md).
 
-<!-- SCREENSHOT: manual/start.png — Startscherm: kaart met collectiepaneel (Recent bekeken, Populaire collecties) -->
+![](start.png)
+
 
 ## De interface
-
-<!-- SCREENSHOT: manual/interface.png — Hele scherm met genummerde onderdelen 1 t/m 6 zoals in de tabel hieronder -->
 
 | Nr. | Onderdeel | Plaats | Meer informatie |
 |-----|-----------|--------|-----------------|
@@ -71,3 +72,5 @@ Zie [Collecties](collections/index.md).
 | 4 | **Kaartlagen** | Rechtsboven | [Kaartlagen & legenda](layers/index.md) |
 | 5 | **Hoofdmenu** (MapGallery-logo) | Rechtsboven | [Hoofdmenu & instellingen](menu/index.md) |
 | 6 | **Legenda** van de actieve kaartlagen | Rechts | [Kaartlagen & legenda](layers/index.md) |
+
+![](interface.jpg)

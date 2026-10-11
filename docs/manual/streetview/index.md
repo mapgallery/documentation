@@ -8,6 +8,8 @@ Met **Straatbeelden** bekijk je een locatie op de kaart vanaf straatniveau, naas
 organisatie welke straatbeelden beschikbaar zijn, bijvoorbeeld Google Street View. Zie je de knop **Straatbeelden**
 niet in de zijbalk, dan is deze functie voor jouw omgeving niet ingeschakeld.
 
+<img src="panel.png" width="370" align="right">
+
 ## Straatbeelden bekijken
 
 1. Klik in de zijbalk links op **Straatbeelden**. Het paneel **Straatbeelden** wordt geopend.
@@ -21,5 +23,3 @@ kop van het blok:
 
 - open je het straatbeeld in een **nieuw venster**;
 - klap je het blok **in of uit**.
-
-Zie ook [Straatbeeld en luchtfoto's](../location/index.md#straatbeeld-en-luchtfotos) bij Locatie-informatie.

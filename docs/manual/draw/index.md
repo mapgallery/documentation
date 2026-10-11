@@ -10,7 +10,6 @@ opent de tool met de knop **Meten & Tekenen** in de zijbalk links.
 
 ## Meten en tekenen
 
-<!-- SCREENSHOT: draw/draw.png — Meten & Tekenen met een punt, lijn en vlak in de lijst en de labels op de kaart -->
 
 | Knop | Tekent | Meet |
 |------|--------|------|
@@ -24,7 +23,9 @@ opent de tool met de knop **Meten & Tekenen** in de zijbalk links.
 1. Dubbelklik om de lijn of het vlak af te sluiten.
 
 Elke tekening krijgt op de kaart een label met een nummer en de gemeten waarde, bijvoorbeeld
-**#1 Polygon (2895720.35 m2)**.
+**#1 Polygon (54983645.41 m2)**. 
+
+![](draw.png) 
 
 ## Tekeningen beheren
 
@@ -42,18 +43,18 @@ Klik op **⋮** bij een tekening voor extra opties:
 |-------|---------|
 | **Overnemen naar locatie informatie** | Alle objecten binnen de tekening selecteren. Je bekijkt dan welke objecten binnen de tekening vallen, toont statistieken of downloadt de gegevens. Zie [Selecteren](../location/selection.md). |
 | **Tekening downloaden als GeoJSON** | De tekening opslaan als GeoJSON-bestand, om deze te bewaren of in andere software te gebruiken. |
-| **Buffer** | Een buffer rond de tekening maken met een zelfgekozen afstand. Vul de afstand in meters in en klik op **OK**. |
+| **Buffer** | Een buffer rond de tekening maken met een zelfgekozen afstand. Vul de afstand in en klik op **OK**. |
 
 ## Eenheden aanpassen
 
 Via het **tandwiel** in de kop van het paneel pas je de eenheden voor afstanden en oppervlakten aan:
 
+<img src="units.png" width="200" align="right">
+
 | Meting | Eenheden | Standaard |
 |--------|----------|-----------|
 | Afstand | meter, kilometer, mijl, zeemijl | meter |
 | Oppervlakte | vierkante meter, vierkante kilometer, vierkante mijl, hectare | vierkante meter |
-
-<!-- SCREENSHOT: draw/units.png — Tandwielmenu met de keuze voor afstand en oppervlakte -->
 
 ## Tekeningen bewaren
 

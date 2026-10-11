@@ -22,8 +22,6 @@ gegevens.
 
 ### Het downloadvenster
 
-<!-- SCREENSHOT: export/download.png — Downloadvenster met aantal objecten, formaten en projectie -->
-
 1. Bovenaan zie je hoeveel objecten je downloadt.
 1. Kies het **bestandsformaat** waarin je de gegevens wilt opslaan:
 
@@ -39,6 +37,8 @@ gegevens.
 1. Kies de **projectie** waarin je de gegevens wilt downloaden: Rijksdriehoekstelsel (EPSG:28992), WGS84 (EPSG:4326)
    of Web Mercator (EPSG:3857). De projectie bepaalt hoe de geografische coördinaten worden weergegeven.
 1. Klik op **Download** om de gegevens naar je apparaat te downloaden.
+
+<img src="download.png" width="350">
 
 ## Link kopiëren
 
@@ -63,7 +63,7 @@ De ontvanger ziet alleen de kaartlagen waartoe hij of zij zelf toegang heeft.
 
 Met deze optie sla je de huidige weergave van de kaart op als afbeelding in PNG-formaat. Dit is geschikt voor
 rapporten of presentaties waarin een momentopname van de kaart nodig is. De afbeelding bevat de zichtbare kaartlagen,
-de legenda en je tekeningen.
+de legenda en je tekeningen inclusief labels.
 
 1. Open het [Hoofdmenu](../menu/index.md).
 1. Kies **Delen → Kaart als afbeelding**.

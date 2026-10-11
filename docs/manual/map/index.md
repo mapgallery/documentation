@@ -10,7 +10,7 @@ met de muis, het toetsenbord, een touchscreen of de knoppen linksonder.
 
 ## Knoppen linksonder
 
-<!-- SCREENSHOT: map/controls.png — Kaartbediening linksonder: +, −, Mijn locatie, 2D/3D, Rotatie -->
+<img src="controls.png" width="55" align="right">
 
 | Knop | Functie |
 |------|---------|
@@ -48,6 +48,8 @@ Je kunt de kaart ook bedienen met sneltoetsen. Klik eerst op de kaart, zodat de 
 
 ## Bediening op een touchscreen
 
+Op een telefoon of tablet kun je de kaart bedienen met aanrakingen en bewegingen.
+
 | Actie | Gebaar |
 |-------|--------|
 | Kaart verplaatsen | Sleep met één vinger. |
@@ -57,6 +59,8 @@ Je kunt de kaart ook bedienen met sneltoetsen. Klik eerst op de kaart, zodat de 
 
 ## Ondergronden
 
+<img src="basemaps.png" width="210" align="right">
+
 Door een ondergrond te kiezen, bepaal je de basisweergave van de kaart waarop de kaartlagen worden weergegeven. Je
 kunt de ondergrond op elk moment aanpassen aan je behoeften en analyses.
 
@@ -64,8 +68,6 @@ kunt de ondergrond op elk moment aanpassen aan je behoeften en analyses.
 1. Onder in het menu staan de ondergronden die de beheerder als standaardondergrond heeft aangemerkt. De actieve
    ondergrond is gemarkeerd met een bolletje.
 1. Klik op een andere ondergrond in de lijst om de actieve ondergrond te wisselen.
-
-<!-- SCREENSHOT: map/basemaps.png — Kaartlagen-menu met de lijst ondergronden en de actieve ondergrond -->
 
 Staat de gewenste ondergrond niet in de lijst, klik dan op **Ondergrond kiezen**. Het
 [zoekvenster](../search/index.md) opent op het tabblad **Ondergrond**, met een overzicht van alle beschikbare

@@ -8,7 +8,6 @@ Via het hoofdmenu krijg je snel toegang tot de verschillende onderdelen van de a
 ondersteuning en het leegmaken van de cache. Je opent het hoofdmenu door rechtsboven op het **MapGallery-logo** te
 klikken.
 
-<!-- SCREENSHOT: menu/menu.png — Hoofdmenu van een ingelogde gebruiker -->
 
 | Onderdeel | Functie |
 |-----------|---------|
@@ -21,6 +20,8 @@ klikken.
 | **Ondersteuning → Over deze applicatie** | Informatie over de versie van MapGallery, contactgegevens en licenties. |
 | **Ondersteuning → Cache leegmaken** | De lokaal opgeslagen kaartgegevens wissen. Zie [Cache leegmaken](../troubleshooting/index.md#cache-leegmaken). |
 | **Aanmelden** / **Afmelden** | Inloggen of uitloggen. Zie [Inloggen](../index.md#inloggen). |
+
+<img src="menu.png" width="250" align="right">
 
 ## Weergave
 

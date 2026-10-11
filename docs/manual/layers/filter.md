@@ -4,7 +4,7 @@ title: "Filteren"
 
 # Filteren
 
-Met de filterfunctie zoek je naar specifieke objecten binnen een kaartlaag. De kaart toont dan alleen de objecten die
+Met de filterfunctie filter je naar specifieke objecten binnen een actieve kaartlaag. De kaart toont dan alleen de objecten die
 aan de opgegeven voorwaarden voldoen, bijvoorbeeld alle molens van het type "watermolen". Deze functie is beschikbaar
 voor alle vectorkaartlagen.
 

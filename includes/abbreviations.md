@@ -3,4 +3,5 @@
 *[W3C]: World Wide Web Consortium
 *[WFS]: Web Feature Service
 *[WMS]: Web Map Service
+*[WMTS]: Web Map Tile Service
 *[XML]: eXtensible Markup Language

@@ -19,15 +19,13 @@ Er zijn verschillende manieren om een ruimtelijke selectie te maken:
 
 <!-- SCREENSHOT: location/selection.png — Selectie op gemeente: grens op de kaart en geselecteerde objecten in twee lagen met eigen kleur -->
 
-MapGallery tekent het geselecteerde gebied op de kaart. De geselecteerde objecten krijgen per kaartlaag een eigen
-kleur; objecten die niet tot de selectie behoren, worden grijs weergegeven. In het paneel Locatie-informatie staat per
-kaartlaag een blok waarin je door de geselecteerde objecten bladert.
+MapGallery tekent het geselecteerde gebied op de kaart. De geselecteerde objecten krijgen per kaartlaag een eigen kleur. Een gekleurd object geeft aan dat het object is uitgelicht en dat de bijbehorende gegevens zichtbaar zijn in het paneel Locatie-informatie, waar je per kaartlaag in een apart blok door de geselecteerde objecten kunt bladeren.
 
 ## Statistieken
 
 Klik in de kop van een kaartlaag op **Statistieken tonen** om verschillende statistieken per veld te bekijken.
 
-<!-- SCREENSHOT: location/statistics.png — Statistiekenvenster met staafdiagram per attribuutwaarde -->
+![](statistics.png)
 
 1. Kies onder in het venster wat je wilt bekijken: **Aantal** (het aantal objecten) of een attribuut.
 1. Kies de weergave: **Σ** voor de totalen, een **staafdiagram** of een **donutdiagram**.
@@ -39,4 +37,4 @@ bekijken. Met de knoppen onder de tabel blader je door de pagina's.
 
 Klik op **Download** om de selectie te exporteren. Zie [Downloaden & delen](../export/index.md#gegevens-downloaden).
 
-<!-- SCREENSHOT: location/table.png — Tabelvenster met paginering en de knop Download -->
+![](table.png)

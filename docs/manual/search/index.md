@@ -10,9 +10,9 @@ ondergronden en coördinaten. De resultaten verschijnen al terwijl je typt.
 ## Het zoekvenster openen
 
 Klik rechtsboven op **Zoeken**, of druk op ++ctrl+k++ (Windows) of ++cmd+k++ (Mac). Voer een zoekterm in, zoals een
-adres, een plaatsnaam, een onderwerp, een thema of een coördinaat.
+adres, een plaatsnaam, waarden in een actieve kaartlaag, een kaartlaag, een collectie, een ondergrond of een coördinaat.
 
-<!-- SCREENSHOT: search/search-layers.png — Zoekvenster, tabblad Kaartlagen: vinkjes, tags, protocol en sneltoetsenbalk -->
+![](search-layers.png)
 
 ## Zoekcategorieën
 
@@ -76,9 +76,7 @@ gebruiken. Zie ook [Collecties](../collections/index.md) en [Ondergronden](../ma
 
 ### Coördinaat
 
-Voer een coördinaat in, bijvoorbeeld `155000 463000`. MapGallery zoekt automatisch naar de coördinatenstelsels
-waarin dit coördinaat kan liggen, zoals Rijksdriehoekstelsel (EPSG:28992), WGS84 (EPSG:4326) of Web Mercator
-(EPSG:3857). Klik op het juiste coördinatenstelsel om de locatie direct op de kaart weer te geven.
+Voer een coördinaat in, bijvoorbeeld `155000 463000`. MapGallery zoekt automatisch naar de coördinatenstelsels waarin deze coördinaat kan worden geïnterpreteerd, waaronder het Rijksdriehoekstelsel (EPSG:28992), WGS84 (EPSG:4326) en Web Mercator (EPSG:3857). Klik op het juiste coördinatenstelsel om de locatie direct op de kaart weer te geven.
 
 ## Sneltoetsen
 

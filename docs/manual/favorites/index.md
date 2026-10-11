@@ -20,11 +20,11 @@ Wil je een kaartlaag niet langer als favoriet bewaren, klik dan nogmaals op **Fa
     Je kunt een kaartlaag als favoriet bewaren inclusief een bepaalde filtering. Pas eerst het
     [filter](../layers/filter.md) toe op de kaartlaag en markeer de kaartlaag vervolgens als favoriet.
 
+<img src="panel.png" width="330" align="right">
+
 ## Je favorieten gebruiken
 
 Klik in de zijbalk links op **Favorieten** om het favorietenpaneel te openen.
-
-<!-- SCREENSHOT: favorites/panel.png — Favorietenpaneel met een groep en enkele kaartlagen -->
 
 - Klik op een kaartlaag om deze aan de kaart toe te voegen. Klik nogmaals om de kaartlaag weer uit te zetten.
 - Met de knop in de kop van een groep zet je alle kaartlagen in die groep in één keer aan (**Alles weergeven**) of uit
@@ -35,7 +35,7 @@ Klik in de zijbalk links op **Favorieten** om het favorietenpaneel te openen.
 Je beheert je favorieten zelf en deelt ze in groepen in. Klik in het favorietenpaneel op het **potlood** om het
 venster **Favorieten bewerken** te openen.
 
-<!-- SCREENSHOT: favorites/edit.png — Venster Favorieten bewerken met groepen, laagnummers, + Groep en Opslaan -->
+<img src="edit.png" width="550">
 
 1. Pas de namen van groepen en kaartlagen aan door in de naam te klikken.
 1. Sleep groepen en kaartlagen aan het handvat links naar de gewenste volgorde. Je kunt een kaartlaag ook naar een

@@ -12,18 +12,20 @@ openen.
 
 <!-- SCREENSHOT: layers/metadata.png — Metadatavenster met tags, beschrijving, Toelichting, Technische details en Download -->
 
+![](metadata.png)
+
 ## Inhoud van het metadatavenster
 
 | Onderdeel | Beschrijving |
 |-----------|--------------|
 | Titel en protocol | De naam van de kaartlaag en het protocol van de service, bijvoorbeeld **WFS**, **WMS** of **WMTS**. |
-| Bron | De naam van de bron of server van de kaartlaag. |
+| Server | De naam van de server van de kaartlaag. |
 | Classificaties | De (hoofd)groepen waaronder de kaartlaag valt. Gebruik deze termen in het [zoekvenster](../search/index.md) om gerelateerde kaartlagen te vinden. |
 | Beschrijving | Een korte beschrijving van wat de kaartlaag bevat. |
 | **Toelichting** | Aanvullende informatie van de beheerder, vaak met een link naar de volledige metadata bij de bron. |
 | **Technische details** | **Service**, **Laagnaam**, **Protocol**, **Versie** en **Endpoint**. Deze gegevens gebruik je bijvoorbeeld om de kaartlaag in eigen GIS-software te openen. |
 
-## Downloaden
 
-Als de gegevens beschikbaar zijn om te downloaden, staat onder in het venster de knop **Download**. Zie
-[Downloaden & delen](../export/index.md#gegevens-downloaden).
+!!! note "Downloaden"
+    Als de gegevens beschikbaar zijn om te downloaden, staat onder in het venster de knop **Download**. Zie
+    [Downloaden & delen](../export/index.md#gegevens-downloaden).

@@ -23,7 +23,7 @@ Is er nog geen collectie geopend, dan toont het collectiepaneel:
 
 Klik op een collectie om deze te openen.
 
-<!-- SCREENSHOT: collections/start.png — Collectiepaneel zonder actieve collectie: Recent bekeken, Populaire collecties, Meer collecties weergeven -->
+<img src="start.png" width="450">
 
 ## Een collectie openen
 
@@ -33,11 +33,9 @@ Wanneer je een collectie opent:
 - worden de **actieve kaartlagen vervangen** door de kaartlagen van de collectie;
 - toont het collectiepaneel de inhoud van de collectie.
 
-Wil je terug naar je eigen kaartlagen, open dan [Favorieten](../favorites/index.md) in de zijbalk.
-
 ## Werken met een collectie
 
-<!-- SCREENSHOT: collections/collection.png — Geopende collectie met beschrijving, twee groepen, Alles verbergen/weergeven en Deselecteer collectie -->
+<img src="collection.png" width="350" align="right">
 
 Een collectie bestaat uit een titel, een icoon en een beschrijving. Daaronder staan de kaartlagen van de collectie,
 die in verschillende groepen kunnen zijn ingedeeld. De kaartlagen binnen een groep hebben een van twee soorten knoppen:

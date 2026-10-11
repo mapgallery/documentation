@@ -4,13 +4,13 @@ title: "Locatie-informatie"
 
 # Locatie-informatie
 
+<img src="panel.png" width="250" align="right">
+
 Wanneer je op een locatie op de kaart klikt, verschijnt links het paneel **Locatie-informatie**. Hier krijg je
 gedetailleerde informatie over de geselecteerde locatie en over de objecten van de actieve kaartlagen op die plek.
 Elk blok in het paneel is inklapbaar.
 
 Je opent het paneel ook met de knop **Locatie-informatie** in de zijbalk.
-
-<!-- SCREENSHOT: location/panel.png — Paneel Locatie-informatie na een klik: adresblok en een object met bladeren en knoppen -->
 
 !!! note
     Een marker geeft de geselecteerde locatie op de kaart weer. Klik op een andere locatie op de kaart of versleep de

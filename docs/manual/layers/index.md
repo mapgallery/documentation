@@ -4,6 +4,8 @@ title: "Kaartlagen & legenda"
 
 # Kaartlagen & legenda
 
+<img src="layers-button.png" width="203" align="right">
+
 Een kaartlaag is een informatielaag met geografische gegevens die je onafhankelijk van andere kaartlagen aan- en
 uitzet. Via het menu **Kaartlagen** voeg je kaartlagen toe. In de **legenda** aan de rechterkant van het scherm heb je
 volledige controle over de actieve kaartlagen.
@@ -12,8 +14,6 @@ volledige controle over de actieve kaartlagen.
 
 Klik rechtsboven op **Kaartlagen**. Het getal op de knop geeft het aantal actieve kaartlagen aan.
 
-<!-- SCREENSHOT: layers/layers-menu.png — Kaartlagen-menu: Legenda verbergen, Kaartlaag toevoegen, Lokaal bestand toevoegen, ondergronden -->
-
 | Optie | Functie |
 |-------|---------|
 | **Legenda verbergen** / **Legenda tonen** | De legenda verbergen of weer tonen, zonder dat de kaartlagen worden gesloten. |
@@ -21,12 +21,12 @@ Klik rechtsboven op **Kaartlagen**. Het getal op de knop geeft het aantal actiev
 | **Lokaal bestand toevoegen** | Een eigen bestand tijdelijk op de kaart zetten. Zie [Eigen bestanden](import.md). |
 | Ondergronden | De actieve ondergrond wijzigen. Zie [Ondergronden](../map/index.md#ondergronden). |
 
+<img src="legend.png" width="270" align="right">
+
 ## De legenda
 
 Elke actieve kaartlaag wordt in de legenda weergegeven in een eigen blok, met specifieke opties voor weergave en
 interactie.
-
-<!-- SCREENSHOT: layers/legend.png — Legenda met twee kaartlagen en de knoppen per laag -->
 
 - Klik op het **pijltje** om een kaartlaag in of uit te klappen en op het **kruisje** om de kaartlaag te sluiten.
 - **Sleep** een kaartlaag om de volgorde van de kaartlagen aan te passen.
@@ -64,6 +64,8 @@ Klik op **⋮** bovenaan de legenda om de legenda-opties te openen. Deze gelden 
 | **Uitklappen** | De blokken van alle kaartlagen uitklappen. |
 | **Sluiten** | Alle kaartlagen sluiten. |
 
+<img src="style.png" width="170" align="right">
+
 Met de knop rechts naast **⋮** klap je de volledige legenda in. De kaartlagen blijven daarbij op de kaart staan.
 
 ## Stijl
@@ -71,15 +73,11 @@ Met de knop rechts naast **⋮** klap je de volledige legenda in. De kaartlagen 
 Bij een vectorkaartlaag pas je met de knop **Stijl** de weergave aan. Welke opties beschikbaar zijn, hangt af van het
 type kaartlaag.
 
-<!-- SCREENSHOT: layers/style.png — Stijlmenu van een puntlaag (met Clusters en de schuifregelaar voor grootte) -->
-
 | Optie | Functie | Beschikbaar voor |
 |-------|---------|------------------|
 | **Eenvoudig** | De standaardweergave van de kaartlaag, zonder speciale effecten of aanpassingen. | Alle vectorkaartlagen |
 | **Heatmap** | Gegevens weergeven op basis van dichtheid: hoe meer objecten in een gebied, hoe intenser de kleur. Geschikt om concentraties in grote datasets zichtbaar te maken. | Alle vectorkaartlagen |
-| **Clusters** | Dicht bij elkaar liggende punten groeperen tot clusters, afhankelijk van het zoomniveau. Zo blijft de kaart overzichtelijk bij veel punten. | Puntlagen |
+| **Clusters** | Dicht bij elkaar liggende punten groeperen tot clusters, afhankelijk van het zoomniveau. Zo blijft de kaart overzichtelijk bij veel punten. | Vectorpuntlagen |
 | **Stijl terugzetten** | Alle aangepaste stijlinstellingen terugzetten naar de oorspronkelijke weergave. | Alle vectorkaartlagen |
-| Grootte (schuifregelaar) | De grootte van de symbolen aanpassen. | Puntlagen |
+| Grootte (schuifregelaar) | De grootte van de symbolen aanpassen. | Vectorpuntlagen |
 | Transparantie (schuifregelaar) | De transparantie van de kaartlaag aanpassen. | Alle vectorkaartlagen |
-
-Een aangepaste stijl gaat mee als je een [link deelt](../export/index.md#link-kopieren).
