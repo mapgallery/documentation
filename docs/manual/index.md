@@ -69,8 +69,7 @@ Zie [Collecties](collections/index.md).
 | 1 | **Zijbalk** met Locatie-informatie, Straatbeelden, Meten & Tekenen, Collecties en Favorieten | Links | [Locatie-informatie](location/index.md), [Straatbeelden](streetview/index.md), [Meten & Tekenen](draw/index.md), [Collecties](collections/index.md), [Favorieten](favorites/index.md) |
 | 2 | **Kaartbediening**: zoomen, Mijn locatie, 2D/3D en Rotatie | Linksonder | [De kaart](map/index.md) |
 | 3 | **Zoeken** | Rechtsboven | [Zoeken](search/index.md) |
-| 4 | **Kaartlagen** | Rechtsboven | [Kaartlagen & legenda](layers/index.md) |
-| 5 | **Hoofdmenu** (MapGallery-logo) | Rechtsboven | [Hoofdmenu & instellingen](menu/index.md) |
-| 6 | **Legenda** van de actieve kaartlagen | Rechts | [Kaartlagen & legenda](layers/index.md) |
+| 4 | **Hoofdmenu** (MapGallery-logo) | Rechtsboven | [Hoofdmenu & instellingen](menu/index.md) |
+| 5 | **Legenda** van de actieve kaartlagen | Rechts | [Kaartlagen & legenda](layers/index.md) |
 
-![](interface.jpg)
+![](interface.png)

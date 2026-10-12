@@ -8,7 +8,7 @@ Met **Straatbeelden** bekijk je een locatie op de kaart vanaf straatniveau, naas
 organisatie welke straatbeelden beschikbaar zijn, bijvoorbeeld Google Street View. Zie je de knop **Straatbeelden**
 niet in de zijbalk, dan is deze functie voor jouw omgeving niet ingeschakeld.
 
-<img src="panel.png" width="370" align="right">
+<img src="panel.png" width="400" align="right">
 
 ## Straatbeelden bekijken
 

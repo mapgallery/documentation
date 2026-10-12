@@ -38,7 +38,7 @@ gegevens.
    of Web Mercator (EPSG:3857). De projectie bepaalt hoe de geografische coördinaten worden weergegeven.
 1. Klik op **Download** om de gegevens naar je apparaat te downloaden.
 
-<img src="download.png" width="350">
+<img src="download.png" width="380">
 
 ## Link kopiëren
 

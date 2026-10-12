@@ -4,8 +4,6 @@ title: "Kaartlagen & legenda"
 
 # Kaartlagen & legenda
 
-<img src="layers-button.png" width="203" align="right">
-
 Een kaartlaag is een informatielaag met geografische gegevens die je onafhankelijk van andere kaartlagen aan- en
 uitzet. Via het menu **Kaartlagen** voeg je kaartlagen toe. In de **legenda** aan de rechterkant van het scherm heb je
 volledige controle over de actieve kaartlagen.
@@ -20,6 +18,8 @@ Klik rechtsboven op **Kaartlagen**. Het getal op de knop geeft het aantal actiev
 | **Kaartlaag toevoegen** | Het [zoekvenster](../search/index.md) openen op het tabblad Kaartlagen. |
 | **Lokaal bestand toevoegen** | Een eigen bestand tijdelijk op de kaart zetten. Zie [Eigen bestanden](import.md). |
 | Ondergronden | De actieve ondergrond wijzigen. Zie [Ondergronden](../map/index.md#ondergronden). |
+
+<img src="layers-button.png" width="300">
 
 <img src="legend.png" width="270" align="right">
 
@@ -64,14 +64,14 @@ Klik op **⋮** bovenaan de legenda om de legenda-opties te openen. Deze gelden 
 | **Uitklappen** | De blokken van alle kaartlagen uitklappen. |
 | **Sluiten** | Alle kaartlagen sluiten. |
 
-<img src="style.png" width="170" align="right">
-
 Met de knop rechts naast **⋮** klap je de volledige legenda in. De kaartlagen blijven daarbij op de kaart staan.
 
 ## Stijl
 
 Bij een vectorkaartlaag pas je met de knop **Stijl** de weergave aan. Welke opties beschikbaar zijn, hangt af van het
 type kaartlaag.
+
+<img src="style.png" width="250">
 
 | Optie | Functie | Beschikbaar voor |
 |-------|---------|------------------|

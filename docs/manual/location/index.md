@@ -4,7 +4,7 @@ title: "Locatie-informatie"
 
 # Locatie-informatie
 
-<img src="panel.png" width="250" align="right">
+<img src="panel.png" width="280" align="right">
 
 Wanneer je op een locatie op de kaart klikt, verschijnt links het paneel **Locatie-informatie**. Hier krijg je
 gedetailleerde informatie over de geselecteerde locatie en over de objecten van de actieve kaartlagen op die plek.

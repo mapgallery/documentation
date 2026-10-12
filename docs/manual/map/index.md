@@ -59,7 +59,7 @@ Op een telefoon of tablet kun je de kaart bedienen met aanrakingen en bewegingen
 
 ## Ondergronden
 
-<img src="basemaps.png" width="210" align="right">
+<img src="basemaps.png" width="270" align="right">
 
 Door een ondergrond te kiezen, bepaal je de basisweergave van de kaart waarop de kaartlagen worden weergegeven. Je
 kunt de ondergrond op elk moment aanpassen aan je behoeften en analyses.
