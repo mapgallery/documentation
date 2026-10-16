@@ -1042,7 +1042,7 @@
         
   
   <span class="md-ellipsis">
-    Locatie-informatie
+    Locatie informatie
   </span>
   
 
@@ -1803,7 +1803,8 @@ mogelijk. Heb je toegang gekregen, dan ontvang je een uitnodigingsmail met een l
 <li>Vul op het inlogscherm je <strong>Gebruikersnaam</strong> en <strong>Wachtwoord</strong> in en klik op <strong>Inloggen</strong>.</li>
 </ol>
 <p><img alt="" src="login.png" /></p>
-<p>Sommige MapGallery-omgevingen zijn openbaar toegankelijk. In deze omgevingen kun je zonder in te loggen alle of bepaalde kaartlagen bekijken, afhankelijk van de ingestelde toegangsrechten.</p>
+<p>Sommige MapGallery-omgevingen zijn openbaar toegankelijk. In deze omgevingen kun je zonder in te loggen alle of bepaalde kaartlagen bekijken, afhankelijk van de ingestelde toegangsrechten. Na het
+inloggen zie je ook de afgeschermde kaartlagen waartoe je toegang hebt.</p>
 <div class="admonition note">
 <p class="admonition-title">Automatisch inloggen</p>
 <p>Afhankelijk van de instellingen van MapGallery binnen je organisatie word je automatisch ingelogd bij het openen
@@ -1823,11 +1824,15 @@ niet, neem dan contact op met de beheerder van MapGallery binnen je organisatie.
 </thead>
 <tbody>
 <tr>
-<td><a href="favorites/">Favorieten</a></td>
+<td>Afgeschermde kaartlagen en collecties</td>
+<td>Alle ingelogde gebruikers, of alleen de leden van een bepaalde groep</td>
+</tr>
+<tr>
+<td><a href="favorites/">Favorieten</a> (kaartlagen en ondergrond), opgeslagen in je eigen profiel</td>
 <td>Alle ingelogde gebruikers</td>
 </tr>
 <tr>
-<td>Recent bekeken collecties</td>
+<td><a href="collections/#een-collectie-kiezen">Recent bekeken collecties</a></td>
 <td>Alle ingelogde gebruikers</td>
 </tr>
 <tr>
@@ -1837,14 +1842,25 @@ niet, neem dan contact op met de beheerder van MapGallery binnen je organisatie.
 </tbody>
 </table>
 <h2 id="de-belangrijkste-kenmerken">De belangrijkste kenmerken</h2>
-<p>De basis van MapGallery is een <strong>ondergrond</strong>, zoals een topografische kaart of een luchtfoto. Over deze ondergrond
-worden interactieve <strong>kaartlagen</strong> weergegeven. Een kaartlaag bevat een visualisatie van specifieke geografische
-gegevens. Dit kan van alles zijn, bijvoorbeeld de locaties van bluswatervoorzieningen of zorginstellingen, maar ook de
-actuele verkeersinformatie of een digitale weergave van het aardoppervlak. Een <strong>collectie</strong> bundelt kaartlagen rond
-een thema.</p>
-<p>Met het centrale <strong>zoekvenster</strong> zoek je naar adressen, gegevens, kaartlagen, collecties, ondergronden en coördinaten.
-Daarnaast kun je informatie opvragen over locaties en objecten, metingen uitvoeren, selecties maken, gegevens
-downloaden en de kaart delen via een link of als afbeelding.</p>
+<p>De basis van MapGallery is een <a href="map/#ondergronden">ondergrond</a>, zoals een topografische kaart of een
+luchtfoto. Over deze ondergrond worden interactieve <a href="layers/">kaartlagen</a> weergegeven. Een kaartlaag bevat
+een visualisatie van specifieke geografische gegevens. Dit kan van alles zijn, bijvoorbeeld de locaties van
+bluswatervoorzieningen of zorginstellingen, maar ook de actuele verkeersinformatie of een digitale weergave van het
+aardoppervlak. Een <a href="collections/">collectie</a> bundelt kaartlagen rond een thema.</p>
+<p>Daarnaast kun je in MapGallery:</p>
+<ul>
+<li>met het <a href="search/">zoekvenster</a> zoeken naar adressen, gegevens, kaartlagen, collecties, ondergronden en
+  coördinaten;</li>
+<li><a href="location/">informatie opvragen</a> over locaties en objecten, en <a href="location/selection/">selecties maken</a>;</li>
+<li>kaartlagen <a href="layers/filter/">filteren</a> of een andere <a href="layers/#stijl">stijl</a> geven;</li>
+<li>afstanden en oppervlakten <a href="draw/">meten</a> en zelf op de kaart tekenen;</li>
+<li>een <a href="layers/import/">eigen GIS-bestand</a> direct op de kaart zetten;</li>
+<li>een eigen set <a href="favorites/">favoriete kaartlagen</a> bewaren en indelen in groepen die aansluiten op je
+  projecten en werkzaamheden;</li>
+<li><a href="export/#gegevens-downloaden">gegevens downloaden</a>: een volledige kaartlaag, een selectie of alleen de
+  gefilterde objecten;</li>
+<li>de kaart <a href="export/#link-kopieren">delen</a> via een link of als afbeelding.</li>
+</ul>
 <h2 id="het-startscherm">Het startscherm</h2>
 <p>Na het openen van MapGallery zie je direct de kaart. Is er nog geen collectie gekozen, dan opent links het
 collectiepaneel met <strong>Recent bekeken collecties</strong>, <strong>Populaire collecties</strong> en de knop <strong>Meer collecties weergeven</strong>.
@@ -1863,9 +1879,9 @@ Zie <a href="collections/">Collecties</a>.</p>
 <tbody>
 <tr>
 <td>1</td>
-<td><strong>Zijbalk</strong> met Locatie-informatie, Straatbeelden, Meten &amp; Tekenen, Collecties en Favorieten</td>
+<td><strong>Zijbalk</strong> met de knoppen Info, Straatbeeld, Tekenen, Collectie en (na inloggen) Favorieten</td>
 <td>Links</td>
-<td><a href="location/">Locatie-informatie</a>, <a href="streetview/">Straatbeelden</a>, <a href="draw/">Meten &amp; Tekenen</a>, <a href="collections/">Collecties</a>, <a href="favorites/">Favorieten</a></td>
+<td><a href="location/">Locatie informatie</a>, <a href="streetview/">Straatbeelden</a>, <a href="draw/">Meten &amp; Tekenen</a>, <a href="collections/">Collecties</a>, <a href="favorites/">Favorieten</a></td>
 </tr>
 <tr>
 <td>2</td>
@@ -1881,18 +1897,19 @@ Zie <a href="collections/">Collecties</a>.</p>
 </tr>
 <tr>
 <td>4</td>
-<td><strong>Hoofdmenu</strong> (MapGallery-logo)</td>
+<td><strong>Hoofdmenu</strong> (MapGallery-logo), met daarnaast de knop <strong>Aanmelden</strong> als je niet bent ingelogd</td>
 <td>Rechtsboven</td>
 <td><a href="menu/">Hoofdmenu &amp; instellingen</a></td>
 </tr>
 <tr>
 <td>5</td>
-<td><strong>Legenda</strong> van de actieve kaartlagen</td>
-<td>Rechts</td>
+<td><strong>Legenda</strong> van de actieve kaartlagen, met de knoppen om kaartlagen toe te voegen en de ondergrond te kiezen</td>
+<td>Rechtsboven</td>
 <td><a href="layers/">Kaartlagen &amp; legenda</a></td>
 </tr>
 </tbody>
 </table>
+<p>Met de knop linksboven, met het logo en de naam van de omgeving, ga je terug naar de standaardcollectie.</p>
 <p><img alt="" src="interface.png" /></p>
 
 
