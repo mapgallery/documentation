@@ -27,5 +27,5 @@ klikken.
 
 - **Donkere modus**: MapGallery volgt de instelling van je besturingssysteem. Gebruikt je computer, tablet of telefoon
   een donker thema, dan wordt MapGallery ook donker weergegeven.
-- **Breedte van panelen**: sleep de rand van een paneel, zoals Locatie-informatie, om het paneel breder of smaller te
+- **Breedte van panelen**: sleep de rand van een paneel, zoals Locatie informatie, om het paneel breder of smaller te
   maken.

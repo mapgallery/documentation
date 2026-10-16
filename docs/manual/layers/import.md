@@ -4,17 +4,18 @@ title: "Eigen bestanden"
 
 # Eigen bestanden op de kaart
 
-Met **Lokaal bestand toevoegen** zet je een eigen GIS-bestand tijdelijk op de kaart. Zo bekijk je een bestand naast
+Met **Bestand importeren** zet je een eigen GIS-bestand tijdelijk op de kaart. Zo bekijk je een bestand naast
 de andere kaartlagen, zonder het eerst te publiceren en zonder aanvullende GIS-software.
 
 ## Een bestand toevoegen
 
-1. Klik rechtsboven op **Kaartlagen** en kies **Lokaal bestand toevoegen**.
+1. Open in de kop van de [legenda](index.md#de-kop-van-de-legenda) het **contextmenu ⋮** en kies **Bestand importeren**. Het
+   venster **Lokaal bestand importeren** wordt geopend.
 1. Sleep een bestand naar het venster, of klik in het venster om een bestand te selecteren.
 1. Bevat het bestand meerdere lagen, zoals een GPX-bestand met waypoints en tracks, kies dan welke lagen je wilt
    importeren. Elke laag krijgt een eigen kleur.
 1. MapGallery herkent de projectie automatisch. Is de projectie onjuist, dan kun je deze aanpassen.
-1. De lagen worden op de kaart en in de [legenda](index.md#de-legenda) weergegeven.
+1. De lagen worden op de kaart en in de [legenda](index.md#kaartlagen-in-de-legenda) weergegeven.
 
 ![](import.png)
 

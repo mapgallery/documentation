@@ -20,7 +20,8 @@ mogelijk. Heb je toegang gekregen, dan ontvang je een uitnodigingsmail met een l
 
 ![](login.png)
 
-Sommige MapGallery-omgevingen zijn openbaar toegankelijk. In deze omgevingen kun je zonder in te loggen alle of bepaalde kaartlagen bekijken, afhankelijk van de ingestelde toegangsrechten.
+Sommige MapGallery-omgevingen zijn openbaar toegankelijk. In deze omgevingen kun je zonder in te loggen alle of bepaalde kaartlagen bekijken, afhankelijk van de ingestelde toegangsrechten. Na het
+inloggen zie je ook de afgeschermde kaartlagen waartoe je toegang hebt.
 
 !!! note "Automatisch inloggen"
     Afhankelijk van de instellingen van MapGallery binnen je organisatie word je automatisch ingelogd bij het openen
@@ -37,21 +38,32 @@ Sommige onderdelen zijn alleen beschikbaar als je bent ingelogd:
 
 | Onderdeel                                        | Beschikbaar voor          |
 |--------------------------------------------------|---------------------------|
-| [Favorieten](favorites/index.md)                 | Alle ingelogde gebruikers |
-| Recent bekeken collecties                        | Alle ingelogde gebruikers |
+| Afgeschermde kaartlagen en collecties            | Alle ingelogde gebruikers, of alleen de leden van een bepaalde groep |
+| [Favorieten](favorites/index.md) (kaartlagen en ondergrond), opgeslagen in je eigen profiel | Alle ingelogde gebruikers |
+| [Recent bekeken collecties](collections/index.md#een-collectie-kiezen) | Alle ingelogde gebruikers |
 | **Naar beheeromgeving**                          | Alleen beheerders         |
 
 ## De belangrijkste kenmerken
 
-De basis van MapGallery is een **ondergrond**, zoals een topografische kaart of een luchtfoto. Over deze ondergrond
-worden interactieve **kaartlagen** weergegeven. Een kaartlaag bevat een visualisatie van specifieke geografische
-gegevens. Dit kan van alles zijn, bijvoorbeeld de locaties van bluswatervoorzieningen of zorginstellingen, maar ook de
-actuele verkeersinformatie of een digitale weergave van het aardoppervlak. Een **collectie** bundelt kaartlagen rond
-een thema.
+De basis van MapGallery is een [ondergrond](map/index.md#ondergronden), zoals een topografische kaart of een
+luchtfoto. Over deze ondergrond worden interactieve [kaartlagen](layers/index.md) weergegeven. Een kaartlaag bevat
+een visualisatie van specifieke geografische gegevens. Dit kan van alles zijn, bijvoorbeeld de locaties van
+bluswatervoorzieningen of zorginstellingen, maar ook de actuele verkeersinformatie of een digitale weergave van het
+aardoppervlak. Een [collectie](collections/index.md) bundelt kaartlagen rond een thema.
 
-Met het centrale **zoekvenster** zoek je naar adressen, gegevens, kaartlagen, collecties, ondergronden en coördinaten.
-Daarnaast kun je informatie opvragen over locaties en objecten, metingen uitvoeren, selecties maken, gegevens
-downloaden en de kaart delen via een link of als afbeelding.
+Daarnaast kun je in MapGallery:
+
+- met het [zoekvenster](search/index.md) zoeken naar adressen, gegevens, kaartlagen, collecties, ondergronden en
+  coördinaten;
+- [informatie opvragen](location/index.md) over locaties en objecten, en [selecties maken](location/selection.md);
+- kaartlagen [filteren](layers/filter.md) of een andere [stijl](layers/index.md#stijl) geven;
+- afstanden en oppervlakten [meten](draw/index.md) en zelf op de kaart tekenen;
+- een [eigen GIS-bestand](layers/import.md) direct op de kaart zetten;
+- een eigen set [favoriete kaartlagen](favorites/index.md) bewaren en indelen in groepen die aansluiten op je
+  projecten en werkzaamheden;
+- [gegevens downloaden](export/index.md#gegevens-downloaden): een volledige kaartlaag, een selectie of alleen de
+  gefilterde objecten;
+- de kaart [delen](export/index.md#link-kopieren) via een link of als afbeelding.
 
 ## Het startscherm
 
@@ -66,10 +78,12 @@ Zie [Collecties](collections/index.md).
 
 | Nr. | Onderdeel | Plaats | Meer informatie |
 |-----|-----------|--------|-----------------|
-| 1 | **Zijbalk** met Locatie-informatie, Straatbeelden, Meten & Tekenen, Collecties en Favorieten | Links | [Locatie-informatie](location/index.md), [Straatbeelden](streetview/index.md), [Meten & Tekenen](draw/index.md), [Collecties](collections/index.md), [Favorieten](favorites/index.md) |
+| 1 | **Zijbalk** met de knoppen Info, Straatbeeld, Tekenen, Collectie en (na inloggen) Favorieten | Links | [Locatie informatie](location/index.md), [Straatbeelden](streetview/index.md), [Meten & Tekenen](draw/index.md), [Collecties](collections/index.md), [Favorieten](favorites/index.md) |
 | 2 | **Kaartbediening**: zoomen, Mijn locatie, 2D/3D en Rotatie | Linksonder | [De kaart](map/index.md) |
 | 3 | **Zoeken** | Rechtsboven | [Zoeken](search/index.md) |
-| 4 | **Hoofdmenu** (MapGallery-logo) | Rechtsboven | [Hoofdmenu & instellingen](menu/index.md) |
-| 5 | **Legenda** van de actieve kaartlagen | Rechts | [Kaartlagen & legenda](layers/index.md) |
+| 4 | **Hoofdmenu** (MapGallery-logo), met daarnaast de knop **Aanmelden** als je niet bent ingelogd | Rechtsboven | [Hoofdmenu & instellingen](menu/index.md) |
+| 5 | **Legenda** van de actieve kaartlagen, met de knoppen om kaartlagen toe te voegen en de ondergrond te kiezen | Rechtsboven | [Kaartlagen & legenda](layers/index.md) |
+
+Met de knop linksboven, met het logo en de naam van de omgeving, ga je terug naar de standaardcollectie.
 
 ![](interface.png)

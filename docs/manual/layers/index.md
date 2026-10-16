@@ -5,66 +5,64 @@ title: "Kaartlagen & legenda"
 # Kaartlagen & legenda
 
 Een kaartlaag is een informatielaag met geografische gegevens die je onafhankelijk van andere kaartlagen aan- en
-uitzet. Via het menu **Kaartlagen** voeg je kaartlagen toe. In de **legenda** aan de rechterkant van het scherm heb je
-volledige controle over de actieve kaartlagen.
+uitzet. De **legenda** rechtsboven in het scherm toont de actieve kaartlagen. Vanuit de legenda voeg je kaartlagen
+toe, kies je de ondergrond en heb je volledige controle over de actieve kaartlagen.
 
-## Het menu Kaartlagen
+## De kop van de legenda
 
-Klik rechtsboven op **Kaartlagen**. Het getal op de knop geeft het aantal actieve kaartlagen aan.
+In de kop van de legenda staan de knoppen die voor alle kaartlagen gelden:
+
+| Knop | Functie |
+|------|---------|
+| **Pijltje** (links) | De blokken van alle kaartlagen in- of uitklappen. |
+| **⊕** (Kaartlaag toevoegen) | Het [zoekvenster](../search/index.md) openen op het tabblad Kaartlagen. |
+| **Contextmenu ⋮** | Het menu met de legenda-opties openen. Zie [Legenda-opties](#legenda-opties). |
+| **Legenda verbergen** (rechts) | De legenda inklappen, zonder dat de kaartlagen worden gesloten. Klik nogmaals om de legenda weer te tonen. |
+
+### Legenda-opties
+
+Open het **contextmenu ⋮** in de kop van de legenda voor de volgende opties:
 
 | Optie | Functie |
 |-------|---------|
-| **Legenda verbergen** / **Legenda tonen** | De legenda verbergen of weer tonen, zonder dat de kaartlagen worden gesloten. |
-| **Kaartlaag toevoegen** | Het [zoekvenster](../search/index.md) openen op het tabblad Kaartlagen. |
-| **Lokaal bestand toevoegen** | Een eigen bestand tijdelijk op de kaart zetten. Zie [Eigen bestanden](import.md). |
-| Ondergronden | De actieve ondergrond wijzigen. Zie [Ondergronden](../map/index.md#ondergronden). |
+| **Bestand importeren** | Een eigen bestand tijdelijk op de kaart zetten. Zie [Eigen bestanden](import.md). |
+| **Alle kaartlagen uitzetten** | Alle actieve kaartlagen in één keer verbergen. Ze blijven in de legenda staan. |
+| **Alle kaartlagen sluiten** | Alle kaartlagen uit de legenda en van de kaart verwijderen. |
+| Ondergrond | De actieve ondergrond wijzigen, of via **Meer ondergronden** een andere ondergrond kiezen. Zie [Ondergronden](../map/index.md#ondergronden). |
 
-<img src="layers-button.png" width="300">
+**Alle kaartlagen uitzetten** en **Alle kaartlagen sluiten** zie je alleen als er kaartlagen actief zijn.
 
 <img src="legend.png" width="270" align="right">
 
-## De legenda
+## Kaartlagen in de legenda
 
 Elke actieve kaartlaag wordt in de legenda weergegeven in een eigen blok, met specifieke opties voor weergave en
 interactie.
 
-- Klik op het **pijltje** om een kaartlaag in of uit te klappen en op het **kruisje** om de kaartlaag te sluiten.
+- Klik op het **pijltje** voor de naam om een kaartlaag in of uit te klappen.
 - **Sleep** een kaartlaag om de volgorde van de kaartlagen aan te passen.
 - De kleuren en symbolen geven de categorieën binnen de kaartlaag weer. Klik op een **legenda-item** om die categorie
   aan of uit te zetten. Op dezelfde manier zet je labels aan of uit.
 
 ### Knoppen per kaartlaag
 
-Onder in elk blok staan de knoppen voor die kaartlaag:
+In de kop en onder in elk blok staan de knoppen voor die kaartlaag:
 
-| Knop | Functie |
-|------|---------|
-| **Info** | De [metadata](metadata.md) van de kaartlaag bekijken. |
-| **Zichtbaarheid** (oog) | De kaartlaag tijdelijk verbergen zonder deze volledig te verwijderen. |
-| **Filter** | Alleen de objecten tonen die aan bepaalde voorwaarden voldoen. Zie [Filteren](filter.md). De knop is gekleurd als er een filter actief is. |
-| **Stijl** (palet) | De weergave van de kaartlaag aanpassen. Zie [Stijl](#stijl). |
-| **⋮** | Meer opties: **Gegevens herladen**, **Zoom naar extent** en **Favoriet**. |
+| Knop | Plaats | Functie |
+|------|--------|---------|
+| **Zichtbaarheid** (oog) | Kop | De kaartlaag tijdelijk verbergen zonder deze te sluiten. |
+| **Contextmenu ⋮** | Kop | Meer opties: **Aan favorieten toevoegen**, **Zoom naar kaartlaag**, **Gegevens herladen** en **Kaartlaag sluiten**. |
+| **Info** | Onder | De [metadata](metadata.md) van de kaartlaag bekijken. |
+| **Filter** | Onder | Alleen de objecten tonen die aan bepaalde voorwaarden voldoen. Zie [Filteren](filter.md). De knop is gekleurd als er een filter actief is. |
+| **Stijl** (palet) | Onder | De weergave van de kaartlaag aanpassen. Zie [Stijl](#stijl). |
 
+- **Zoom naar kaartlaag** zoomt in op het volledige gebied van de kaartlaag. Is er een filter actief, dan zoomt de
+  kaart in op het gebied van de gefilterde objecten.
 - **Gegevens herladen** laadt de gegevens van de kaartlaag opnieuw.
-- **Zoom naar extent** zoomt in op het volledige gebied van de kaartlaag. Is er een filter actief, dan zoomt de kaart
-  in op het gebied van de gefilterde objecten.
-- **Favoriet** markeert de kaartlaag als [favoriet](../favorites/index.md), zodat je snel naar deze kaartlaag
-  terugkeert zonder de volledige lijst van kaartlagen te doorzoeken. Deze optie is alleen beschikbaar als je bent
-  ingelogd.
-
-### Legenda-opties
-
-Klik op **⋮** bovenaan de legenda om de legenda-opties te openen. Deze gelden voor alle kaartlagen tegelijk:
-
-| Optie | Functie |
-|-------|---------|
-| **Uitzetten** | Alle actieve kaartlagen in één keer uitzetten. |
-| **Aanzetten** | Alle uitgezette kaartlagen weer aanzetten. |
-| **Inklappen** | De blokken van alle kaartlagen inklappen. |
-| **Uitklappen** | De blokken van alle kaartlagen uitklappen. |
-| **Sluiten** | Alle kaartlagen sluiten. |
-
-Met de knop rechts naast **⋮** klap je de volledige legenda in. De kaartlagen blijven daarbij op de kaart staan.
+- **Kaartlaag sluiten** verwijdert de kaartlaag uit de legenda en van de kaart.
+- **Aan favorieten toevoegen** markeert de kaartlaag als [favoriet](../favorites/index.md), zodat je snel naar deze kaartlaag
+  terugkeert zonder de volledige lijst van kaartlagen te doorzoeken. Is de kaartlaag al een favoriet, dan staat hier
+  **Uit favorieten**. Deze optie is alleen beschikbaar als je bent ingelogd.
 
 ## Stijl
 

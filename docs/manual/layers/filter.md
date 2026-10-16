@@ -21,9 +21,9 @@ Je voegt op twee manieren een filter toe.
 
 <!-- SCREENSHOT: layers/filter.png — Filtervenster met ingevulde regels, AND/OR en "Huidige filtering: x van y" -->
 
-### Via Locatie-informatie
+### Via Locatie informatie
 
-1. Klik op een object op de kaart. Het paneel [Locatie-informatie](../location/index.md) wordt geopend.
+1. Klik op een object op de kaart. Het paneel [Locatie informatie](../location/index.md) wordt geopend.
 1. Klik op het filtericoon naast het attribuut waarop je wilt filteren. MapGallery maakt een filter op de waarde van
    dit object.
 1. Klik op meer filtericonen om het filter uit te breiden.
@@ -54,4 +54,4 @@ de actieve filters van die kaartlaag. Hier pas je de filters ook aan:
   wordt dan mee bewaard.
 - **Link delen:** een actief filter gaat mee als je een [link deelt](../export/index.md#link-kopieren).
 - **Downloaden:** bij het [downloaden](../export/index.md) van een kaartlaag ontvang je alleen de gefilterde objecten.
-- **Zoom naar extent:** deze optie in het **⋮**-menu van de kaartlaag zoomt in op de gefilterde objecten.
+- **Zoom naar kaartlaag:** deze optie in het **contextmenu ⋮** van de kaartlaag zoomt in op de gefilterde objecten.

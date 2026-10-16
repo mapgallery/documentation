@@ -6,7 +6,7 @@ title: "Meten & Tekenen"
 
 Met **Meten & Tekenen** meet je afstanden, oppervlakten en coördinaten op de kaart. Daarnaast annoteer je de kaart
 met punten, lijnen en vlakken, bijvoorbeeld om aandachtspunten of locaties vast te leggen of gebieden te duiden. Je
-opent de tool met de knop **Meten & Tekenen** in de zijbalk links.
+opent het paneel **Meten & Tekenen** met de knop **Tekenen** in de zijbalk links.
 
 ## Meten en tekenen
 
@@ -37,7 +37,7 @@ Alle tekeningen staan in een lijst in het paneel, met het nummer, het type en de
 - de tekening **verbergen** en weer **zichtbaar maken** met het oogpictogram;
 - de tekening **verwijderen** met de prullenbak. De tekening wordt direct verwijderd, zonder bevestiging.
 
-Klik op **⋮** bij een tekening voor extra opties:
+Open het **contextmenu ⋮** van een tekening voor extra opties:
 
 | Optie | Functie |
 |-------|---------|
@@ -65,6 +65,7 @@ Via het **tandwiel** in de kop van het paneel pas je de eenheden voor afstanden 
 - Tekeningen zijn alleen zichtbaar op de kaart als het paneel Meten & Tekenen is geopend.
 - Tekeningen gaan **niet** mee naar een andere computer of browser en ook niet in een
   [gedeelde link](../export/index.md#link-kopieren). Wil je een tekening bewaren of delen, download deze dan als
-  GeoJSON.
+  GeoJSON. Met de knop **Alle tekeningen downloaden als GeoJSON** in de kop van het paneel download je alle
+  tekeningen in één bestand.
 - Tekeningen en hun labels worden wel meegenomen in [Kaart als afbeelding](../export/index.md#kaart-als-afbeelding).
 - Als je de browsergegevens van MapGallery wist, worden je tekeningen verwijderd.

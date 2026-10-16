@@ -22,13 +22,14 @@ niet opgelost, neem dan contact op via [Vragen & Support](../../questions.md).
   [legenda](../layers/index.md#knoppen-per-kaartlaag).
 - Controleer of er een **filter** actief is. In dat geval is de knop Filter gekleurd. Zie
   [Filteren](../layers/filter.md).
-- Sommige kaartlagen tonen pas gegevens vanaf een bepaald **zoomniveau**. Zoom verder in of kies **Zoom naar extent**
-  in het **⋮**-menu van de kaartlaag.
-- Kies **Gegevens herladen** in het **⋮**-menu van de kaartlaag.
+- Sommige kaartlagen tonen pas gegevens vanaf een bepaald **zoomniveau**. Zoom verder in of kies **Zoom naar kaartlaag**
+  in het **contextmenu ⋮** van de kaartlaag.
+- Kies **Gegevens herladen** in het **contextmenu ⋮** van de kaartlaag.
 
 ## Geen informatie bij een klik op de kaart
 
-- Klik precies op een object van een actieve en zichtbare kaartlaag.
+- Toont het paneel Locatie informatie **Geen informatie beschikbaar**, dan ligt er op die plek geen object van een
+  actieve kaartlaag. Klik precies op een object van een actieve en zichtbare kaartlaag.
 - Niet alle kaartlagen geven informatie bij een klik. Dit hangt af van de bron van de kaartlaag.
 
 ## Inloggen lukt niet

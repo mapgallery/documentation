@@ -1,16 +1,16 @@
 ---
-title: "Locatie-informatie"
+title: "Locatie informatie"
 ---
 
-# Locatie-informatie
+# Locatie informatie
 
 <img src="panel.png" width="280" align="right">
 
-Wanneer je op een locatie op de kaart klikt, verschijnt links het paneel **Locatie-informatie**. Hier krijg je
+Wanneer je op een locatie op de kaart klikt, verschijnt links het paneel **Locatie informatie**. Hier krijg je
 gedetailleerde informatie over de geselecteerde locatie en over de objecten van de actieve kaartlagen op die plek.
 Elk blok in het paneel is inklapbaar.
 
-Je opent het paneel ook met de knop **Locatie-informatie** in de zijbalk.
+Je opent het paneel ook met de knop **Info** in de zijbalk.
 
 !!! note
     Een marker geeft de geselecteerde locatie op de kaart weer. Klik op een andere locatie op de kaart of versleep de
@@ -29,11 +29,12 @@ Het blok **Adres** toont de gegevens van de geselecteerde locatie:
 Klik op het keuzerondje voor een buurt, wijk, woonplaats of gemeente om dat gebied op de kaart weer te geven en alle
 objecten binnen het gebied te selecteren. Zie [Selecteren](selection.md).
 
-Via **⋮** (Meer opties) in de kop van het blok:
+Via het **contextmenu ⋮** in de kop van het blok:
 
-- **Coördinatenstelsel**: kies tussen WGS84 (EPSG:4326), Web Mercator (EPSG:3857) en Rijksdriehoekstelsel
-  (EPSG:28992).
-- **Huidig adres toevoegen aan tekenen**: voeg de locatie als punt toe aan [Meten & Tekenen](../draw/index.md).
+- **Coördinatenstelsel**: kies in de keuzelijst tussen WGS84 (EPSG:4326), Web Mercator (EPSG:3857) en
+  Rijksdriehoekstelsel (EPSG:28992).
+- **Huidige geometrie toevoegen aan tekening**: voeg de geselecteerde locatie of het geselecteerde gebied toe aan
+  [Meten & Tekenen](../draw/index.md).
 
 ## Attribuutgegevens
 
@@ -47,7 +48,7 @@ In de kop van elk blok staan de volgende knoppen:
 
 | Knop | Functie |
 |------|---------|
-| **Toevoegen aan tekenen** | De geometrie van het object overnemen in [Meten & Tekenen](../draw/index.md). |
+| **Toevoegen aan tekening** | De geometrie van het object overnemen in [Meten & Tekenen](../draw/index.md). Deze knop is niet bij elke selectie beschikbaar. |
 | **Statistieken tonen** | Statistieken over de geselecteerde objecten bekijken. Zie [Statistieken](selection.md#statistieken). |
 | **Tabel** | Alle geselecteerde objecten in een tabel bekijken. Zie [Tabel](selection.md#tabel). |
 

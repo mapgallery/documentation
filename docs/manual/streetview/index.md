@@ -5,14 +5,14 @@ title: "Straatbeelden"
 # Straatbeelden
 
 Met **Straatbeelden** bekijk je een locatie op de kaart vanaf straatniveau, naast de kaart. De beheerder bepaalt per
-organisatie welke straatbeelden beschikbaar zijn, bijvoorbeeld Google Street View. Zie je de knop **Straatbeelden**
+organisatie welke straatbeelden beschikbaar zijn, bijvoorbeeld Google Street View. Zie je de knop **Straatbeeld**
 niet in de zijbalk, dan is deze functie voor jouw omgeving niet ingeschakeld.
 
 <img src="panel.png" width="400" align="right">
 
 ## Straatbeelden bekijken
 
-1. Klik in de zijbalk links op **Straatbeelden**. Het paneel **Straatbeelden** wordt geopend.
+1. Klik in de zijbalk links op **Straatbeeld**. Het paneel **Straatbeelden** wordt geopend.
 1. Klik op een locatie op de kaart. Het paneel toont de dichtstbijzijnde opname van die locatie.
 1. Klik op een andere locatie om het straatbeeld te verplaatsen.
 

@@ -9,7 +9,7 @@ onderwerp. Collecties geven je eenvoudig toegang tot **thema's** en de bijbehore
 juiste geografische gegevens en visualisaties vindt. De beheerder stelt de collecties samen en bepaalt wie er toegang
 toe heeft.
 
-Je opent het collectiepaneel met de knop **Collecties** in de zijbalk links.
+Je opent het collectiepaneel met de knop **Collectie** in de zijbalk links.
 
 ## Een collectie kiezen
 
@@ -45,11 +45,11 @@ die in verschillende groepen kunnen zijn ingedeeld. De kaartlagen binnen een gro
   Wanneer je een andere kaartlaag kiest, wordt de eerder actieve kaartlaag automatisch uitgezet. Dit is geschikt om
   snel te wisselen tussen kaartlagen die het hele gebied vullen.
 
-Met de knop in de kop van een groep zet je alle kaartlagen in die groep in één keer aan (**Alles weergeven**) of uit
-(**Alles verbergen**).
+Achter de naam van een groep staat hoeveel kaartlagen in die groep actief zijn. Met de knop in de kop van een groep
+zet je alle kaartlagen in die groep in één keer aan (**Alles weergeven**) of uit (**Alles verbergen**).
 
-Klik helemaal onderaan op **Deselecteer collectie** om de volledige collectie te sluiten. De kaart blijft open en je
-kunt direct een andere collectie kiezen.
+Klik in de kop van het collectiepaneel op **Deselecteer collectie** om de volledige collectie te sluiten. De kaart
+blijft open en je kunt direct een andere collectie kiezen.
 
 !!! note "Voor beheerders"
     Als beheerder zie je in de kop van de collectie de knop **Collectie beheren**. Hiermee open je de collectie in de

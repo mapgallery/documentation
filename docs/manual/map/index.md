@@ -29,7 +29,7 @@ De kaart is volledig te bedienen met de muis.
 | Zoomen | Draai aan het **muiswiel**, of dubbelklik om in te zoomen. |
 | Kaart draaien | Houd de **rechtermuisknop** ingedrukt en sleep horizontaal. |
 | Wisselen tussen 2D en 3D | Houd de **rechtermuisknop** ingedrukt en sleep verticaal. |
-| Informatie opvragen | Klik op een locatie of object. Zie [Locatie-informatie](../location/index.md). |
+| Informatie opvragen | Klik op een locatie of object. Zie [Locatie informatie](../location/index.md). |
 
 !!! note "Shift + slepen"
     Als je ++shift++ ingedrukt houdt en sleept, maak je een selectie met een rechthoek. Zie
@@ -64,12 +64,15 @@ Op een telefoon of tablet kun je de kaart bedienen met aanrakingen en bewegingen
 Door een ondergrond te kiezen, bepaal je de basisweergave van de kaart waarop de kaartlagen worden weergegeven. Je
 kunt de ondergrond op elk moment aanpassen aan je behoeften en analyses.
 
-1. Klik rechtsboven op **Kaartlagen**.
-1. Onder in het menu staan de ondergronden die de beheerder als standaardondergrond heeft aangemerkt. De actieve
+1. Open in de kop van de [legenda](../layers/index.md#de-kop-van-de-legenda) het **contextmenu ⋮**.
+1. Onder **Ondergrond** staan de ondergronden die de beheerder als standaardondergrond heeft aangemerkt. De actieve
    ondergrond is gemarkeerd met een bolletje.
 1. Klik op een andere ondergrond in de lijst om de actieve ondergrond te wisselen.
 
-Staat de gewenste ondergrond niet in de lijst, klik dan op **Ondergrond kiezen**. Het
+Ben je ingelogd, dan stel je de actieve ondergrond in als **favoriete ondergrond** met het **bladwijzer-icoon** achter
+de ondergrond. Je favoriete ondergrond wordt in je eigen profiel bewaard. Zie ook [Favorieten](../favorites/index.md).
+
+Staat de gewenste ondergrond niet in de lijst, klik dan op **Meer ondergronden**. Het
 [zoekvenster](../search/index.md) opent op het tabblad **Ondergrond**, met een overzicht van alle beschikbare
 ondergronden.
 

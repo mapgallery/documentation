@@ -21,6 +21,11 @@ Een veelgebruikte toepassing van WebGIS is web mapping: het maken, gebruiken en 
 De kaart is daarbij niet statisch. Je bepaalt zelf welke kaartlagen je ziet, klikt op objecten voor meer informatie en
 combineert gegevens uit verschillende bronnen.
 
+MapGallery is een self-service WebGIS: je doet zoveel mogelijk zelf, zonder tussenkomst van een GIS-specialist. Je
+past de weergave van de kaart aan met een filter of een andere stijl, bouwt een eigen set favoriete kaartlagen op en
+opent een eigen GIS-bestand direct op de kaart. Gegevens exporteer je eenvoudig: een volledige kaartlaag, een selectie
+of alleen de gefilterde objecten.
+
 ## Systeemeisen
 
 MapGallery ondersteunt de **laatste twee hoofdversies** van de gangbare browsers, op desktop, tablet en telefoon:

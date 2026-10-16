@@ -13,13 +13,13 @@ Er zijn verschillende manieren om een ruimtelijke selectie te maken:
 
 | Manier | Werkwijze |
 |--------|-----------|
-| **Op gebied** | Klik op een locatie op de kaart en kies in het blok **Adres** van [Locatie-informatie](index.md) een buurt, wijk, woonplaats of gemeente. Alle objecten binnen die grens worden geselecteerd. |
+| **Op gebied** | Klik op een locatie op de kaart en kies in het blok **Adres** van [Locatie informatie](index.md) een buurt, wijk, woonplaats of gemeente. Alle objecten binnen die grens worden geselecteerd. |
 | **Met een rechthoek** | Houd ++shift++ ingedrukt en sleep een rechthoek over de kaart. |
-| **Met een getekend gebied** | Teken een vlak in [Meten & Tekenen](../draw/index.md), klik op **⋮** bij de tekening en kies **Overnemen naar locatie informatie**. |
+| **Met een getekend gebied** | Teken een vlak in [Meten & Tekenen](../draw/index.md), open het **contextmenu ⋮** van de tekening en kies **Overnemen naar locatie informatie**. |
 
 <!-- SCREENSHOT: location/selection.png — Selectie op gemeente: grens op de kaart en geselecteerde objecten in twee lagen met eigen kleur -->
 
-MapGallery tekent het geselecteerde gebied op de kaart. De geselecteerde objecten krijgen per kaartlaag een eigen kleur. Een gekleurd object geeft aan dat het object is uitgelicht en dat de bijbehorende gegevens zichtbaar zijn in het paneel Locatie-informatie, waar je per kaartlaag in een apart blok door de geselecteerde objecten kunt bladeren.
+MapGallery tekent het geselecteerde gebied op de kaart. De geselecteerde objecten krijgen per kaartlaag een eigen kleur. Een gekleurd object geeft aan dat het object is uitgelicht en dat de bijbehorende gegevens zichtbaar zijn in het paneel Locatie informatie, waar je per kaartlaag in een apart blok door de geselecteerde objecten kunt bladeren.
 
 ## Statistieken
 
