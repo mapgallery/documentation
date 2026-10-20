@@ -813,7 +813,7 @@
             
   
   <span class="md-ellipsis">
-    Gerelateerd
+    Collecties & favorieten
   </span>
   
 
@@ -823,7 +823,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_5">
             <span class="md-nav__icon md-icon"></span>
-            Gerelateerd
+            Collecties & favorieten
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -908,7 +908,7 @@
             
   
   <span class="md-ellipsis">
-    Kaartinfo
+    Informatie & selectie
   </span>
   
 
@@ -918,7 +918,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_6">
             <span class="md-nav__icon md-icon"></span>
-            Kaartinfo
+            Informatie & selectie
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1707,8 +1707,8 @@
 
 
 <h1 id="selecteren-statistieken-tabel">Selecteren, statistieken &amp; tabel</h1>
-<p>Met een ruimtelijke selectie vraag je de gegevens op van alle objecten binnen een gebied, voor één of meer kaartlagen
-tegelijk. Vervolgens bekijk je de resultaten per kaartlaag, in statistieken of in een tabel, en download je ze.</p>
+<p>Met een ruimtelijke selectie vraag je de gegevens op van alle objecten die volledig binnen een gebied liggen, voor één of
+meer kaartlagen tegelijk. Vervolgens bekijk je de resultaten per kaartlaag, in statistieken of in een tabel, en download je ze.</p>
 <h2 id="een-selectie-maken">Een selectie maken</h2>
 <p>Er zijn verschillende manieren om een ruimtelijke selectie te maken:</p>
 <table>
@@ -1721,11 +1721,11 @@ tegelijk. Vervolgens bekijk je de resultaten per kaartlaag, in statistieken of i
 <tbody>
 <tr>
 <td><strong>Op gebied</strong></td>
-<td>Klik op een locatie op de kaart en kies in het blok <strong>Adres</strong> van <a href="../">Locatie informatie</a> een buurt, wijk, woonplaats of gemeente. Alle objecten binnen die grens worden geselecteerd.</td>
+<td>Klik op een locatie op de kaart en kies in het blok <strong>Adres</strong> van <a href="../">Locatie informatie</a> een buurt, wijk, woonplaats of gemeente. Alle objecten die volledig binnen die grens liggen worden geselecteerd.</td>
 </tr>
 <tr>
 <td><strong>Met een rechthoek</strong></td>
-<td>Houd <span class="keys"><kbd class="key-shift">Shift</kbd></span> ingedrukt en sleep een rechthoek over de kaart.</td>
+<td>Houd <span class="keys"><kbd class="key-shift">Shift</kbd></span> ingedrukt en sleep een rechthoek over de kaart. Het paneel Locatie informatie opent automatisch, ook als het nog niet open was.</td>
 </tr>
 <tr>
 <td><strong>Met een getekend gebied</strong></td>
@@ -1733,9 +1733,16 @@ tegelijk. Vervolgens bekijk je de resultaten per kaartlaag, in statistieken of i
 </tr>
 </tbody>
 </table>
-<!-- SCREENSHOT: location/selection.png — Selectie op gemeente: grens op de kaart en geselecteerde objecten in twee lagen met eigen kleur -->
-
-<p>MapGallery tekent het geselecteerde gebied op de kaart. De geselecteerde objecten krijgen per kaartlaag een eigen kleur. Een gekleurd object geeft aan dat het object is uitgelicht en dat de bijbehorende gegevens zichtbaar zijn in het paneel Locatie informatie, waar je per kaartlaag in een apart blok door de geselecteerde objecten kunt bladeren.</p>
+<div class="admonition note">
+<p class="admonition-title">Alleen objecten volledig binnen het gebied</p>
+<p>Bij elke manier van selecteren worden alleen de objecten geselecteerd die volledig binnen het gebied liggen
+(inside). Objecten die de grens raken of er gedeeltelijk buiten vallen, zoals een weg of perceel dat over de grens
+doorloopt, worden niet geselecteerd. Teken een ruimer gebied als je die objecten ook wilt meenemen.</p>
+</div>
+<p><img alt="Selectie op gemeente" src="../../../changelog/img/v8-selectie-gemeente.png" /></p>
+<p>MapGallery tekent het geselecteerde gebied op de kaart. De geselecteerde objecten krijgen per kaartlaag een eigen
+kleur. Een gekleurd object geeft aan dat het object is uitgelicht en dat de bijbehorende gegevens zichtbaar zijn in het
+paneel Locatie informatie, waar je per kaartlaag in een apart blok door de geselecteerde objecten kunt bladeren.</p>
 <h2 id="statistieken">Statistieken</h2>
 <p>Klik in de kop van een kaartlaag op <strong>Statistieken tonen</strong> om verschillende statistieken per veld te bekijken.</p>
 <p><img alt="" src="../statistics.png" /></p>
@@ -1745,7 +1752,7 @@ tegelijk. Vervolgens bekijk je de resultaten per kaartlaag, in statistieken of i
 </ol>
 <h2 id="tabel">Tabel</h2>
 <p>Klik in de kop van een kaartlaag op <strong>Tabel</strong> om de attribuutgegevens van alle geselecteerde objecten in een tabel te
-bekijken. Met de knoppen onder de tabel blader je door de pagina's.</p>
+bekijken. Klik op een kolomkop om op die kolom te sorteren. Met de knoppen onder de tabel blader je door de pagina's.</p>
 <p>Klik op <strong>Download</strong> om de selectie te exporteren. Zie <a href="../../export/#gegevens-downloaden">Downloaden &amp; delen</a>.</p>
 <p><img alt="" src="../table.png" /></p>
 
