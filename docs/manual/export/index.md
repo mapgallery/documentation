@@ -57,7 +57,7 @@ klanten.
 | De geopende collectie | |
 | Filters en aangepaste stijlen | |
 
-De ontvanger ziet alleen de kaartlagen waartoe hij of zij zelf toegang heeft.
+De ontvanger ziet alleen de kaartlagen waartoe die zelf toegang heeft.
 
 ## Kaart als afbeelding
 

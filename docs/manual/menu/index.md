@@ -6,8 +6,8 @@ title: "Hoofdmenu"
 
 Via het hoofdmenu krijg je snel toegang tot de verschillende onderdelen van de applicatie, zoals delen,
 ondersteuning en het leegmaken van de cache. Je opent het hoofdmenu door rechtsboven op het **MapGallery-logo** te
-klikken.
-
+klikken. Het logo met de naam van je omgeving linksboven opent geen menu, maar brengt je terug naar de
+standaardcollectie.
 
 | Onderdeel | Functie |
 |-----------|---------|

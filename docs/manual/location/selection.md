@@ -4,8 +4,8 @@ title: "Selecteren, statistieken & tabel"
 
 # Selecteren, statistieken & tabel
 
-Met een ruimtelijke selectie vraag je de gegevens op van alle objecten binnen een gebied, voor één of meer kaartlagen
-tegelijk. Vervolgens bekijk je de resultaten per kaartlaag, in statistieken of in een tabel, en download je ze.
+Met een ruimtelijke selectie vraag je de gegevens op van alle objecten die volledig binnen een gebied liggen, voor één of
+meer kaartlagen tegelijk. Vervolgens bekijk je de resultaten per kaartlaag, in statistieken of in een tabel, en download je ze.
 
 ## Een selectie maken
 
@@ -13,13 +13,20 @@ Er zijn verschillende manieren om een ruimtelijke selectie te maken:
 
 | Manier | Werkwijze |
 |--------|-----------|
-| **Op gebied** | Klik op een locatie op de kaart en kies in het blok **Adres** van [Locatie informatie](index.md) een buurt, wijk, woonplaats of gemeente. Alle objecten binnen die grens worden geselecteerd. |
-| **Met een rechthoek** | Houd ++shift++ ingedrukt en sleep een rechthoek over de kaart. |
+| **Op gebied** | Klik op een locatie op de kaart en kies in het blok **Adres** van [Locatie informatie](index.md) een buurt, wijk, woonplaats of gemeente. Alle objecten die volledig binnen die grens liggen worden geselecteerd. |
+| **Met een rechthoek** | Houd ++shift++ ingedrukt en sleep een rechthoek over de kaart. Het paneel Locatie informatie opent automatisch, ook als het nog niet open was. |
 | **Met een getekend gebied** | Teken een vlak in [Meten & Tekenen](../draw/index.md), open het **contextmenu ⋮** van de tekening en kies **Overnemen naar locatie informatie**. |
 
-<!-- SCREENSHOT: location/selection.png — Selectie op gemeente: grens op de kaart en geselecteerde objecten in twee lagen met eigen kleur -->
+!!! note "Alleen objecten volledig binnen het gebied"
+    Bij elke manier van selecteren worden alleen de objecten geselecteerd die volledig binnen het gebied liggen
+    (inside). Objecten die de grens raken of er gedeeltelijk buiten vallen, zoals een weg of perceel dat over de grens
+    doorloopt, worden niet geselecteerd. Teken een ruimer gebied als je die objecten ook wilt meenemen.
 
-MapGallery tekent het geselecteerde gebied op de kaart. De geselecteerde objecten krijgen per kaartlaag een eigen kleur. Een gekleurd object geeft aan dat het object is uitgelicht en dat de bijbehorende gegevens zichtbaar zijn in het paneel Locatie informatie, waar je per kaartlaag in een apart blok door de geselecteerde objecten kunt bladeren.
+![Selectie op gemeente](../../changelog/img/v8-selectie-gemeente.png)
+
+MapGallery tekent het geselecteerde gebied op de kaart. De geselecteerde objecten krijgen per kaartlaag een eigen
+kleur. Een gekleurd object geeft aan dat het object is uitgelicht en dat de bijbehorende gegevens zichtbaar zijn in het
+paneel Locatie informatie, waar je per kaartlaag in een apart blok door de geselecteerde objecten kunt bladeren.
 
 ## Statistieken
 
@@ -33,7 +40,7 @@ Klik in de kop van een kaartlaag op **Statistieken tonen** om verschillende stat
 ## Tabel
 
 Klik in de kop van een kaartlaag op **Tabel** om de attribuutgegevens van alle geselecteerde objecten in een tabel te
-bekijken. Met de knoppen onder de tabel blader je door de pagina's.
+bekijken. Klik op een kolomkop om op die kolom te sorteren. Met de knoppen onder de tabel blader je door de pagina's.
 
 Klik op **Download** om de selectie te exporteren. Zie [Downloaden & delen](../export/index.md#gegevens-downloaden).
 

@@ -32,6 +32,8 @@ Open het **contextmenu ⋮** in de kop van de legenda voor de volgende opties:
 
 **Alle kaartlagen uitzetten** en **Alle kaartlagen sluiten** zie je alleen als er kaartlagen actief zijn.
 
+<img src="layers-button.png" width="250">
+
 <img src="legend.png" width="270" align="right">
 
 ## Kaartlagen in de legenda
@@ -53,7 +55,7 @@ In de kop en onder in elk blok staan de knoppen voor die kaartlaag:
 | **Zichtbaarheid** (oog) | Kop | De kaartlaag tijdelijk verbergen zonder deze te sluiten. |
 | **Contextmenu ⋮** | Kop | Meer opties: **Aan favorieten toevoegen**, **Zoom naar kaartlaag**, **Gegevens herladen** en **Kaartlaag sluiten**. |
 | **Info** | Onder | De [metadata](metadata.md) van de kaartlaag bekijken. |
-| **Filter** | Onder | Alleen de objecten tonen die aan bepaalde voorwaarden voldoen. Zie [Filteren](filter.md). De knop is gekleurd als er een filter actief is. |
+| **Filter** | Onder | Alleen de objecten tonen die aan bepaalde voorwaarden voldoen. Zie [Filteren](filter.md). Is er een filter actief, dan is de knop gekleurd en toont deze het aantal filterregels. |
 | **Stijl** (palet) | Onder | De weergave van de kaartlaag aanpassen. Zie [Stijl](#stijl). |
 
 - **Zoom naar kaartlaag** zoomt in op het volledige gebied van de kaartlaag. Is er een filter actief, dan zoomt de

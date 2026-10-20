@@ -17,7 +17,7 @@ met de muis, het toetsenbord, een touchscreen of de knoppen linksonder.
 | **+** en **−** | In- en uitzoomen op de kaart. |
 | **Mijn locatie** | Je huidige locatie op de kaart weergeven. Je browser vraagt hiervoor eerst toestemming. |
 | **Weergave** (2D/3D) | Wisselen tussen de 2D-weergave en de 3D-weergave, voor een gedetailleerder perspectief van het terrein. |
-| **Rotatie** (noordpijl) | De kaart een halve slag (180°) draaien. Klik nogmaals om het noorden weer boven te zetten. |
+| **Rotatie** (noordpijl) | De kaart 180° draaien, zodat het zuiden boven staat. Klik nogmaals om het noorden weer boven te zetten. |
 
 ## Muisbediening
 
@@ -28,12 +28,12 @@ De kaart is volledig te bedienen met de muis.
 | Kaart verplaatsen | Houd de **linkermuisknop** ingedrukt en sleep de kaart. |
 | Zoomen | Draai aan het **muiswiel**, of dubbelklik om in te zoomen. |
 | Kaart draaien | Houd de **rechtermuisknop** ingedrukt en sleep horizontaal. |
-| Wisselen tussen 2D en 3D | Houd de **rechtermuisknop** ingedrukt en sleep verticaal. |
+| Kaart kantelen | Houd de **rechtermuisknop** ingedrukt en sleep verticaal. |
 | Informatie opvragen | Klik op een locatie of object. Zie [Locatie informatie](../location/index.md). |
 
 !!! note "Shift + slepen"
-    Als je ++shift++ ingedrukt houdt en sleept, maak je een selectie met een rechthoek. Zie
-    [Selecteren](../location/selection.md).
+    Als je ++shift++ ingedrukt houdt en sleept, maak je een selectie met een rechthoek. Het paneel Locatie informatie
+    opent dan automatisch. Zie [Selecteren](../location/selection.md).
 
 ## Toetsenbordbediening
 
@@ -44,7 +44,7 @@ Je kunt de kaart ook bedienen met sneltoetsen. Klik eerst op de kaart, zodat de 
 | Kaart verplaatsen | ++arrow-left++ ++arrow-up++ ++arrow-right++ ++arrow-down++ |
 | In- en uitzoomen | ++plus++ en ++minus++ |
 | Kaart draaien | ++shift+arrow-left++ en ++shift+arrow-right++ |
-| Wisselen tussen 2D en 3D | ++shift+arrow-up++ en ++shift+arrow-down++ |
+| Kaart kantelen | ++shift+arrow-up++ en ++shift+arrow-down++ |
 
 ## Bediening op een touchscreen
 
@@ -55,7 +55,7 @@ Op een telefoon of tablet kun je de kaart bedienen met aanrakingen en bewegingen
 | Kaart verplaatsen | Sleep met één vinger. |
 | Zoomen | Knijp of spreid met twee vingers. |
 | Kaart draaien | Draai met twee vingers. |
-| Wisselen tussen 2D en 3D | Sleep met twee vingers omhoog of omlaag. |
+| Kaart kantelen | Sleep met twee vingers omhoog of omlaag. |
 
 ## Ondergronden
 

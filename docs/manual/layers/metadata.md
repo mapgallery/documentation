@@ -10,8 +10,6 @@ wat de kaartlaag bevat, waar de gegevens vandaan komen en hoe de kaartlaag techn
 Klik in de [legenda](index.md#knoppen-per-kaartlaag) op de knop **Info** van een kaartlaag om het metadatavenster te
 openen.
 
-<!-- SCREENSHOT: layers/metadata.png — Metadatavenster met tags, beschrijving, Toelichting, Technische details en Download -->
-
 ![](metadata.png)
 
 ## Inhoud van het metadatavenster
@@ -24,7 +22,6 @@ openen.
 | Beschrijving | Een korte beschrijving van wat de kaartlaag bevat. |
 | **Toelichting** | Aanvullende informatie van de beheerder, vaak met een link naar de volledige metadata bij de bron. |
 | **Technische details** | **Service**, **Laagnaam**, **Protocol**, **Versie** en **Endpoint**. Deze gegevens gebruik je bijvoorbeeld om de kaartlaag in eigen GIS-software te openen. |
-
 
 !!! note "Downloaden"
     Als de gegevens beschikbaar zijn om te downloaden, staat onder in het venster de knop **Download**. Zie

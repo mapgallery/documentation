@@ -5,7 +5,7 @@ title: "Favorieten"
 # Favorieten
 
 Met de favorietenfunctie maak je specifieke kaartlagen eenvoudig toegankelijk door ze op te slaan als persoonlijke
-favoriet. Je favoriete kaartlagen komen terecht in de tool **Favorieten** in de zijbalk. Daar roep je ze weer op en
+favoriet. Je favoriete kaartlagen komen terecht in het paneel **Favorieten**, dat je opent via de zijbalk. Daar roep je ze weer op en
 deel je ze in eigen groepen in. Je favorieten worden in je eigen profiel opgeslagen, zodat ze
 op elke computer en in elke browser beschikbaar zijn. Favorieten zijn alleen beschikbaar als je bent
 [ingelogd](../index.md#inloggen).
@@ -26,7 +26,7 @@ Wil je een kaartlaag niet langer als favoriet bewaren, kies dan in hetzelfde con
 
 ## Je favorieten gebruiken
 
-Klik in de zijbalk links op **Favorieten** om het favorietenpaneel te openen. Hier staan al je favoriete kaartlagen,
+Klik in de zijbalk links op **Favorieten** om het paneel Favorieten te openen. Hier staan al je favoriete kaartlagen,
 ingedeeld in groepen.
 
 - Klik op een kaartlaag om deze aan de kaart toe te voegen. Klik nogmaals om de kaartlaag weer uit te zetten.
@@ -36,7 +36,7 @@ ingedeeld in groepen.
 
 ## Favorieten beheren
 
-Je beheert je favorieten zelf en deelt ze in groepen in. Klik in het favorietenpaneel op het **potlood** om het
+Je beheert je favorieten zelf en deelt ze in groepen in. Klik in het paneel Favorieten op het **potlood** om het
 venster **Favorieten bewerken** te openen.
 
 <img src="edit.png" width="550">
@@ -50,7 +50,7 @@ venster **Favorieten bewerken** te openen.
     - **Meerdere tegelijk** (vinkjes): elke klik voegt een kaartlaag toe, zodat je meerdere kaartlagen tegelijk toont.
     - **Eén tegelijk** (keuzerondjes): je wisselt tussen de kaartlagen binnen de groep. Dit is geschikt om snel te
       wisselen tussen kaartlagen die het hele gebied vullen.
-1. Bepaal met het **pijltje** in de kop van een groep of de groep in het favorietenpaneel uitgeklapt of ingeklapt
+1. Bepaal met het **pijltje** in de kop van een groep of de groep in het paneel Favorieten uitgeklapt of ingeklapt
    wordt getoond.
 1. Klik op **Opslaan** om de wijzigingen te bewaren.
 

@@ -20,7 +20,7 @@ niet opgelost, neem dan contact op via [Vragen & Support](../../questions.md).
 
 - Controleer of de kaartlaag **zichtbaar** is via het oogpictogram in de
   [legenda](../layers/index.md#knoppen-per-kaartlaag).
-- Controleer of er een **filter** actief is. In dat geval is de knop Filter gekleurd. Zie
+- Controleer of er een **filter** actief is. In dat geval is de knop Filter gekleurd en toont deze het aantal filterregels. Zie
   [Filteren](../layers/filter.md).
 - Sommige kaartlagen tonen pas gegevens vanaf een bepaald **zoomniveau**. Zoom verder in of kies **Zoom naar kaartlaag**
   in het **contextmenu ⋮** van de kaartlaag.

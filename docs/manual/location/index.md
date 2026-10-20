@@ -27,7 +27,7 @@ Het blok **Adres** toont de gegevens van de geselecteerde locatie:
 | **Buurt**, **Wijk**, **Woonplaats** en **Gemeente** | De gebieden waarin de locatie ligt. |
 
 Klik op het keuzerondje voor een buurt, wijk, woonplaats of gemeente om dat gebied op de kaart weer te geven en alle
-objecten binnen het gebied te selecteren. Zie [Selecteren](selection.md).
+objecten te selecteren die volledig binnen het gebied liggen. Zie [Selecteren](selection.md).
 
 Via het **contextmenu ⋮** in de kop van het blok:
 

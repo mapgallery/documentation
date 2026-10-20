@@ -43,10 +43,10 @@ nav:
           - manual/layers/import.md
           - manual/layers/filter.md
           - manual/layers/metadata.md
-      - Gerelateerd:
+      - Collecties & favorieten:
         - manual/collections/index.md
         - manual/favorites/index.md
-      - Kaartinfo:
+      - Informatie & selectie:
           - manual/location/index.md
           - manual/location/selection.md
       - manual/streetview/index.md

@@ -8,8 +8,7 @@ Met **Meten & Tekenen** meet je afstanden, oppervlakten en coördinaten op de ka
 met punten, lijnen en vlakken, bijvoorbeeld om aandachtspunten of locaties vast te leggen of gebieden te duiden. Je
 opent het paneel **Meten & Tekenen** met de knop **Tekenen** in de zijbalk links.
 
-## Meten en tekenen
-
+## Een meting of tekening maken
 
 | Knop | Tekent | Meet |
 |------|--------|------|
@@ -23,9 +22,9 @@ opent het paneel **Meten & Tekenen** met de knop **Tekenen** in de zijbalk links
 1. Dubbelklik om de lijn of het vlak af te sluiten.
 
 Elke tekening krijgt op de kaart een label met een nummer en de gemeten waarde, bijvoorbeeld
-**#1 Polygon (54983645.41 m2)**. 
+**#1 Polygon (54983645.41 m2)**.
 
-![](draw.png) 
+![](draw.png)
 
 ## Tekeningen beheren
 
@@ -41,7 +40,7 @@ Open het **contextmenu ⋮** van een tekening voor extra opties:
 
 | Optie | Functie |
 |-------|---------|
-| **Overnemen naar locatie informatie** | Alle objecten binnen de tekening selecteren. Je bekijkt dan welke objecten binnen de tekening vallen, toont statistieken of downloadt de gegevens. Zie [Selecteren](../location/selection.md). |
+| **Overnemen naar locatie informatie** | Alle objecten selecteren die volledig binnen de tekening liggen. Je bekijkt dan welke objecten binnen de tekening vallen, toont statistieken of downloadt de gegevens. Zie [Selecteren](../location/selection.md). |
 | **Tekening downloaden als GeoJSON** | De tekening opslaan als GeoJSON-bestand, om deze te bewaren of in andere software te gebruiken. |
 | **Buffer** | Een buffer rond de tekening maken met een zelfgekozen afstand. Vul de afstand in en klik op **OK**. |
 

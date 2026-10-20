@@ -20,8 +20,8 @@ mogelijk. Heb je toegang gekregen, dan ontvang je een uitnodigingsmail met een l
 
 ![](login.png)
 
-Sommige MapGallery-omgevingen zijn openbaar toegankelijk. In deze omgevingen kun je zonder in te loggen alle of bepaalde kaartlagen bekijken, afhankelijk van de ingestelde toegangsrechten. Na het
-inloggen zie je ook de afgeschermde kaartlagen waartoe je toegang hebt.
+Sommige MapGallery-omgevingen zijn openbaar toegankelijk. In deze omgevingen kun je zonder in te loggen alle of
+bepaalde kaartlagen bekijken, afhankelijk van de ingestelde toegangsrechten. Na het inloggen zie je ook de afgeschermde kaartlagen waartoe je toegang hebt.
 
 !!! note "Automatisch inloggen"
     Afhankelijk van de instellingen van MapGallery binnen je organisatie word je automatisch ingelogd bij het openen
@@ -73,7 +73,6 @@ Zie [Collecties](collections/index.md).
 
 ![](start.png)
 
-
 ## De interface
 
 | Nr. | Onderdeel | Plaats | Meer informatie |
@@ -84,6 +83,7 @@ Zie [Collecties](collections/index.md).
 | 4 | **Hoofdmenu** (MapGallery-logo), met daarnaast de knop **Aanmelden** als je niet bent ingelogd | Rechtsboven | [Hoofdmenu & instellingen](menu/index.md) |
 | 5 | **Legenda** van de actieve kaartlagen, met de knoppen om kaartlagen toe te voegen en de ondergrond te kiezen | Rechtsboven | [Kaartlagen & legenda](layers/index.md) |
 
-Met de knop linksboven, met het logo en de naam van de omgeving, ga je terug naar de standaardcollectie.
+Let op het verschil tussen de twee logo's: het **MapGallery-logo** rechtsboven opent het hoofdmenu, het **logo met de
+naam van je omgeving** linksboven brengt je terug naar de standaardcollectie.
 
 ![](interface.png)

@@ -4,8 +4,7 @@ title: "Filteren"
 
 # Filteren
 
-Met de filterfunctie filter je naar specifieke objecten binnen een actieve kaartlaag. De kaart toont dan alleen de objecten die
-aan de opgegeven voorwaarden voldoen, bijvoorbeeld alle molens van het type "watermolen". Deze functie is beschikbaar
+Met een filter toon je alleen de objecten binnen een actieve kaartlaag die aan bepaalde voorwaarden voldoen, bijvoorbeeld alle molens van het type "watermolen". Deze functie is beschikbaar
 voor alle vectorkaartlagen.
 
 ## Een filter toevoegen
@@ -19,7 +18,7 @@ Je voegt op twee manieren een filter toe.
    doet MapGallery suggesties op basis van de waarden in de kaartlaag.
 1. Klik op **⊕** om de filterregel toe te voegen. Het kaartbeeld wordt direct bijgewerkt.
 
-<!-- SCREENSHOT: layers/filter.png — Filtervenster met ingevulde regels, AND/OR en "Huidige filtering: x van y" -->
+<img src="../filter.png" width="380">
 
 ### Via Locatie informatie
 
@@ -39,7 +38,7 @@ Afhankelijk van het type gegevens gebruik je verschillende vergelijkingen:
 
 ## Actieve filters bekijken en aanpassen
 
-Wanneer de knop **Filter** in de legenda gekleurd is, is er een filter actief. Klik op de knop voor een overzicht van
+Wanneer de knop **Filter** in de legenda gekleurd is en het aantal filterregels toont, is er een filter actief. Klik op de knop voor een overzicht van
 de actieve filters van die kaartlaag. Hier pas je de filters ook aan:
 
 - **Huidige filtering** toont hoeveel objecten aan het filter voldoen, bijvoorbeeld "87 van 1872".

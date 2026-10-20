@@ -16,8 +16,6 @@ niet in de zijbalk, dan is deze functie voor jouw omgeving niet ingeschakeld.
 1. Klik op een locatie op de kaart. Het paneel toont de dichtstbijzijnde opname van die locatie.
 1. Klik op een andere locatie om het straatbeeld te verplaatsen.
 
-<!-- SCREENSHOT: streetview/panel.png — Paneel Straatbeelden met Street View naast de kaart en de marker op de aangeklikte plek -->
-
 In het straatbeeld kijk je rond en verplaats je je op dezelfde manier als in Google Street View. Met de knoppen in de
 kop van het blok:
 
