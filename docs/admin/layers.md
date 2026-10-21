@@ -306,8 +306,8 @@ Het veld Verversen bepaalt in seconden hoe vaak de data opnieuw wordt opgehaald 
 #### Tabblad Style
 
 De Style tab geeft de mogelijkheid om de stijl van een kaartlaag te configureren. Dit omvat het aanpassen van visuele
-eigenschappen zoals symbolen, kleuren, groottes, en andere weergaveopties. Zie voor meer informatie over de
-stijlmogelijkheden [Tabblad Style](./layer-style.md).
+eigenschappen zoals symbolen, kleuren, groottes, en andere weergaveopties. Hieronder lees je meer over de
+stijlmogelijkheden.
 
 **JSON** configuratie: Aan de linker van de pagina is de JSON-code zien die de stijl van de kaartlaag
 definieert. De syntax die gebruikt wordt is gebaseerd op [GeoStyler](https://geostyler.org).
