@@ -64,6 +64,7 @@ nav:
           - admin/options/mapinfo.md
           - admin/options/views.md
           - admin/options/searches.md
+          - admin/options/spotinfo.md
       - admin/collections.md
       - admin/layers.md
       - admin/services.md

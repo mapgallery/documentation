@@ -9,6 +9,10 @@ vars:
 
 In deze sectie van de MapGallery beheeromgeving kun je verschillende services beheren, zoals API's, WMS en WFS. Een service kan meerdere kaartlagen ontluiten.
 
+!!! tip "Oude SPOTinfo-server"
+    Gebruiken services nog de oude SPOTinfo-server (_omgevingsserver.nl_), dan staat er bovenaan de lijst een melding.
+    Zet ze over met [SPOTinfo overzetten](../options/spotinfo/).
+
 {% include "admin/navigate-1.md" %}
 2. Selecteer **Dashboard** uit het menu en ga naar de sectie **{{ page.meta.vars.plural }}**.
 {% include "admin/navigate-2.md" %}
